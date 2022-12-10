@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/updates.html",
+    "items": [
+      "/posts/welcome/index.html"
+    ]
+  }
+]

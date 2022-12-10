@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2022-01-23">
+<meta name="description" content="Data isn’t just numbers. We’ll learn how to think broadly about data for story.">
+
+<title>Data reporting for investigative journalism - The life of data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/img/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/img/djlogo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Data reporting for investigative journalism</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html">
+ <span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html">
+ <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../weeks/">
+ <span class="menu-text">Weeks</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/cronkitedata/maijdata/"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/sarah_h_cohen/"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
+  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
+  <li><a href="#preparation-and-learning-materials" id="toc-preparation-and-learning-materials" class="nav-link" data-scroll-target="#preparation-and-learning-materials">Preparation and learning materials</a></li>
+  <li><a href="#going-further" id="toc-going-further" class="nav-link" data-scroll-target="#going-further">Going further</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The life of data</h1>
+</div>
+
+<div>
+  <div class="description">
+    Data isn’t just numbers. We’ll learn how to think broadly about data for story.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 23, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+FIX THIS!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>AGRHH ! This is backwards if I want to use the notice of claims data for the spreadsheet assignment AND the life of a dataset lab. Think about whether I want to use something else for the life of a dataset lab – something a little more obvious. Consider taking 911 data out of the options for the life of a dataset and use it there.</p>
+<p>For life of a dataset options: use the CDC data, maybe national park service data on visits, maybe something new from the Phoenix open government. Make it so that it’s too big for them to actually get onto their computers - they can’t “browse” it.</p>
+</div>
+</div>
+<blockquote class="blockquote-big blockquote">
+<p>
+<strong>data</strong> <code>/ˈdeɪ.tə/</code> :
+</p>
+<p>
+information in an electronic form that can be stored and used by a computer*, or information, especially facts or numbers, collected to be examined and considered and used to help decision-making
+</p>
+<span> <a href="https://dictionary.cambridge.org/dictionary/english/data" class="text-decoration-none link-secondary">Cambridge Dictionary – almost*</a></span>
+</blockquote>
+<p>* in reverse order</p>
+<section id="agenda" class="level2">
+<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
+<ul>
+<li>Lab - The life of a dataset warmup</li>
+</ul>
+</section>
+<section id="upcoming-deadlines" class="level2">
+<h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
+<p><span class="sked-dates">Sunday Jan.&nbsp;29</span> : The life of a dataset</p>
+</section>
+<section id="preparation-and-learning-materials" class="level2">
+<h2 class="anchored" data-anchor-id="preparation-and-learning-materials">Preparation and learning materials</h2>
+<ul>
+<li><p><a href="https://cronkitedata.github.io/djtextbook/start-data-def.html">Defining Data</a>: Please watch the embedded video (but feel free to up the speed. He talks pretty slowly.)</p></li>
+<li><p>Listen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily’s “<a href="https://www.nytimes.com/2020/07/08/podcasts/the-daily/coronavirus-data-united-states.html">Counting the Infected</a>” The Daily, July 8, 2020. (His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)</p></li>
+</ul>
+<div class="mx-auto my-3" style="width:220px">
+<iframe style="border: solid 1px #e4edf2;" src="https://www.stitcher.com/embed/129650/75063201" width="220" height="150" frameborder="0" scrolling="no">
+</iframe>
+</div>
+<ul>
+<li><p>“<a href="https://www.usatoday.com/in-depth/graphics/2020/07/24/24-million-americans-say-they-have-little-no-chance-being-able-pay-next-months-rent-eviction/5497764002/.">24 million Americans fear missing next rent payment as benefits dry up</a>”, USA Today, by Kevin Crowe, Theresa Diffendal, and Carlie Procell. July 2020. The Census Bureau does a lot more than the every-10-year canvas that we’re most familiar with. During the pandemic, for example, it’s created an experimental survey of households and small businesses specifically to monitor how it’s affecting Americans. Unlike the “digital trace data” you read about, this one was made for us to analyze.</p>
+<p>I’ll never understand the USA Today firewall. This doesn’t appear to be in any of the services ASU library subscribes to, so <a href="https://cronkitedata.s3.amazonaws.com/docs/usatoday-crowe-rentpayments-covid.pdf">here’s a pdf of the page</a> if you can’t get to it.</p></li>
+<li><p><a href="https://apnews.com/article/virus-outbreak-race-and-ethnicity-suburbs-health-racial-injustice-7edf9027af1878283f3818d96c54f748">“AP Finds Most Arrested in protests aren’t leftist radicals”</a>, By Alanna Durkin Richer, Colleen Long and Michael Balsamo, October 2020. Also: “<a href="http://leads.ap.org/best-of-the-week/analyzing-protest-arrest-records">AP methodology</a> , Oct.&nbsp;30, 2020. A great example of developing a story from court records – creating that”electronic form” of information that can then be analyzed in many different ways. Try to imagine what details the reporters chose to track and which ones they decided to ignore. Compiling data by examining news stories and court records are two very common ways that news organizations create data for analysis. They have flaws but they’re often the best available source.</p></li>
+<li><p>We measured pop music’s falsetto obsession, Vox, August 2019:</p></li>
+</ul>
+<div class="mx-auto my-3" style="width:560px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qJT2h5uGAC0" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+</section>
+<section id="going-further" class="level2">
+<h2 class="anchored" data-anchor-id="going-further">Going further</h2>
+<p>Here are some more examples of datasets coming from unexpected places: historical site lines, investigative files, and rap.</p>
+<ul>
+<li><p><a href="https://forensic-architecture.org/investigation/environmental-racism-in-death-alley-louisiana">This documentary and report</a> by the independent firm Forensic Architecture in partnership with RISE St.&nbsp;James on environmental racism in “death alley”, Louisiana, is quite long. But it’s a great example of the emerging form of open source investigations that use imaging, historical site lines and similar non-traditional data in service of a larger piece, often conducted by human rights investigators rather than journalists. (I can’t get the direct link to work. If it won’t work for you, choose Investigations, and look for those in the United States. At this writing there were only two. )</p></li>
+<li><p><a href="https://www.texasobserver.org/locked-up-and-left-to-die/">“Locked up and left to die”</a> , by Michael Barajas and Sophie Novack, Texas Observer, Nov.&nbsp;1, 2021, is based largely on an ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths. (I worked with the authors as a mentor on this story through the Fund for Investigative Journalism.)</p></li>
+<li><p>And a shoutout to this <a href="http://graphics.wsj.com/hamilton/">incredible piece by The Wall Street Journal</a>, tracing the roots of the lyrical signatures in <em>Hamilton</em></p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

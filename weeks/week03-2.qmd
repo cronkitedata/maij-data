@@ -1,0 +1,38 @@
+---
+title: "Install party!"
+date:   2022-01-22
+description:  Logistics for starting your journey into coding
+--- 
+
+**Please bring your laptop to school if you plan to use it for the rest of the semester. Otherwise, you may use the lab in Cronkite ??? and our classroom, which has the same set of software available.**
+
+## Agenda
+
+* Resolving installation issues 
+* Using Github Desktop to save your work; submitting links on Canvas.
+* Review of file management on computers to stay organized
+* One quick tutorial to get you used to typing
+
+## Upcoming deadlines
+
+[Sunday Jan. 29]{.sked-dates} : The life of a dataset
+
+## Preparation
+
+#### Textbook chapter on [Setting up Git and Github for your assignments](). 
+
+This chapter goes through how to get set up on Github for the rest of the semester. Before class, go through it and try to complete the following tasks. **DO NOT SPEND MORE THAN ONE HOUR TRYING TO GET THIS TO WORK.** Instead, note where you had trouble and we'll resolve it in class. 
+
+* Create a Github account and sign up for the student developer pack. The only difference between this and a normal, free account is that you can keep your work private with the student account.
+* Fork the template for this course and  add `sarah.h.cohen@asu.edu` as a collaborator on your Github account.
+* Install Github Desktop (Windows or Mac)
+* Sign into your desktop version and clone your class repository
+* Take a screen shot! 
+
+#### Install R and RStudio
+
+* Try going through [this tutorial](https://learnr-examples.shinyapps.io/ex-setup-r/#section-welcome) on setting up R and R Studio on your computer
+* Try starting up R Studio (NOT R) , and take a screen shot! 
+
+You may run into an error that says something about Command Line Tools (Macs) or RTools (Windows). Let me know if you do and I'll see if I can post a quick solution on Slack for you. Any other errors - just wait til class. 
+

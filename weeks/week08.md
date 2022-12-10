@@ -1,0 +1,58 @@
+---
+title: "Regular expressions, tables and snippets"
+date:  "2022-02-28"
+draft: false
+layout: single
+toc: true
+show_date: true
+weight: 14
+description: For the week before Spring Break, we'll have a lab for your replication project and I'll demo some methods to make better-looking tables in your work.  We'll also delve more into the regular expressions used in `str_detect` and its cousins, as well as RStudio snippets to save typing.
+--- 
+
+## Agenda
+
+### Monday
+
+* More on regular expressions - A lab that helps you understand more about what you are doing in the `str_detect` function in filtering and mutating - some of this will not be in R, but will be on a website that helps you write the patterns.
+
+* Open lab to work on getting started on your replication project. While you may work together in labs to help one another get started, this is intended as an individual, not a team, project. Your work must be your own -- you can't copy and paste from one another.  
+
+### Wednesday
+
+* Pro tip: Using RStudio snippets to save yourself from having to type so much! (It will also save you from having to remember exactly how a function or verb works -- you'll be prompted for the correct syntax)
+* Examples of better-looking tables using two packages : `gt` for static tables, and `reactable` for interactive (much less typing if you use snippets!)
+
+
+## Upcoming deadlines
+
+Reminder: There is an "explainer" due instead of a final exam, which you might want to knock out as soon as you come across something you want to do. 
+
+Friday 3/4
+{.text-dark}
+Update on the [replication project](/dataj/coursedocs/replication/).  The sentences/paragraphs to replicate are on Canvas, under the Replication Project module, which links to [this Google Doc](https://docs.google.com/document/d/15nFfwZme3bJ0wBIrdn8Ptl3eshYfaQg1JbYd23XNnEg/edit?usp=sharing). More details are in the Canvas assignment. 
+
+You should have at least imported the data correctly, done the reading and review to make sure you understand it, and taken a stab at getting to some of the answers for the project. Don't take the paragraphs in order -- instead, look for ones you know how to do to and knock them out. The further you get on this, the more I can help you before the final is due. Please be aware that this project MUST be done using R and R Markdown. You will not get credit for anything done in Excel or any other platform. 
+
+NOTE: Expect that you will forget a lot of what you learned over Spring Break. Be prepared to take some time when you get back to refresh yourself. 
+
+Sunday 3/20
+{.text-dark}
+Final replication project 
+
+Friday 3/25
+{.text-dark}
+2nd self-assessment
+
+
+## Preparation & learning materials
+
+Spend some time going [over some of the possible solutions to the lab](https://cronkitedata.s3.amazonaws.com/markdown_templates/ppp_lab_0223_solutions.html) from last week, and the textbook, to see how the concepts and practices in the textbook translate into real-data questions. Try asking some questions of your own, and see how you might approach them. This is some time for you to do review on your own, as you're expected to be able to apply what we've spent the last month doing in this project and the next. 
+
+
+Pro tip: If  you are doing a lot of printing out of data without limiting the number of rows shown, your markdowns might get too large for your computer to handle. Consider using `glimpse()` or `str()` to get the number of rows and information about the data you use, or use `head()`, `tail()`, or `sample_n(100)` to look at the beginning, the end, or a randome sample of 100 rows. 
+
+You can also add this line to your setup chunk to limit the number of rows that are used after each command, but it will not show you how many rows were extracted this way -- just what they look like (at the same time avoiding scientific notation on numbers):
+
+``` 
+options (scipen=999, max.print=100)
+```

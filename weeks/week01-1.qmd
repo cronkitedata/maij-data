@@ -1,0 +1,49 @@
+---
+title: "Introductions"
+date: "2022-01-9"
+description: "Agenda and preparation for the first day"
+draft: false
+--- 
+
+
+  <blockquote class="blockquote-big mb-3">
+    <p>Maybe stories are just data with a soul</p>
+    <span> Brené Brown </span>
+  </blockquote>
+  
+::: {.info}
+I’ll use this structure to lay out weely agendas, upcoming deadlines, readings, tutorials and more.  The full assignments are in Canvas in the modules by month.  
+::: 
+
+Unless I suggest otherwise, you’re expected to have done more than just skimmed through or reviewed the material. You should read, watch or listen closely and try to follow along on all of the tutorials.
+
+## Agenda
+
+* Introductions - you and me
+* Review of surveys and goals for the semester
+* Syllabus lab
+* Empirical reporting: A project walkthrough
+* Upcoming deadlines <br> (Everything will be due in Canvas, unless it says otherwise. )
+
+## Upcoming deadlines
+
+
+[Sunday Jan. 8]{.sked-dates}
+
+* [Survey of skills](https://docs.google.com/forms/d/e/1FAIpQLSdah962tKxkjV-xI5-3T3ZvtjHJbUA5NQqCzZNn-dDHS4Xk1w/viewform?usp=share_link) and interests via Google drive. You must sign into Google Docs using your ASU email to get access --- I can't give access outside of the university for this one.
+
+* Sign into the [Slack account for the class](https://asu-2231-mco510-21913.slack.com/). You should be automatically added to `#dj-announcements` and `#dj-sos`, but make sure these are in your channel list.  Complete the assignment in Canvas.  ^[Slack is an official ASU app, meaning you should not put anything on it that must be held secret. The class Slack is protected under federal privacy laws to those at ASU who have a right to see them, including administrators.]
+
+[Sunday Jan. 15]{.sked-dates} : Cronkite Academic Integrity pledge in Canvas
+
+[Wednesday, Jan. 18]{.sked-dates} :  What would you do? Reporting live election results
+
+
+## Preparation & learning materials
+
+1. Welcome from Ron Nixon, vice president for investigations, the Associated Press
+
+{{< video https://www.youtube.com/embed/olF0RQS02HA  width="400">}}
+
+2. [Syllabus](../syllabus.qmd) and [schedule](../schedule.qmd). Be prepared to bring questions, comments or complaints to class on Monday.
+ 

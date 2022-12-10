@@ -1,0 +1,50 @@
+project:
+  type: website
+  preview: 
+    port: 4200
+  output-dir: docs
+
+website:
+  favicon: assets/img/favicon.ico
+  title: "Data reporting for investigative journalism"
+  
+  navbar:
+    logo: assets/img/djlogo.png
+    background: primary
+    max-width: 2400px
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/cronkitedata/maijdata/
+      - icon: twitter
+        href: https://twitter.com/sarah_h_cohen/
+    left: 
+      - text: "Home"
+        file: index.qmd
+      - text: "Syllabus"
+        file: syllabus.qmd
+      - text: "Schedule"
+        file: schedule.qmd
+      - text: "Weeks"
+        file: /weeks/
+format:
+  html:
+    theme: [sandstone, theme.scss]
+    css: styles.css
+    max-width: 1920px
+    page-layout: full
+    toc: true
+    toc-depth: 3
+    header-includes: |
+       <meta name="robots" content="noindex">
+
+engine: knitr
+
+# Beginning in version 1.3, we can use the grid options to make the left margin smaller. I'm not sure what it
+# does to responsiveness, but I believe that it works fine. 
+# consider using that in the future. (Current version is 1.2)
+
+
+
+
+

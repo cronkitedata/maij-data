@@ -1,0 +1,181 @@
+$web-font-path: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+:root {
+    color-scheme: light;
+  }
+  
+// Typography
+  
+body {
+    -webkit-font-smoothing: antialiased;
+}
+  
+
+
+/*-- scss:defaults --*/
+// these were copied from cosmo, except for gray-200, which 
+// was copied from sandstone to get the cream colored 
+// cards. 
+
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #f8f5f0 !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+// Options
+
+$enable-rounded: false !default;
+
+// Body
+
+$body-color:    $gray-800 !default;
+
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+$font-family-sans-serif:    "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$headings-font-weight:      400 !default;
+
+
+// some of my colors: 
+$lt-blue: #add8e6  ;
+
+
+$body-color: $gray-800 !default;
+$link-color: #017698 ;
+$hover-color: lighten($link-color, 20%);
+
+// source sans pro comes out better.
+$font-size-base: 1.0rem;
+$font-weight-base: 400;
+// I don't understand how Cosmo has a better typography. Sandstone is really dark. 
+$min-contrast-ratio:   2.6 !default;
+
+
+
+
+// I changed these to something smaller. 
+/* 
+$h1-font-size:                $font-size-base * 2 !default;
+$h2-font-size:                $font-size-base * 1.75 !default;
+$h3-font-size:                $font-size-base * 1.5 !default;
+
+$h5-font-size:                $font-size-base ;
+$h6-font-size:                $font-size-base  * .95 !default;
+ */
+$font-family-sans-serif:    "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+;
+$h4-font-size:                $font-size-base * 1.2 !default;
+
+
+/*-- scss:rules --*/
+
+
+@media (min-width: 1200px) {
+    .content-block {
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+.subtitle {
+    color: $gray-600;
+    font-style: italic;
+}
+
+
+.highlight {
+    color: darken($success, 20%);
+}
+#quarto-content a { 
+    color: $link-color;
+    text-decoration: none;
+    background-color: $gray-100;
+
+    &:hover {
+        background-color: $gray-200
+    }
+}
+
+h1 { 
+    font-weight:900;
+
+  }
+ 
+h2 {
+    font-weight: 600;
+}
+
+ h4 {
+  //  color: $gray-600;
+    font-weight: 800;
+    margin-top: 1rem;
+    font-variant: small-caps;
+    text-decoration: underline;
+  }
+
+
+  // I'd like to make the info one a different color, but that's ok. 
+ // .callout-body-container .callout-body-container
+
+ .small-heading {
+    font-size: .8em;
+    font-weight: 400;
+    opacity: .8;
+ }
+
+ .small-note {
+    color: #6c757d;
+    font-size: 80%;
+ }
+
+ .blockquote-big {
+    margin: .5rem 1rem;
+    padding: 1rem 1.2rem 1.2rem 3rem;
+    font-style: italic !important;
+    font-size: 1.2rem;
+    width:90%;
+    border-left:6px solid $primary ;
+    line-height:1.4;
+    position: relative;
+    background: $gray-200;
+    color: $gray-700;
+    margin-bottom: 2rem;
+    }
+
+
+.ltblue-box {
+    display: inline-block;
+    background-color: $lt-blue;
+    padding: 2rem ;
+    font-size: .95rem;
+    margin: 2rem 0 2rem 0;
+  }
+    
+
+  @media print {
+    #main{margin:100px 0;}
+}
+
+#syllabus-table {
+  font-size: .9em !important;
+  color: $gray-700 !important;
+}
+
+.sked-dates {
+    color: var(--bs-warning);
+    font-weight: bolder
+}
+

@@ -1,0 +1,26 @@
+---
+title: "Data reporting"
+subtitle: "...or the empirical spine of investigative reporting"
+listing:
+  contents: posts
+  type: grid
+  sort: "date desc"
+  categories: true
+  fields: [date, title, description]
+page-layout: full
+title-block-banner: false
+---
+
+
+Welcome to our data reporting course for the masters' students in the Cronkite School’s Masters program in investigative journalism. . It’s time for your journey through what I’m calling “Empirical Journalism”, or the spine of many invstigative stories. I’m looking forward to a productive and lively semester!
+
+--- Sarah Cohen, Professor and Knight Chair in Journalism
+
+
+<!-- note to self: I couldn't figure out a way to display the full contents of a listing, not just the description part. This seems obvious, but 
+   there appears to be no field for it in the EJS model. -->
+
+## Updates
+
+I'll put updates here when needed, but all important updates will come via Slack in the #dj-announcements channel. Be sure to set it up for alerts.  
+
