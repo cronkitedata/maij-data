@@ -5,6 +5,9 @@ date:   "2022-12-11"
 summary: "TLDR: Sorry, you just have to read it."
 draft: false
 engine: knitr
+format: 
+  html: 
+    toc-location: right
 --- 
 
 ::::: {.card-columns}
@@ -14,7 +17,7 @@ CLASS DETAILS
 :::
 ::: {.card-body}
 M-W 11:30-1:20p Cronkite 404b (behind the elevators)<br>
-**Canvas**: <https://asu.instructure.com/courses/92120/><br>
+**Canvas**: <https://asu.instructure.com/courses/138967><br>
 **Slack Workspace**: <https://asu-2231-mco510-21913.slack.com/>
 :::
 ::::
@@ -112,7 +115,7 @@ I believe you already have the books that I'd recommend most for this course:
 The class uses a point system that initially adds up to 1,000 points for the semester.  
 
 <ul class="mb-4" style="list-style: none; padding-left: 0;">
-<li>**Daily work**</li>
+<li>**Daily work**: 400</li>
 <ul class="mb-0">
 <li>Class preparation and labs: 300 </li>
 <li>"What would you do?" posts and discussions : 100 </li>
@@ -133,9 +136,8 @@ You have the option of a Y grade this semester, which signifies “satisfactory�
 
 
 ### Daily work {.mb-0}
-::: {.quarto-title-meta-heading}
-400 points
-::: 
+[400 points]{.quarto-title-meta-heading}
+ 
 
 #### Labs, pre-labs and class preparation
 
@@ -175,9 +177,7 @@ Percentage | Definition
 You will get some very limited written feedback on these assignments, but much of class will be spent addressing the questions and opportunities that come up in them. 
 
 ### Replication project {.mb-0}
-::: {.quarto-title-meta-heading}
-150 points
-::: 
+[150 points]{.quarto-title-meta-heading}
 
 There are three separate assignments for this project, which challenges you to reproduce some sentences published in real stories using the same data used by the reporters. I’ll provide the stories and the data. Your first job is to identify paragraphs in the story that depended on the dataset that you’ve been given. The second gives you a chance to turn in a draft of your work so that I can help you. The last one is the final version.
 
@@ -195,24 +195,20 @@ There are three separate assignments for this project, which challenges you to r
 :::
 
 ### Story memo {.mb-0}
-::: {.quarto-title-meta-heading}
-200 points
-::: 
+
+[200 points]{.quarto-title-meta-heading}
+
 
 In this project, you’ll develop a story pitch using a combination of story backgrounding and data analysis. I’ll give you a choice of three datatsets that I know will work for this assignment. You may propose your own, but it must be easy to obtain, relatively clean, and complicated or large enough that there is something for you to analyze beyond a basic statistic. Generally, the dataset will be of individual records (accidents, inspections, deaths or events), not statistical compilations. You’ll understand this better as we move along.
+
+The specific list of datasets may be coordinated with your investigative reporting class, News21 and/or the Howard Center, so they're subject to change. 
 
 Although this is one-fifth of your grade, it’s split among four assignments over more than a month. You’ll build the memo a little at a time, so by the end, it won’t seem like a big lift. I promise.
 
 ### Graded homework {.mb-0}
-::: {.quarto-title-meta-heading}
-150 points
-::: 
+[150 points]{.quarto-title-meta-heading}
 
-There will be three smaller graded assignments that are more important than daily work but don't rise to the level of a project. These are (in chronological order): 
-
-1. Spreadsheet review
-2. Close reading of a data journalism project
-3. Creating your own database
+There will be three smaller graded assignments that are more important than daily work but don't rise to the level of a project.  They are shown in Canvas each with 50 points. 
 
 ## Course policies
 
@@ -227,7 +223,7 @@ The minimal requirement is to arrive on time, prepared, and ready to work. **Ple
 
  I will insist that devices are closed and turned off for guests, but it's disprespectful to the entire class when you decide to do something else during discussions or presentations.  In addition, research shows that you are [much worse at multi-tasking](https://health.clevelandclinic.org/science-clear-multitasking-doesnt-work/) than you think you are, and the class won't stop because you got distracted or sidetracked. 
 
-::: {.callout-warning .ms-3 .me-2}
+::: {.callout-note .ms-3 .me-2}
 ## Disclosure
 I have a great deal of difficulty concentrating when someone is attending to something else during class. I will try not to stare, but I tend to lose my place and stumble over simple questions. In those cases, I may have to ask you to leave the classroom until you are ready to engage with the material we're working on. 
 :::

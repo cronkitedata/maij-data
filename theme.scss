@@ -105,7 +105,7 @@ $h4-font-size:                $font-size-base * 1.2 !default;
     background-color: $gray-100;
 
     &:hover {
-        background-color: $gray-200
+        background-color: $gray-400
     }
 }
 
@@ -179,3 +179,12 @@ h2 {
     font-weight: bolder
 }
 
+.sidebar a {
+  background-color: $light !important;
+  color: $secondary !important;
+ 
+  &:hover {
+    background-color: $gray-400 !important;
+  }
+
+}

@@ -19,7 +19,9 @@ website:
       - icon: twitter
         href: https://twitter.com/sarah_h_cohen/
     left: 
-      - text: "Home"
+      - icon: house-door-fill
+        # otherwise it fills with "Data reporting" or site name
+        text: " "
         file: index.qmd
       - text: "Syllabus"
         file: syllabus.qmd
@@ -27,6 +29,49 @@ website:
         file: schedule.qmd
       - text: "Weeks"
         file: /weeks/
+
+# can't figure out how to get the fontawesome icon in the home button. Oh well. 
+
+  sidebar: 
+    style: docked
+    search: true
+    background: light
+    collapse-level: 1
+    contents: 
+      - file: index.qmd
+        text: "Home"
+      - section: "Updates"
+        file: updates.qmd
+        contents: 
+          - auto: posts/*
+      - text: "---"
+      - file: syllabus.qmd
+        text: "Syllabus"
+      - file: schedule.qmd
+        text: "Course schedule"
+      - text: "---"
+      # I have to list them, otherwise they show up with the title
+      - section: Weekly details 
+        contents: 
+          - text: "1.1: Intros"
+            file: weeks/week01-1.qmd
+          - text: "1.2: Reading the story"
+            file: weeks/week01-2.qmd
+          - text: " 2: Replication / spreadsheet review"
+            file: weeks/week02.qmd
+      - text: "----"
+      - section: Important links
+        contents:
+          - text: Course textbook
+            href: https://cronkitedata.github.io/djtextbook
+          - text: Canvas 
+            href: https://asu.instructure.com/courses/138967
+          - text: Slack
+            href: https://asu-2231-mco510-21913.slack.com/
+          - text: Other links
+            href: https://bit.ly/dj2022-startme
+      - text: "---"
+
 format:
   html:
     theme: [sandstone, theme.scss]
@@ -34,6 +79,7 @@ format:
     max-width: 1920px
     page-layout: full
     toc: true
+    toc-location: left
     toc-depth: 3
     header-includes: |
        <meta name="robots" content="noindex">

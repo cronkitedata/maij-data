@@ -58,5 +58,14 @@
   },
   "schedule.qmd": {
     "schedule.html": "09e0f07f"
+  },
+  "working/notes.md": {
+    "notes.html": "602f517b"
+  },
+  "posts/index.qmd": {
+    "index.html": "c9197046"
+  },
+  "posts/welcome.qmd": {
+    "welcome.html": "1a019000"
   }
 }

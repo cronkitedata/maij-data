@@ -1,2 +1,5 @@
 .RProj
 working/
+
+/.quarto/
+**/.DS_Store
