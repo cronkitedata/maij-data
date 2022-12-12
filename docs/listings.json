@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/class.html",
+    "items": [
+      "/inclass/01-github-logistics.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/welcome.html"
@@ -9,18 +15,6 @@
     "listing": "/updates.html",
     "items": [
       "/posts/welcome.html"
-    ]
-  },
-  {
-    "listing": "/inclass/index.html",
-    "items": [
-      "/inclass/class/01-github-logistics.html"
-    ]
-  },
-  {
-    "listing": "/class.html",
-    "items": [
-      "/inclass/01-github-logistics.html"
     ]
   },
   {

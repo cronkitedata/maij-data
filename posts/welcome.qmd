@@ -20,3 +20,13 @@ You have a few things to do to get ready for the first class.
 * Review the Syllabus and Schedule here (or in Canvas - it's the same thing)
 * Complete the pre-class Slack assignment. This will be our primary method of communicating, so it's crucial that this is set up properly for you to get notifications and be able to ask questions. 
 
+::: {.callout-warning}
+## If you plan to use your laptop
+
+At some point in the next two weeks, you need to make sure your operating system (Windows or Mac OS) is reasonably up to date. For Macs, you must have Mac Catalina (10.15) or newer installed; for Windows, you must have Windows 10 or 11. Any Mac purchased after 2019 already has an adequate operating system but older ones may need to be updated. Please let me know if you need help with this.
+
+Tablets and Chromebooks are not adquate replacements for a computer in this class. The software just won't work on them, and I can't help you if you try to work around it. All of the software we need is installed in the classroom and in the lab in Cronkite 320.
+:::
+
+
+

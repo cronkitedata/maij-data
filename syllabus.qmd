@@ -2,7 +2,6 @@
 title: "Empirical Reporting"
 subtitle: "(Otherwise known as MCO 510, Data Journalism, Spring 2023)"
 date:   last-modified
-summary: "TLDR: Sorry, you just have to read it."
 draft: false
 engine: knitr
 format: 
@@ -76,14 +75,16 @@ This is a required course for the Masters' of Arts in Investiative Journalism at
 
 * Numeracy for journalism. There is some self-help material on Canvas if you want to review it. 
 * Spreadsheet basics: Simple calculations, sorting, filtering and pivot tables. We'll review this for one week, but you are expected to have completed the assignment from fall and reviewed the results of that assignment. 
-* Ethics in journailism: You should have a basic background on journalistic ethics, at least as practiced in the United States.
+* Ethics in journalism: You should have a basic background on journalistic ethics, at least as practiced in the United States.
 
 There is NO expectation that you have acquired or used data for your stories in the past, or that you have ever tried to write any computer code in any language.
 
 
 ## Required materials and texts
 
-All of the hardware and software required for class is available in the labs. If you choose to use your own laptop, it must be running Mac OS Mojave (version 10.14 or newer) or Windows 10 (or newer). All Mac and Windows machines made or updated since 2017 meet these requirements. Please contact me if you’re not sure if your operating system needs updating. **A tablet or Chrome book just won't work, and I can't help you if you try to use them.**
+All of the hardware and software required for class is available in our classroom and in the lab in Cronkite 320. 
+
+If you choose to use your own laptop or desktop computer, it must be running Mac OS Catalina (version 10.15, released in late 2019, or newer) or Windows 10 or 11. Please contact me if you’re not sure if your operating system needs updating. A tablet or Chrome book just won't work, and I can't help you if you try to use them.
 
 A regular mouse is strongly recommended. A basic wired mouse that connects to your USB port costs about $10 on Amazon.
 
@@ -97,7 +98,15 @@ The following free software will be used extensively in this class.
 * A free copy of Microsoft Excel available in https://myapps.asu.edu . When you go to Office 365 there, there will be a link on the upper right to download and install Office. The online version won’t work. We’re only going to use Excel for about two weeks, so you might just want to use the ones in labs if you haven’t already downloaded it.
 * R and RStudio, both free community versions. We’ve tried using the cloud version in the past only to continually run into problems during your project. I don’t recommend it.  We'll set this up together. 
 
-We'll discuss any other software. We may use OpenRefine for data cleaning, Tabula for dealing with PDFs, and git/Github/Github Pages for creating your own Github site for your data journalism.  They're all free. 
+We'll discuss any other software. We may use OpenRefine for data cleaning, Tabula for dealing with PDFs. 
+
+::: {.callout-tip}
+## Optional: A free Github account and Github Desktop app
+
+Many data journalists (including me) use <https://github.com> to share and collaborate on data journalism work. Most newsrooms will look for a candidate's Github activity if the job involves significant data work, just like a social media site.
+
+It's also useful for this class for because I can help you more effectively when you can share your code there, and you can look back at your work in a more comprehensive way.  But it's OK if that's just too much friction for you -- you can use either a Github link or a Canvas upload to submit your work. I'll hold an optional lab early in the semester to help set it up for anyone who wants to use it.
+:::
 
 #### Recommended 
 
