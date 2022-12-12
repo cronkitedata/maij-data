@@ -16,6 +16,9 @@
       "class/*",
       "class/",
       "inclass"
+    ],
+    "weeks.qmd": [
+      "weeks"
     ]
   }
 }

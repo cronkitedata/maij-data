@@ -3,3 +3,5 @@ working/
 
 /.quarto/
 **/.DS_Store
+
+/.luarc.json

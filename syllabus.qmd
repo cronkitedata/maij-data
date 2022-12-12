@@ -1,13 +1,14 @@
 ---
 title: "Empirical Reporting"
 subtitle: "(Otherwise known as MCO 510, Data Journalism, Spring 2023)"
-date:   "2022-12-11"
+date:   last-modified
 summary: "TLDR: Sorry, you just have to read it."
 draft: false
 engine: knitr
 format: 
   html: 
     toc-location: right
+    published-title: "Last updated"
 --- 
 
 ::::: {.card-columns}
@@ -93,11 +94,10 @@ You do not need to buy any books or software. This site contains or links to all
 The following free software will be used extensively in this class.
 
 * The Slack app (available in Apple app stores, Android stores and Windows store).  When possible, use the app rather than the version in your browser. The browser lacks some of the functions that are in the app.
-* [Github for Students](https://education.github.com/pack). In the past, we've had a great deal of trouble getting assignments for this course to work properly in Canvas. This year, you'll upload your coding assignments to Github and provide links. We'll go through it when it's time.
 * A free copy of Microsoft Excel available in https://myapps.asu.edu . When you go to Office 365 there, there will be a link on the upper right to download and install Office. The online version won’t work. We’re only going to use Excel for about two weeks, so you might just want to use the ones in labs if you haven’t already downloaded it.
 * R and RStudio, both free community versions. We’ve tried using the cloud version in the past only to continually run into problems during your project. I don’t recommend it.  We'll set this up together. 
 
-We'll discuss any other software. We may use OpenRefine for data cleaning and Tabula for dealing with PDFs. Both are free. 
+We'll discuss any other software. We may use OpenRefine for data cleaning, Tabula for dealing with PDFs, and git/Github/Github Pages for creating your own Github site for your data journalism.  They're all free. 
 
 #### Recommended 
 
@@ -132,7 +132,7 @@ The class uses a point system that initially adds up to 1,000 points for the sem
 </ul>
 </ul>
 
-All work will be submitted through Canvas based on the due date shown there in Mountain Standard Time. Grades will be distributed through Canvas, but I may provide you other feedback through Github or Google docs.
+All work will be submitted and feedback reviewed through Canvas based on the due date shown there in Mountain Standard Time.  
 
 #### Y grade option 
 

@@ -5,20 +5,10 @@ draft: false
 description:  Data isn't just numbers. We'll learn how to think broadly about data for story. 
 --- 
 
-<!--
-
-::: {.callout-warning}
-## FIX THIS!
-AGRHH ! This is backwards if I want to use the notice of claims data for the spreadsheet assignment AND the life of a dataset lab. 
-Think about whether I want to use something else for the life of a dataset lab -- something a little more obvious. Consider taking 911 data out of the options for the life of a dataset and use it there. 
-
-For life of a dataset options:  use the CDC data, maybe national park service data on visits, maybe something new from the Phoenix open government. Make it so that it's too big for them to actually get onto their computers - they can't "browse" it. 
-::: 
--->
 
 <blockquote class="blockquote-big">
 <p><strong>data</strong> <code>/ˈdeɪ.tə/</code> :</p>
-<p> information in an electronic form that can be stored and used by a computer*, or information, especially facts or numbers, collected to be examined and considered and used to help decision-making </p>
+<p> information in an electronic form that can be stored and used by a computer, or information, especially facts or numbers, collected to be examined and considered and used to help decision-making </p>
  <span> <a href="https://dictionary.cambridge.org/dictionary/english/data" class="text-decoration-none link-secondary">Cambridge Dictionary -- almost*</a></span>
 </blockquote>
 
@@ -27,6 +17,8 @@ For life of a dataset options:  use the CDC data, maybe national park service da
 
 ## Agenda
 
+* Address any questions that arose from the spreadsheet review assignment
+* Discuss reading
 * Lab - The life of a dataset warmup using Pheonix Open Data 911 records.
 
 ## Upcoming deadlines
@@ -35,7 +27,19 @@ For life of a dataset options:  use the CDC data, maybe national park service da
 
 ## Preparation and learning materials
 
+Read the textbook chapter first: 
+
 * [Defining Data](https://cronkitedata.github.io/djtextbook/start-data-def.html) from the course textbook. Please watch the embedded video (but feel free to turn up the speed. He talks pretty slowly.)
+
+There is  a prompt in Canvas for you to find one thing for each of these questions in the rest of the reading / viewing :
+
+1. How does it relate to your own experience? Is there something that resonates with you and you can connect with? 
+2. What would you (or did you) tell a friend? 
+3. What part of the material raised a question that you'd like to discuss? 
+4. What do you really want to remember? 
+
+It's ok if you can't answer all of these things, but it's useful to undertake this exercise when you start on your reading for a class. 
+
 
 * Listen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily's "[Counting the Infected](https://www.nytimes.com/2020/07/08/podcasts/the-daily/coronavirus-data-united-states.html)"  The Daily, July 8, 2020. (His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)
 

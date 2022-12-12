@@ -178,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Weekly details</a>
+            <a href="../weeks.html" class="sidebar-item-text sidebar-link">Weekly details</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -253,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
   <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a>
   <ul class="collapse">
-  <li><a href="#git-and-github" id="toc-git-and-github" class="nav-link" data-scroll-target="#git-and-github">Git and Github</a></li>
+  <li><a href="#install-r-and-rstudio" id="toc-install-r-and-rstudio" class="nav-link" data-scroll-target="#install-r-and-rstudio">Install R and RStudio</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -280,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
 
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
       <p class="date">January 22, 2022</p>
     </div>
@@ -292,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><strong>Please bring your laptop to school if you plan to use it for the rest of the semester. It is not strictly necessary to have your own laptop – all of the software we need is also installed in the lab in Cronkite room 320 and also in our classroom.</strong></p>
+<p><strong>Please bring your laptop to school if you plan to use it for the rest of the semester. It is not strictly necessary to have your own laptop – all of the software we need is also installed in the lab in Cronkite room 320 and in our classroom.</strong></p>
 <p>Configuring computers for use in data reporting is one of the most frustrating things that we do. Everyone’s computer seems to be set up slightly differently, depending on exactly which version of which operating system you have and when you’ve last installed various helpers. Don’t let yourself get frustrated with this and don’t try to Google your way out of it — it’s not worth your mental energy and you might make things worse.</p>
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
@@ -300,70 +300,43 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Review of file management on computers to stay organized</li>
 <li>Resolving installation issues</li>
-<li>Using git and Github Desktop for your assignments</li>
-<li>One quick tutorial to get you used to typing</li>
+<li>Setting up your computer for the rest of the course</li>
+<li>Installing packages (you’ll undestand what this means when the time comes)</li>
+<li>A review of the screens in R Studio, which can be a little intimidating</li>
 </ul>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
 <p><span class="sked-dates">Sunday Jan.&nbsp;29</span> : The life of a dataset</p>
-<p>Beginning next week, you should expect to have a pre-lab due on Wednesday mornings and a lab on Wednesday in class. The labs are designed to be completed during the class period, but I’ll set the deadlines to midnight to accomodate people who can’t come to class that day.</p>
+<p>Beginning next week, you should expect to have a pre-lab due on Wednesday mornings and a lab on Wednesday in class. The labs are designed to be completed during the class period, but I’ll set the deadlines to midnight to accommodate people who can’t come to class that day.</p>
 </section>
 <section id="preparation" class="level2">
 <h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
 <p><strong>DO NOT SPEND MORE THAN ONE HOUR TRYING TO GET THIS TO WORK.</strong> Instead, note where you had trouble and we’ll resolve it in class. Or at least I hope we will.</p>
-<section id="install-r-and-rstudio" class="level4">
-<h4 class="anchored" data-anchor-id="install-r-and-rstudio">Install R and RStudio</h4>
+<section id="install-r-and-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="install-r-and-rstudio">Install R and RStudio</h3>
 <p>R is a programming language, and RStudio is a product made by the company Posit to interact with that language. You have to install the programming language first, then the RStudio interface.</p>
-<p>It’s important that you have a very recent version of both R and R Studio, as they both changed dramatically during summer 2022. You must have Windows 10 / 11 or Mac Catalina (version 10.15) or newer for this to work. All computers made in the last five years – and <a href="https://support.apple.com/en-us/HT210222">some much earlier</a> – are capable of handling these versions. Otherwise, you can use the computers in the lab.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>It’s important that you have a very recent version of both R and R Studio, as they both changed dramatically during summer 2022.</p>
+<p><strong>You must have Windows 10 / 11 or Mac Catalina (version 10.15) or newer for this to work.</strong> All computers made in the last five years – and <a href="https://support.apple.com/en-us/HT210222">some much earlier</a> – are capable of handling these versions. You may need to update your operating system if you haven’t done that in the last three years. Please let me know if you don’t know how to do that. The software is also installed on all computers in the classroom and in the lab in Cronkite 320.</p>
 <ul>
 <li>Download and install the correct version or R for your system from <a href="https://cloud.r-project.org/" class="uri">https://cloud.r-project.org/</a>
 <ul>
-<li><p>Most Macbooks: “latest package”</p></li>
-<li><p>arm64.pkg if you have a very recent M1 Macbook or Macbook Air (2021 or newer). You probably know if you have it.</p></li>
-<li><p>Windows: 64-bit version for Windows 10/11.</p>
-<p>You should be able to run it the installation on your computer.</p></li>
-<li><p>Download and install RStudio</p>
-<ul>
-<li><a href="https://download1.rstudio.org/desktop/macos/RStudio-2022.07.2-576.dmg">Macs</a></li>
-<li><a href="https://download1.rstudio.org/desktop/windows/RStudio-2022.07.2-576.exe">Windows</a> )</li>
+<li>Most Macbooks: “latest package”</li>
+<li>arm64.pkg if you have a very recent M1 Macbook or Macbook Air (2021 or newer). You probably know if you have it.</li>
+<li>Windows: 64-bit version for Windows 10/11.</li>
 </ul></li>
-</ul></li>
+<li>Download and install RStudio for <a href="https://download1.rstudio.org/desktop/macos/RStudio-2022.07.2-576.dmg">Mac</a> or <a href="https://download1.rstudio.org/desktop/windows/RStudio-2022.07.2-576.exe">Windows</a> )</li>
 </ul>
 <p>(You can try going through <a href="https://learnr-examples.shinyapps.io/ex-setup-r/#section-welcome">this tutorial on installing R and RStudio</a>, but it’s a little out of date and might be more confusing than it’s worth. )</p>
 <ul>
 <li>Try starting up RStudio (not R). On a Mac, if you get errors that mention “git”, or “xcode-select”, just <em>say yes</em> and do it.</li>
 </ul>
-</section>
-<section id="git-and-github" class="level3">
-<h3 class="anchored" data-anchor-id="git-and-github">Git and Github</h3>
-<p>I apologize if this seems arcane and difficult, but we have had unending problems in getting coding assignments in Canvas. Using Github, I can make comments right on your program, send it to your account and you can look at my comments and what happens to your code with any changes I suggest. It’s a pain to set up, but it’s a good thing for you to know how to do.</p>
-<section id="installing-git" class="level4">
-<h4 class="anchored" data-anchor-id="installing-git">Installing git</h4>
-<ol type="1">
-<li><p><a href="https://github.com/join">Create a free Github account</a> if you don’t already have one. Try to pick a professional user name that you can share with employers – it’s actually pretty hard to change your username down the road. Please use your ASU email for this for the time being, but you can add any other emails you want to your account.</p></li>
-<li><p>Optional: Apply for the <a href="https://education.github.com/discount_requests/pack_application">Student Developer Pack</a>. This isn’t strictly necessary, but it will let you create private websites while you’re a student. Everything else is pretty much the same for an individual user.</p></li>
-<li><p>Make sure you have “git” installed. <code>git</code> is a generic set of commands (the engine); Github is a cloud provider that lets you use git to interact with it (the airplane). <strong>Don’t try this if it seems intimidating. We can do it in class.</strong></p>
-<ul>
-<li>Mac: <a href="https://mac.install.guide/commandlinetools/4.html" class="uri">https://mac.install.guide/commandlinetools/4.html</a></li>
-<li>Windows: <a href="https://www.geeksforgeeks.org/how-to-install-git-on-windows-command-line/" class="uri">https://www.geeksforgeeks.org/how-to-install-git-on-windows-command-line/</a></li>
-</ul></li>
-<li><p>Download and install <a href="https://desktop.github.com/">the free Github Desktop for your operating system</a>. (MAC USERS: If you have a new M1 Macbook, then look for the “Apple Silicon?” link. ) When you download it, it’s just a .zip file, which will open in whatever folder you saved it in. Move it to your applications.</p></li>
-<li><p>Try to sign in to Github Desktop <a href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/authenticating-to-github">using these instructions</a> (You might not be able to do this if you didn’t install git – I’m not sure.)</p></li>
-</ol>
 
 
 </section>
 </section>
-</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>ASU IT can help you if you have trouble updating your operating system. In a real pinch, I might have ONE older laptop that I can lend someone.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

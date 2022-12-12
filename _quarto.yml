@@ -52,6 +52,7 @@ website:
       - text: "---"
       # I have to list them, otherwise they show up with the title
       - section: Weekly details 
+        file: weeks.qmd
         contents: 
           - text: "1.1: Intros"
             file: weeks/week01-1.qmd
@@ -63,6 +64,8 @@ website:
             file: weeks/week03-1.qmd
           - text: "3.2: Install party!"
             file: weeks/week03-2.qmd
+          - text: "4: Intro to R / RStudio"
+            file: weeks/week04-1.qmd
       - text: "----"
       - section: Important links
         contents:
@@ -87,6 +90,7 @@ format:
     toc-depth: 3
     header-includes: |
        <meta name="robots" content="noindex">
+    published-title: "Class date"
 
 engine: knitr
 

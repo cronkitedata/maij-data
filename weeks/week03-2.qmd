@@ -4,7 +4,7 @@ date:   2022-01-22
 description:  Logistics for starting your journey into coding
 --- 
 
-**Please bring your laptop to school if you plan to use it for the rest of the semester. It is not strictly necessary to have your own laptop -- all of the software we need is also installed in the lab in Cronkite room 320 and also in our classroom.**
+**Please bring your laptop to school if you plan to use it for the rest of the semester. It is not strictly necessary to have your own laptop -- all of the software we need is also installed in the lab in Cronkite room 320 and in our classroom.**
 
 Configuring computers for use in data reporting is one of the most frustrating things that we do. Everyone's computer seems to be set up slightly differently, depending on exactly which version of which operating system you have and when you've last installed various helpers. Don't let yourself get frustrated with this and don't try to Google your way out of it --- it's not worth your mental energy and you might make things worse.  
 
@@ -15,56 +15,39 @@ If you had trouble with installation, please use the lab computers for the begin
 
 * Review of file management on computers to stay organized
 * Resolving installation issues 
-* Using git and Github Desktop for your assignments
-* One quick tutorial to get you used to typing
+* Setting up your computer for the rest of the course
+* Installing packages (you'll undestand what this means when the time comes)
+* A review of the screens in R Studio, which can be a little intimidating
+
 
 ## Upcoming deadlines
 
 [Sunday Jan. 29]{.sked-dates} : The life of a dataset
 
-Beginning next week, you should expect to have a pre-lab due on Wednesday mornings and a lab on Wednesday in class. The labs are designed to be completed during the class period, but I'll set the deadlines to midnight to accomodate people who can't come to class that day. 
+Beginning next week, you should expect to have a pre-lab due on Wednesday mornings and a lab on Wednesday in class. The labs are designed to be completed during the class period, but I'll set the deadlines to midnight to accommodate people who can't come to class that day. 
 
 ## Preparation
 
  **DO NOT SPEND MORE THAN ONE HOUR TRYING TO GET THIS TO WORK.** Instead, note where you had trouble and we'll resolve it in class. Or at least I hope we will. 
 
-#### Install R and RStudio
+### Install R and RStudio
 
 R is a programming language, and RStudio is a product made by the company Posit to interact with that language. You have to install the programming language first, then the RStudio interface.
 
-It's important that you have a very recent version of both R and R Studio, as they both changed dramatically during summer 2022. You must have Windows 10 / 11 or Mac Catalina (version 10.15) or newer for this to work. All computers made in the last five years -- and [some much earlier](https://support.apple.com/en-us/HT210222) -- are capable of handling these versions. Otherwise, you can use the computers in the lab.^[ASU IT can help you if you have trouble updating your operating system. In a real pinch, I might have ONE older laptop that I can lend someone.]
+It's important that you have a very recent version of both R and R Studio, as they both changed dramatically during summer 2022. 
+
+**You must have Windows 10 / 11 or Mac Catalina (version 10.15) or newer for this to work.**  All computers made in the last five years -- and [some much earlier](https://support.apple.com/en-us/HT210222) -- are capable of handling these versions. You may need to update your operating system if you haven't done that in the last three years. Please let me know if you don't know how to do that. The software is also installed on all computers in the classroom and in the lab in Cronkite 320. 
 
 * Download and install the correct version or R for your system from <https://cloud.r-project.org/> 
     * Most Macbooks:  "latest package" 
     * arm64.pkg if you have a very recent M1 Macbook or Macbook Air (2021 or newer). You probably know if you have it. 
     * Windows: 64-bit version for Windows 10/11. 
-        
-        You should be able to run it the installation on your computer. 
 
-  * Download and install RStudio 
-    * [Macs](https://download1.rstudio.org/desktop/macos/RStudio-2022.07.2-576.dmg) 
-    * [Windows](https://download1.rstudio.org/desktop/windows/RStudio-2022.07.2-576.exe) )
+* Download and install RStudio  for [Mac](https://download1.rstudio.org/desktop/macos/RStudio-2022.07.2-576.dmg)  or [Windows](https://download1.rstudio.org/desktop/windows/RStudio-2022.07.2-576.exe) )
 
 (You can try going through   [this tutorial on installing R and RStudio](https://learnr-examples.shinyapps.io/ex-setup-r/#section-welcome), but it's a little out of date and might be more confusing than it's worth. )
   
 * Try starting up RStudio (not R). On a Mac, if you get errors that mention "git", or "xcode-select", just *say yes* and do it. 
 
 
-### Git and Github 
-
-I apologize if this seems arcane and difficult, but we have had unending problems in getting coding assignments in Canvas. Using Github, I can make comments right on your program, send it to your account and you can look at my comments and what happens to your code with any changes I suggest. It's a pain to set up, but it's a good thing for you to know how to do. 
-
-#### Installing git
-
-1. [Create a free Github account](https://github.com/join) if you don't already have one. Try to pick a professional user name that you can share with employers -- it's actually pretty hard to change your username down the road. Please use your ASU email for this for the time being, but you can add any other emails you want to your account.  
-
-2. Optional: Apply for the [Student Developer Pack](https://education.github.com/discount_requests/pack_application). This isn't strictly necessary, but it will let you create private websites while you're a student. Everything else is pretty much the same for an individual user. 
-
-3. Make sure you have "git" installed. `git` is a generic set of commands (the engine); Github is a cloud provider that lets you use git to interact with it (the airplane). **Don't try this if it seems intimidating. We can do it in class.**
-    * Mac: <https://mac.install.guide/commandlinetools/4.html>
-    * Windows: <https://www.geeksforgeeks.org/how-to-install-git-on-windows-command-line/>  
-
-4. Download and install [the free Github Desktop for your operating system](https://desktop.github.com/). (MAC USERS: If you have a new M1 Macbook, then look for the "Apple Silicon?" link. ) When you download it, it's just a .zip file, which will open in whatever folder you saved it in. Move it to your applications. 
-
-5. Try to sign in to Github Desktop [using these instructions](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/authenticating-to-github) (You might not be able to do this if you didn't install git -- I'm not sure.)
  

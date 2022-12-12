@@ -3,6 +3,9 @@ title: "Class Zero"
 date: "2022-12-07"
 description: |
   Here's a list of things to get ready for Jan. 9 class, but they're also in Canvas if you prefer to use that method.
+format: 
+  html: 
+    published-title: ""
 ---
 
 

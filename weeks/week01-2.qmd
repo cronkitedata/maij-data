@@ -64,3 +64,5 @@ Both of these are pretty expensive, but I'm listing them here in case you want t
 * One really good book for learning to write complicated stories in a variety of ways is William Blundell's "[Art and Craft of Feature Writing](https://www.amazon.com/kindle-dbs/entity/author/B001KDWGWQ)" . Although it's old, it has some great tips on writing with data. 
 
 * Philip Meyer's "[Precision Journalism](https://www.amazon.com/Precision-Journalism-Reporters-Introduction-Science/dp/0742510883/)" is a staple on many data journalists' bookshelf. ASU library's version isn't the most recent. 
+
+* An academic guide for "[Reading to Write](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/1740-9713.01469)". This is really for scientists reading academic journals, but we might learn from the techniques. 
