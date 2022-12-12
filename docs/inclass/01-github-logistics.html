@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sarah Cohen">
+<meta name="dcterms.date" content="2023-01-19">
+<meta name="description" content="Week 3: Setting up Github; instructions for obtaining and uploading your work">
 
-<title>Data reporting for investigative journalism - Updates</title>
+<title>Data reporting for investigative journalism - How to get and submit assignments</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../assets/img/favicon.ico" rel="icon">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,38 +61,8 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <meta name="robots" content="noindex">
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -157,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Updates</h1>
+      <h1 class="quarto-secondary-nav-title">How to get and submit assignments</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -182,12 +151,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../posts/index.html" class="sidebar-item-text sidebar-link active">Updates</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a href="../updates.html" class="sidebar-item-text sidebar-link">Updates</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../posts/welcome.html" class="sidebar-item-text sidebar-link">Class Zero</a>
@@ -230,38 +199,70 @@ ul.task-list li input[type="checkbox"] {
   <a href="../weeks/week02.html" class="sidebar-item-text sidebar-link">2: Replication / spreadsheet review</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week03-1.html" class="sidebar-item-text sidebar-link">3.1: The life of data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week03-2.html" class="sidebar-item-text sidebar-link">3.2: Install party!</a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Important links</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://cronkitedata.github.io/djtextbook" class="sidebar-item-text sidebar-link">Course textbook</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://asu.instructure.com/courses/138967" class="sidebar-item-text sidebar-link">Canvas</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://asu-2231-mco510-21913.slack.com/" class="sidebar-item-text sidebar-link">Slack</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://bit.ly/dj2022-startme" class="sidebar-item-text sidebar-link">Other links</a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">About</a>
-  </div>
-</li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#review-organizing-your-computer-with-folders" id="toc-review-organizing-your-computer-with-folders" class="nav-link active" data-scroll-target="#review-organizing-your-computer-with-folders">Review: Organizing your computer with folders</a>
+  <ul class="collapse">
+  <li><a href="#renaming-files" id="toc-renaming-files" class="nav-link" data-scroll-target="#renaming-files">Renaming files</a></li>
+  </ul></li>
+  <li><a href="#setting-up-the-github-repository-for-this-class" id="toc-setting-up-the-github-repository-for-this-class" class="nav-link" data-scroll-target="#setting-up-the-github-repository-for-this-class">Setting up the Github repository for this class</a></li>
+  <li><a href="#acquiring-assignment-files" id="toc-acquiring-assignment-files" class="nav-link" data-scroll-target="#acquiring-assignment-files">Acquiring assignment files</a></li>
+  <li><a href="#saving-and-uploading-assignment-files" id="toc-saving-and-uploading-assignment-files" class="nav-link" data-scroll-target="#saving-and-uploading-assignment-files">Saving and uploading assignment files</a>
+  <ul class="collapse">
+  <li><a href="#the-right-way-using-github-desktop" id="toc-the-right-way-using-github-desktop" class="nav-link" data-scroll-target="#the-right-way-using-github-desktop">The right way: Using Github Desktop</a></li>
+  <li><a href="#the-shortcut-way-using-the-github-website" id="toc-the-shortcut-way-using-the-github-website" class="nav-link" data-scroll-target="#the-shortcut-way-using-the-github-website">The shortcut way: Using the Github website</a></li>
+  <li><a href="#submit-to-canvas" id="toc-submit-to-canvas" class="nav-link" data-scroll-target="#submit-to-canvas">Submit to Canvas</a></li>
+  </ul></li>
+  </ul>
+</nav>
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
@@ -271,20 +272,25 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Updates</h1>
+<h1 class="title d-none d-lg-block">How to get and submit assignments</h1>
 </div>
 
+<div>
+  <div class="description">
+    Week 3: Setting up Github; instructions for obtaining and uploading your work
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Sarah Cohen </p>
-          </div>
-  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 19, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -292,42 +298,80 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="review-organizing-your-computer-with-folders" class="level2">
+<h2 class="anchored" data-anchor-id="review-organizing-your-computer-with-folders">Review: Organizing your computer with folders</h2>
+<p>Last year, The Verge sent a shiver through the spines of professors everywhere with the piece called “<a href="https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z">File Not Found</a>”, which chronicled the way Zoomers grew up using computers — with search. Historically, anyone who used a computer had to understand how they were organized and how to use folders. But powerful search engines both in the cloud and on your computer made that unnecessary. With that change came a huge roadblock to learning how to code – creating and navigating to a folder became an unfamiliar concept.</p>
+<p>Computer programs are dumb. They don’t have search – all they see are file names, prefaced by the names of the folders that contain them.</p>
+<p>On a Mac, everything begins in your “home” directory – the folder that contains all of the things specific to you when you open up the computer. When we use R, RStudio and Github, it will become crucial that you understand how the computer sees your files, and how you can find them yourself.</p>
+<p>Here are two introductory videos about folder and files:</p>
+<ul>
+<li><a href="https://youtu.be/HDmwiJxzIrw">Windows</a></li>
+<li><a href="https://youtu.be/3TAEC-1YUZw">Macs</a></li>
+</ul>
+<section id="renaming-files" class="level3">
+<h3 class="anchored" data-anchor-id="renaming-files">Renaming files</h3>
+<p>Those videos went through how to copy and organize your files, but it didn’t address something that you have to do a lot in this class: Rename files. Each of the labs or starter programs I give you will have a generic name, like <code>lab01.qmd</code> . You will need to rename it to add your name : <code>lab01-scohen.qmd</code> . Here is how to rename a file <a href="https://themacbeginner.com/rename-files-and-folders-in-mac-osx/">on a Mac</a> and on <a href="https://www.teachucomp.com/how-to-rename-files-and-folders-in-windows-11-instructions/">Windows</a></p>
+</section>
+</section>
+<section id="setting-up-the-github-repository-for-this-class" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-the-github-repository-for-this-class">Setting up the Github repository for this class</h2>
+<p>To work more effectively as a group, I want everyone in class to have the same setup on your computer – that will reduce some of the friction of just copying, saving and storing files.</p>
+<ol type="1">
+<li>Create a folder for your R projects</li>
+</ol>
+<p>Within your Documents folder (which exists in both Windows and Macs), create a folder for this class called “mco510”.</p>
+<ol start="2" type="1">
+<li><p>Open a browser and sign into github using the credentials you set up before class.</p></li>
+<li><p>Go to https://github.com/mco510/mco510-code , and press the button that says “Use this template” . That will bring you to a window that looks something like this:</p></li>
+</ol>
+<p><img src="../assets/img/github-template.png" class="img-fluid"></p>
+<p>After you submit it, you should be taken to your account’s version of the repo. You can tell because the “Use this template” will be gone.</p>
+<ol start="4" type="1">
+<li><p>Look under “Settings” and look for the “Access” sidebar. Add your instructor (and anyone else you want to share with) as a collaborator. My email for github is <code>sarah.h.cohen@asu.edu</code></p></li>
+<li><p>Open Github Desktop on your computer, and sign in if necessary. Under the File menu, choose “Clone a Repository” and choose the one that you just created. Make sure to save it as a folder your mco510 folder that you just created. It might look like it’s just a list of folders, but it also has a hidden file called .git, which keeps track of things as you want it to. (It will track differences between “commits” – TMI. )</p></li>
+</ol>
+<p>At the end of class, you’ll see how to upload your changes to the repo.</p>
+</section>
+<section id="acquiring-assignment-files" class="level2">
+<h2 class="anchored" data-anchor-id="acquiring-assignment-files">Acquiring assignment files</h2>
+<p>We’ll be working “projects” in RStudio, which means that all of your work is contained in a specific folder, and R will only look there for your work. In the github template, there are three folders:</p>
+<ul>
+<li>labs</li>
+<li>prelabs</li>
+<li>projects</li>
+</ul>
+<p>Each week, you’ll copy starter documents into your mco501-code folder in the appropriate sub-folder.</p>
+<p>To get your assignment, go to the link provided in the week’s assignment. Right-click on the “Raw” button in that window, and choose Save File As…, navigating to the proper folder.</p>
+</section>
+<section id="saving-and-uploading-assignment-files" class="level2">
+<h2 class="anchored" data-anchor-id="saving-and-uploading-assignment-files">Saving and uploading assignment files</h2>
+<p>You have two ways to save and upload the assignment files. I suggest you choose one of these methods and stick with it, though – you risk having the online version out of sync with your computer files if you don’t.</p>
+<section id="the-right-way-using-github-desktop" class="level3">
+<h3 class="anchored" data-anchor-id="the-right-way-using-github-desktop">The right way: Using Github Desktop</h3>
+<p>If you use this method, you don’t have to worry that you’ve uploaded an incomplete file, or that your computer is out of sync with your repo. However if you get a message telling you that you have sync conflict, contact me right away. You don’t want to lose any of your work.</p>
+<ul>
+<li>Open Github Desktop</li>
+<li>Choose “Add repository” from the file menu if it’s not already shown as the “Current repository”. Choose the “Fetch origin” button just to make sure you have all of the updates that might have been made online.</li>
+<li>At the bottom of the window, there is a box for “Summary (required)” – this just tells you which version of your repo it is. It’s like a name for this version. It might be “Filter homework” or “updated replication project”</li>
+<li>Then “commit to main”</li>
+<li>Then make sure to press the button at the top called “Push origin”</li>
+</ul>
+<p>When you open your online version of Github, your changes will be there.</p>
+</section>
+<section id="the-shortcut-way-using-the-github-website" class="level3">
+<h3 class="anchored" data-anchor-id="the-shortcut-way-using-the-github-website">The shortcut way: Using the Github website</h3>
+<p>If you choose to work this way, don’t even open Github Desktop. It will mess you up something awful. In the event you want to switch methods, please see me – I don’t want you to lose any of your work.</p>
+<p>Once you’re done with your homework, simply upload any of the files you want to submit using the Github interface online. Make sure to upload them to the right folder. If you forget, you can edit the file and change the name, prepending the folder name.</p>
+</section>
+<section id="submit-to-canvas" class="level3">
+<h3 class="anchored" data-anchor-id="submit-to-canvas">Submit to Canvas</h3>
+<p>Copy the link and submit it to Canvas. It’s ok if you have more than one file – I’ll find them. I just need to know that you did the work.</p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1670389200000" data-listing-file-modified-sort="1670516287131" data-listing-reading-time-sort="0.53">
-<div class="body">
-<a href="../posts/welcome.html">
-<h3 class="no-anchor listing-title">
-Class Zero
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Here’s a list of things to get ready for Jan.&nbsp;9 class, but they’re also in Canvas if you prefer to use that method.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../posts/welcome.html">
-<div class="listing-date">
-Dec 7, 2022
-</div>
-<div class="listing-author">
-Sarah Cohen
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

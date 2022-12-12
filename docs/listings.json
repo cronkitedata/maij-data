@@ -12,9 +12,15 @@
     ]
   },
   {
-    "listing": "/posts/index.html",
+    "listing": "/inclass/index.html",
     "items": [
-      "/posts/welcome.html"
+      "/inclass/class/01-github-logistics.html"
+    ]
+  },
+  {
+    "listing": "/class.html",
+    "items": [
+      "/inclass/01-github-logistics.html"
     ]
   }
 ]

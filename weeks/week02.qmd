@@ -19,7 +19,7 @@ Some of this may feel abstract to you in the beginning but it will become more c
 
 ## Learning materials
 
-* [Replication and the data diary](https://cronkitedata.github.io/djtextbook/start-data-diary.html) 
+* [Replication and the data diary](https://cronkitedata.github.io/djtextbook/start-data-diary.html) from the course textbook
 
 * “ [Take an Interviewing Approach to Find Stories in Data](http://mediashift.org/2014/07/take-an-interviewing-approach-to-find-stories-in-data/) ”, by Derek Willis, Mediashift, July 2014.
 

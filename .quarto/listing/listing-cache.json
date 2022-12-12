@@ -1,14 +1,21 @@
 {
   "listingMap": {
     "index.qmd": [
-      "posts",
-      "posts/*"
+      "posts"
     ],
     "updates.qmd": [
       "posts"
     ],
-    "posts/index.qmd": [
-      "B3049D40"
+    "inclass/index.qmd": [
+      "inclass/*",
+      "inclass",
+      "class"
+    ],
+    "class.qmd": [
+      "class",
+      "class/*",
+      "class/",
+      "inclass"
     ]
   }
 }

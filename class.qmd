@@ -1,0 +1,13 @@
+---
+title: "In-class tutorials"
+listing:
+  contents: inclass
+  type: table
+  sort: "date"
+  fields: [title, date, title, description]
+page-layout: full
+title-block-banner: false
+---
+
+This page contains some details on work we'll do in class that don't fit neatly anywhere else. Everything here will be linked off of the week if needed. 
+

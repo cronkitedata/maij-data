@@ -82,7 +82,7 @@ There is NO expectation that you have acquired or used data for your stories in 
 
 ## Required materials and texts
 
-All of the hardware and software required for class is available in the labs. If you choose to use your own laptop, it must be running Mac OS High Sierra (version 10.13 or newer) or Windows 10 (or newer). All Mac and Windows machines made or updated since 2017 meet these requirements. Please contact me if you’re not sure if your operating system needs updating. **A tablet or Chrome book just won't work, and I can't help you if you try to use them.**
+All of the hardware and software required for class is available in the labs. If you choose to use your own laptop, it must be running Mac OS Mojave (version 10.14 or newer) or Windows 10 (or newer). All Mac and Windows machines made or updated since 2017 meet these requirements. Please contact me if you’re not sure if your operating system needs updating. **A tablet or Chrome book just won't work, and I can't help you if you try to use them.**
 
 A regular mouse is strongly recommended. A basic wired mouse that connects to your USB port costs about $10 on Amazon.
 
@@ -101,7 +101,11 @@ We'll discuss any other software. We may use OpenRefine for data cleaning and Ta
 
 #### Recommended 
 
-I believe you already have the books that I'd recommend most for this course:  
+
+Beginning on Jan. 23, you will have access to all of the lessons in [Datacamp](https://app.datacamp.com/learn), an online training academy that usually costs $25/month. You'll have free access to it for six months, after which you would have to pay to keep going. I'll distribute a link to let you sign up as soon as it's activated. ^[I waited until you'd use it so that you can have it for as long as possible after class ends]
+
+
+I believe you already have the books that I'd recommend most for this course: 
 
 [The Art of Access: Strategies for Acquiring Public Records](https://www.amazon.com/Art-Access-Strategies-Acquiring-Records/dp/1506380700/ref=pd_sbs_14_t_0/141-5195764-7429116), David Cullier and Charles N. Davis, 2nd edition (2018).    
 

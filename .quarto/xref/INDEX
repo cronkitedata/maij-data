@@ -67,5 +67,23 @@
   },
   "posts/welcome.qmd": {
     "welcome.html": "1a019000"
+  },
+  "inclass/index.qmd": {
+    "index.html": "bdc30e03"
+  },
+  "inclass/01-files-folders.qmd": {
+    "01-files-folders.html": "871879b3"
+  },
+  "inclass/class/01-files-folders.qmd": {
+    "01-files-folders.html": "4cc39a3b"
+  },
+  "inclass/class/01-github-logistics.qmd": {
+    "01-github-logistics.html": "62b757ab"
+  },
+  "inclass/01-github-logistics.qmd": {
+    "01-github-logistics.html": "fa75d4f7"
+  },
+  "class.qmd": {
+    "class.html": "b2fff1db"
   }
 }

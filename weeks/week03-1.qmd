@@ -5,6 +5,8 @@ draft: false
 description:  Data isn't just numbers. We'll learn how to think broadly about data for story. 
 --- 
 
+<!--
+
 ::: {.callout-warning}
 ## FIX THIS!
 AGRHH ! This is backwards if I want to use the notice of claims data for the spreadsheet assignment AND the life of a dataset lab. 
@@ -12,6 +14,7 @@ Think about whether I want to use something else for the life of a dataset lab -
 
 For life of a dataset options:  use the CDC data, maybe national park service data on visits, maybe something new from the Phoenix open government. Make it so that it's too big for them to actually get onto their computers - they can't "browse" it. 
 ::: 
+-->
 
 <blockquote class="blockquote-big">
 <p><strong>data</strong> <code>/ˈdeɪ.tə/</code> :</p>
@@ -24,15 +27,15 @@ For life of a dataset options:  use the CDC data, maybe national park service da
 
 ## Agenda
 
-* Lab - The life of a dataset warmup 
+* Lab - The life of a dataset warmup using Pheonix Open Data 911 records.
 
 ## Upcoming deadlines
 
-[Sunday Jan. 29]{.sked-dates} : The life of a dataset
+[Sunday Jan. 29]{.sked-dates} : The life of a dataset 
 
 ## Preparation and learning materials
 
-* [Defining Data](https://cronkitedata.github.io/djtextbook/start-data-def.html):  Please watch the embedded video (but feel free to up the speed. He talks pretty slowly.)
+* [Defining Data](https://cronkitedata.github.io/djtextbook/start-data-def.html) from the course textbook. Please watch the embedded video (but feel free to turn up the speed. He talks pretty slowly.)
 
 * Listen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily's "[Counting the Infected](https://www.nytimes.com/2020/07/08/podcasts/the-daily/coronavirus-data-united-states.html)"  The Daily, July 8, 2020. (His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)
 
@@ -40,6 +43,8 @@ For life of a dataset options:  use the CDC data, maybe national park service da
 <iframe style="border: solid 1px #e4edf2;" src="https://www.stitcher.com/embed/129650/75063201" width="220" height="150" frameborder="0" scrolling="no">
  </iframe>
 </div>
+
+* "['Very Harmful' lack of data blunts US response to outbreaks](https://www.nytimes.com/2022/09/20/us/politics/covid-data-outbreaks.html?unlocked_article_code=FRdsQf82dJp3EBYCyTtHOQZ6XenNqhytAqexFVw4uOQ61e_LdTBWGrs4wzoB6fWy2AW68kzGxoOI3GLeZC0vpQT5LVtLzcaKMS4InJOnfWRRoDWK1dvMTjz6cFWkPbrJG-nOHB0LnOgYBr8dfBrPinG0znqZIArExzAtdg0Ms-e5GXTNwtrXBB1PwyBM2sN5u1i7GnRvcZpJ633aDyv4GHuKLm53ow4r53aH54xma1rDyekLL8NVNJPy0PYMhKn8AsbyyWZq5HHFTOce_irmKCw9P_XBDqzlsCu9GbS5fALXkDzrmAxUHwjTEeYW6Ibb6uqqAzdiKGtS0qXN2LfcWyzO&smid=share-url)", Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists. I helped Sharon with this story, and [you can see the raw data results](https://privatesarah.s3.amazonaws.com/share/covid-times.html) from the [CDC's surveillance database](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4). ^[No, there is no byline or credit line -- I told her that was fine -- it only took me 45 minutes to do this.]
 
 * "[24 million Americans fear missing next rent payment as benefits dry up](https://www.usatoday.com/in-depth/graphics/2020/07/24/24-million-americans-say-they-have-little-no-chance-being-able-pay-next-months-rent-eviction/5497764002/.)", USA Today, by Kevin Crowe, Theresa Diffendal, and Carlie Procell. July 2020.   The Census Bureau does a lot more than the every-10-year canvas that we're most familiar with. During the pandemic, for example, it's created an experimental survey of households and small businesses specifically to monitor how it's affecting Americans. Unlike the "digital trace data" you read about, this one was made for us to analyze. 
 

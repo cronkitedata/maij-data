@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sarah Cohen">
 
-<title>Data reporting for investigative journalism - Updates</title>
+<title>Data reporting for investigative journalism - In-class tutorials</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -157,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Updates</h1>
+      <h1 class="quarto-secondary-nav-title">In-class tutorials</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -182,12 +181,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../posts/index.html" class="sidebar-item-text sidebar-link active">Updates</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a href="../updates.html" class="sidebar-item-text sidebar-link">Updates</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../posts/welcome.html" class="sidebar-item-text sidebar-link">Class Zero</a>
@@ -230,35 +229,50 @@ ul.task-list li input[type="checkbox"] {
   <a href="../weeks/week02.html" class="sidebar-item-text sidebar-link">2: Replication / spreadsheet review</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week03-1.html" class="sidebar-item-text sidebar-link">3.1: The life of data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week03-2.html" class="sidebar-item-text sidebar-link">3.2: Install party!</a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Important links</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://cronkitedata.github.io/djtextbook" class="sidebar-item-text sidebar-link">Course textbook</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://asu.instructure.com/courses/138967" class="sidebar-item-text sidebar-link">Canvas</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://asu-2231-mco510-21913.slack.com/" class="sidebar-item-text sidebar-link">Slack</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://bit.ly/dj2022-startme" class="sidebar-item-text sidebar-link">Other links</a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">About</a>
-  </div>
-</li>
     </ul>
     </div>
     
@@ -271,19 +285,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Updates</h1>
+<h1 class="title d-none d-lg-block">In-class tutorials</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Sarah Cohen </p>
-          </div>
-  </div>
     
   
     
@@ -292,36 +300,31 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>This page contains some small tutorials that we’ll go through in class – think of it as a place to store Google docs for everyone to share.</p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1670389200000" data-listing-file-modified-sort="1670516287131" data-listing-reading-time-sort="0.53">
-<div class="body">
-<a href="../posts/welcome.html">
-<h3 class="no-anchor listing-title">
-Class Zero
-</h3>
-<div class="listing-subtitle">
-
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1642568400000" data-listing-file-modified-sort="1670795794058" data-listing-reading-time-sort="4.8">
+<a href="../inclass/class/01-github-logistics.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How to get and submit assignments
+</h5>
+<div class="card-text listing-description">
+Week 3: Setting up your folders in class
 </div>
-<div class="listing-description">
-<p>Here’s a list of things to get ready for Jan.&nbsp;9 class, but they’re also in Canvas if you prefer to use that method.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../posts/welcome.html">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Dec 7, 2022
+Jan 19, 2022
 </div>
-<div class="listing-author">
-Sarah Cohen
+</div>
+</div>
 </div>
 </a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
