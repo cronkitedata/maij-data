@@ -1,9 +1,8 @@
 ---
-title: "How to get and submit assignments"
+title: "File management and Github starter"
 date:  "2023-01-19"
-description: "Week 3: Setting up Github; instructions for obtaining and uploading your work"
+description: "Week 3: File managemant and optional Github tutorial"
 --- 
-
 
 
 ## Review: Organizing your computer with folders
@@ -19,15 +18,22 @@ Here are two introductory videos about folder and files:
 * [Windows](https://youtu.be/HDmwiJxzIrw)
 * [Macs](https://youtu.be/3TAEC-1YUZw)
 
+Key points: 
 
-### Renaming files
+* Set up folders in your documents folder for our class --- if we put everything in the same place called the same thing, you'll always be able to follow along with tutorials and in class. 
+* How to rename files  [on a Mac](https://themacbeginner.com/rename-files-and-folders-in-mac-osx/) and on [Windows](https://www.teachucomp.com/how-to-rename-files-and-folders-in-windows-11-instructions/). This will be useful when you download. 
+* Moving vs. copying files across folders
+* Backing up your work
+* Style guide for naming conventions: "[How to Name Files](https://speakerdeck.com/jennybc/how-to-name-files?)" from Jenny Bryant
 
-Those videos went through how to copy and organize your files, but it didn't address something that you have to do a lot in this class: Rename files. Each of the labs or starter programs I give you will have a generic name, like `lab01.qmd`  . You will need to rename it to add your name : `lab01-scohen.qmd` . Here is how to rename a file [on a Mac](https://themacbeginner.com/rename-files-and-folders-in-mac-osx/) and on [Windows](https://www.teachucomp.com/how-to-rename-files-and-folders-in-windows-11-instructions/)
+::: {.figure}
+![xkcd](https://imgs.xkcd.com/comics/documents.png)
+:::
 
+## Setting up the Github repository for this class - OPTIONAL 
 
-## Setting up the Github repository for this class
+If you want to get ahead in data journalism, you'll be expected to have presence on the code sharing site called Github. Each project in Github is called a `repository` or `repo`. I'll hold an optional lab for anyone who wants to start working in Github for this class. If you do it, you'll get used to working with git and Github, and I'll have an easier time helping you if you get stuck on a coding problem. But I'll also distribute all of the homework via Canvas, and you can upload either your code directly to Canvas OR a github link. 
 
-To work more effectively as a group, I want everyone in class to have the same setup on your computer -- that will reduce some of the friction of just copying, saving and storing files. 
 
 1. Create a folder for your R projects
   
@@ -45,25 +51,9 @@ After you submit it, you should be taken to your account's version of the repo. 
 
 5. Open Github Desktop on your computer, and sign in if necessary. Under the File menu, choose "Clone a Repository" and choose the one that you just created. Make sure to save it as a folder your mco510 folder that you just created. It might look like it's just a list of folders, but it also has a hidden file called .git, which keeps track of things as you want it to. (It will track differences between "commits" -- TMI. )
 
-At the end of class, you'll see how to upload your changes to the repo. 
+At the end of the workshop, you'll see how to upload your changes to the repo. 
 
-## Acquiring assignment files
-
-We'll be working "projects" in RStudio, which means that all of your work is contained in a specific folder, and R will only look there for your work. In the github template, there are three folders: 
-
-* labs 
-* prelabs
-* projects
-
-Each week, you'll copy starter documents into your mco501-code folder in the appropriate sub-folder. 
-
-To get your assignment, go to the link provided in the week's assignment. Right-click on the "Raw" button in that window, and choose Save File As..., navigating to the proper folder.  
-
-## Saving and uploading assignment files
-
-You have two ways to save and upload the assignment files. I suggest you choose one of these methods and stick with it, though -- you risk having the online version out of sync with your computer files if you don't. 
-
-### The right way: Using Github Desktop
+### Using Github Desktop
 
 If you use this method, you don't have to worry that you've uploaded an incomplete file, or that your computer is out of sync with your repo. However if you get a message telling you that you have sync conflict, contact me right away. You don't want to lose any of your work.  
 
@@ -74,19 +64,6 @@ If you use this method, you don't have to worry that you've uploaded an incomple
 * Then make sure to press the button at the top called "Push origin"  
 
 When you open your online version of Github, your changes will be there. 
-
-### The shortcut way: Using the Github website
-
-If you choose to work this way, don't even open Github Desktop. It will mess you up something awful. In the event you want to switch methods, please see me -- I don't want you to lose any of your work. 
-
-Once you're done with your homework, simply upload any of the files you want to submit using the Github interface online. Make sure to upload them to the right folder. If you forget, you can edit the file and change the name, prepending the folder name. 
-
-### Submit to Canvas
-
-Copy the link and submit it to Canvas. It's ok if you have more than one file -- I'll find them. I just need to know that you did the work. 
-
-
-
 
 
 

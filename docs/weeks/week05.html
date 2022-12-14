@@ -6,8 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-02-07">
-<meta name="description" content="This week we’ll get back to working with journalism-related data, and start going deeper into some of the key verbs that you’ll use throughout your R journey.">
+<meta name="dcterms.date" content="2022-02-06">
 
 <title>Data reporting for investigative journalism - Going further with tidyverse verbs</title>
 <style>
@@ -32,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../weeks/week06.html" rel="next">
+<link href="../weeks/week04-1.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -179,11 +180,11 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../weeks.html" class="sidebar-item-text sidebar-link">Weekly details</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-1.html" class="sidebar-item-text sidebar-link">1.1: Intros</a>
@@ -211,7 +212,22 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">4: Intro to R / RStudio</a>
+  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">4: Your first programs</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week05.html" class="sidebar-item-text sidebar-link active">5: In-depth verbs pt 1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week06.html" class="sidebar-item-text sidebar-link">6: In-depth verbs pt 2</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link">7: The power of regular expressions</a>
   </div>
 </li>
       </ul>
@@ -256,16 +272,14 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a>
   <ul class="collapse">
-  <li><a href="#monday" id="toc-monday" class="nav-link" data-scroll-target="#monday">Monday</a></li>
-  <li><a href="#wednesday" id="toc-wednesday" class="nav-link" data-scroll-target="#wednesday">Wednesday</a></li>
-  </ul></li>
+  <li><a href="#labs" id="toc-labs" class="nav-link" data-scroll-target="#labs">Labs</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
+  </ul></li>
   <li><a href="#preparation-and-learning-materials" id="toc-preparation-and-learning-materials" class="nav-link" data-scroll-target="#preparation-and-learning-materials">Preparation and learning materials</a>
   <ul class="collapse">
-  <li><a href="#by-monday-class-27" id="toc-by-monday-class-27" class="nav-link" data-scroll-target="#by-monday-class-27">By Monday class, 2/7</a></li>
-  <li><a href="#by-wednesday-class-29" id="toc-by-wednesday-class-29" class="nav-link" data-scroll-target="#by-wednesday-class-29">By Wednesday class, 2/9</a></li>
+  <li><a href="#chapters-for-the-labs" id="toc-chapters-for-the-labs" class="nav-link" data-scroll-target="#chapters-for-the-labs">Chapters for the labs:</a></li>
+  <li><a href="#other-reading" id="toc-other-reading" class="nav-link" data-scroll-target="#other-reading">Other reading /</a></li>
   </ul></li>
-  <li><a href="#after-class-reading-and-review" id="toc-after-class-reading-and-review" class="nav-link" data-scroll-target="#after-class-reading-and-review">After-class reading and review</a></li>
   </ul>
 </nav>
 </nav>
@@ -280,11 +294,6 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title d-none d-lg-block">Going further with tidyverse verbs</h1>
 </div>
 
-<div>
-  <div class="description">
-    This week we’ll get back to working with journalism-related data, and start going deeper into some of the key verbs that you’ll use throughout your R journey.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -293,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 7, 2022</p>
+      <p class="date">February 6, 2022</p>
     </div>
   </div>
   
@@ -303,55 +312,51 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This marks the beginning of collapsing each week’s work into one page on this website.</p>
-<p>This week, we’ll go over some details of how to use the most common five verbs: <code>select</code>, <code>arrange</code>, <code>mutate</code>, <code>summarise</code>, <code>group_by</code>, and <code>filter</code> using a data source more likely to yield interesting stories: The Paycheck Protection Program loans for businesses and projects in Arizona.</p>
-<p>EDIT: I changed the details of what we’re doing on Wednesday, when we’ll look closer at the <code>filter</code> verb and get an introduction to filtering without an exact match.</p>
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<section id="monday" class="level3">
-<h3 class="anchored" data-anchor-id="monday">Monday</h3>
 <ul>
-<li>Review the Hot 100 exercise from homework.</li>
+<li>What would you do? discussion</li>
+<li>Review the Hot 100 lab from last week.</li>
 <li>Introduce the Paycheck Protection Program data that we’ll use for the next several weeks.</li>
-<li>Together, review the first set of verbs of the Tidyverse (likely <code>select</code>, <code>arrange</code>, <code>mutate</code>) and their functions.</li>
 </ul>
-</section>
-<section id="wednesday" class="level3">
-<h3 class="anchored" data-anchor-id="wednesday">Wednesday</h3>
+<section id="labs" class="level3">
+<h3 class="anchored" data-anchor-id="labs">Labs</h3>
+<p>Verbs in depth:</p>
 <ul>
-<li><del>Dig deeper into <code>group_by</code> and <code>summarise</code></del></li>
-<li>Dig deeper into <code>filter</code></li>
-<li><del>Learn to format numbers so they are readable.</del></li>
+<li><span class="text-danger"><code>select</code> and <code>arrange</code></span></li>
+<li><a href="https://cronkitedata.github.io/djtextbook/r-verb-mutate.html"><code>mutate</code></a> to get new data from old</li>
 </ul>
 </section>
+<section id="upcoming-deadlines" class="level3">
+<h3 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h3>
+<p>The next couple of weeks are focused on getting you up and running in R, so there’s not anything other than labs to turn in. I hope you’ll spend some time over the weekend to review what we did in class and in labs. By now you’ll have access to DataCamp, and I’ll suggest some tutorials there that will help review the material we’ve gone through.</p>
+<p><span class="sked-dates">Sunday Feb.&nbsp;19</span> : The sentences you propose replicating for the data replication project</p>
+<p><span class="sked-dates">Monday Feb.&nbsp;20</span> : What would you do?</p>
 </section>
-<section id="upcoming-deadlines" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<p>Sunday 2/6 {.text-dark} * Billboard Top 100 introductory tutorial. Do the after-class reading before you tackle this. Get as far as you can in 3-4 hours of dedicated work. This exercise will give me guidance on where to spend our time, so it’s more important that you try to do this on your own (with help in #dj-sos or a study hall) than it is that you get the “right” answer. In addition, when you’re struggling over a piece of it and don’t know what to do next, don’t just Google. Instead, walk away from the computer and come back in 10 minutes. If you still don’t know what to do, put a question on #dj-sos, showing your code and the error or answer you’re getting (a screen shot is fine). That way, everyone can learn. You can post anonymously on #dj-sos if you prefer. (Googling will often give you the “hard” R version, not the tidyverse “easy” R version. It will just confuse you at this stage.)</p>
-<p>Friday 2/11 {.text-dark} 1st self-assessment</p>
-<p>Sunday 2/13 {.text-dark} Do the exercises at the end of Chapter 14: <a href="https://cronkitedata.github.io/djtextbook/r-verb-filter.html">Verbs in Depth: Select, filter, arrange</a> . Some of these are a little tricky - give them a try on your own for a little while before asking for help but please do ask for help if you’re stuck. There is no code for you to copy and paste this time!</p>
 </section>
 <section id="preparation-and-learning-materials" class="level2">
 <h2 class="anchored" data-anchor-id="preparation-and-learning-materials">Preparation and learning materials</h2>
-<section id="by-monday-class-27" class="level3">
-<h3 class="anchored" data-anchor-id="by-monday-class-27">By Monday class, 2/7</h3>
-<p>Mostly, your work is follow-up from last week. But to get ready for the lessons starting this week, please read the documentation/background on the Paycheck Protection Program data in the <a href="https://cronkitedata.github.io/djtextbook/appendix-ppp.html">textbook appendix</a></p>
+<section id="chapters-for-the-labs" class="level3">
+<h3 class="anchored" data-anchor-id="chapters-for-the-labs">Chapters for the labs:</h3>
+<ul>
+<li>select and arrange</li>
+<li>mutate to get new data from old</li>
+</ul>
 </section>
-<section id="by-wednesday-class-29" class="level3">
-<h3 class="anchored" data-anchor-id="by-wednesday-class-29">By Wednesday class, 2/9</h3>
+<section id="other-reading" class="level3">
+<h3 class="anchored" data-anchor-id="other-reading">Other reading /</h3>
+<ul>
+<li>Read the documentation/background on the Paycheck Protection Program data in the <a href="https://cronkitedata.github.io/djtextbook/appendix-ppp.html">textbook appendix</a></li>
+</ul>
 <p>Review these three very different approaches to reporting on the PPP loans. While you don’t need to study them, they’re useful to us for several purposes. First, they show how different people attacked the data to find very different stories. In addition, they will provide you some background on the program itself, written for a lay audience. (We like that.) Finally, they’re relatively old and I have yet to see good stories now that there is more information - I hope it will spark some ideas.</p>
 <ul>
 <li><a href="https://www.propublica.org/article/ppp-farms">“Hundreds of PPP Loans Went to Fake Farms in Absurd Places”</a>, Derek Willis and Lydia DePillis, ProPublica, May 18, 2021</li>
 <li>“<a href="https://www.wsj.com/articles/some-asheville-businesses-thrived-with-government-backed-ppp-loans-others-struggled-11609426801">Six Stories From a Downtown District Show Pandemic’s Uneven Toll</a>”, Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec.&nbsp;31, 2020. (Read this on campus if you haven’t signed up for the free WSJ subscription through the library.)</li>
-<li><a href="https://revealnews.org/podcast/banking-on-inequity/">“Banking on Inequity”</a> , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021.</li>
+<li><a href="https://revealnews.org/podcast/banking-on-inequity/">“Banking on Inequity”</a> , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021. NOTE: We’ll be using this one for a “What would you do?” discussion later in the semester, so you might read it more carefully now so it’s less work later.</li>
 </ul>
-</section>
-</section>
-<section id="after-class-reading-and-review" class="level2">
-<h2 class="anchored" data-anchor-id="after-class-reading-and-review">After-class reading and review</h2>
-<p>Chapter 14, <a href="https://cronkitedata.github.io/djtextbook/r-verb-filter.html">Verbs in Depth: Select, filter, arrange</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -488,6 +493,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation column-page-right">
+  <div class="nav-page nav-page-previous">
+      <a href="../weeks/week04-1.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">4: Your first programs</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../weeks/week06.html" class="pagination-link">
+        <span class="nav-page-text">6: In-depth verbs pt 2</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

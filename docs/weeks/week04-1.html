@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2022-01-30">
-<meta name="description" content="You can now ditch those painstaking data diaries, and write self-documenting programs using R and Quarto.">
+<meta name="description" content="You can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto.">
 
 <title>Data reporting for investigative journalism - Introduction to programming</title>
 <style>
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../weeks/week05.html" rel="next">
+<link href="../weeks/week03-2.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -211,7 +213,22 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link active">4: Intro to R / RStudio</a>
+  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link active">4: Your first programs</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week05.html" class="sidebar-item-text sidebar-link">5: In-depth verbs pt 1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week06.html" class="sidebar-item-text sidebar-link">6: In-depth verbs pt 2</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link">7: The power of regular expressions</a>
   </div>
 </li>
       </ul>
@@ -256,10 +273,6 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#preparation-learning-materials" id="toc-preparation-learning-materials" class="nav-link" data-scroll-target="#preparation-learning-materials">Preparation &amp; learning materials</a>
-  <ul class="collapse">
-  <li><a href="#textbook-chapters" id="toc-textbook-chapters" class="nav-link" data-scroll-target="#textbook-chapters">Textbook chapters</a></li>
-  </ul></li>
   </ul>
 </nav>
 </nav>
@@ -276,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    You can now ditch those painstaking data diaries, and write self-documenting programs using R and Quarto.
+    You can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto.
   </div>
 </div>
 
@@ -297,40 +310,27 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>For the next few of weeks, it may seem that we’ve left the world of reporting and investigative journalism. Most of your work and reading is focused on a getting you started in a programming language without interruption.</p>
-<p>Generally, the weeks will go like this:</p>
+<p>For the next month or more, our weeks will generally look like this:</p>
 <p><strong>Mondays</strong>: We’ll go over any reading and homework from the weekend and address common areas of confusion. Then I’ll introduce the week’s skills and the pre-lab assignment, which will be due before class on Wednesday. (Prelabs are really walkthroughs of the reading, where you follow along on your own computer. They’re designed to take about an hour.)</p>
-<p><strong>Wednesdays</strong>: We We’ll go through the lab in class where you can get help. The labs will be due at the end of class. It’s important not to spend more time on it because I’ll use these to diagnose areas of confusion.</p>
+<p><strong>Wednesdays</strong>: We We’ll go through the lab in class where you can get help. The labs will be due at the end of class. It’s important that we not spend more time on them, since I’ll be using the results to diagnose where we need to do more work. If you spend too much time, I won’t know that it’s not clear.</p>
 <p>Weekends are used to work on projects and remind us that we are in a journalism program.</p>
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
 <ul>
 <li>Discussion of the “Life of a dataset” assignment</li>
-<li>Weekly labs:
+<li>Weekly labs (textbook chapters are linked here, but you don’t have to read them in advance of the Monday lab):
 <ul>
-<li>An introduction to programming concepts in R</li>
-<li>Introduction to replicable programming using Quarto in RStudio</li>
-<li>Billboard Top 100 : An example runthrough of everything we’ll accomplish in the next three weeks.</li>
+<li>An <a href="https://cronkitedata.github.io/djtextbook/appendix-program.html">introduction to programming concepts</a> in R</li>
+<li>Introduction to replicable programming using <span class="text-danger">Quarto in RStudio</span></li>
+<li><span class="text-danger">Billboard Top 100</span> : An example runthrough of everything we’ll accomplish in the next three weeks.</li>
 </ul></li>
 </ul>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
 <p><span class="sked-dates">Monday Feb.&nbsp;6</span> : “What would you do?” : choosing a data source.</p>
-</section>
-<section id="preparation-learning-materials" class="level2">
-<h2 class="anchored" data-anchor-id="preparation-learning-materials">Preparation &amp; learning materials</h2>
-<section id="textbook-chapters" class="level3">
-<h3 class="anchored" data-anchor-id="textbook-chapters">Textbook chapters</h3>
-<ul>
-<li><a href="https://cronkitedata.github.io/djtextbook/appendix-program.html">A gentle introduction to programming</a>. In class, you’ll make an algorithm for a daily chore.</li>
-<li><span class="text-danger">Quarto in RStudio</span>. You’ll create your first Quarto document.<br>
-</li>
-<li><span class="text-danger">Billboard 100 walkthrough</span></li>
-</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -467,6 +467,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation column-page-right">
+  <div class="nav-page nav-page-previous">
+      <a href="../weeks/week03-2.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">3.2: Install party!</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../weeks/week05.html" class="pagination-link">
+        <span class="nav-page-text">5: In-depth verbs pt 1</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

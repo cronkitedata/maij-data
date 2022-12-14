@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-01-11">
-<meta name="description" content="Consuming news as a reporter">
+<meta name="dcterms.date" content="2022-02-28">
+<meta name="description" content="For the week before Spring Break, we’ll have a lab for your replication project and I’ll demo some methods to make better-looking tables in your work. We’ll also delve more into the regular expressions used in str_detect and its cousins, as well as RStudio snippets to save typing.">
 
-<title>Data reporting for investigative journalism - The journalistic method</title>
+<title>Data reporting for investigative journalism - Regular expressions, tables and snippets</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week02.html" rel="next">
-<link href="../weeks/week01-1.html" rel="prev">
+<link href="../weeks/week06.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -128,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">The journalistic method</h1>
+      <h1 class="quarto-secondary-nav-title">Regular expressions, tables and snippets</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -193,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week01-2.html" class="sidebar-item-text sidebar-link active">1.2: Reading the story</a>
+  <a href="../weeks/week01-2.html" class="sidebar-item-text sidebar-link">1.2: Reading the story</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -216,6 +215,24 @@ ul.task-list li input[type="checkbox"] {
   <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">4: Intro to R / RStudio</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week05.html" class="sidebar-item-text sidebar-link">5: Your first programs</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week06.html" class="sidebar-item-text sidebar-link">6: In-depth verbs pt 1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link active">7: In-depth verbs pt 2</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  8: The power of regular expressions
+  </li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -256,14 +273,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
-  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#learning-materials" id="toc-learning-materials" class="nav-link" data-scroll-target="#learning-materials">Learning materials</a>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a>
   <ul class="collapse">
-  <li><a href="#reading-and-viewing" id="toc-reading-and-viewing" class="nav-link" data-scroll-target="#reading-and-viewing">Reading and viewing</a></li>
-  <li><a href="#prepare-for-wednesdays-lab" id="toc-prepare-for-wednesdays-lab" class="nav-link" data-scroll-target="#prepare-for-wednesdays-lab">Prepare for Wednesday’s lab</a></li>
+  <li><a href="#monday" id="toc-monday" class="nav-link" data-scroll-target="#monday">Monday</a></li>
+  <li><a href="#wednesday" id="toc-wednesday" class="nav-link" data-scroll-target="#wednesday">Wednesday</a></li>
   </ul></li>
-  <li><a href="#going-further" id="toc-going-further" class="nav-link" data-scroll-target="#going-further">Going further</a></li>
+  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
+  <li><a href="#preparation-learning-materials" id="toc-preparation-learning-materials" class="nav-link" data-scroll-target="#preparation-learning-materials">Preparation &amp; learning materials</a></li>
   </ul>
 </nav>
 </nav>
@@ -275,12 +291,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">The journalistic method</h1>
+<h1 class="title d-none d-lg-block">Regular expressions, tables and snippets</h1>
 </div>
 
 <div>
   <div class="description">
-    Consuming news as a reporter
+    For the week before Spring Break, we’ll have a lab for your replication project and I’ll demo some methods to make better-looking tables in your work. We’ll also delve more into the regular expressions used in <code>str_detect</code> and its cousins, as well as RStudio snippets to save typing.
   </div>
 </div>
 
@@ -291,7 +307,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 11, 2022</p>
+      <p class="date">February 28, 2022</p>
     </div>
   </div>
   
@@ -301,63 +317,38 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="card" style="width: 50%;">
-<div id="fig-jelani" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="../assets/img/start-story-cobb.png" class="img-fluid figure-img" alt="Jelani Cobb on reading like a writer"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;1: Jelani Cobb, dean of the Columbia Graduate School of Journalism</figcaption><p></p>
-</figure>
-</div>
-</div>
-<p>The same can be said for any kind of reporting or writing.</p>
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
+<section id="monday" class="level3">
+<h3 class="anchored" data-anchor-id="monday">Monday</h3>
 <ul>
-<li>Discussion: Empirical reporting and the journalistic method</li>
-<li>Lab: Reading the data-driven story</li>
+<li><p>More on regular expressions - A lab that helps you understand more about what you are doing in the <code>str_detect</code> function in filtering and mutating - some of this will not be in R, but will be on a website that helps you write the patterns.</p></li>
+<li><p>Open lab to work on getting started on your replication project. While you may work together in labs to help one another get started, this is intended as an individual, not a team, project. Your work must be your own – you can’t copy and paste from one another.</p></li>
 </ul>
+</section>
+<section id="wednesday" class="level3">
+<h3 class="anchored" data-anchor-id="wednesday">Wednesday</h3>
+<ul>
+<li>Pro tip: Using RStudio snippets to save yourself from having to type so much! (It will also save you from having to remember exactly how a function or verb works – you’ll be prompted for the correct syntax)</li>
+<li>Examples of better-looking tables using two packages : <code>gt</code> for static tables, and <code>reactable</code> for interactive (much less typing if you use snippets!)</li>
+</ul>
+</section>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<div class="small-note">
-<p>I’m not including labs and pre-labs in this list. Expect to see them every day.</p>
-</div>
-<p><span class="sked-dates">Sunday Jan.&nbsp;15</span> : Cronkite Academic Integrity pledge in Canvas; Last date to choose the Y grade</p>
-<p><span class="sked-dates">Wednesday, Jan.&nbsp;18</span> : What would you do? Reporting live election results</p>
-<p><span class="sked-dates">Sunday Jan.&nbsp;22</span> : Spreadsheet review</p>
+<p>Reminder: There is an “explainer” due instead of a final exam, which you might want to knock out as soon as you come across something you want to do.</p>
+<p>Friday 3/4 {.text-dark} Update on the <a href="../dataj/coursedocs/replication/">replication project</a>. The sentences/paragraphs to replicate are on Canvas, under the Replication Project module, which links to <a href="https://docs.google.com/document/d/15nFfwZme3bJ0wBIrdn8Ptl3eshYfaQg1JbYd23XNnEg/edit?usp=sharing">this Google Doc</a>. More details are in the Canvas assignment.</p>
+<p>You should have at least imported the data correctly, done the reading and review to make sure you understand it, and taken a stab at getting to some of the answers for the project. Don’t take the paragraphs in order – instead, look for ones you know how to do to and knock them out. The further you get on this, the more I can help you before the final is due. Please be aware that this project MUST be done using R and R Markdown. You will not get credit for anything done in Excel or any other platform.</p>
+<p>NOTE: Expect that you will forget a lot of what you learned over Spring Break. Be prepared to take some time when you get back to refresh yourself.</p>
+<p>Sunday 3/20 {.text-dark} Final replication project</p>
+<p>Friday 3/25 {.text-dark} 2nd self-assessment</p>
 </section>
-<section id="learning-materials" class="level2">
-<h2 class="anchored" data-anchor-id="learning-materials">Learning materials</h2>
-<section id="reading-and-viewing" class="level3">
-<h3 class="anchored" data-anchor-id="reading-and-viewing">Reading and viewing</h3>
-<p>American journalists have been using empirical methods since the birth of the Republic. Read and watch these materials with an eye for the methods they describe – data collection, counting and analyzing – and the sources they used. You’re not expected to follow links or watch related material unless I mention them.</p>
-<ul>
-<li><p><a href="https://journalistsresource.org/tip-sheets/journalistic-method-tip-sheet-blending-analysis-narrative/">The Journalistic Method: Five principles for blending analysis and narrative</a>, by Nicholas Lemann, former dean of the Columbia University Graduate School of Journalism.</p></li>
-<li><p><a href="https://www.vox.com/2015/7/16/8979771/ida-b-wells-lynching-data">Ida B. Wells used data journalism to fight lynching</a>, Dara Lind, Vox.com, July 2015</p></li>
-<li><p><a href="https://cronkitedata.s3.us-west-1.amazonaws.com/docs/berens_nerds_words.pdf">The Myth of the Machine</a> Michael J. Berens, a chapter in “When Nerds and Words Collide” Poynter Institute, 1999. Although it was written more than 20 years ago, the insights are still relevant today.</p></li>
-<li><p><a href="https://cronkitedata.s3.us-west-1.amazonaws.com/docs/precision-journalism.pdf">Introduction to Precision Journalism</a>, Sage Encyclopedia of Journalism.</p></li>
-</ul>
-</section>
-<section id="prepare-for-wednesdays-lab" class="level3">
-<h3 class="anchored" data-anchor-id="prepare-for-wednesdays-lab">Prepare for Wednesday’s lab</h3>
-<p>This lab is geared at learning how to read and view journalism as a writer and producer, by closely examining HOW a story was conceived and executed rather than whether you liked it or thought it was “good”. This is designed to orient you toward the “reporting” part of the data reporting equation.</p>
-<ul>
-<li><p><a href="https://cronkitedata.github.io/djtextbook/start-story.html">Learn a New Way to Read</a> from our course textbook site. When I assign these chapters, you are not required to study the works listed in the additional reading or exercise sections unless I specifically assign them.</p></li>
-<li><p><a href="https://cronkitedata.s3.amazonaws.com/docs/rural_development.pdf">Rural Aid goes to Urban Areas</a> This is a pdf of a very old story from the Washington Post. I use it not because it’s so great, but because it is <em>reasonably</em> short and remains the most straightforward example of investigative data reporting that I know of. Pay attention to the elements that make this story work – the data sources, examples used, use of experts to define classifications, and the public records mentioned. Be sure to read the “nerd box” on the second page.</p></li>
-</ul>
-<!--
-* "[The Disproportionate Risk of Driving While Black](https://www.nytimes.com/2015/10/25/us/racial-disparity-traffic-stops-driving-black.html)", Sharon LaFraniere and Andrew Lehren, The New York Times, October 2015. We'll review this story in a group exercise on Wednesday, so be sure to review it fully. Pay attention to the data sources, the way that they were analyzed, the writing and graphics, and the examples used. If great journalism is what some authors call the selection, not the compression, of facts, then think about how those facts and examples might have been found and why they were selected. After class, I'll provide an annotated version that goes through some of the sources and questions.  
--->
-</section>
-</section>
-<section id="going-further" class="level2">
-<h2 class="anchored" data-anchor-id="going-further">Going further</h2>
-<p>Both of these are pretty expensive, but I’m listing them here in case you want to try to find them in a library. (ASU has neither one.)</p>
-<ul>
-<li><p>One really good book for learning to write complicated stories in a variety of ways is William Blundell’s “<a href="https://www.amazon.com/kindle-dbs/entity/author/B001KDWGWQ">Art and Craft of Feature Writing</a>” . Although it’s old, it has some great tips on writing with data.</p></li>
-<li><p>Philip Meyer’s “<a href="https://www.amazon.com/Precision-Journalism-Reporters-Introduction-Science/dp/0742510883/">Precision Journalism</a>” is a staple on many data journalists’ bookshelf. ASU library’s version isn’t the most recent.</p></li>
-<li><p>An academic guide for “<a href="https://rss.onlinelibrary.wiley.com/doi/full/10.1111/1740-9713.01469">Reading to Write</a>”. This is really for scientists reading academic journals, but we might learn from the techniques.</p></li>
-</ul>
+<section id="preparation-learning-materials" class="level2">
+<h2 class="anchored" data-anchor-id="preparation-learning-materials">Preparation &amp; learning materials</h2>
+<p>Spend some time going <a href="https://cronkitedata.s3.amazonaws.com/markdown_templates/ppp_lab_0223_solutions.html">over some of the possible solutions to the lab</a> from last week, and the textbook, to see how the concepts and practices in the textbook translate into real-data questions. Try asking some questions of your own, and see how you might approach them. This is some time for you to do review on your own, as you’re expected to be able to apply what we’ve spent the last month doing in this project and the next.</p>
+<p>Pro tip: If you are doing a lot of printing out of data without limiting the number of rows shown, your markdowns might get too large for your computer to handle. Consider using <code>glimpse()</code> or <code>str()</code> to get the number of rows and information about the data you use, or use <code>head()</code>, <code>tail()</code>, or <code>sample_n(100)</code> to look at the beginning, the end, or a randome sample of 100 rows.</p>
+<p>You can also add this line to your setup chunk to limit the number of rows that are used after each command, but it will not show you how many rows were extracted this way – just what they look like (at the same time avoiding scientific notation on numbers):</p>
+<pre><code>options (scipen=999, max.print=100)</code></pre>
 
 
 </section>
@@ -498,14 +489,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../weeks/week01-1.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">1.1: Intros</span>
+      <a href="../weeks/week06.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">6: In-depth verbs pt 1</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../weeks/week02.html" class="pagination-link">
-        <span class="nav-page-text">2: Replication / spreadsheet review</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

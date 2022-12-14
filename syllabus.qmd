@@ -84,7 +84,7 @@ There is NO expectation that you have acquired or used data for your stories in 
 
 All of the hardware and software required for class is available in our classroom and in the lab in Cronkite 320. 
 
-If you choose to use your own laptop or desktop computer, it must be running Mac OS Catalina (version 10.15, released in late 2019, or newer) or Windows 10 or 11. Please contact me if you’re not sure if your operating system needs updating. A tablet or Chrome book just won't work, and I can't help you if you try to use them.
+If you choose to use your own laptop or desktop computer, it must be running Mac OS Catalina (version 10.15, released in late 2019, or newer) or Windows 10 or 11. Please contact me if you’re not sure if your operating system needs updating. A tablet or Chrome book just won't work, and I can't help you if you try to use them.^[Anything that can run the full version of Mac OS or Windows is fine, such as a Microsoft Surface]
 
 A regular mouse is strongly recommended. A basic wired mouse that connects to your USB port costs about $10 on Amazon.
 
