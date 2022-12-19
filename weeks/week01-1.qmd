@@ -8,7 +8,7 @@ draft: false
 
   <blockquote class="blockquote-big mb-3">
     <p>Maybe stories are just data with a soul</p>
-    <span> Brené Brown </span>
+    <span> --- Brené Brown </span>
   </blockquote>
   
 ::: {.info}
@@ -23,7 +23,7 @@ Unless I suggest otherwise, you’re expected to have done more than just skimme
 * Review of surveys and goals for the semester
 * Syllabus lab
 * Intro to investigative data reporting
-* Upcoming deadlines <br> (Everything will be due in Canvas, unless it says otherwise. )
+ 
 
 ## Upcoming deadlines
 
