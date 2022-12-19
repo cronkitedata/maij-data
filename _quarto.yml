@@ -30,7 +30,7 @@ website:
       - text: "Schedule"
         file: schedule.qmd
       - text: "Weeks"
-        file: /weeks/
+        file: weeks.qmd
 
 # can't figure out how to get the fontawesome icon in the home button. Oh well. 
 

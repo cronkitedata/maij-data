@@ -13,11 +13,11 @@ Configuring computers for use in data reporting is one of the most frustrating t
 
 If you had trouble with installation, please use the lab computers for the beginning of class. I'll save time in class so that I can work with you individually to get your computer set up toward the end. 
 
-* [Review of file management on computers](../inclass/01-github-logistics.qmd) to stay organized
-* Resolving installation issues 
+* Review of file management on computers to stay organized
 * Setting up your computer for the rest of the course
 * Installing packages (you'll undestand what this means when the time comes)
 * A review of the screens in R Studio, which can be a little intimidating
+* Resolving installation issues 
 
 
 ## Upcoming deadlines
@@ -38,9 +38,9 @@ It's important that you have a very recent version of both R and R Studio, as th
 
 **You must have Windows 10 / 11 or Mac Catalina (version 10.15) or newer for this to work.**  All computers made in the last five years -- and [some much earlier](https://support.apple.com/en-us/HT210222) -- are capable of handling these versions. You may need to update your operating system if you haven't done that in the last three years. Please let me know if you don't know how to do that. The software is also installed on all computers in the classroom and in the lab in Cronkite 320. 
 
-* Download and install R version 4.2.2 or higher  for your system from  <https://cloud.r-project.org/> 
+* Download and install the correct version or R for your system from <https://cloud.r-project.org/> 
     * Most Macbooks:  "latest package" 
-    * arm64.pkg if you have a very recent M1 Mac  (2021 or newer). You probably know if you have it. 
+    * arm64.pkg if you have a very recent M1 Macbook or Macbook Air (2021 or newer). You probably know if you have it. 
     * Windows: 64-bit version for Windows 10/11. 
 
 * Download and install RStudio  for [Mac](https://download1.rstudio.org/desktop/macos/RStudio-2022.07.2-576.dmg)  or [Windows](https://download1.rstudio.org/desktop/windows/RStudio-2022.07.2-576.exe) )
@@ -48,6 +48,12 @@ It's important that you have a very recent version of both R and R Studio, as th
 (You can try going through   [this tutorial on installing R and RStudio](https://learnr-examples.shinyapps.io/ex-setup-r/#section-welcome), but it's a little out of date and might be more confusing than it's worth. )
   
 * Try starting up RStudio (not R). On a Mac, if you get errors that mention "git", or "xcode-select", just *say yes* and do it. 
+
+## In-class links
+
+* Textbook: "[Getting started with R and R Studio](https://cronkitedata.github.io/djtextbook/r-start.html)"
+* [More details](../inclass/01-github-logistics.qmd) and Github options.
+
 
 
  

@@ -32,7 +32,7 @@ Key points:
 
 ## Setting up the Github repository for this class - OPTIONAL 
 
-If you want to get ahead in data journalism, you'll be expected to have presence on the code sharing site called Github. Each project in Github is called a `repository` or `repo`. I'll hold an optional lab for anyone who wants to start working in Github for this class. If you do it, you'll get used to working with git and Github, and I'll have an easier time helping you if you get stuck on a coding problem. But I'll also distribute all of the homework via Canvas, and you can upload either your code directly to Canvas OR a github link. 
+If you want to get ahead in data journalism, you'll be expected to have presence on the code sharing site called Github. Each project in Github is called a `repository` or `repo`. I'll hold an optional lab for anyone who wants to start working in Github for this class. If you do it, I'll have an easier time helping you if you get stuck on a coding problem and you'll know how it works for when you need it. But I'll also distribute all of the homework via Canvas, and you can upload either your code directly to Canvas OR a github link. 
 
 
 1. Create a folder for your R projects
