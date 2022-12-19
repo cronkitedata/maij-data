@@ -21,7 +21,7 @@ You have a few things to do to get ready for the first class.
 
 * Complete the Skills and Interests survey  (link is in Canvas assignment so it's not public)
 * Complete the pre-class Slack assignment. This will be our primary method of communicating, so it's crucial that this is set up properly for you to get notifications and be able to ask questions. 
-* Review the [Syllabus](syllabus.qmd) and [Schedule](schedule.qmd) here (or in Canvas - it's the same thing)
+* Review the [Syllabus](../syllabus.qmd) and [Schedule](../schedule.qmd) here (or in Canvas - it's the same thing)
 * Familiarize yourself with the structure of this site. 
 
 

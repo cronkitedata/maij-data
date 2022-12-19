@@ -5,3 +5,5 @@ working/
 **/.DS_Store
 
 /.luarc.json
+
+/.quarto/
