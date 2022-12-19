@@ -19,7 +19,7 @@ description:  Data isn't just numbers. We'll learn how to think broadly about da
 
 * Address any questions that arose from the spreadsheet review assignment
 * Discuss reading
-* Lab - The life of a dataset warmup using Pheonix Open Data 911 records.
+* [Lab](#in-class-lab-details) - The life of a dataset warmup using Pheonix Open Data 911 records.
 
 ## Upcoming deadlines
 
@@ -48,6 +48,8 @@ It's ok if you can't answer all of these things, but it's useful to undertake th
  </iframe>
 </div>
 
+
+
 * "['Very Harmful' lack of data blunts US response to outbreaks](https://www.nytimes.com/2022/09/20/us/politics/covid-data-outbreaks.html?unlocked_article_code=FRdsQf82dJp3EBYCyTtHOQZ6XenNqhytAqexFVw4uOQ61e_LdTBWGrs4wzoB6fWy2AW68kzGxoOI3GLeZC0vpQT5LVtLzcaKMS4InJOnfWRRoDWK1dvMTjz6cFWkPbrJG-nOHB0LnOgYBr8dfBrPinG0znqZIArExzAtdg0Ms-e5GXTNwtrXBB1PwyBM2sN5u1i7GnRvcZpJ633aDyv4GHuKLm53ow4r53aH54xma1rDyekLL8NVNJPy0PYMhKn8AsbyyWZq5HHFTOce_irmKCw9P_XBDqzlsCu9GbS5fALXkDzrmAxUHwjTEeYW6Ibb6uqqAzdiKGtS0qXN2LfcWyzO&smid=share-url)", Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists. I helped Sharon with this story, and [you can see the raw data results](https://privatesarah.s3.amazonaws.com/share/covid-times.html) from the [CDC's surveillance database](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4). ^[No, there is no byline or credit line -- I told her that was fine -- it only took me 45 minutes to do this.]
 
 * "[24 million Americans fear missing next rent payment as benefits dry up](https://www.usatoday.com/in-depth/graphics/2020/07/24/24-million-americans-say-they-have-little-no-chance-being-able-pay-next-months-rent-eviction/5497764002/.)", USA Today, by Kevin Crowe, Theresa Diffendal, and Carlie Procell. July 2020.   The Census Bureau does a lot more than the every-10-year canvas that we're most familiar with. During the pandemic, for example, it's created an experimental survey of households and small businesses specifically to monitor how it's affecting Americans. Unlike the "digital trace data" you read about, this one was made for us to analyze. 
@@ -55,13 +57,42 @@ It's ok if you can't answer all of these things, but it's useful to undertake th
   I'll never understand the USA Today firewall. This doesn't appear to be in any of the services ASU library subscribes to, so [here's a pdf of the page](https://cronkitedata.s3.amazonaws.com/docs/usatoday-crowe-rentpayments-covid.pdf) if you can't get to it.
 
 
-* ["AP Finds Most Arrested in protests aren't leftist radicals"](https://apnews.com/article/virus-outbreak-race-and-ethnicity-suburbs-health-racial-injustice-7edf9027af1878283f3818d96c54f748), By Alanna Durkin Richer, Colleen Long and Michael Balsamo, October 2020. Also:  "[AP methodology](http://leads.ap.org/best-of-the-week/analyzing-protest-arrest-records) , Oct. 30, 2020. A great example of developing a story from court records -- creating that "electronic form" of information that can then be analyzed in many different ways. Try to imagine what details the reporters chose to track and which ones they decided to ignore.  Compiling data by examining news stories and court records  are two very common ways that news organizations create data for analysis. They  have flaws but  they're often the best available source. 
+* "[Thousands allowed to bypass environmental rules in pandemic](https://apnews.com/article/virus-outbreak-ky-state-wire-ia-state-wire-ap-top-news-health-3bf753f9036e7d88f4746b1a36c1ddc4)", Associated Press, August 2020. This is a great example of looking beyond the news in front of you to collect documents that show a pattern. It shows what can be done in just a couple of months by collecting 50 states' worth of documents, once you know they should exist.  
+
+<!-- * ["AP Finds Most Arrested in protests aren't leftist radicals"](https://apnews.com/article/virus-outbreak-race-and-ethnicity-suburbs-health-racial-injustice-7edf9027af1878283f3818d96c54f748), By Alanna Durkin Richer, Colleen Long and Michael Balsamo, October 2020. Also:  "[AP methodology](http://leads.ap.org/best-of-the-week/analyzing-protest-arrest-records) , Oct. 30, 2020. A great example of developing a story from court records -- creating that "electronic form" of information that can then be analyzed in many different ways. Try to imagine what details the reporters chose to track and which ones they decided to ignore.  Compiling data by examining news stories and court records  are two very common ways that news organizations create data for analysis. They  have flaws but  they're often the best available source. -->
 
 * We measured pop music’s falsetto obsession, Vox, August 2019:  
 
 <div class="mx-auto my-3" style="width:560px;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qJT2h5uGAC0" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+
+
+
+## In-class lab details
+
+You must do this assignment WITHOUT looking at the actual data, just the definitions and the background.
+
+We will look at the promise and the limitations of working with the Phoenix Open Government's version of the [Police 911](https://www.phoenixopendata.com/dataset/calls-for-service/resource/1d536ee6-7ffb-49c3-bffe-5cdd98a3c97e) calls for service.
+
+Review the data elements available in Phoenix by expanding the data dictionary below the preview table. 
+
+Then discuss among yourselves how it compares with  one of the most complete set of 911 records regularly made public by the [New Orleans Police Department](https://data.nola.gov/Public-Safety-and-Preparedness/Calls-for-Service-2022/nci8-thrr)  by expanding the "Columns in this Dataset" area to show all of the column names. Note the data columns that are included but are missing from the Phoenix version and think about what kinds of stories would be made possible if those columns were included. Hint: There is no reason for the police to hide this information -- it's public, and they should make it public!  
+
+Try to think like the agency that received the call. For example, a 911 call doesn't necessarily mean a crime was committed - it means that the police were dispatched to a specific location.  Also, 911 operators don't ask for someone's race, ethnicity or DOB when they call -- just what is happening and where they are. And there are crimes committed that never have a 911 call -- for example, if your car is stolen and you figure it out the next day, you'd call the main police number, not 911 emergency; if a police officer sees someone selling drugs, there is no 911 call -- just a police stop. 
+
+
+Once you have a handle on what's in the data and what's missing, answer these questions about the Phoenix data to the best of your ability:
+
+- Where did it come from, and what time period does it cover? 
+- What questions must you ask of the dataset provider to understand its usefulness? 
+- Come up with one interesting question that might be answered by this dataset
+- Come up with one interesting question that can't be answered in its current form. 
+- If you were to request this dataset over again from the original source, what other pieces of information would you ask that the government include in the data. Try to imagine what else would be in the data and should be a public record, and ignore things that wouldn't ever be in it such as information from a court file related to this call.  
+
+
+The instructions on submitting your work are detailed in the [Canvas assignment](https://asu.instructure.com/courses/138967/assignments/3723182/)
 
 
 ## Going further
@@ -73,5 +104,3 @@ Here are some more examples of datasets coming from unexpected places: historica
 - ["Locked up and left to die"](https://www.texasobserver.org/locked-up-and-left-to-die/) , by Michael Barajas and Sophie Novack, Texas Observer, Nov. 1, 2021, is based largely on an  ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths.  (I worked with the authors as a mentor on this story through the Fund for Investigative Journalism.)
 
 - And a shoutout to this [incredible piece by The Wall Street Journal](http://graphics.wsj.com/hamilton/), tracing the roots of the lyrical signatures in *Hamilton*  
-
-

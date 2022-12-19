@@ -1,6 +1,6 @@
 ---
 title: "Install party!"
-date:   2022-01-22
+date:   2022-01-25
 description:  Logistics for starting your journey into coding
 --- 
 
