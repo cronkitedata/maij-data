@@ -32,7 +32,7 @@ The next couple of weeks are focused on getting you up and running in R, so ther
 * select and arrange
 * mutate to get new data from old
 
-### Other reading /
+### Reading due Monday, Feb. 6
 
 * Read the documentation/background on the Paycheck Protection Program data in the [textbook appendix](https://cronkitedata.github.io/djtextbook/appendix-ppp.html)
 
@@ -40,7 +40,9 @@ Review these three very different approaches to reporting on the PPP loans. Whil
 
 * ["Hundreds of PPP Loans Went to Fake Farms in Absurd Places"](https://www.propublica.org/article/ppp-farms), Derek Willis and Lydia DePillis, ProPublica, May 18, 2021
 * "[Six Stories From a Downtown District Show Pandemic's Uneven Toll](https://www.wsj.com/articles/some-asheville-businesses-thrived-with-government-backed-ppp-loans-others-struggled-11609426801)",  Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec. 31, 2020. (Read this on campus if you haven't signed up for the free WSJ subscription through the library.)
-* ["Banking on Inequity"](https://revealnews.org/podcast/banking-on-inequity/) , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021.  NOTE: We'll be using this one for a "What would you do?" discussion later in the semester, so you might read it more carefully now so it's less work later.
+* ["Banking on Inequity"](https://revealnews.org/podcast/banking-on-inequity/) , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021. Pay particular attention to how they characterize the inequity -- it's based on the characteristics of Census tracts, which are further categorized with a dominant racial / ethnic group. Think about different ways you might have done this, recognizing that you only know WHERE a loan went, not the race or ethnicity of the PERSON who got the loan. This is a common problem. 
+
+
 
 
 

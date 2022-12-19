@@ -67,13 +67,11 @@ website:
           - text: "3.2: Install party!"
             file: weeks/week03-2.qmd
           - text: "4: Your first programs"
-            file: weeks/week04-1.qmd
+            file: weeks/week04.qmd
           - text: "5: In-depth verbs pt 1"
             file: weeks/week05.qmd
           - text: "6: In-depth verbs pt 2"
             file: weeks/week06.qmd
-          - file: weeks/week07.qmd
-            text: "7: The power of regular expressions"
       - text: "----"
       - section: Important links
         contents:

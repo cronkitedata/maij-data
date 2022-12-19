@@ -1,11 +1,7 @@
 ---
 title: "Verbs in depth part 2: Group, mutate, join"
 date:  "2022-02-14"
-draft: false
-layout: single
-toc: true
-show_date: true
-weight: 13
+draft: true
 description: This is our last week with verbs -- once this week is done, you'll have the tools to do most of what reporters do with data! 
 --- 
 

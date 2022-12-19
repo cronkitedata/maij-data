@@ -1,0 +1,34 @@
+---
+title: Getting started with programming - a walkthrough
+date:  2022-01-30
+description: You can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto. 
+--- 
+
+After this week, your weeks will look a different. But for now, we'll walk through the textbook during class on Monday, then work on a lab introducing everything on Wednesday. Consider both of these "pre-labs", in that they are only worth 10 points each, and are completed by having you simply type the answers that are given to you into a program that you run. This gets you used to some of the habits you'll need and will help us catch snafus that routinely come up. 
+
+## Agenda 
+
+Beginning this week, you'l have links to labs and pre-labs in Github and on Canvas. It doesn't matter where you get the data and you may turn in your labs by attaching the document to Canvas, or by uploading it to your own Github site and providing a link. 
+
+### Monday
+
+* Discussion of "life of a dataset" assignment
+* Write your own program; create a Quarto document with sections 
+
+### Wednesday
+
+* Walk through an example of start-to-finish -- I don't expect you to understand it right now, but research shows that students understand each piece of a programming course better when they can see what it takes to get from beginning to end. This is a motivational exercise, not one to prove that you know everything that is in the chapter. 
+
+
+## Upcoming deadlines
+
+[Monday Feb. 6]{.sked-dates} : "What would you do?" : choosing a data source.
+
+
+## Textbook chapters we'll review
+
+* A gentle introduction to programming
+* Replicable analysis using Quarto  
+
+* Billboard 100: Analyzing the hot songs of the past 65 years - This lab goes through the chapter by having you actually run and review the results of the program as you walk through the concepts. (Two chapters: Data import and a tour of verbs)
+

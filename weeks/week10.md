@@ -1,11 +1,7 @@
 ---
 title: ... and we're almost done!
 date:  2022-04-04
-draft: false
-layout: single
-toc: true
-show_date: true
-weight:  17
+draft: true
 description: I'll use this week to lay out the rest of the semester, since there aren't many deliverables. But please keep an eye on this for readings. 
 --- 
 

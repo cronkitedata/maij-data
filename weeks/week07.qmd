@@ -1,11 +1,7 @@
 ---
 title: "Regular expressions, tables and snippets"
 date:  "2022-02-28"
-draft: false
-layout: single
-toc: true
-show_date: true
-weight: 14
+draft: true
 description: For the week before Spring Break, we'll have a lab for your replication project and I'll demo some methods to make better-looking tables in your work.  We'll also delve more into the regular expressions used in `str_detect` and its cousins, as well as RStudio snippets to save typing.
 --- 
 

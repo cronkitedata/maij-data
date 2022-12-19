@@ -2,10 +2,6 @@
 title: Data cleaning with Open Refine 
 date:  2022-03-21
 draft: true
-layout: single
-toc: true
-show_date: true
-weight:  16
 description: You've seen it's hard to fix little mistakes in R, and that we don't have a good set of tools to it in Excel. Enter [OpenRefine](https://operefine.org), a small little program you put on your computer that is designed to help find and fix inconsistencies and difficult problems in your data. We'll also touch on extracting data from PDFs. 
 --- 
 

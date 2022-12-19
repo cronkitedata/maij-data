@@ -2,10 +2,6 @@
 title: Mapping sessions 
 date:  2022-04-11
 draft: true
-layout: single
-toc: true
-show_date: true
-weight: 15
 description: This is an outline and resource page for our mapping sessions. I'm making it instead of a textbook chapter because our textbook format is a little difficult for this. It will contain links to examples.
 --- 
 
