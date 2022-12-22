@@ -1,255 +1,10 @@
 [
   {
-    "objectID": "posts/welcome.html",
-    "href": "posts/welcome.html",
-    "title": "Class Zero",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "via Unsplash\n\n\n\nMost of the links you need for class will be on both this site AND Canvas, but I’ll put ASU-only links in Canvas without linking here. If there’s ever a conflict, Canvas wins.\nYou have a few things to do to get ready for the first class.\n\nComplete the Skills and Interests survey (link is in Canvas assignment so it’s not public)\nComplete the pre-class Slack assignment. This will be our primary method of communicating, so it’s crucial that this is set up properly for you to get notifications and be able to ask questions.\nReview the Syllabus and Schedule here (or in Canvas - it’s the same thing)\nFamiliarize yourself with the structure of this site.\n\n\n\n\n\n\n\nIf you plan to use your laptop\n\n\n\nAt some point in the next two weeks, you need to make sure your operating system (Windows or Mac OS) is reasonably up to date. For Macs, you must have Mac Catalina (10.15) or newer installed; for Windows, you must have Windows 10 or 11. Any Mac purchased after 2019 already has an adequate operating system but older ones may need to be updated. Please let me know if you need help with this.\nTablets and Chromebooks are not adquate replacements for a computer in this class. The software just won’t work on them, and I can’t help you if you try to work around it. All of the software we need is installed in the classroom and in the lab in Cronkite 320."
-  },
-  {
-    "objectID": "weeks/week01-1.html",
-    "href": "weeks/week01-1.html",
-    "title": "Introductions",
-    "section": "",
-    "text": "Maybe stories are just data with a soul\n\n — Brené Brown\nUnless I suggest otherwise, you’re expected to have done more than just skimmed through or reviewed the material. You should read, watch or listen closely and try to follow along on all of the tutorials."
-  },
-  {
-    "objectID": "weeks/week01-1.html#agenda",
-    "href": "weeks/week01-1.html#agenda",
-    "title": "Introductions",
-    "section": "Agenda",
-    "text": "Agenda\n\nIntroductions - you and me\nReview of surveys and goals for the semester\nSyllabus lab\nIntro to investigative data reporting"
-  },
-  {
-    "objectID": "weeks/week01-1.html#upcoming-deadlines",
-    "href": "weeks/week01-1.html#upcoming-deadlines",
-    "title": "Introductions",
-    "section": "Upcoming deadlines",
-    "text": "Upcoming deadlines\nSunday Jan. 8\n\nSurvey of skills and interests via Google drive. You must sign into Google Docs using your ASU email to get access — I can’t give access outside of the university for this one.\nSign into the Slack account for the class. You should be automatically added to #dj-announcements and #dj-sos, but make sure these are in your channel list. Complete the assignment in Canvas. 1\n\nSunday Jan. 15 : Cronkite Academic Integrity pledge in Canvas; Last date to select Y grade\nWednesday, Jan. 18 : What would you do? Reporting live election results"
-  },
-  {
-    "objectID": "weeks/week01-1.html#preparation-learning-materials",
-    "href": "weeks/week01-1.html#preparation-learning-materials",
-    "title": "Introductions",
-    "section": "Preparation & learning materials",
-    "text": "Preparation & learning materials\n\nWelcome from Ron Nixon, vice president for investigations, the Associated Press\n\n\n\nSyllabus and schedule. Be prepared to bring questions, comments or complaints to class on Monday."
-  },
-  {
-    "objectID": "weeks/week01-1.html#in-class-resources",
-    "href": "weeks/week01-1.html#in-class-resources",
-    "title": "Introductions",
-    "section": "In-class resources",
-    "text": "In-class resources\nWe’ll go through this one: Presentation on data-driven reporting\nHere are a couple of others:\n\nVery brief intro\nExamples of data-driven investigaitons"
-  },
-  {
-    "objectID": "weeks/week03-2.html",
-    "href": "weeks/week03-2.html",
-    "title": "Install party!",
-    "section": "",
-    "text": "Please bring your laptop to school if you plan to use it for the rest of the semester. It is not strictly necessary to have your own laptop – all of the software we need is also installed in the lab in Cronkite room 320 and in our classroom.\nConfiguring computers for use in data reporting is one of the most frustrating things that we do. Everyone’s computer seems to be set up slightly differently, depending on exactly which version of which operating system you have and when you’ve last installed various helpers. Don’t let yourself get frustrated with this and don’t try to Google your way out of it — it’s not worth your mental energy and you might make things worse."
-  },
-  {
-    "objectID": "weeks/week03-2.html#agenda",
-    "href": "weeks/week03-2.html#agenda",
-    "title": "Install party!",
-    "section": "Agenda",
-    "text": "Agenda\nIf you had trouble with installation, please use the lab computers for the beginning of class. I’ll save time in class so that I can work with you individually to get your computer set up toward the end.\n\nReview of file management on computers to stay organized\nSetting up your computer for the rest of the course\nInstalling packages (you’ll undestand what this means when the time comes)\nA review of the screens in R Studio, which can be a little intimidating\nResolving installation issues"
-  },
-  {
-    "objectID": "weeks/week03-2.html#upcoming-deadlines",
-    "href": "weeks/week03-2.html#upcoming-deadlines",
-    "title": "Install party!",
-    "section": "Upcoming deadlines",
-    "text": "Upcoming deadlines\nSunday Jan. 29 : The life of a dataset\nBeginning next week, you should expect to have a pre-lab due on Wednesday mornings and a lab on Wednesday in class. The labs are designed to be completed during the class period, but I’ll set the deadlines to midnight to accommodate people who can’t come to class that day."
-  },
-  {
-    "objectID": "weeks/week03-2.html#preparation",
-    "href": "weeks/week03-2.html#preparation",
-    "title": "Install party!",
-    "section": "Preparation",
-    "text": "Preparation\nDO NOT SPEND MORE THAN ONE HOUR TRYING TO GET THIS TO WORK. Instead, note where you had trouble and we’ll resolve it in class. Or at least I hope we will.\n\nInstall R and RStudio\nR is a programming language, and RStudio is a product made by the company Posit to interact with that language. You have to install the programming language first, then the RStudio interface.\nIt’s important that you have a very recent version of both R and R Studio, as they both changed dramatically during summer 2022.\nYou must have Windows 10 / 11 or Mac Catalina (version 10.15) or newer for this to work. All computers made in the last five years – and some much earlier – are capable of handling these versions. You may need to update your operating system if you haven’t done that in the last three years. Please let me know if you don’t know how to do that. The software is also installed on all computers in the classroom and in the lab in Cronkite 320.\n\nDownload and install the correct version or R for your system from https://cloud.r-project.org/\n\nMost Macbooks: “latest package”\narm64.pkg if you have a very recent M1 Macbook or Macbook Air (2021 or newer). You probably know if you have it.\nWindows: 64-bit version for Windows 10/11.\n\nDownload and install RStudio for Mac or Windows )\n\n(You can try going through this tutorial on installing R and RStudio, but it’s a little out of date and might be more confusing than it’s worth. )\n\nTry starting up RStudio (not R). On a Mac, if you get errors that mention “git”, or “xcode-select”, just say yes and do it."
-  },
-  {
-    "objectID": "weeks/week03-2.html#in-class-links",
-    "href": "weeks/week03-2.html#in-class-links",
-    "title": "Install party!",
-    "section": "In-class links",
-    "text": "In-class links\n\nTextbook: “Getting started with R and R Studio”\nMore details and Github options."
-  },
-  {
-    "objectID": "weeks/week01-2.html",
-    "href": "weeks/week01-2.html",
-    "title": "The journalistic method",
-    "section": "",
-    "text": "Figure 1: Jelani Cobb, dean of the Columbia Graduate School of Journalism\nThe same can be said for any kind of reporting or writing."
-  },
-  {
-    "objectID": "weeks/week01-2.html#agenda",
-    "href": "weeks/week01-2.html#agenda",
-    "title": "The journalistic method",
-    "section": "Agenda",
-    "text": "Agenda\n\nDiscussion: Empirical reporting and the journalistic method\nLab: Reading the data-driven story"
-  },
-  {
-    "objectID": "weeks/week01-2.html#upcoming-deadlines",
-    "href": "weeks/week01-2.html#upcoming-deadlines",
-    "title": "The journalistic method",
-    "section": "Upcoming deadlines",
-    "text": "Upcoming deadlines\n\nI’m not including labs and pre-labs in this list. Expect to see them every day.\n\nSunday Jan. 15 : Cronkite Academic Integrity pledge in Canvas; Last date to choose the Y grade\nWednesday, Jan. 18 : What would you do? Reporting live election results\nSunday Jan. 22 : Spreadsheet review"
-  },
-  {
-    "objectID": "weeks/week01-2.html#learning-materials",
-    "href": "weeks/week01-2.html#learning-materials",
-    "title": "The journalistic method",
-    "section": "Learning materials",
-    "text": "Learning materials\n\nReading and viewing\nAmerican journalists have been using empirical methods since the birth of the Republic. Read and watch these materials with an eye for the methods they describe – data collection, counting and analyzing – and the sources they used. You’re not expected to follow links or watch related material unless I mention them.\nCome to class prepared to discuss one passage from one of these pieces that caught your eye.\n\nThe Journalistic Method: Five principles for blending analysis and narrative, by Nicholas Lemann, former dean of the Columbia University Graduate School of Journalism.\nIda B. Wells used data journalism to fight lynching, Dara Lind, Vox.com, July 2015\nThe Myth of the Machine Michael J. Berens, a chapter in “When Nerds and Words Collide” Poynter Institute, 1999. Although it was written more than 20 years ago, the insights are still relevant today.\nIntroduction to Precision Journalism, Sage Encyclopedia of Journalism.\n\n\n\nPrepare for Wednesday’s lab\nThis lab is geared at learning how to read and view journalism as a writer and producer, by closely examining HOW a story was conceived and executed rather than whether you liked it or thought it was “good”. This is designed to orient you toward the “reporting” part of the data reporting equation.\n\nLearn a New Way to Read from our course textbook site. When I assign these chapters, you are not required to study the works listed in the additional reading or exercise sections unless I specifically assign them.\nRural Aid goes to Urban Areas This is a pdf of a very old story from the Washington Post. I use it not because it’s so great, but because it is reasonably short and remains the most straightforward example of investigative data reporting that I know of. Pay attention to the elements that make this story work – the data sources, examples used, use of experts to define classifications, and the public records mentioned. Be sure to read the “nerd box” on the second page."
-  },
-  {
-    "objectID": "weeks/week01-2.html#going-further",
-    "href": "weeks/week01-2.html#going-further",
-    "title": "The journalistic method",
-    "section": "Going further",
-    "text": "Going further\n\nAn academic guide for “Reading to Write”. This is really for scientists reading academic journals, but we might learn from the techniques.\n\nUnfortunately, these are not available in the ASU library.\n\nOne really good book for learning to write complicated stories in a variety of ways is William Blundell’s “Art and Craft of Feature Writing” . Although it’s old, it has some great tips on writing with data.\nPhilip Meyer’s “Precision Journalism” is a staple on many data journalists’ bookshelf. ASU library’s version isn’t the most recent."
-  },
-  {
-    "objectID": "weeks/week03-1.html",
-    "href": "weeks/week03-1.html",
-    "title": "The life of data",
-    "section": "",
-    "text": "data /ˈdeɪ.tə/ :\n\n\ninformation in an electronic form that can be stored and used by a computer, or information, especially facts or numbers, collected to be examined and considered and used to help decision-making\n\n Cambridge Dictionary – almost*\n* in reverse order"
-  },
-  {
-    "objectID": "weeks/week03-1.html#agenda",
-    "href": "weeks/week03-1.html#agenda",
-    "title": "The life of data",
-    "section": "Agenda",
-    "text": "Agenda\n\nAddress any questions that arose from the spreadsheet review assignment\nDiscuss reading\nLab - The life of a dataset warmup using Pheonix Open Data 911 records."
-  },
-  {
-    "objectID": "weeks/week03-1.html#upcoming-deadlines",
-    "href": "weeks/week03-1.html#upcoming-deadlines",
-    "title": "The life of data",
-    "section": "Upcoming deadlines",
-    "text": "Upcoming deadlines\nSunday Jan. 29 : The life of a dataset"
-  },
-  {
-    "objectID": "weeks/week03-1.html#preparation-and-learning-materials",
-    "href": "weeks/week03-1.html#preparation-and-learning-materials",
-    "title": "The life of data",
-    "section": "Preparation and learning materials",
-    "text": "Preparation and learning materials\nRead the textbook chapter first:\n\nDefining Data from the course textbook. Please watch the embedded video (but feel free to turn up the speed. He talks pretty slowly.)\n\nThere is a prompt in Canvas for you to find one thing for each of these questions in the rest of the reading / viewing :\n\nHow does it relate to your own experience? Is there something that resonates with you and you can connect with?\nWhat would you (or did you) tell a friend?\nWhat part of the material raised a question that you’d like to discuss?\nWhat do you really want to remember?\n\nIt’s ok if you can’t answer all of these things, but it’s useful to undertake this exercise when you start on your reading for a class.\n\nListen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily’s “Counting the Infected” The Daily, July 8, 2020. (His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)\n\n\n\n\n\n\n“‘Very Harmful’ lack of data blunts US response to outbreaks”, Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists. I helped Sharon with this story, and you can see the raw data results from the CDC’s surveillance database. 1\n“24 million Americans fear missing next rent payment as benefits dry up”, USA Today, by Kevin Crowe, Theresa Diffendal, and Carlie Procell. July 2020. The Census Bureau does a lot more than the every-10-year canvas that we’re most familiar with. During the pandemic, for example, it’s created an experimental survey of households and small businesses specifically to monitor how it’s affecting Americans. Unlike the “digital trace data” you read about, this one was made for us to analyze.\nI’ll never understand the USA Today firewall. This doesn’t appear to be in any of the services ASU library subscribes to, so here’s a pdf of the page if you can’t get to it.\n“Thousands allowed to bypass environmental rules in pandemic”, Associated Press, August 2020. This is a great example of looking beyond the news in front of you to collect documents that show a pattern. It shows what can be done in just a couple of months by collecting 50 states’ worth of documents, once you know they should exist.\n\n\n\nWe measured pop music’s falsetto obsession, Vox, August 2019:"
-  },
-  {
-    "objectID": "weeks/week03-1.html#in-class-lab-details",
-    "href": "weeks/week03-1.html#in-class-lab-details",
-    "title": "The life of data",
-    "section": "In-class lab details",
-    "text": "In-class lab details\nYou must do this assignment WITHOUT looking at the actual data, just the definitions and the background.\nWe will look at the promise and the limitations of working with the Phoenix Open Government’s version of the Police 911 calls for service.\nReview the data elements available in Phoenix by expanding the data dictionary below the preview table.\nThen discuss among yourselves how it compares with one of the most complete set of 911 records regularly made public by the New Orleans Police Department by expanding the “Columns in this Dataset” area to show all of the column names. Note the data columns that are included but are missing from the Phoenix version and think about what kinds of stories would be made possible if those columns were included. Hint: There is no reason for the police to hide this information – it’s public, and they should make it public!\nTry to think like the agency that received the call. For example, a 911 call doesn’t necessarily mean a crime was committed - it means that the police were dispatched to a specific location. Also, 911 operators don’t ask for someone’s race, ethnicity or DOB when they call – just what is happening and where they are. And there are crimes committed that never have a 911 call – for example, if your car is stolen and you figure it out the next day, you’d call the main police number, not 911 emergency; if a police officer sees someone selling drugs, there is no 911 call – just a police stop.\nOnce you have a handle on what’s in the data and what’s missing, answer these questions about the Phoenix data to the best of your ability:\n\nWhere did it come from, and what time period does it cover?\nWhat questions must you ask of the dataset provider to understand its usefulness?\nCome up with one interesting question that might be answered by this dataset\nCome up with one interesting question that can’t be answered in its current form.\nIf you were to request this dataset over again from the original source, what other pieces of information would you ask that the government include in the data. Try to imagine what else would be in the data and should be a public record, and ignore things that wouldn’t ever be in it such as information from a court file related to this call.\n\nThe instructions on submitting your work are detailed in the Canvas assignment"
-  },
-  {
-    "objectID": "weeks/week03-1.html#going-further",
-    "href": "weeks/week03-1.html#going-further",
-    "title": "The life of data",
-    "section": "Going further",
-    "text": "Going further\nHere are some more examples of datasets coming from unexpected places: historical site lines, investigative files, and rap.\n\nThis documentary and report by the independent firm Forensic Architecture in partnership with RISE St. James on environmental racism in “death alley”, Louisiana, is quite long. But it’s a great example of the emerging form of open source investigations that use imaging, historical site lines and similar non-traditional data in service of a larger piece, often conducted by human rights investigators rather than journalists. (I can’t get the direct link to work. If it won’t work for you, choose Investigations, and look for those in the United States. At this writing there were only two. )\n“Locked up and left to die” , by Michael Barajas and Sophie Novack, Texas Observer, Nov. 1, 2021, is based largely on an ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths. (I worked with the authors as a mentor on this story through the Fund for Investigative Journalism.)\nAnd a shoutout to this incredible piece by The Wall Street Journal, tracing the roots of the lyrical signatures in Hamilton"
-  },
-  {
-    "objectID": "weeks/week06.html",
-    "href": "weeks/week06.html",
-    "title": "Verbs in depth part 2: Group, mutate, join",
-    "section": "",
-    "text": "Review of the labs we did last week, and questions that came up during that.\nIntroducing the verbs for this week: Group by and summarize.\n\n\n\n\n\nReview the pre-lab\nLab on group by, summarize."
-  },
-  {
-    "objectID": "weeks/week06.html#upcoming-deadlines",
-    "href": "weeks/week06.html#upcoming-deadlines",
-    "title": "Verbs in depth part 2: Group, mutate, join",
-    "section": "Upcoming deadlines",
-    "text": "Upcoming deadlines\nSunday 2/20 Your proposal for the replication project.\nFriday 3/4 {.text-dark} Update on the replication project."
-  },
-  {
-    "objectID": "weeks/week06.html#preparation-and-learning-materials",
-    "href": "weeks/week06.html#preparation-and-learning-materials",
-    "title": "Verbs in depth part 2: Group, mutate, join",
-    "section": "Preparation and learning materials",
-    "text": "Preparation and learning materials\nWe’ll be walking through chapters in the textbook this week, and you don’t have anything else. Instead, spend some time looking at the story choices for the replication project so you make a smart choice and study the sentences to come up with the ones you want to replicate."
-  },
-  {
-    "objectID": "weeks/week05.html",
-    "href": "weeks/week05.html",
-    "title": "Going further with tidyverse verbs",
-    "section": "",
-    "text": "What would you do? discussion\nReview the Hot 100 lab from last week.\nIntroduce the Paycheck Protection Program data that we’ll use for the next several weeks.\nIntroduce the pre-lab\n\n\n\nVerbs in depth:\n\nselect and arrange\nmutate to get new data from old\n\n\n\n\nThe next couple of weeks are focused on getting you up and running in R, so there’s not anything other than labs to turn in. I hope you’ll spend some time over the weekend to review what we did in class and in labs. By now you’ll have access to DataCamp, and I’ll suggest some tutorials there that will help review the material we’ve gone through.\nSunday Feb. 19 : The sentences you propose replicating for the data replication project\nMonday Feb. 20 : What would you do? Demographics using Census data. See Canvas assignment"
-  },
-  {
-    "objectID": "weeks/week05.html#preparation-and-learning-materials",
-    "href": "weeks/week05.html#preparation-and-learning-materials",
-    "title": "Going further with tidyverse verbs",
-    "section": "Preparation and learning materials",
-    "text": "Preparation and learning materials\n\nChapters for the labs:\n\nselect and arrange\nmutate to get new data from old\n\n\n\nReading due Monday, Feb. 6\n\nRead the documentation/background on the Paycheck Protection Program data in the textbook appendix\n\nReview these three very different approaches to reporting on the PPP loans. While you don’t need to study them, they’re useful to us for several purposes. First, they show how different people attacked the data to find very different stories. In addition, they will provide you some background on the program itself, written for a lay audience. (We like that.) Finally, they’re relatively old and I have yet to see good stories now that there is more information - I hope it will spark some ideas.\n\n“Hundreds of PPP Loans Went to Fake Farms in Absurd Places”, Derek Willis and Lydia DePillis, ProPublica, May 18, 2021\n“Six Stories From a Downtown District Show Pandemic’s Uneven Toll”, Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec. 31, 2020. (Read this on campus if you haven’t signed up for the free WSJ subscription through the library.)\n“Banking on Inequity” , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021. NOTE: This is the topic of the “What would you do?” next week AND it’s an option for the replication project, so you may want to look at it in more detail than usual."
-  },
-  {
-    "objectID": "weeks/week04.html",
-    "href": "weeks/week04.html",
-    "title": "Getting started with programming - a walkthrough",
-    "section": "",
-    "text": "After this week, your weeks will look a different. But for now, we’ll walk through the textbook during class on Monday, then work on a lab introducing everything on Wednesday. Consider both of these “pre-labs”, in that they are only worth 10 points each, and are completed by having you simply type the answers that are given to you into a program that you run. This gets you used to some of the habits you’ll need and will help us catch snafus that routinely come up."
-  },
-  {
-    "objectID": "weeks/week04.html#agenda",
-    "href": "weeks/week04.html#agenda",
-    "title": "Getting started with programming - a walkthrough",
-    "section": "Agenda",
-    "text": "Agenda\nBeginning this week, you’l have links to labs and pre-labs in Github and on Canvas. It doesn’t matter where you get the data and you may turn in your labs by attaching the document to Canvas, or by uploading it to your own Github site and providing a link.\n\nMonday\n\nDiscussion of “life of a dataset” assignment\nWrite your own program; create a Quarto document with sections\n\n\n\nWednesday\n\n\n\n\n\n\nNote\n\n\n\nI have to leave early this day – I’ll get you started, and you can get as far as you can by the end of class. Don’t worry about finishing this. I just want you to get used to trying to make the computer do something\n\n\n\nWalk through an example of start-to-finish – I don’t expect you to understand it right now, but research shows that students understand each piece of a programming course better when they can see what it takes to get from beginning to end. This is a motivational exercise, not one to prove that you know everything that is in the chapter."
-  },
-  {
-    "objectID": "weeks/week04.html#upcoming-deadlines",
-    "href": "weeks/week04.html#upcoming-deadlines",
-    "title": "Getting started with programming - a walkthrough",
-    "section": "Upcoming deadlines",
-    "text": "Upcoming deadlines\nMonday Feb. 6 : “What would you do?” : choosing a data source. See assignment in Canvas."
-  },
-  {
-    "objectID": "weeks/week04.html#textbook-chapters-well-review",
-    "href": "weeks/week04.html#textbook-chapters-well-review",
-    "title": "Getting started with programming - a walkthrough",
-    "section": "Textbook chapters we’ll review",
-    "text": "Textbook chapters we’ll review\n\nA gentle introduction to programming\nReplicable analysis using Quarto\nBillboard 100: Analyzing the hot songs of the past 65 years - This lab goes through the chapter by having you actually run and review the results of the program as you walk through the concepts. (Two chapters: Data import and a tour of verbs)"
-  },
-  {
-    "objectID": "weeks/week02.html",
-    "href": "weeks/week02.html",
-    "title": "Replication in data journalism",
-    "section": "",
-    "text": "Some of this may feel abstract to you in the beginning but it will become more concrete as you start tackling datasets."
-  },
-  {
-    "objectID": "weeks/week02.html#agenda",
-    "href": "weeks/week02.html#agenda",
-    "title": "Replication in data journalism",
-    "section": "Agenda",
-    "text": "Agenda\n\nDiscussion: “What would you do?” assignment\nReplication in data journalism and the data diary\nSpreadsheet skills - lab to start the homework due on Sunday"
-  },
-  {
-    "objectID": "weeks/week02.html#upcoming-deadlines",
-    "href": "weeks/week02.html#upcoming-deadlines",
-    "title": "Replication in data journalism",
-    "section": "Upcoming deadlines",
-    "text": "Upcoming deadlines\nSunday Jan. 22 : Spreadsheet review . We’ll start the spreadsheet review assignment in class, but I expect you will have to finish it over the weekend.\nSunday Jan. 29 : The life of a dataset"
-  },
-  {
-    "objectID": "weeks/week02.html#learning-materials",
-    "href": "weeks/week02.html#learning-materials",
-    "title": "Replication in data journalism",
-    "section": "Learning materials",
-    "text": "Learning materials\n\nReplication and the data diary from the course textbook\n“ Take an Interviewing Approach to Find Stories in Data ”, by Derek Willis, Mediashift, July 2014.\n“Basic steps in working with data”, the Data Journalism Handbook, Steve Doig, ASU Prof.\n“Here are the 7 types of stories most often found in data”, Paul Bradshaw, Online Journalism Blog, 2020. I’m not sure I agree with these – they are very focused on visualizations rather than narrative or video stories, but they are a good start."
-  },
-  {
-    "objectID": "weeks/week02.html#reminder-on-spreadsheet-skills-chapters",
-    "href": "weeks/week02.html#reminder-on-spreadsheet-skills-chapters",
-    "title": "Replication in data journalism",
-    "section": "Reminder on spreadsheet skills chapters",
-    "text": "Reminder on spreadsheet skills chapters\nHere are the chapters we went through in bootcamp. There is zero expectation that you have memorized keystrokes! Just memorize where you can look them up. It’s much easier.\n\nAn Excel Refresher\nExcel filter and sort\nGrouping with pivot tables\nExcel formulas\n\nIf you don’t remember how to work with fractions, percents, etc., review the Math appendix to the course textbook or consult the Numbers in the Newsroom book that is shared in Canvas.\nTry watching Mary Jo Webster’s great tutorial on New Yorker comics if you’re still a little confused by pivot tables:"
+    "text": "This is the poorly named website for my data journalism course at Arizona State University’s Cronkite School. It focuses on documents and data reporting in investigations.\nI began teaching in Arizona in 2018 as the Knight Chair in Journalism. This is my second tour as a Knight chair – the first was at Duke University’s Sanford School of Public Policy, from 2009 to 2012.\nI’ve been a reporter and editor for most of my career, starting out as a beat reporter in Florida covering health care, workplace issues and the local economy. That beat led me to hang out a lot in federal bankruptcy and civil courthouses, where many juicy stories seemed to land. I began specializing in data reporting when I found that officials didn’t examine their own data and often had no idea what was in their files.\nFrom there, I went to The Washington Post, where I received most major national investigative journalism awards. They include the Pulitzer Prize in Investigative Reporting, the Robert F. Kennedy award for public service, the Investigative Reporters and Editors medal, and the Goldsmith Prize for Investigative Reporting. Before I joined Cronkite I led the data reporting team at The New York Times that focused on investigative and enterprise stories. My team’s members were finalists for the Pulitzer Prize twice in my five years there, and contributed to another Pulitzer.\nI was an elected board member for the 5,000-member Investigative Reporters and Editors for eight years, two of them as president. Currently I serve on the boards of the Arizona Center for Investigative Reporting and the [Investigative Post](https://investigativepost.org] in Buffalo. Some of my favorite journalism volunteer work involves helping select newsrooms and reporters for Report for America and working as a mentor for IRE journalist of color and the Fund for Investigative Journalism grantees. I sometimes work on contract with news organizations for reporting, editing, and mentoring – I consulted on a recent project that was just accepted for the Sundance Film Festival!\n— Sarah Cohen    December 2022   sarah.h.cohen@asu.edu"
   },
   {
     "objectID": "class.html",
@@ -259,53 +14,18 @@
     "text": "This page contains some details on work we’ll do in class that don’t fit neatly anywhere else. Everything here will be linked off of the week if needed.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nDescription\n\n\n\n\n\n\nFile management and Github starter\n\n\nJan 19, 2023\n\n\nWeek 3: File managemant and optional Github tutorial\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "working/notes.html",
-    "href": "working/notes.html",
-    "title": "Data reporting for investigative journalism",
+    "objectID": "inclass/01-github-logistics.html",
+    "href": "inclass/01-github-logistics.html",
+    "title": "File management and Github starter",
     "section": "",
-    "text": "This is pretty straightforward. A few little things:\n\nI had trouble using the command line to create the remote github pages site. I just did it manually through Github Desktop.\nThe scss files are where all of the customizations live."
+    "text": "Last year, The Verge sent a shiver through the spines of professors everywhere with the piece called “File Not Found”, which chronicled the way Zoomers grew up using computers — with search. Historically, anyone who used a computer had to understand how they were organized and how to use folders. But powerful search engines both in the cloud and on your computer made that unnecessary. With that change came a huge roadblock to learning how to code – creating and navigating to a folder became an unfamiliar concept.\nComputer programs are dumb. They don’t have search – all they see are file names, prefaced by the names of the folders that contain them.\nOn a Mac, everything begins in your “home” directory – the folder that contains all of the things specific to you when you open up the computer. When we use R, RStudio and Github, it will become crucial that you understand how the computer sees your files, and how you can find them yourself.\nHere are two introductory videos about folder and files:\n\nWindows\nMacs\n\nKey points:\n\nSet up folders in your documents folder for our class — if we put everything in the same place called the same thing, you’ll always be able to follow along with tutorials and in class.\nHow to rename files on a Mac and on Windows. This will be useful when you download.\nMoving vs. copying files across folders\nBacking up your work\nStyle guide for naming conventions: “How to Name Files” from Jenny Bryant\n\n\n\n\n\nxkcd"
   },
   {
-    "objectID": "working/notes.html#reading-to-put-somewhere",
-    "href": "working/notes.html#reading-to-put-somewhere",
-    "title": "Data reporting for investigative journalism",
-    "section": "Reading to put somewhere",
-    "text": "Reading to put somewhere\nJon and Coulter on the covid deaths in Michigan: https://www.wsj.com/articles/coronavirus-deaths-were-likely-missed-in-michigan-death-certificates-suggest-11590073280?st=l74sw858lf9cz2o&reflink=desktopwebshare_permalink (this is a free link for them. Don’t shorten it. )"
-  },
-  {
-    "objectID": "working/notes.html#new-exercises",
-    "href": "working/notes.html#new-exercises",
-    "title": "Data reporting for investigative journalism",
-    "section": "New exercises",
-    "text": "New exercises\nShaena had the vaccination story here: https://azcir.org/news/2022/10/31/pandemic-accelerated-decline-childhood-vaccination-rates%ef%bf%bc/ and she gave me the data. It’s a little overwhelming, but I can make it a little simpler. I’ll compute an estimated number of students rather than percentages? Or show them how?\nAZCentral version: https://www.azcentral.com/story/news/arizona/investigations/2015/02/03/hundreds-arizona-schools-skirting-vaccination-rule/22805897/ https://docs.google.com/document/d/1Qp8xvsjjGN4tEOQ0M4GoD7XQ1dDvJh8TAgN3Vv-st0o/edit\nData file https://cronkitedata.s3.amazonaws.com/xlfiles/vax_data_five_years.xlsx\nhttps://www.phoenixopendata.com/dataset/hiking-trail-usage/resource/aa4e2a08-c0ad-4fc4-bee9-44c2d85a58fa Good for practicing with dates.\nPresidential election flipped precincts. Should we do this for the spreadsheet review instead of the other? I’d like to do it with early vs. election day voters. We don’t need to make them do it themselves - I can just have them do an exercise.\nhttps://drive.google.com/file/d/1aHxSpEW7UkpXIAc-gVflxcrkhjByXsEU/view\nreactable table of amtrak example: https://joshfangmeier.quarto.pub/table-contest-2022/"
-  },
-  {
-    "objectID": "working/notes.html#old-hugo-notes",
-    "href": "working/notes.html#old-hugo-notes",
-    "title": "Data reporting for investigative journalism",
-    "section": "Old hugo notes",
-    "text": "Old hugo notes\ncommand for doing the hugo server locally: hugo server -D -E -F –cleanDestinationDir –debug -v to commit new version, just do the same thing without the word “server”. For some reason I thought you had to “build”, but it doesn’t seem so."
-  },
-  {
-    "objectID": "working/notes.html#stats-class",
-    "href": "working/notes.html#stats-class",
-    "title": "Data reporting for investigative journalism",
-    "section": "Stats class",
-    "text": "Stats class\nMy examples:\n\nConfirmation bias - On every story, I try to say, “why is what I’m saying wrong? Who would disagree and why? Is there another way to look at this, or to analyze this data?” I don’t have to change anything, but I need to DISPROVE my findings. And example on the data we worked on in examples: phoenix claims. I found that the police spend more than others. Why might that be wrong? If I changed the years I looked at , would the answer be different? If I excluded one large case, would the answer change?\nsurvivorship bias - My Drybar example. But every dataset has a survivorship bias.\n\nLook at your medical examiner records - although no one survived, it is an example of survivorship bias. You only get into the database is someone decides you should - what about those who never get to it?\nAnd regression to the mean - look at any time you’ve thought about “the law of averages”, or any time you have written about a real outlier - something very strange that has happened. Things happen! They’re true, but they’re not necessarily meaningful."
-  },
-  {
-    "objectID": "working/notes.html#notes-from-last-semester-class",
-    "href": "working/notes.html#notes-from-last-semester-class",
-    "title": "Data reporting for investigative journalism",
-    "section": "Notes from last semester class",
-    "text": "Notes from last semester class\nBudget writing: “While police, fire and other public safety grew by more than $102 million, the departments charged with helping families in need and the homeless grew by only $8 million, with a lower-than-average percent increase.”\net’s talk about these “questions” - and think about two types : The first type is questions you’d have to ask the government or experts, or to obtain other documents about. — What don’t you understand.\nThe second is about process - how do they come up with these numbers, what does “human services” mean?\nHypothesis: The homeless problem in Phoenix has steadily become more severe, and I expect that the category that deals with housing and human services would rise the fastest. Did they?\nShort declarative sentence: Police, fire and other public safety departments continue to take up more than one-third of the city’s budget, while the category of spending that includes “human services” rose the slowest.\nNOTE: How you characterize the numbers, how you put things in a “compared to what” idea.\nGood short story https://apnews.com/article/virus-outbreak-ky-state-wire-ia-state-wire-ap-top-news-health-3bf753f9036e7d88f4746b1a36c1ddc4\n\n“ How We Built a Database from Thousands of Police Reports ”, Mary Jo Webster, Source, Aug. 23, 2018.\n“ Shot by Cops and Forgotten ” by Rob Arthur, Taylor Dolven, Keegan Hamilton, Allison McCann, and Carter Sherman, VICE News, December 2017\n“ How Phoenix Explains a Rise in Police Violence: It’s the Civilians’ Fault ”, by Richard Oppel, The New York Times, Dec. 10, 2018\n“ Data on Use of Force by Police across U.S. Proves Almost Useless ”, by Matt Apuzzo and Sarah Cohen, The New York Times, Aug. 11, 2015\nLook at how the Orlando Police Department releases its use of force data, and an example of a use of force report linked from that database. Also, the list of data elements (highlighted on the left of that page) that the federal government will begin collecting from local agencies this year, on a voluntary basis.\n\nPhoto by Sylwia Bartyzel on Unsplash\nhttps://drive.google.com/file/d/1aHxSpEW7UkpXIAc-gVflxcrkhjByXsEU/view\nTHINGS TO REMEMBER:\n## Textbook updates\n### Split installation of R / RStudio from the intro to it.\n\nGet the engine-car metaphor into the textbook. ADD ANDREW HEISS’S VIDEO: https://youtu.be/cnQ-v1UUWyE\n\nhttps://r4ds.had.co.nz/workflow-projects.html#rstudio-projects\nand https://youtu.be/fT5xI1cmE2c\nhttps://rmarkdown.rstudio.com/lesson-5.html\nhttps://quarto.org/docs/get-started/hello/rstudio.html\n\nConvert to QMD\nChange markdowns to qmd files, and then also use visual editor.\n\n\nCreate a few short videos introducing the environment and the common pitfalls.\nAndrew’s is really good at showing them some common pitfalls and what they look like.\nThere have been changes to the WaPo shootings data. Question: Should I just stick with the old one, or should I update the exercises and the textbook to reflect the new one? The new one is more standardized, which is good. But it has multiple categories for race/ethnicity which makes it hard. That’s ok - we should just decide what to do.\nRewrite the beginning R textbook chapter to reflect the WaPo data, not the PPP data?"
-  },
-  {
-    "objectID": "working/notes.html#textbook-issues",
-    "href": "working/notes.html#textbook-issues",
-    "title": "Data reporting for investigative journalism",
-    "section": "Textbook issues",
-    "text": "Textbook issues\n\nNeed more videos. On looking at it, it does have a lot that needs updating. Make the chapters shorter. Move the exercises to new chapters . More, shorter, chapters."
+    "objectID": "inclass/01-github-logistics.html#setting-up-the-github-repository-for-this-class---optional",
+    "href": "inclass/01-github-logistics.html#setting-up-the-github-repository-for-this-class---optional",
+    "title": "File management and Github starter",
+    "section": "Setting up the Github repository for this class - OPTIONAL",
+    "text": "Setting up the Github repository for this class - OPTIONAL\nIf you want to get ahead in data journalism, you’ll be expected to have presence on the code sharing site called Github. Each project in Github is called a repository or repo. I’ll hold an optional lab for anyone who wants to start working in Github for this class. If you do it, I’ll have an easier time helping you if you get stuck on a coding problem and you’ll know how it works for when you need it. But I’ll also distribute all of the homework via Canvas, and you can upload either your code directly to Canvas OR a github link.\n\nCreate a folder for your R projects\n\nWithin your Documents folder (which exists in both Windows and Macs), create a folder for this class called “mco510”.\n\nOpen a browser and sign into github using the credentials you set up before class.\nGo to https://github.com/mco510/mco510-code , and press the button that says “Use this template” . That will bring you to a window that looks something like this:\n\n\nAfter you submit it, you should be taken to your account’s version of the repo. You can tell because the “Use this template” will be gone.\n\nLook under “Settings” and look for the “Access” sidebar. Add your instructor (and anyone else you want to share with) as a collaborator. My email for github is sarah.h.cohen@asu.edu\nOpen Github Desktop on your computer, and sign in if necessary. Under the File menu, choose “Clone a Repository” and choose the one that you just created. Make sure to save it as a folder your mco510 folder that you just created. It might look like it’s just a list of folders, but it also has a hidden file called .git, which keeps track of things as you want it to. (It will track differences between “commits” – TMI. )\n\nAt the end of the workshop, you’ll see how to upload your changes to the repo.\n\nUsing Github Desktop\nIf you use this method, you don’t have to worry that you’ve uploaded an incomplete file, or that your computer is out of sync with your repo. However if you get a message telling you that you have sync conflict, contact me right away. You don’t want to lose any of your work.\n\nOpen Github Desktop\nChoose “Add repository” from the file menu if it’s not already shown as the “Current repository”. Choose the “Fetch origin” button just to make sure you have all of the updates that might have been made online.\nAt the bottom of the window, there is a box for “Summary (required)” – this just tells you which version of your repo it is. It’s like a name for this version. It might be “Filter homework” or “updated replication project”\nThen “commit to main”\nThen make sure to press the button at the top called “Push origin”\n\nWhen you open your online version of Github, your changes will be there."
   },
   {
     "objectID": "index.html",
@@ -322,25 +42,25 @@
     "text": "Updates\nI’ll put updates here when needed, but all important updates will come via Slack in the #dj-announcements channel. Be sure to set it up for alerts."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/welcome.html",
+    "href": "posts/welcome.html",
+    "title": "Class Zero",
     "section": "",
-    "text": "This is the poorly named website for my data journalism course at Arizona State University’s Cronkite School. It focuses on documents and data reporting in investigations.\nI began teaching in Arizona in 2018 as the Knight Chair in Journalism. This is my second tour as a Knight chair – the first was at Duke University’s Sanford School of Public Policy, from 2009 to 2012.\nI’ve been a reporter and editor for most of my career, starting out as a beat reporter in Florida covering health care, workplace issues and the local economy. That beat led me to hang out a lot in federal bankruptcy and civil courthouses, where many juicy stories seemed to land. I began specializing in data reporting when I found that officials didn’t examine their own data and often had no idea what was in their files.\nFrom there, I went to The Washington Post, where I received most major national investigative journalism awards. They include the Pulitzer Prize in Investigative Reporting, the Robert F. Kennedy award for public service, the Investigative Reporters and Editors medal, and the Goldsmith Prize for Investigative Reporting. Before I joined Cronkite I led the data reporting team at The New York Times that focused on investigative and enterprise stories. My team’s members were finalists for the Pulitzer Prize twice in my five years there, and contributed to another Pulitzer.\nI was an elected board member for the 5,000-member Investigative Reporters and Editors for eight years, two of them as president. Currently I serve on the boards of the Arizona Center for Investigative Reporting and the [Investigative Post](https://investigativepost.org] in Buffalo. Some of my favorite journalism volunteer work involves helping select newsrooms and reporters for Report for America and working as a mentor for IRE journalist of color and the Fund for Investigative Journalism grantees. I sometimes work on contract with news organizations for reporting, editing, and mentoring – I consulted on a recent project that was just accepted for the Sundance Film Festival!\n— Sarah Cohen    December 2022   sarah.h.cohen@asu.edu"
+    "text": "via Unsplash\n\n\n\nMost of the links you need for class will be on both this site AND Canvas, but I’ll put ASU-only links in Canvas without linking here. If there’s ever a conflict, Canvas wins.\nYou have a few things to do to get ready for the first class.\n\nComplete the Skills and Interests survey (link is in Canvas assignment so it’s not public)\nComplete the pre-class Slack assignment. This will be our primary method of communicating, so it’s crucial that this is set up properly for you to get notifications and be able to ask questions.\nReview the Syllabus and Schedule here (or in Canvas - it’s the same thing)\nFamiliarize yourself with the structure of this site.\n\n\n\n\n\n\n\nIf you plan to use your laptop\n\n\n\nAt some point in the next two weeks, you need to make sure your operating system (Windows or Mac OS) is reasonably up to date. For Macs, you must have Mac Catalina (10.15) or newer installed; for Windows, you must have Windows 10 or 11. Any Mac purchased after 2019 already has an adequate operating system but older ones may need to be updated. Please let me know if you need help with this.\nTablets and Chromebooks are not adquate replacements for a computer in this class. The software just won’t work on them, and I can’t help you if you try to work around it. All of the software we need is installed in the classroom and in the lab in Cronkite 320."
   },
   {
-    "objectID": "updates.html",
-    "href": "updates.html",
-    "title": "Updates",
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Preliminary schedule at a glance",
     "section": "",
-    "text": "Class Zero\n\n\n\n\n\nHere’s a list of things to get ready for Jan. 9 class, but they’re also in Canvas if you prefer to use that method.\n\n\n\n\n\n\nDec 7, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "For most of the semester, we’ll spend our week this way:\n\nMonday:\nDiscuss the preparation or assignment you did over the weekend. Introduce the skills for the current week and introduce the pre-lab.\nWednesday:\nReview the questions raised in the pre-lab and do the lab for that week. Pre-lab is due by 10am on the day of class;\nI’ll give you the rest of the day to turn in the labs, but they are designed to be completed during the class period.\n\nI will often tell you how long I’d like you to spend on an assignment. I hope you’ll take these time recommendations seriously – they reflect the priority you should place on the assignment. For instance, if I say, “Don’t spend more than about an hour on this”, I expect the result to show about one hour’s worth of effort and any more effort is wasted. Spending more time will also cut into the time you have available for other work both in this class and elsewhere. But it also means that a cursory glance or 10-minute effort probably isn’t enough, depending on how comfortable you are with the material to begin with.\nYou do not have to keep track of the assignments on this site – they are all in Canvas with submission instructions. All of them exist for a reason. If you don’t understand the point of what we’re doing, please speak up! Understanding why an assignment is important has a lot to do with how you do it."
   },
   {
-    "objectID": "weeks.html",
-    "href": "weeks.html",
-    "title": "Weekly details",
-    "section": "",
-    "text": "NOTE TO SELF: I need to figure out how to manage this so that it contains the next couple of weeks and then the history, and doesn’t include the ones too far into the future. I know how to do this in Hugo, but not in quarto.\n\n\n\n\n\n\n\n\n\n\n\nIntroductions\n\n\nAgenda and preparation for the first day\n\n\n\nJan 9, 2022\n\n\n\n\n\n\n\n\n\n\n\nThe journalistic method\n\n\nConsuming news as a reporter\n\n\n\nJan 11, 2022\n\n\n\n\n\n\n\n\n\n\n\nReplication in data journalism\n\n\n\n\n\n\nJan 19, 2022\n\n\n\n\n\n\n\n\n\n\n\nThe life of data\n\n\nData isn’t just numbers. We’ll learn how to think broadly about data for story.\n\n\n\nJan 23, 2022\n\n\n\n\n\n\n\n\n\n\n\nInstall party!\n\n\nLogistics for starting your journey into coding\n\n\n\nJan 25, 2022\n\n\n\n\n\n\n\n\n\n\n\nGetting started with programming - a walkthrough\n\n\nYou can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto.\n\n\n\nJan 30, 2022\n\n\n\n\n\n\n\n\n\n\n\nGoing further with tidyverse verbs\n\n\n\n\n\n\nFeb 6, 2022\n\n\n\n\n\n\n\n\n\n\n\nVerbs in depth part 2: Group, mutate, join\n\n\nConvert your pivot tables into R code using the verbs group_by and summarize\n\n\n\nFeb 14, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "schedule.html#preliminary-schedule",
+    "href": "schedule.html#preliminary-schedule",
+    "title": "Preliminary schedule at a glance",
+    "section": "Preliminary schedule",
+    "text": "Preliminary schedule\nThe schedule is subject to change as we discover where you need or want more time on subjects. Please refer to the Canvas assignments for specifics on class preparation activities and labs.\nNOTE: The “build your own database” assignment may be moved to early February to accommodate the News21 project. It’ll be way more interesting if this works out, so I don’t think you’ll mind.\n\n\n\n\n\n\n\n\n\nWeek No.\nDates\nTopics\nDeadlines\n\n\n\n\n01\nJan 9-11\nIntros; Reading the story;\nSu 1/8: Pre-class survey;  Fri: Cronkite academic integrity pledge\n\n\n02\nJan 18\nReplication and the data diary; Spreadsheet review\nW 1/18: “What would you do?” (25)\n\n\n03\nJan 23-25\nThe life of data; Setting up your computer\nSu 1/22: Spreadsheet review (50)\n\n\n04\nJan 30-Feb 1\nR demo: A run-through from start to finish.\nSu 1/29: The life of a dataset (50)\n\n\n05\nFeb 6-8\nFilter, sort, mutate\nM 2/6: “What would you do?” (25)\n\n\n06\nFeb 13-15\nGroup by and summarize\n\n\n\n07\nFeb 20-22\nJoin, advanced filter/mutate expressions\nSu 2/19: Replication sentences (50)  M 2/20: “What would you do?” (25)\n\n\n08\nFeb 27-March 1\nCatch-up week & labs for replication project1\nFri 3/3: Replication update (50)\n\n\n\n\nSpring break\n\n\n\n09\nMarch 13-15\nIntro to data viz\n\n\n\n10\nMarch 20-22\nScraping\nSu 3/19: Replication final draft (100)\n\n\n11\nMarch 27-29\nBuild your own database\nSu 3/26: Memo proposal (50)  W 3/29 : Building your own database (50)\n\n\n12\nApril 3-5\nIntro to maps and GIS\nM 4/3: “What would you do?” (25)\n\n\n13\nApril 10-12\nCleaning data with OpenRefine;  working with pdfs\nSu 4/9: First memo update (50)\n\n\n14\nApril 17-19\nStudents’ choice\nSu 4/16: 2nd memo update (75)\n\n\n15\nApril 24-26\nStatistics in the newsroom; curating your github repo for job-hunting;  Paying it forward\nSu 4/23: Final memo (100)"
   },
   {
     "objectID": "syllabus.html",
@@ -392,31 +112,262 @@
     "text": "FAQ\nQ: I don’t have any experience. What do I need to succeed?\nEveryone in this class has gone through the boot camp required of all masters students. We covered numeracy and spreadsheet basics in that class, and those modules are prerequisites for this one. No other coding or data analysis background is expected.\nQ: This looks like a lot of work. How long do I have to spend on it every week?\nI expect that this course will follow the typical ASU time commitment – approximately 9 total hours per week. That suggests that, on average, you should expect to spend about 5 or 6 hours per week outside of class on preparation, homework and projects. The time commitment is a little front-loaded as we race to get you the skills you need to apply them later in the semester.\nIf you’re spending significantly LESS time, try to reconsider whether you’re really engaging with the material. If you ’re spending considerably MORE time, please let me know — that’s not the intention.\nQ: What is Slack?\nSlack is a messaging and teamwork app that has become the de facto standard in newsrooms, including the Howard Center, Cronkite News and News 21. You should set up alerts for key channels to be sure you’ll get class announcements. There is an assignment for the first day with guidelines to set it up.\nQ: How should I communicate with you?\nSlack or in person is best. All assignments must be turned in via Canvas assignments unless I direct you elsewhere. Do NOT email assignments. There are too many moving parts in this course, and I can’t guarantee I’ll keep track of anything submitted outside Canvas and Slack.\nQ: How will I know how I’m doing?\nPay attention to the feedback on your routine homework and labs. I’ll give you a sense of where you’re excelling and where you might improve. I’m always happy to meet and discuss strategies that will help you get to the next level in your journalism or your data analysis skills.\nI’ve found that Canvas isn’t very accurate in estimating the final grade as we work through the semester, so I’ve turned that feature off. It will just mislead you.\nQ: How do I ask good questions?\nIn technical work, asking a good question is an art. Try to:\n\nDescribe what you are trying to do – what does success look like? What question are you trying to answer?\nProvide a snippet of the code or the Excel formula that you’re trying\nTake a screen shot or quote the error message if there is one\n\nQ: I already know how to code and analyze data. Why do I have to take this class?\nEven if you know how to code, I presume you are at Cronkite because you want to apply all of your skills to a journalism career. You probably knew how to use a phone or take a picture before you came to j-school, but you may not have used them the way you do now. That said, talk with me if you’re concerned that you won’t be challenged enough. We’ll find ways to make the time productive and take you to the next level in data reporting."
   },
   {
-    "objectID": "inclass/01-github-logistics.html",
-    "href": "inclass/01-github-logistics.html",
-    "title": "File management and Github starter",
+    "objectID": "updates.html",
+    "href": "updates.html",
+    "title": "Updates",
     "section": "",
-    "text": "Last year, The Verge sent a shiver through the spines of professors everywhere with the piece called “File Not Found”, which chronicled the way Zoomers grew up using computers — with search. Historically, anyone who used a computer had to understand how they were organized and how to use folders. But powerful search engines both in the cloud and on your computer made that unnecessary. With that change came a huge roadblock to learning how to code – creating and navigating to a folder became an unfamiliar concept.\nComputer programs are dumb. They don’t have search – all they see are file names, prefaced by the names of the folders that contain them.\nOn a Mac, everything begins in your “home” directory – the folder that contains all of the things specific to you when you open up the computer. When we use R, RStudio and Github, it will become crucial that you understand how the computer sees your files, and how you can find them yourself.\nHere are two introductory videos about folder and files:\n\nWindows\nMacs\n\nKey points:\n\nSet up folders in your documents folder for our class — if we put everything in the same place called the same thing, you’ll always be able to follow along with tutorials and in class.\nHow to rename files on a Mac and on Windows. This will be useful when you download.\nMoving vs. copying files across folders\nBacking up your work\nStyle guide for naming conventions: “How to Name Files” from Jenny Bryant\n\n\n\n\n\nxkcd"
+    "text": "Class Zero\n\n\n\n\n\nHere’s a list of things to get ready for Jan. 9 class, but they’re also in Canvas if you prefer to use that method.\n\n\n\n\n\n\nDec 7, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "inclass/01-github-logistics.html#setting-up-the-github-repository-for-this-class---optional",
-    "href": "inclass/01-github-logistics.html#setting-up-the-github-repository-for-this-class---optional",
-    "title": "File management and Github starter",
-    "section": "Setting up the Github repository for this class - OPTIONAL",
-    "text": "Setting up the Github repository for this class - OPTIONAL\nIf you want to get ahead in data journalism, you’ll be expected to have presence on the code sharing site called Github. Each project in Github is called a repository or repo. I’ll hold an optional lab for anyone who wants to start working in Github for this class. If you do it, I’ll have an easier time helping you if you get stuck on a coding problem and you’ll know how it works for when you need it. But I’ll also distribute all of the homework via Canvas, and you can upload either your code directly to Canvas OR a github link.\n\nCreate a folder for your R projects\n\nWithin your Documents folder (which exists in both Windows and Macs), create a folder for this class called “mco510”.\n\nOpen a browser and sign into github using the credentials you set up before class.\nGo to https://github.com/mco510/mco510-code , and press the button that says “Use this template” . That will bring you to a window that looks something like this:\n\n\nAfter you submit it, you should be taken to your account’s version of the repo. You can tell because the “Use this template” will be gone.\n\nLook under “Settings” and look for the “Access” sidebar. Add your instructor (and anyone else you want to share with) as a collaborator. My email for github is sarah.h.cohen@asu.edu\nOpen Github Desktop on your computer, and sign in if necessary. Under the File menu, choose “Clone a Repository” and choose the one that you just created. Make sure to save it as a folder your mco510 folder that you just created. It might look like it’s just a list of folders, but it also has a hidden file called .git, which keeps track of things as you want it to. (It will track differences between “commits” – TMI. )\n\nAt the end of the workshop, you’ll see how to upload your changes to the repo.\n\nUsing Github Desktop\nIf you use this method, you don’t have to worry that you’ve uploaded an incomplete file, or that your computer is out of sync with your repo. However if you get a message telling you that you have sync conflict, contact me right away. You don’t want to lose any of your work.\n\nOpen Github Desktop\nChoose “Add repository” from the file menu if it’s not already shown as the “Current repository”. Choose the “Fetch origin” button just to make sure you have all of the updates that might have been made online.\nAt the bottom of the window, there is a box for “Summary (required)” – this just tells you which version of your repo it is. It’s like a name for this version. It might be “Filter homework” or “updated replication project”\nThen “commit to main”\nThen make sure to press the button at the top called “Push origin”\n\nWhen you open your online version of Github, your changes will be there."
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Preliminary schedule at a glance",
+    "objectID": "weeks.html",
+    "href": "weeks.html",
+    "title": "Weekly details",
     "section": "",
-    "text": "For most of the semester, we’ll spend our week this way:\n\nMonday:\nDiscuss the preparation or assignment you did over the weekend. Introduce the skills for the current week and introduce the pre-lab.\nWednesday:\nReview the questions raised in the pre-lab and do the lab for that week. Pre-lab is due by 10am on the day of class;\nI’ll give you the rest of the day to turn in the labs, but they are designed to be completed during the class period.\n\nI will often tell you how long I’d like you to spend on an assignment. I hope you’ll take these time recommendations seriously – they reflect the priority you should place on the assignment. For instance, if I say, “Don’t spend more than about an hour on this”, I expect the result to show about one hour’s worth of effort and any more effort is wasted. Spending more time will also cut into the time you have available for other work both in this class and elsewhere. But it also means that a cursory glance or 10-minute effort probably isn’t enough, depending on how comfortable you are with the material to begin with.\nYou do not have to keep track of the assignments on this site – they are all in Canvas with submission instructions. All of them exist for a reason. If you don’t understand the point of what we’re doing, please speak up! Understanding why an assignment is important has a lot to do with how you do it."
+    "text": "NOTE TO SELF: I need to figure out how to manage this so that it contains the next couple of weeks and then the history, and doesn’t include the ones too far into the future. I know how to do this in Hugo, but not in quarto.\n\n\n\n\n\n\n\n\n\n\n\nIntroductions\n\n\nAgenda and preparation for the first day\n\n\n\nJan 9, 2022\n\n\n\n\n\n\n\n\n\n\n\nThe journalistic method\n\n\nConsuming news as a reporter\n\n\n\nJan 11, 2022\n\n\n\n\n\n\n\n\n\n\n\nReplication in data journalism\n\n\n\n\n\n\nJan 19, 2022\n\n\n\n\n\n\n\n\n\n\n\nThe life of data\n\n\nData isn’t just numbers. We’ll learn how to think broadly about data for story.\n\n\n\nJan 23, 2022\n\n\n\n\n\n\n\n\n\n\n\nInstall party!\n\n\nLogistics for starting your journey into coding\n\n\n\nJan 25, 2022\n\n\n\n\n\n\n\n\n\n\n\nGetting started with programming - a walkthrough\n\n\nYou can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto.\n\n\n\nJan 30, 2022\n\n\n\n\n\n\n\n\n\n\n\nGoing further with tidyverse verbs\n\n\n\n\n\n\nFeb 6, 2022\n\n\n\n\n\n\n\n\n\n\n\nVerbs in depth part 2: Group, mutate, join\n\n\nConvert your pivot tables into R code using the verbs group_by and summarize\n\n\n\nFeb 14, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "schedule.html#preliminary-schedule",
-    "href": "schedule.html#preliminary-schedule",
-    "title": "Preliminary schedule at a glance",
-    "section": "Preliminary schedule",
-    "text": "Preliminary schedule\nThe schedule is subject to change as we discover where you need or want more time on subjects. Please refer to the Canvas assignments for specifics on class preparation activities and labs.\nNOTE: The “build your own database” assignment may be moved to early February to accommodate the News21 project. It’ll be way more interesting if this works out, so I don’t think you’ll mind.\n\n\n\n\n\n\n\n\n\nWeek No.\nDates\nTopics\nDeadlines\n\n\n\n\n01\nJan 9-11\nIntros; Reading the story;\nSu 1/8: Pre-class survey;  Fri: Cronkite academic integrity pledge\n\n\n02\nJan 18\nReplication and the data diary; Spreadsheet review\nW 1/18: “What would you do?” (25)\n\n\n03\nJan 23-25\nThe life of data; Setting up your computer\nSu 1/22: Spreadsheet review (50)\n\n\n04\nJan 30-Feb 1\nR demo: A run-through from start to finish.\nSu 1/29: The life of a dataset (50)\n\n\n05\nFeb 6-8\nFilter, sort, mutate\nM 2/6: “What would you do?” (25)\n\n\n06\nFeb 13-15\nGroup by and summarize\n\n\n\n07\nFeb 20-22\nJoin, advanced filter/mutate expressions\nSu 2/19: Replication sentences (50)  M 2/20: “What would you do?” (25)\n\n\n08\nFeb 27-March 1\nCatch-up week & labs for replication project1\nFri 3/3: Replication update (50)\n\n\n\n\nSpring break\n\n\n\n09\nMarch 13-15\nIntro to data viz\n\n\n\n10\nMarch 20-22\nScraping\nSu 3/19: Replication final draft (100)\n\n\n11\nMarch 27-29\nBuild your own database\nSu 3/26: Memo proposal (50)  W 3/29 : Building your own database (50)\n\n\n12\nApril 3-5\nIntro to maps and GIS\nM 4/3: “What would you do?” (25)\n\n\n13\nApril 10-12\nCleaning data with OpenRefine;  working with pdfs\nSu 4/9: First memo update (50)\n\n\n14\nApril 17-19\nStudents’ choice\nSu 4/16: 2nd memo update (75)\n\n\n15\nApril 24-26\nStatistics in the newsroom; curating your github repo for job-hunting;  Paying it forward\nSu 4/23: Final memo (100)"
+    "objectID": "weeks/week01-1.html",
+    "href": "weeks/week01-1.html",
+    "title": "Introductions",
+    "section": "",
+    "text": "Maybe stories are just data with a soul\n\n — Brené Brown\nUnless I suggest otherwise, you’re expected to have done more than just skimmed through or reviewed the material. You should read, watch or listen closely and try to follow along on all of the tutorials."
+  },
+  {
+    "objectID": "weeks/week01-1.html#agenda",
+    "href": "weeks/week01-1.html#agenda",
+    "title": "Introductions",
+    "section": "Agenda",
+    "text": "Agenda\n\nIntroductions - you and me\nReview of surveys and goals for the semester\nSyllabus lab\nIntro to investigative data reporting"
+  },
+  {
+    "objectID": "weeks/week01-1.html#upcoming-deadlines",
+    "href": "weeks/week01-1.html#upcoming-deadlines",
+    "title": "Introductions",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\nSunday Jan. 8\n\nSurvey of skills and interests via Google drive. You must sign into Google Docs using your ASU email to get access — I can’t give access outside of the university for this one.\nSign into the Slack account for the class. You should be automatically added to #dj-announcements and #dj-sos, but make sure these are in your channel list. Complete the assignment in Canvas. 1\n\nSunday Jan. 15 : Cronkite Academic Integrity pledge in Canvas; Last date to select Y grade\nWednesday, Jan. 18 : What would you do? Reporting live election results"
+  },
+  {
+    "objectID": "weeks/week01-1.html#preparation-learning-materials",
+    "href": "weeks/week01-1.html#preparation-learning-materials",
+    "title": "Introductions",
+    "section": "Preparation & learning materials",
+    "text": "Preparation & learning materials\n\nWelcome from Ron Nixon, vice president for investigations, the Associated Press\n\n\n\nSyllabus and schedule. Be prepared to bring questions, comments or complaints to class on Monday."
+  },
+  {
+    "objectID": "weeks/week01-1.html#in-class-resources",
+    "href": "weeks/week01-1.html#in-class-resources",
+    "title": "Introductions",
+    "section": "In-class resources",
+    "text": "In-class resources\nWe’ll go through this one: Presentation on data-driven reporting\nHere are a couple of others:\n\nVery brief intro\nExamples of data-driven investigaitons"
+  },
+  {
+    "objectID": "weeks/week01-2.html",
+    "href": "weeks/week01-2.html",
+    "title": "The journalistic method",
+    "section": "",
+    "text": "Figure 1: Jelani Cobb, dean of the Columbia Graduate School of Journalism\nThe same can be said for any kind of reporting or writing."
+  },
+  {
+    "objectID": "weeks/week01-2.html#agenda",
+    "href": "weeks/week01-2.html#agenda",
+    "title": "The journalistic method",
+    "section": "Agenda",
+    "text": "Agenda\n\nDiscussion: Empirical reporting and the journalistic method\nLab: Reading the data-driven story"
+  },
+  {
+    "objectID": "weeks/week01-2.html#upcoming-deadlines",
+    "href": "weeks/week01-2.html#upcoming-deadlines",
+    "title": "The journalistic method",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\n\nI’m not including labs and pre-labs in this list. Expect to see them every day.\n\nSunday Jan. 15 : Cronkite Academic Integrity pledge in Canvas; Last date to choose the Y grade\nWednesday, Jan. 18 : What would you do? Reporting live election results\nSunday Jan. 22 : Spreadsheet review"
+  },
+  {
+    "objectID": "weeks/week01-2.html#learning-materials",
+    "href": "weeks/week01-2.html#learning-materials",
+    "title": "The journalistic method",
+    "section": "Learning materials",
+    "text": "Learning materials\n\nReading and viewing\nAmerican journalists have been using empirical methods since the birth of the Republic. Read and watch these materials with an eye for the methods they describe – data collection, counting and analyzing – and the sources they used. You’re not expected to follow links or watch related material unless I mention them.\nCome to class prepared to discuss one passage from one of these pieces that caught your eye.\n\nThe Journalistic Method: Five principles for blending analysis and narrative, by Nicholas Lemann, former dean of the Columbia University Graduate School of Journalism.\nIda B. Wells used data journalism to fight lynching, Dara Lind, Vox.com, July 2015\nThe Myth of the Machine Michael J. Berens, a chapter in “When Nerds and Words Collide” Poynter Institute, 1999. Although it was written more than 20 years ago, the insights are still relevant today.\nIntroduction to Precision Journalism, Sage Encyclopedia of Journalism.\n\n\n\nPrepare for Wednesday’s lab\nThis lab is geared at learning how to read and view journalism as a writer and producer, by closely examining HOW a story was conceived and executed rather than whether you liked it or thought it was “good”. This is designed to orient you toward the “reporting” part of the data reporting equation.\n\nLearn a New Way to Read from our course textbook site. When I assign these chapters, you are not required to study the works listed in the additional reading or exercise sections unless I specifically assign them.\nRural Aid goes to Urban Areas This is a pdf of a very old story from the Washington Post. I use it not because it’s so great, but because it is reasonably short and remains the most straightforward example of investigative data reporting that I know of. Pay attention to the elements that make this story work – the data sources, examples used, use of experts to define classifications, and the public records mentioned. Be sure to read the “nerd box” on the second page."
+  },
+  {
+    "objectID": "weeks/week01-2.html#going-further",
+    "href": "weeks/week01-2.html#going-further",
+    "title": "The journalistic method",
+    "section": "Going further",
+    "text": "Going further\n\nAn academic guide for “Reading to Write”. This is really for scientists reading academic journals, but we might learn from the techniques.\n\nUnfortunately, these are not available in the ASU library.\n\nOne really good book for learning to write complicated stories in a variety of ways is William Blundell’s “Art and Craft of Feature Writing” . Although it’s old, it has some great tips on writing with data.\nPhilip Meyer’s “Precision Journalism” is a staple on many data journalists’ bookshelf. ASU library’s version isn’t the most recent."
+  },
+  {
+    "objectID": "weeks/week02.html",
+    "href": "weeks/week02.html",
+    "title": "Replication in data journalism",
+    "section": "",
+    "text": "Some of this may feel abstract to you in the beginning but it will become more concrete as you start tackling datasets."
+  },
+  {
+    "objectID": "weeks/week02.html#agenda",
+    "href": "weeks/week02.html#agenda",
+    "title": "Replication in data journalism",
+    "section": "Agenda",
+    "text": "Agenda\n\nDiscussion: “What would you do?” assignment\nReplication in data journalism and the data diary\nSpreadsheet skills - lab to start the homework due on Sunday"
+  },
+  {
+    "objectID": "weeks/week02.html#upcoming-deadlines",
+    "href": "weeks/week02.html#upcoming-deadlines",
+    "title": "Replication in data journalism",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\nSunday Jan. 22 : Spreadsheet review . We’ll start the spreadsheet review assignment in class, but I expect you will have to finish it over the weekend.\nSunday Jan. 29 : The life of a dataset"
+  },
+  {
+    "objectID": "weeks/week02.html#learning-materials",
+    "href": "weeks/week02.html#learning-materials",
+    "title": "Replication in data journalism",
+    "section": "Learning materials",
+    "text": "Learning materials\n\nReplication and the data diary from the course textbook\n“ Take an Interviewing Approach to Find Stories in Data ”, by Derek Willis, Mediashift, July 2014.\n“Basic steps in working with data”, the Data Journalism Handbook, Steve Doig, ASU Prof.\n“Here are the 7 types of stories most often found in data”, Paul Bradshaw, Online Journalism Blog, 2020. I’m not sure I agree with these – they are very focused on visualizations rather than narrative or video stories, but they are a good start."
+  },
+  {
+    "objectID": "weeks/week02.html#reminder-on-spreadsheet-skills-chapters",
+    "href": "weeks/week02.html#reminder-on-spreadsheet-skills-chapters",
+    "title": "Replication in data journalism",
+    "section": "Reminder on spreadsheet skills chapters",
+    "text": "Reminder on spreadsheet skills chapters\nHere are the chapters we went through in bootcamp. There is zero expectation that you have memorized keystrokes! Just memorize where you can look them up. It’s much easier.\n\nAn Excel Refresher\nExcel filter and sort\nGrouping with pivot tables\nExcel formulas\n\nIf you don’t remember how to work with fractions, percents, etc., review the Math appendix to the course textbook or consult the Numbers in the Newsroom book that is shared in Canvas.\nTry watching Mary Jo Webster’s great tutorial on New Yorker comics if you’re still a little confused by pivot tables:"
+  },
+  {
+    "objectID": "weeks/week03-1.html",
+    "href": "weeks/week03-1.html",
+    "title": "The life of data",
+    "section": "",
+    "text": "data /ˈdeɪ.tə/ :\n\n\ninformation in an electronic form that can be stored and used by a computer, or information, especially facts or numbers, collected to be examined and considered and used to help decision-making\n\n Cambridge Dictionary – almost*\n* in reverse order"
+  },
+  {
+    "objectID": "weeks/week03-1.html#agenda",
+    "href": "weeks/week03-1.html#agenda",
+    "title": "The life of data",
+    "section": "Agenda",
+    "text": "Agenda\n\nAddress any questions that arose from the spreadsheet review assignment\nDiscuss reading\nLab - The life of a dataset warmup using Pheonix Open Data 911 records."
+  },
+  {
+    "objectID": "weeks/week03-1.html#upcoming-deadlines",
+    "href": "weeks/week03-1.html#upcoming-deadlines",
+    "title": "The life of data",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\nSunday Jan. 29 : The life of a dataset"
+  },
+  {
+    "objectID": "weeks/week03-1.html#preparation-and-learning-materials",
+    "href": "weeks/week03-1.html#preparation-and-learning-materials",
+    "title": "The life of data",
+    "section": "Preparation and learning materials",
+    "text": "Preparation and learning materials\nRead the textbook chapter first:\n\nDefining Data from the course textbook. Please watch the embedded video (but feel free to turn up the speed. He talks pretty slowly.)\n\nThere is a prompt in Canvas for you to find one thing for each of these questions in the rest of the reading / viewing :\n\nHow does it relate to your own experience? Is there something that resonates with you and you can connect with?\nWhat would you (or did you) tell a friend?\nWhat part of the material raised a question that you’d like to discuss?\nWhat do you really want to remember?\n\nIt’s ok if you can’t answer all of these things, but it’s useful to undertake this exercise when you start on your reading for a class.\n\nListen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily’s “Counting the Infected” The Daily, July 8, 2020. (His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)\n\n\n\n\n\n\n“‘Very Harmful’ lack of data blunts US response to outbreaks”, Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists. I helped Sharon with this story, and you can see the raw data results from the CDC’s surveillance database. 1\n“24 million Americans fear missing next rent payment as benefits dry up”, USA Today, by Kevin Crowe, Theresa Diffendal, and Carlie Procell. July 2020. The Census Bureau does a lot more than the every-10-year canvas that we’re most familiar with. During the pandemic, for example, it’s created an experimental survey of households and small businesses specifically to monitor how it’s affecting Americans. Unlike the “digital trace data” you read about, this one was made for us to analyze.\nI’ll never understand the USA Today firewall. This doesn’t appear to be in any of the services ASU library subscribes to, so here’s a pdf of the page if you can’t get to it.\n“Thousands allowed to bypass environmental rules in pandemic”, Associated Press, August 2020. This is a great example of looking beyond the news in front of you to collect documents that show a pattern. It shows what can be done in just a couple of months by collecting 50 states’ worth of documents, once you know they should exist.\n\n\n\nWe measured pop music’s falsetto obsession, Vox, August 2019:"
+  },
+  {
+    "objectID": "weeks/week03-1.html#in-class-lab-details",
+    "href": "weeks/week03-1.html#in-class-lab-details",
+    "title": "The life of data",
+    "section": "In-class lab details",
+    "text": "In-class lab details\nYou must do this assignment WITHOUT looking at the actual data, just the definitions and the background.\nWe will look at the promise and the limitations of working with the Phoenix Open Government’s version of the Police 911 calls for service.\nReview the data elements available in Phoenix by expanding the data dictionary below the preview table.\nThen discuss among yourselves how it compares with one of the most complete set of 911 records regularly made public by the New Orleans Police Department by expanding the “Columns in this Dataset” area to show all of the column names. Note the data columns that are included but are missing from the Phoenix version and think about what kinds of stories would be made possible if those columns were included. Hint: There is no reason for the police to hide this information – it’s public, and they should make it public!\nTry to think like the agency that received the call. For example, a 911 call doesn’t necessarily mean a crime was committed - it means that the police were dispatched to a specific location. Also, 911 operators don’t ask for someone’s race, ethnicity or DOB when they call – just what is happening and where they are. And there are crimes committed that never have a 911 call – for example, if your car is stolen and you figure it out the next day, you’d call the main police number, not 911 emergency; if a police officer sees someone selling drugs, there is no 911 call – just a police stop.\nOnce you have a handle on what’s in the data and what’s missing, answer these questions about the Phoenix data to the best of your ability:\n\nWhere did it come from, and what time period does it cover?\nWhat questions must you ask of the dataset provider to understand its usefulness?\nCome up with one interesting question that might be answered by this dataset\nCome up with one interesting question that can’t be answered in its current form.\nIf you were to request this dataset over again from the original source, what other pieces of information would you ask that the government include in the data. Try to imagine what else would be in the data and should be a public record, and ignore things that wouldn’t ever be in it such as information from a court file related to this call.\n\nThe instructions on submitting your work are detailed in the Canvas assignment"
+  },
+  {
+    "objectID": "weeks/week03-1.html#going-further",
+    "href": "weeks/week03-1.html#going-further",
+    "title": "The life of data",
+    "section": "Going further",
+    "text": "Going further\nHere are some more examples of datasets coming from unexpected places: historical site lines, investigative files, and rap.\n\nThis documentary and report by the independent firm Forensic Architecture in partnership with RISE St. James on environmental racism in “death alley”, Louisiana, is quite long. But it’s a great example of the emerging form of open source investigations that use imaging, historical site lines and similar non-traditional data in service of a larger piece, often conducted by human rights investigators rather than journalists. (I can’t get the direct link to work. If it won’t work for you, choose Investigations, and look for those in the United States. At this writing there were only two. )\n“Locked up and left to die” , by Michael Barajas and Sophie Novack, Texas Observer, Nov. 1, 2021, is based largely on an ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths. (I worked with the authors as a mentor on this story through the Fund for Investigative Journalism.)\nAnd a shoutout to this incredible piece by The Wall Street Journal, tracing the roots of the lyrical signatures in Hamilton"
+  },
+  {
+    "objectID": "weeks/week03-2.html",
+    "href": "weeks/week03-2.html",
+    "title": "Install party!",
+    "section": "",
+    "text": "Please bring your laptop to school if you plan to use it for the rest of the semester. It is not strictly necessary to have your own laptop – all of the software we need is also installed in the lab in Cronkite room 320 and in our classroom.\nConfiguring computers for use in data reporting is one of the most frustrating things that we do. Everyone’s computer seems to be set up slightly differently, depending on exactly which version of which operating system you have and when you’ve last installed various helpers. Don’t let yourself get frustrated with this and don’t try to Google your way out of it — it’s not worth your mental energy and you might make things worse."
+  },
+  {
+    "objectID": "weeks/week03-2.html#agenda",
+    "href": "weeks/week03-2.html#agenda",
+    "title": "Install party!",
+    "section": "Agenda",
+    "text": "Agenda\nIf you had trouble with installation, please use the lab computers for the beginning of class. I’ll save time in class so that I can work with you individually to get your computer set up toward the end.\n\nReview of file management on computers to stay organized\nSetting up your computer for the rest of the course\nInstalling packages (you’ll undestand what this means when the time comes)\nA review of the screens in R Studio, which can be a little intimidating\nResolving installation issues"
+  },
+  {
+    "objectID": "weeks/week03-2.html#upcoming-deadlines",
+    "href": "weeks/week03-2.html#upcoming-deadlines",
+    "title": "Install party!",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\nSunday Jan. 29 : The life of a dataset\nBeginning next week, you should expect to have a pre-lab due on Wednesday mornings and a lab on Wednesday in class. The labs are designed to be completed during the class period, but I’ll set the deadlines to midnight to accommodate people who can’t come to class that day."
+  },
+  {
+    "objectID": "weeks/week03-2.html#preparation",
+    "href": "weeks/week03-2.html#preparation",
+    "title": "Install party!",
+    "section": "Preparation",
+    "text": "Preparation\nDO NOT SPEND MORE THAN ONE HOUR TRYING TO GET THIS TO WORK. Instead, note where you had trouble and we’ll resolve it in class. Or at least I hope we will.\n\nInstall R and RStudio\nR is a programming language, and RStudio is a product made by the company Posit to interact with that language. You have to install the programming language first, then the RStudio interface.\nIt’s important that you have a very recent version of both R and R Studio, as they both changed dramatically during summer 2022.\nYou must have Windows 10 / 11 or Mac Catalina (version 10.15) or newer for this to work. All computers made in the last five years – and some much earlier – are capable of handling these versions. You may need to update your operating system if you haven’t done that in the last three years. Please let me know if you don’t know how to do that. The software is also installed on all computers in the classroom and in the lab in Cronkite 320.\n\nDownload and install the correct version or R for your system from https://cloud.r-project.org/\n\nMost Macbooks: “latest package”\narm64.pkg if you have a very recent M1 Macbook or Macbook Air (2021 or newer). You probably know if you have it.\nWindows: 64-bit version for Windows 10/11.\n\nDownload and install RStudio for Mac or Windows )\n\n(You can try going through this tutorial on installing R and RStudio, but it’s a little out of date and might be more confusing than it’s worth. )\n\nTry starting up RStudio (not R). On a Mac, if you get errors that mention “git”, or “xcode-select”, just say yes and do it."
+  },
+  {
+    "objectID": "weeks/week03-2.html#in-class-links",
+    "href": "weeks/week03-2.html#in-class-links",
+    "title": "Install party!",
+    "section": "In-class links",
+    "text": "In-class links\n\nTextbook: “Getting started with R and R Studio”\nMore details and Github options."
+  },
+  {
+    "objectID": "weeks/week04.html",
+    "href": "weeks/week04.html",
+    "title": "Getting started with programming - a walkthrough",
+    "section": "",
+    "text": "After this week, your weeks will look a different. But for now, we’ll walk through the textbook during class on Monday, then work on a lab introducing everything on Wednesday. Consider both of these “pre-labs”, in that they are only worth 10 points each, and are completed by having you simply type the answers that are given to you into a program that you run. This gets you used to some of the habits you’ll need and will help us catch snafus that routinely come up."
+  },
+  {
+    "objectID": "weeks/week04.html#agenda",
+    "href": "weeks/week04.html#agenda",
+    "title": "Getting started with programming - a walkthrough",
+    "section": "Agenda",
+    "text": "Agenda\nBeginning this week, you’l have links to labs and pre-labs in Github and on Canvas. It doesn’t matter where you get the data and you may turn in your labs by attaching the document to Canvas, or by uploading it to your own Github site and providing a link.\n\nMonday\n\nDiscussion of “life of a dataset” assignment\nWrite your own program; create a Quarto document with sections\n\n\n\nWednesday\n\n\n\n\n\n\nNote\n\n\n\nI have to leave early this day – I’ll get you started, and you can get as far as you can by the end of class. Don’t worry about finishing this. I just want you to get used to trying to make the computer do something\n\n\n\nWalk through an example of start-to-finish – I don’t expect you to understand it right now, but research shows that students understand each piece of a programming course better when they can see what it takes to get from beginning to end. This is a motivational exercise, not one to prove that you know everything that is in the chapter."
+  },
+  {
+    "objectID": "weeks/week04.html#upcoming-deadlines",
+    "href": "weeks/week04.html#upcoming-deadlines",
+    "title": "Getting started with programming - a walkthrough",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\nMonday Feb. 6 : “What would you do?” : choosing a data source. See assignment in Canvas."
+  },
+  {
+    "objectID": "weeks/week04.html#textbook-chapters-well-review",
+    "href": "weeks/week04.html#textbook-chapters-well-review",
+    "title": "Getting started with programming - a walkthrough",
+    "section": "Textbook chapters we’ll review",
+    "text": "Textbook chapters we’ll review\n\nA gentle introduction to programming\nReplicable analysis using Quarto\nBillboard 100: Analyzing the hot songs of the past 65 years - This lab goes through the chapter by having you actually run and review the results of the program as you walk through the concepts. (Two chapters: Data import and a tour of verbs)"
+  },
+  {
+    "objectID": "weeks/week05.html",
+    "href": "weeks/week05.html",
+    "title": "Going further with tidyverse verbs",
+    "section": "",
+    "text": "What would you do? discussion\nReview the Hot 100 lab from last week.\nIntroduce the Paycheck Protection Program data that we’ll use for the next several weeks.\nIntroduce the pre-lab\n\n\n\nVerbs in depth:\n\nselect and arrange\nmutate to get new data from old\n\n\n\n\nThe next couple of weeks are focused on getting you up and running in R, so there’s not anything other than labs to turn in. I hope you’ll spend some time over the weekend to review what we did in class and in labs. By now you’ll have access to DataCamp, and I’ll suggest some tutorials there that will help review the material we’ve gone through.\nSunday Feb. 19 : The sentences you propose replicating for the data replication project\nMonday Feb. 20 : What would you do? Demographics using Census data. See Canvas assignment"
+  },
+  {
+    "objectID": "weeks/week05.html#preparation-and-learning-materials",
+    "href": "weeks/week05.html#preparation-and-learning-materials",
+    "title": "Going further with tidyverse verbs",
+    "section": "Preparation and learning materials",
+    "text": "Preparation and learning materials\n\nChapters for the labs:\n\nselect and arrange\nmutate to get new data from old\n\n\n\nReading due Monday, Feb. 6\n\nRead the documentation/background on the Paycheck Protection Program data in the textbook appendix\n\nReview these three very different approaches to reporting on the PPP loans. While you don’t need to study them, they’re useful to us for several purposes. First, they show how different people attacked the data to find very different stories. In addition, they will provide you some background on the program itself, written for a lay audience. (We like that.) Finally, they’re relatively old and I have yet to see good stories now that there is more information - I hope it will spark some ideas.\n\n“Hundreds of PPP Loans Went to Fake Farms in Absurd Places”, Derek Willis and Lydia DePillis, ProPublica, May 18, 2021\n“Six Stories From a Downtown District Show Pandemic’s Uneven Toll”, Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec. 31, 2020. (Read this on campus if you haven’t signed up for the free WSJ subscription through the library.)\n“Banking on Inequity” , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021. NOTE: This is the topic of the “What would you do?” next week AND it’s an option for the replication project, so you may want to look at it in more detail than usual."
+  },
+  {
+    "objectID": "weeks/week06.html",
+    "href": "weeks/week06.html",
+    "title": "Verbs in depth part 2: Group, mutate, join",
+    "section": "",
+    "text": "Review of the labs we did last week, and questions that came up during that.\nIntroducing the verbs for this week: Group by and summarize.\n\n\n\n\n\nReview the pre-lab\nLab on group by, summarize."
+  },
+  {
+    "objectID": "weeks/week06.html#upcoming-deadlines",
+    "href": "weeks/week06.html#upcoming-deadlines",
+    "title": "Verbs in depth part 2: Group, mutate, join",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\nSunday 2/20 Your proposal for the replication project.\nFriday 3/4 {.text-dark} Update on the replication project."
+  },
+  {
+    "objectID": "weeks/week06.html#preparation-and-learning-materials",
+    "href": "weeks/week06.html#preparation-and-learning-materials",
+    "title": "Verbs in depth part 2: Group, mutate, join",
+    "section": "Preparation and learning materials",
+    "text": "Preparation and learning materials\nWe’ll be walking through chapters in the textbook this week, and you don’t have anything else. Instead, spend some time looking at the story choices for the replication project so you make a smart choice and study the sentences to come up with the ones you want to replicate."
   }
 ]

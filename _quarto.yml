@@ -3,7 +3,13 @@ project:
   preview: 
     port: 4200
   output-dir: docs
-
+  render: 
+    - "*.qmd"
+    - "*.md"
+    - "*.Rmd"
+    - "!labs/"
+    - "!prelabs/"
+    - "!working/"
 
 website:
   favicon: assets/img/favicon.ico
