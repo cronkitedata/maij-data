@@ -5,10 +5,10 @@ date:  "2022-02-06"
 
 ## Agenda
 
-* What would you do? discussion
+* *What would you do*? discussion
 * Review the Hot 100 lab from last week. 
 * Introduce the Paycheck Protection Program data that we'll use for the next several weeks. 
-
+* Introduce the pre-lab 
 
 ### Labs 
 
@@ -21,9 +21,9 @@ Verbs in depth:
 
 The next couple of weeks are focused on getting you up and running in R, so there's not anything other than labs to turn in. I hope you'll spend some time over the weekend to review what we did in class and in labs. By now you'll have access to DataCamp, and I'll suggest some tutorials there that will help review the material we've gone through. 
 
-[Sunday Feb. 19]{.sked-dates} : The sentences you propose replicating for the data replication project
+[Sunday Feb. 19]{.sked-dates} : The sentences you propose replicating for the [data replication project](../projects/replication.qmd)
 
-[Monday Feb. 20]{.sked-dates} : What would you do? 
+[Monday Feb. 20]{.sked-dates} : *What would you do*? Demographics using Census data. See Canvas assignment
 
 ## Preparation and learning materials
 
@@ -40,7 +40,7 @@ Review these three very different approaches to reporting on the PPP loans. Whil
 
 * ["Hundreds of PPP Loans Went to Fake Farms in Absurd Places"](https://www.propublica.org/article/ppp-farms), Derek Willis and Lydia DePillis, ProPublica, May 18, 2021
 * "[Six Stories From a Downtown District Show Pandemic's Uneven Toll](https://www.wsj.com/articles/some-asheville-businesses-thrived-with-government-backed-ppp-loans-others-struggled-11609426801)",  Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec. 31, 2020. (Read this on campus if you haven't signed up for the free WSJ subscription through the library.)
-* ["Banking on Inequity"](https://revealnews.org/podcast/banking-on-inequity/) , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021. Pay particular attention to how they characterize the inequity -- it's based on the characteristics of Census tracts, which are further categorized with a dominant racial / ethnic group. Think about different ways you might have done this, recognizing that you only know WHERE a loan went, not the race or ethnicity of the PERSON who got the loan. This is a common problem. 
+* ["Banking on Inequity"](https://revealnews.org/podcast/banking-on-inequity/) , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021. [NOTE: This is the topic of the "What would you do?" next week AND it's an option for the replication project, so you may want to look at it in more detail than usual. ]{.text-warning}
 
 
 
