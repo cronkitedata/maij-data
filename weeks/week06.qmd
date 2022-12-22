@@ -22,12 +22,15 @@ description: Convert your pivot tables into R code using the verbs `group_by` an
 
 ## Upcoming deadlines
 
-[Sunday 2/20]{.sked-dates} Your proposal for the [replication project](../projects/replication.qmd).
+[Sunday 2/19]{.sked-dates} Your proposal for the [replication project](../projects/replication.qmd)
 
+[Monday 2/20]{.sked-dates} *What would you do?* Assigning characteristics based on Census data. 
 
-Friday 3/4 
-{.text-dark}
-Update on the replication project. 
+[Friday 3/3]{.sked-dates} Update on the replication project. 
+
+::: {.callout-note}
+I understand that some of you will before March 3 for your Borderlands trip. I will not accept requests for extensions on this assignment because of it -- there is plenty of time to turn it in early, before you go.
+::: 
 
 
 ## Preparation and learning materials 
