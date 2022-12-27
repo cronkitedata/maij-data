@@ -23,7 +23,8 @@ I have to leave early this day -- I'll get you started, and you can get as far a
 
 ::: 
 
-* Walk through an example of start-to-finish -- I don't expect you to understand it right now, but research shows that students understand each piece of a programming course better when they can see what it takes to get from beginning to end. This is a motivational exercise, not one to prove that you know everything that is in the chapter. 
+
+* Billboard 100: Analyzing the hot songs of the past 65 years - This lab goes through the chapter by having you actually run and review the results of the program as you walk through the concepts. You aren't expected to memorize it or really even understand it at this point -- just follow along and think like a journalist.^[Research shows that students learn better when they can imagine a fully formed project than when you are presented with one concept at a time.] 
 
 
 ## Upcoming deadlines
@@ -31,10 +32,33 @@ I have to leave early this day -- I'll get you started, and you can get as far a
 [Monday Feb. 6]{.sked-dates} : "What would you do?" : choosing a data source. See assignment in Canvas.
 
 
+## Preparation
+
+### For Monday 
+
+
+This prep might leave you feeling bewildered. Don't let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don't have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You'll probably get a lot of errors, and that's fine --- they're not judging you. They're supposed to be hints, even when they're [red]{.text-danger} and use words that look like *$#u893q#r32*.
+
+* Review the textbook chapter, "[Getting started with R and RStudio](https://cronkitedata.github.io/djtextbook/r-start.html)"
+    * Make sure to install the packages at the beginning of the chapter. (We might have been able to get this part done in class already -- we'll see how it goes.) You might want to get it going and then get a cup of tea -- it will take at least a few minutes once it starts and could take longer. It might look like it's stalled. If you have trouble at this point, please post a question to `#dj-sos` Slack channel and describe what's happening. 
+    * Try the ["Programming basics" tutorial](https://posit.cloud/learn/primers/1.2) linked in that chapter. Don't worry about all of the math in it; you don't have to go through the part where you answer questions. Instead, just focus on the concepts of the 1-minute videos:  functions, arguments, objects and data types.^[I tried to make a version of the videos for you and failed miserably.]  
+    * Watch Andrew Heiss's [RStudio tour](https://youtu.be/cnQ-v1UUWyE). Again, don't worry much about how math-centric it is. Our work will be much less so. But he does a good job of going through the most confusing pieces of what's in front of you. 
+
+**I expect this to take about 2 hours. Don't spend more time on it. You might finish sooner, but you'll need this to move forward so don't rush. I also expect you'll have questions when we get to class.**
+
+
+OPTIONAL: If you are nervous, consider reviewing the [Using Quarto](https://cronkitedata.github.io/djtextbook/r-quarto.html) chapter that we'll be following in our class lab today. 
+
+### For Wednesday
+
+* Prelab: Following along in chapters 16 and 17, "Getting and saving data", and "A quick tour of verbs"
+
+
 ## Textbook chapters we'll review
 
-* A gentle introduction to programming
-* Replicable analysis using Quarto  
+* [A gentle introduction to programming](https://cronkitedata.github.io/djtextbook/appendix-program.html)
+* [Creating Quarto documents](https://cronkitedata.github.io/djtextbook/r-quarto.html)
+* [Getting and saving data](https://cronkitedata.github.io/djtextbook/r-data-import.html)
+* [A quick tour of verbs](https://cronkitedata.github.io/djtextbook/r-verbs.html)
 
-* Billboard 100: Analyzing the hot songs of the past 65 years - This lab goes through the chapter by having you actually run and review the results of the program as you walk through the concepts. (Two chapters: Data import and a tour of verbs)
 

@@ -4,7 +4,7 @@ date:   2022-01-25
 description:  Logistics for starting your journey into coding
 --- 
 
-**Please bring your laptop to school if you plan to use it for the rest of the semester. It is not strictly necessary to have your own laptop -- all of the software we need is also installed in the lab in Cronkite room 320 and in our classroom.**
+**Please bring your laptop to school if you plan to use it for the rest of the semester. If you prefer to use school labs, the software is installed in Cronkite 320 and in our classroom. But if you want to use your own laptop or home computer, you must get it set up properly this week.**
 
 Configuring computers for use in data reporting is one of the most frustrating things that we do. Everyone's computer seems to be set up slightly differently, depending on exactly which version of which operating system you have and when you've last installed various helpers. Don't let yourself get frustrated with this and don't try to Google your way out of it --- it's not worth your mental energy and you might make things worse.  
 
@@ -22,32 +22,47 @@ If you had trouble with installation, please use the lab computers for the begin
 
 ## Upcoming deadlines
 
+[Friday Jan. 27]{.sked-dates}: Complete the R Installation assignment in Canvas. Note the Friday due date -- I need to be sure you're ready to complete the prelab over the weekend. 
+
 [Sunday Jan. 29]{.sked-dates} : The life of a dataset
 
-Beginning next week, you should expect to have a pre-lab due on Wednesday mornings and a lab on Wednesday in class. The labs are designed to be completed during the class period, but I'll set the deadlines to midnight to accommodate people who can't come to class that day. 
+## Preparation  
 
-## Preparation
-
- **DO NOT SPEND MORE THAN ONE HOUR TRYING TO GET THIS TO WORK.** Instead, note where you had trouble and we'll resolve it in class. Or at least I hope we will. 
+I believe most of you will want to work at home, not Cronkite computers, most of the time. There is an assignment due on Friday that tells me how you plan to work for the rest of the course -- on your own desktop or laptop or some other way. 
 
 ### Install R and RStudio
 
-R is a programming language, and RStudio is a product made by the company Posit to interact with that language. You have to install the programming language first, then the RStudio interface.
+Try to follow along with  [Installing R and RStudio](https://cronkitedata.github.io/djtextbook/r-install.html)
 
-It's important that you have a very recent version of both R and R Studio, as they both changed dramatically during summer 2022. 
+#### Using your own computer
 
-**You must have Windows 10 / 11 or Mac Catalina (version 10.15) or newer for this to work.**  All computers made in the last five years -- and [some much earlier](https://support.apple.com/en-us/HT210222) -- are capable of handling these versions. You may need to update your operating system if you haven't done that in the last three years. Please let me know if you don't know how to do that. The software is also installed on all computers in the classroom and in the lab in Cronkite 320. 
+ **DO NOT SPEND MORE THAN ONE HOUR TRYING TO GET THIS TO WORK.** Instead, note where you had trouble and we'll resolve it in class. Or at least I hope we will. 
 
-* Download and install the correct version or R for your system from <https://cloud.r-project.org/> 
-    * Most Macbooks:  "latest package" 
-    * arm64.pkg if you have a very recent M1 Macbook or Macbook Air (2021 or newer). You probably know if you have it. 
-    * Windows: 64-bit version for Windows 10/11. 
+ 
+* Get as far as you can with the installation
+* Try starting up RStudio (not R). 
+* Note any error messages or other troubles you have so we can fix them in class. 
 
-* Download and install RStudio  for [Mac](https://download1.rstudio.org/desktop/macos/RStudio-2022.07.2-576.dmg)  or [Windows](https://download1.rstudio.org/desktop/windows/RStudio-2022.07.2-576.exe) )
+#### Using something else
 
-(You can try going through   [this tutorial on installing R and RStudio](https://learnr-examples.shinyapps.io/ex-setup-r/#section-welcome), but it's a little out of date and might be more confusing than it's worth. )
-  
-* Try starting up RStudio (not R). On a Mac, if you get errors that mention "git", or "xcode-select", just *say yes* and do it. 
+* Make sure you know where you will use the software and have tried starting it. Please let me know if the lab is not set up as you might expect. 
+* If you plan to use Posit  Cloud, please see me -- this will make your submissions more complicated, it doesn't work very well for some of what we do, and may end up costing you some money. You'll need to let me know in advance if you plan to use it so I can show you how to adapt the instructions you'll see for the rest of the semester. 
+
+
+### Set up your course folders / hard drive 
+
+**No matter how far you got in the installation, be sure to set up your course folder as shown in the video**
+
+#### On your own computer
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KbAcoHbEanI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### If you're using something else
+
+* Create a folder on your portable hard drive or thumb drive called `maij-working` 
+* DO NOT expect to use Google drive to store your work -- it won't work. You will not be able to directly access the data in the Google drive on your computer, and there are strict limits on the size of the data file you can transfer using it. Believe me. We've tried.
+
+If you use Dropbox, you can set up your course folder within the Dropbox instead of within your Documents folder. 
 
 ## In-class links
 

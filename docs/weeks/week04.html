@@ -272,6 +272,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#wednesday" id="toc-wednesday" class="nav-link" data-scroll-target="#wednesday">Wednesday</a></li>
   </ul></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a>
+  <ul class="collapse">
+  <li><a href="#for-monday" id="toc-for-monday" class="nav-link" data-scroll-target="#for-monday">For Monday</a></li>
+  <li><a href="#for-wednesday" id="toc-for-wednesday" class="nav-link" data-scroll-target="#for-wednesday">For Wednesday</a></li>
+  </ul></li>
   <li><a href="#textbook-chapters-well-review" id="toc-textbook-chapters-well-review" class="nav-link" data-scroll-target="#textbook-chapters-well-review">Textbook chapters we’ll review</a></li>
   </ul>
 </nav>
@@ -337,7 +342,7 @@ Note
 </div>
 </div>
 <ul>
-<li>Walk through an example of start-to-finish – I don’t expect you to understand it right now, but research shows that students understand each piece of a programming course better when they can see what it takes to get from beginning to end. This is a motivational exercise, not one to prove that you know everything that is in the chapter.</li>
+<li>Billboard 100: Analyzing the hot songs of the past 65 years - This lab goes through the chapter by having you actually run and review the results of the program as you walk through the concepts. You aren’t expected to memorize it or really even understand it at this point – just follow along and think like a journalist.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
 </ul>
 </section>
 </section>
@@ -345,18 +350,50 @@ Note
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
 <p><span class="sked-dates">Monday Feb.&nbsp;6</span> : “What would you do?” : choosing a data source. See assignment in Canvas.</p>
 </section>
+<section id="preparation" class="level2">
+<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<section id="for-monday" class="level3">
+<h3 class="anchored" data-anchor-id="for-monday">For Monday</h3>
+<p>This prep might leave you feeling bewildered. Don’t let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don’t have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You’ll probably get a lot of errors, and that’s fine — they’re not judging you. They’re supposed to be hints, even when they’re <span class="text-danger">red</span> and use words that look like <em>$#u893q#r32</em>.</p>
+<ul>
+<li>Review the textbook chapter, “<a href="https://cronkitedata.github.io/djtextbook/r-start.html">Getting started with R and RStudio</a>”
+<ul>
+<li>Make sure to install the packages at the beginning of the chapter. (We might have been able to get this part done in class already – we’ll see how it goes.) You might want to get it going and then get a cup of tea – it will take at least a few minutes once it starts and could take longer. It might look like it’s stalled. If you have trouble at this point, please post a question to <code>#dj-sos</code> Slack channel and describe what’s happening.</li>
+<li>Try the <a href="https://posit.cloud/learn/primers/1.2">“Programming basics” tutorial</a> linked in that chapter. Don’t worry about all of the math in it; you don’t have to go through the part where you answer questions. Instead, just focus on the concepts of the 1-minute videos: functions, arguments, objects and data types.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a><br>
+</li>
+<li>Watch Andrew Heiss’s <a href="https://youtu.be/cnQ-v1UUWyE">RStudio tour</a>. Again, don’t worry much about how math-centric it is. Our work will be much less so. But he does a good job of going through the most confusing pieces of what’s in front of you.</li>
+</ul></li>
+</ul>
+<p><strong>I expect this to take about 2 hours. Don’t spend more time on it. You might finish sooner, but you’ll need this to move forward so don’t rush. I also expect you’ll have questions when we get to class.</strong></p>
+<p>OPTIONAL: If you are nervous, consider reviewing the <a href="https://cronkitedata.github.io/djtextbook/r-quarto.html">Using Quarto</a> chapter that we’ll be following in our class lab today.</p>
+</section>
+<section id="for-wednesday" class="level3">
+<h3 class="anchored" data-anchor-id="for-wednesday">For Wednesday</h3>
+<ul>
+<li>Prelab: Following along in chapters 16 and 17, “Getting and saving data”, and “A quick tour of verbs”</li>
+</ul>
+</section>
+</section>
 <section id="textbook-chapters-well-review" class="level2">
 <h2 class="anchored" data-anchor-id="textbook-chapters-well-review">Textbook chapters we’ll review</h2>
 <ul>
-<li><p>A gentle introduction to programming</p></li>
-<li><p>Replicable analysis using Quarto</p></li>
-<li><p>Billboard 100: Analyzing the hot songs of the past 65 years - This lab goes through the chapter by having you actually run and review the results of the program as you walk through the concepts. (Two chapters: Data import and a tour of verbs)</p></li>
+<li><a href="https://cronkitedata.github.io/djtextbook/appendix-program.html">A gentle introduction to programming</a></li>
+<li><a href="https://cronkitedata.github.io/djtextbook/r-quarto.html">Creating Quarto documents</a></li>
+<li><a href="https://cronkitedata.github.io/djtextbook/r-data-import.html">Getting and saving data</a></li>
+<li><a href="https://cronkitedata.github.io/djtextbook/r-verbs.html">A quick tour of verbs</a></li>
 </ul>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Research shows that students learn better when they can imagine a fully formed project than when you are presented with one concept at a time.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>I tried to make a version of the videos for you and failed miserably.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
