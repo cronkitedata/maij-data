@@ -1,0 +1,10 @@
+---
+title: "Your first program"
+author: "YOUR NAME HERE"
+format: 
+  html: 
+    theme: cosmos
+    embed-resources:  true
+    toc: true
+    code-tools: true
+---

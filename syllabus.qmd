@@ -133,11 +133,11 @@ The class uses a point system that initially adds up to 1,000 points for the sem
 <li>Class preparation and labs: 300 </li>
 <li>"What would you do?" posts and discussions : 100 </li>
 </ul>
-<li>**Graded homework**: 150 </li>
-<li>**Projects** : 450
+<li>**Graded homework**: 200 </li>
+<li>**Projects** : 400
 <ul class="mb-0">
-<li> Data replication project: 200  </li> 
-<li>Final story memo : 250  </li>
+<li> Data replication project: 175  </li> 
+<li>Final story memo : 225  </li>
 </ul>
 </ul>
 
@@ -154,14 +154,19 @@ You have the option of a Y grade this semester, which signifies “satisfactory�
 
 #### Labs, pre-labs and class preparation
 
-Doing well in this class means working slowly, methodically and consistently throughout the semester.
+Doing well in this class means working slowly, methodically and consistently throughout the semester. 
 
 ::: {.sm-10 .ps-4}
 ![](assets/img/mwtweet-edited.png){fig-alt="Matt Waite: Not due today, not doing it today"}
 :::
 
-Nearly half of your grade is dependent on this slow and steady work. There will be one or two low-stakes assignments almost every week that will, together, make up this grade. Sometimes, I'll ask you to reflect on what you did and provide feedback. Other times, you will show that you went through a tutorial on your own. It also includes labs that we do in class. 
+Nearly half of your grade is dependent on this slow and steady work. 
 
+many weeks, there will be one or two low-stakes assignments. Sometimes, I'll ask you to reflect on what you did and provide feedback. Other times, you will show that you went through a tutorial on your own. It also includes labs that we do in class. 
+
+::: { .text-muted style="font-size:.75rem;"}
+(NB: I haven't written out all of these assignments yet -- I expect that most pre-labs will be 10 points and most labs will be 20 points, but I have to figure out how many of each first.)
+:::
 
 #### What would you do? 
 
@@ -169,9 +174,6 @@ You've had some background in journalism ethics, but there are specific issues t
 
 #### Grading daily work
 
-::: { .text-muted style="font-size:.75rem;"}
-(NB: I haven't written out all of these assignments yet -- I expect that most pre-labs will be 10 points and most labs will be 20 points, but I have to figure out how many of each first.)
-:::
 
 ::: {#syllabus-table}
 
@@ -190,7 +192,7 @@ Percentage | Definition
 You will get some very limited written feedback on these assignments, but much of class will be spent addressing the questions and opportunities that come up in them. 
 
 ### Replication project {.mb-0}
-[150 points]{.quarto-title-meta-heading}
+[175 points]{.quarto-title-meta-heading}
 
 There are three separate assignments for this project, which challenges you to reproduce some sentences published in real stories using the same data used by the reporters. I’ll provide the stories and the data. Your first job is to identify paragraphs in the story that depended on the dataset that you’ve been given. The second gives you a chance to turn in a draft of your work so that I can help you. The last one is the final version.
 
@@ -209,7 +211,7 @@ There are three separate assignments for this project, which challenges you to r
 
 ### Story memo {.mb-0}
 
-[200 points]{.quarto-title-meta-heading}
+[225 points]{.quarto-title-meta-heading}
 
 
 In this project, you’ll develop a story pitch using a combination of story backgrounding and data analysis. I’ll give you a choice of three datatsets that I know will work for this assignment. You may propose your own, but it must be easy to obtain, relatively clean, and complicated or large enough that there is something for you to analyze beyond a basic statistic. Generally, the dataset will be of individual records (accidents, inspections, deaths or events), not statistical compilations. You’ll understand this better as we move along.
@@ -219,9 +221,9 @@ The specific list of datasets may be coordinated with your investigative reporti
 Although this is one-fifth of your grade, it’s split among four assignments over more than a month. You’ll build the memo a little at a time, so by the end, it won’t seem like a big lift. I promise.
 
 ### Graded homework {.mb-0}
-[150 points]{.quarto-title-meta-heading}
+[200 points]{.quarto-title-meta-heading}
 
-There will be three smaller graded assignments that are more important than daily work but don't rise to the level of a project.  They are shown in Canvas each with 50 points. 
+There will be four smaller graded assignments that are more important than daily work but don't rise to the level of a project.  They are shown in Canvas each with 50 points. 
 
 ## Course policies
 
@@ -369,5 +371,11 @@ In technical work, asking a good question is an art. Try to:
 **Q: I already know how to code and analyze data. Why do I have to take this class?**
 
 Even if you know how to code, I presume you are at Cronkite because you want to apply all of your skills to a journalism career. You probably knew how to use a phone or take a picture before you came to j-school, but you may not have used them the way you do now. That said, talk with me if you’re concerned that you won’t be challenged enough. We’ll find ways to make the time productive and take you to the next level in data reporting.
+
+**Q: Can I use ChatGPT to help me with my coding?**
+
+Sure -- for help, not for answers. In fact, one of the things it's really good at is answering the question, "Why doesn't this code work?"  You will have to determine if its answer is right, or if it uses the material you're responsible for mastering. But if it helps, it's no different than asking Google to help in your coding. 
+
+
 
 

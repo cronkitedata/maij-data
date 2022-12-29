@@ -1,5 +1,5 @@
 ---
-title: "Verbs in depth part 2: Group, mutate, join"
+title: "Verbs part II: Summarize and Group" 
 date:  "2022-02-14"
 description: Convert your pivot tables into R code using the verbs `group_by` and `summarize`
 --- 
@@ -9,16 +9,7 @@ description: Convert your pivot tables into R code using the verbs `group_by` an
 
 ## Agenda
 
-### Monday
 
-* Review of the labs we did last week, and questions that came up during that. 
-* Introducing the verbs for this week: Group by and summarize.
-
-
-### Wednesday
-
-* Review the pre-lab
-* Lab on group by, summarize. 
 
 ## Upcoming deadlines
 

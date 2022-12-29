@@ -1,0 +1,28 @@
+---
+title: "Example: The Hot 100 list"
+date:  2022-02-01
+description: Now that you know a little about how to run R, you're ready to do some analysis. This example gets you acclimated to the next few weeks using Billboard's Hot 100 list for the last 65 years. 
+--- 
+
+## Agenda
+
+::: callout-note
+I have to leave early today. I'll get you started, and you can turn in as far as you got by the end of class.  
+::: 
+
+* What the next few weeks look like
+* Billboard 100: Analyzing the hot songs of the past 65 years 
+
+
+## Upcoming deadlines
+
+* [Today]{.sked-dates}: Billboard 100 [prelab01-yourname.qmd](https://github.com/cronkitedata/maij-data/tree/main/prelabs)
+* [Monday Feb. 6]{.sked-dates} : "What would you do?" : choosing a data source. See assignment in Canvas.
+
+
+## Textbook chapters we'll review
+
+* [Getting and saving data](https://cronkitedata.github.io/djtextbook/r-data-import.html)
+* [A quick tour of verbs](https://cronkitedata.github.io/djtextbook/r-verbs.html)
+
+

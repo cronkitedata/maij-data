@@ -72,8 +72,10 @@ website:
             file: weeks/week03-1.qmd
           - text: "3.2: Install party!"
             file: weeks/week03-2.qmd
-          - text: "4: Your first programs"
-            file: weeks/week04.qmd
+          - text: "4.1: Your first R program"
+            file: weeks/week04-1.qmd
+          - text: "4.2: An example analysis: Billboard Hot 100"
+            file: weeks/week04-2.qmd
           - text: "5: In-depth verbs pt 1"
             file: weeks/week05.qmd
           - text: "6: In-depth verbs pt 2"
@@ -88,13 +90,12 @@ website:
           - text: Slack
             href: https://asu-2231-mco510-21913.slack.com/
           - text: Other links
-            href: https://bit.ly/dj2022-startme
+            href: https://start.me/p/nRyOGj/public-page
       - text: "---"
 
 format:
   html:
     theme: [sandstone, theme.scss]
-    css: styles.css
     max-width: 1920px
     page-layout: full
     toc: true

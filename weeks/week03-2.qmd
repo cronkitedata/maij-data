@@ -22,7 +22,7 @@ If you had trouble with installation, please use the lab computers for the begin
 
 ## Upcoming deadlines
 
-[Friday Jan. 27]{.sked-dates}: Complete the R Installation assignment in Canvas. Note the Friday due date -- I need to be sure you're ready to complete the prelab over the weekend. 
+[Friday Jan. 27]{.sked-dates}: Complete the R Installation assignment in Canvas. Note the Friday due date -- We will have to resolve any lingering problems in accessing the software over the weekend. 
 
 [Sunday Jan. 29]{.sked-dates} : The life of a dataset
 

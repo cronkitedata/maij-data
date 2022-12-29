@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-02-28">
-<meta name="description" content="For the week before Spring Break, we’ll have a lab for your replication project and I’ll demo some methods to make better-looking tables in your work. We’ll also delve more into the regular expressions used in str_detect and its cousins, as well as RStudio snippets to save typing.">
+<meta name="dcterms.date" content="2022-01-30">
+<meta name="description" content="You can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto.">
 
-<title>Data reporting for investigative journalism - Regular expressions, tables and snippets</title>
+<title>Data reporting for investigative journalism - Getting started with programming - a walkthrough</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../weeks/week04-2.html" rel="next">
+<link href="../weeks/week03-2.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -64,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="robots" content="noindex">
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -126,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Regular expressions, tables and snippets</h1>
+      <h1 class="quarto-secondary-nav-title">Getting started with programming - a walkthrough</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -179,11 +181,11 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../weeks.html" class="sidebar-item-text sidebar-link">Weekly details</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-1.html" class="sidebar-item-text sidebar-link">1.1: Intros</a>
@@ -211,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">4.1: Your first R program</a>
+  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link active">4.1: Your first R program</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -269,13 +271,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a>
-  <ul class="collapse">
-  <li><a href="#monday" id="toc-monday" class="nav-link" data-scroll-target="#monday">Monday</a></li>
-  <li><a href="#wednesday" id="toc-wednesday" class="nav-link" data-scroll-target="#wednesday">Wednesday</a></li>
-  </ul></li>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#preparation-learning-materials" id="toc-preparation-learning-materials" class="nav-link" data-scroll-target="#preparation-learning-materials">Preparation &amp; learning materials</a></li>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
+  <li><a href="#textbook-chapters-well-review" id="toc-textbook-chapters-well-review" class="nav-link" data-scroll-target="#textbook-chapters-well-review">Textbook chapters we’ll review</a></li>
   </ul>
 </nav>
 </nav>
@@ -287,12 +286,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Regular expressions, tables and snippets</h1>
+<h1 class="title d-none d-lg-block">Getting started with programming - a walkthrough</h1>
 </div>
 
 <div>
   <div class="description">
-    For the week before Spring Break, we’ll have a lab for your replication project and I’ll demo some methods to make better-looking tables in your work. We’ll also delve more into the regular expressions used in <code>str_detect</code> and its cousins, as well as RStudio snippets to save typing.
+    You can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto.
   </div>
 </div>
 
@@ -303,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 28, 2022</p>
+      <p class="date">January 30, 2022</p>
     </div>
   </div>
   
@@ -315,41 +314,49 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<section id="monday" class="level3">
-<h3 class="anchored" data-anchor-id="monday">Monday</h3>
 <ul>
-<li><p>More on regular expressions - A lab that helps you understand more about what you are doing in the <code>str_detect</code> function in filtering and mutating - some of this will not be in R, but will be on a website that helps you write the patterns.</p></li>
-<li><p>Open lab to work on getting started on your replication project. While you may work together in labs to help one another get started, this is intended as an individual, not a team, project. Your work must be your own – you can’t copy and paste from one another.</p></li>
+<li>Discussion of “life of a dataset” assignment</li>
+<li>Create your first document – this will also be an example of what you will be doing on your own in pre-labs.</li>
 </ul>
-</section>
-<section id="wednesday" class="level3">
-<h3 class="anchored" data-anchor-id="wednesday">Wednesday</h3>
-<ul>
-<li>Pro tip: Using RStudio snippets to save yourself from having to type so much! (It will also save you from having to remember exactly how a function or verb works – you’ll be prompted for the correct syntax)</li>
-<li>Examples of better-looking tables using two packages : <code>gt</code> for static tables, and <code>reactable</code> for interactive (much less typing if you use snippets!)</li>
-</ul>
-</section>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<p>Reminder: There is an “explainer” due instead of a final exam, which you might want to knock out as soon as you come across something you want to do.</p>
-<p>Friday 3/4 {.text-dark} Update on the <a href="../dataj/coursedocs/replication/">replication project</a>. The sentences/paragraphs to replicate are on Canvas, under the Replication Project module, which links to <a href="https://docs.google.com/document/d/15nFfwZme3bJ0wBIrdn8Ptl3eshYfaQg1JbYd23XNnEg/edit?usp=sharing">this Google Doc</a>. More details are in the Canvas assignment.</p>
-<p>You should have at least imported the data correctly, done the reading and review to make sure you understand it, and taken a stab at getting to some of the answers for the project. Don’t take the paragraphs in order – instead, look for ones you know how to do to and knock them out. The further you get on this, the more I can help you before the final is due. Please be aware that this project MUST be done using R and R Markdown. You will not get credit for anything done in Excel or any other platform.</p>
-<p>NOTE: Expect that you will forget a lot of what you learned over Spring Break. Be prepared to take some time when you get back to refresh yourself.</p>
-<p>Sunday 3/20 {.text-dark} Final replication project</p>
-<p>Friday 3/25 {.text-dark} 2nd self-assessment</p>
+<ul>
+<li><span class="sked-dates">Today</span> : Your first Quarto doc <a href="">prelab01-yourname.qmd</a></li>
+<li><span class="sked-dates">Monday Feb.&nbsp;6</span> : “What would you do?” : choosing a data source. See assignment in Canvas.</li>
+</ul>
 </section>
-<section id="preparation-learning-materials" class="level2">
-<h2 class="anchored" data-anchor-id="preparation-learning-materials">Preparation &amp; learning materials</h2>
-<p>Spend some time going <a href="https://cronkitedata.s3.amazonaws.com/markdown_templates/ppp_lab_0223_solutions.html">over some of the possible solutions to the lab</a> from last week, and the textbook, to see how the concepts and practices in the textbook translate into real-data questions. Try asking some questions of your own, and see how you might approach them. This is some time for you to do review on your own, as you’re expected to be able to apply what we’ve spent the last month doing in this project and the next.</p>
-<p>Pro tip: If you are doing a lot of printing out of data without limiting the number of rows shown, your markdowns might get too large for your computer to handle. Consider using <code>glimpse()</code> or <code>str()</code> to get the number of rows and information about the data you use, or use <code>head()</code>, <code>tail()</code>, or <code>sample_n(100)</code> to look at the beginning, the end, or a randome sample of 100 rows.</p>
-<p>You can also add this line to your setup chunk to limit the number of rows that are used after each command, but it will not show you how many rows were extracted this way – just what they look like (at the same time avoiding scientific notation on numbers):</p>
-<pre><code>options (scipen=999, max.print=100)</code></pre>
+<section id="preparation" class="level2">
+<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<p>This prep might leave you feeling bewildered. Don’t let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don’t have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You’ll probably get a lot of errors, and that’s fine — they’re not judging you. They’re supposed to be hints, even when they’re <span class="text-danger">red</span> and use words that look like <em>$#u893q#r32</em>.</p>
+<ul>
+<li><p>Review the textbook chapter, “<a href="https://cronkitedata.github.io/djtextbook/r-start.html">Getting started with R and RStudio</a>”</p>
+<ul>
+<li><p>Make sure to install the packages at the beginning of the chapter. (We might have been able to get this part done in class already – we’ll see how it goes.) You might want to get it going and then get a cup of tea – it will take at least a few minutes once it starts and could take longer. It might look like it’s stalled. If you have trouble at this point, please post a question to <code>#dj-sos</code> Slack channel and describe what’s happening.</p></li>
+<li><p>Try the <a href="https://posit.cloud/learn/primers/1.2">“Programming basics” tutorial</a> linked in that chapter. Don’t worry about all of the math in it; you don’t have to go through the part where you answer questions. Instead, just focus on the concepts of the 1-minute videos: functions, arguments, objects and data types.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></li>
+<li><p>Watch Andrew Heiss’s <a href="https://youtu.be/cnQ-v1UUWyE">RStudio tour</a>. Again, don’t worry much about how math-centric it is. Our work will be much less so. But he does a good job of going through the most confusing pieces of what’s in front of you.</p></li>
+</ul></li>
+</ul>
+<p><strong>I expect this to take about 2 hours. Don’t spend more time on it. You might finish sooner, but you’ll need this to move forward so don’t rush. I also expect you’ll have questions when we get to class.</strong></p>
+<p>OPTIONAL: If you are nervous, consider reviewing the <a href="https://cronkitedata.github.io/djtextbook/r-quarto.html">Using Quarto</a> chapter that we’ll be following in our class lab today.</p>
+</section>
+<section id="textbook-chapters-well-review" class="level2">
+<h2 class="anchored" data-anchor-id="textbook-chapters-well-review">Textbook chapters we’ll review</h2>
+<ul>
+<li><a href="https://cronkitedata.github.io/djtextbook/appendix-program.html">A gentle introduction to programming</a></li>
+<li><a href="https://cronkitedata.github.io/djtextbook/r-quarto.html">Creating Quarto documents</a></li>
+</ul>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I tried to make a version of the videos for you and failed miserably.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -483,6 +490,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation column-page-right">
+  <div class="nav-page nav-page-previous">
+      <a href="../weeks/week03-2.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">3.2: Install party!</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../weeks/week04-2.html" class="pagination-link">
+        <span class="nav-page-text">4.2: An example analysis: Billboard Hot 100</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

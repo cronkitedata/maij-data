@@ -1,0 +1,199 @@
+---
+title: "Top 100 walkthrough"
+author: "YOUR NAME HERE"
+format: 
+  html: 
+    theme: cosmos
+    embed-resources:  true
+    toc: true
+    code-tools: true
+---
+
+```{r}
+#| label: setup
+
+
+
+library(tidyverse)
+library(janitor)
+library(lubridate)
+
+
+
+```
+
+## Import data
+
+Run the code chunk below and explain:
+
+1.  What the command does
+2.  What the output means.
+
+```{r}
+
+top100 <- 
+  read_csv("https://github.com/utdata/rwdir/blob/main/data-raw/hot100_assignment.csv?raw=true")
+
+```
+
+-   Run code to display the first six rows of the file
+
+```{r}
+
+head(top100)
+
+```
+
+## 
+
+-   Fill in the code that would be needed to show the last six rows using the `tail` function instead of `head`, then run it.
+
+```{r}
+
+
+
+
+```
+
+-   Now fill in the code that lets you look at more details about your data in a different way using the `glimpse` function . Notice how this output differs from what you saw above.
+
+```{r}
+
+
+
+
+
+```
+
+## Cleaning the data
+
+You'll run these in order so you can see what is happening with each line. In practice, you'd do this in one code chunk, slowly adding lines as you know that the previous line worked.
+
+```{r}
+
+
+top100 |> 
+  clean_names() 
+
+
+
+```
+
+```{r}
+
+
+top100_clean <- 
+  top100 |>
+  clean_names () |>
+  mutate ( chart_date = mdy(chart_week))
+
+```
+
+Now you're ready to save the output by running this code:
+
+-   What does the `<-` mean in this code?
+-   What does the `|>` mean in this code?
+
+```{r}
+
+top100_clean <- 
+  top100 |>
+  clean_names () |>
+  mutate ( chart_date = mdy(chart_week)) |>
+  select ( chart_date, title, performer, this_week, last_week,
+           wks_on_chart, peak_pos)
+
+
+```
+
+-   In your own words, describe what that last code chunk just did:
+
+## Verbs
+
+### All Taylor Swift songs
+
+(We're using `top100_clean` in this walkthrough instead of the `top100` shown in the textbook because we skipped the interim step of saving our data in the project and re-loading it into an object. )
+
+-   Note that there are TWO "=" signs in the code below to test the condition "Does the `performer` column equal the letters within the quotes?" . (Try it with only one and see what happens! )
+-   What happens if you try "TAYLOR SWIFT" instead of "Taylor Swift"?
+
+```{r}
+
+top100_clean |> 
+   filter ( performer == "Taylor Swift") |> 
+   arrange ( chart_date )
+
+
+
+```
+
+-   Describe in your own words what you make of this output -- say what you think it tells you:
+
+### Taylor Swift #1 hits
+
+-   Run this code to see her #1 hits.
+    -   What changed in the code that made that happen?
+
+    -   What does the `&` operator do in the filter?
+
+    -   What does the "SELECT" portion do? (compare this answer to the one above if you're not sure. )
+
+```{r}
+
+top100_clean |>
+  filter (performer=="Taylor Swift" & this_week == 1) |>
+  arrange ( chart_date)  |>
+  select ( this_week, song, chart_date, last_week)
+
+
+```
+
+### Summary statistics
+
+In this code:
+
+-   What is the left side of the "=" sign?
+-   What is the right side of the "=" sign?
+-   Why is there only one "=" sign instead of two?
+
+```{r}
+
+top100_clean |>
+  summarize ( number_of_entries = n() , 
+              first_entry = min(chart_date), 
+              last_entry= max(chart_date)
+              )
+
+
+```
+
+-   What does that answer mean in plain English?
+
+### Grouping with summarizing
+
+You're combining more verbs with this code chunk.
+
+```{r}
+
+top100_clean |>
+  group_by ( performer) |>
+  summarise ( times_on_list = n() ) |>
+  arrange (desc ( times_on_list ))   |> 
+  head (10)
+
+
+```
+
+-   Describe , in your own words, what this result says.
+
+## Make up a new question
+
+Now that you've seen a little about what kinds of things you can do, try to think of a question you'd like to ask of this data. It doesn't have to be something you already know how to do. For example, maybe you want to see whether one-hit wonders are more common now than they were in the past. Try to keep your question to something that THIS data could tell you.
+
+## Note three things from this lesson that you don't want to forget
+
+They can be part of the formal walkthrough, something in the chapter itself, or something that struck you as you were trying to do the work.
+
+1.  First:
+2.  Second:
+3.  Third:

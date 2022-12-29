@@ -9,7 +9,7 @@
 <meta name="dcterms.date" content="2022-02-14">
 <meta name="description" content="Convert your pivot tables into R code using the verbs group_by and summarize">
 
-<title>Data reporting for investigative journalism - Verbs in depth part 2: Group, mutate, join</title>
+<title>Data reporting for investigative journalism - Verbs part II: Summarize and Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,6 @@ ul.task-list li input[type="checkbox"] {
 <meta name="robots" content="noindex">
 
 
-<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -127,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Verbs in depth part 2: Group, mutate, join</h1>
+      <h1 class="quarto-secondary-nav-title">Verbs part II: Summarize and Group</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -212,7 +211,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week04.html" class="sidebar-item-text sidebar-link">4: Your first programs</a>
+  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">4.1: Your first R program</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week04-2.html" class="sidebar-item-text sidebar-link">4.2: An example analysis: Billboard Hot 100</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -253,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://bit.ly/dj2022-startme" class="sidebar-item-text sidebar-link">Other links</a>
+  <a href="https://start.me/p/nRyOGj/public-page" class="sidebar-item-text sidebar-link">Other links</a>
   </div>
 </li>
       </ul>
@@ -265,11 +269,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a>
-  <ul class="collapse">
-  <li><a href="#monday" id="toc-monday" class="nav-link" data-scroll-target="#monday">Monday</a></li>
-  <li><a href="#wednesday" id="toc-wednesday" class="nav-link" data-scroll-target="#wednesday">Wednesday</a></li>
-  </ul></li>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
   <li><a href="#preparation-and-learning-materials" id="toc-preparation-and-learning-materials" class="nav-link" data-scroll-target="#preparation-and-learning-materials">Preparation and learning materials</a></li>
   </ul>
@@ -283,7 +283,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Verbs in depth part 2: Group, mutate, join</h1>
+<h1 class="title d-none d-lg-block">Verbs part II: Summarize and Group</h1>
 </div>
 
 <div>
@@ -313,20 +313,6 @@ ul.task-list li input[type="checkbox"] {
 <!-- You don't have anything due this week, so I strongly suggest you review the work we did last week until you're comfortable with it. Here are a few practice datasets that you can use to start honing your ability to ask questions and use code to get close to the answers,-->
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<section id="monday" class="level3">
-<h3 class="anchored" data-anchor-id="monday">Monday</h3>
-<ul>
-<li>Review of the labs we did last week, and questions that came up during that.</li>
-<li>Introducing the verbs for this week: Group by and summarize.</li>
-</ul>
-</section>
-<section id="wednesday" class="level3">
-<h3 class="anchored" data-anchor-id="wednesday">Wednesday</h3>
-<ul>
-<li>Review the pre-lab</li>
-<li>Lab on group by, summarize.</li>
-</ul>
-</section>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>

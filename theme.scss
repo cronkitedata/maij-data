@@ -109,6 +109,11 @@ $h4-font-size:                $font-size-base * 1.2 !default;
     }
 }
 
+.description {
+  color: var(--bs-primary) ;
+  font-size: smaller;
+}
+
 h1 { 
     font-weight:900;
 
