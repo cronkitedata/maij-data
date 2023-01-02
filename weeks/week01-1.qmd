@@ -21,6 +21,7 @@ Unless I suggest otherwise, you’re expected to have done more than just skimme
 
 * Introductions - you and me
 * Review of surveys and goals for the semester
+* Logistics
 * Syllabus lab
 * Intro to investigative data reporting
  
@@ -49,10 +50,6 @@ Unless I suggest otherwise, you’re expected to have done more than just skimme
  
 ## In-class resources
 
-We'll go through this one:  [Presentation](https://docs.google.com/presentation/d/1SoC8m-gWon3-wBqzn9KynFp4S5iSJ8xnjI45In99bC0/edit?usp=sharing) on data-driven reporting 
+[Slide deck:](https://docs.google.com/presentation/d/1SoC8m-gWon3-wBqzn9KynFp4S5iSJ8xnjI45In99bC0/edit?usp=sharing)  data-driven reporting 
 
-Here are a couple of others: 
-
-* [Very brief intro](https://docs.google.com/presentation/d/1RH5cPI3y_JwLj-QU10n765S5Dv6iiitJ8OnZWkCHw5o/edit?usp=sharing)
-* [Examples of data-driven investigaitons](https://docs.google.com/presentation/d/1p4sR9JNVrSQrcGN5mG4nLID8i6HFojtNrvlTqlAOEb4/edit?usp=sharing)
 

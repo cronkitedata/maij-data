@@ -49,7 +49,7 @@ The *Reveal*  story will be used again later in the semester, so you may want to
 
 ## Chapters for the Wednesday's labs: 
 
-* [`select`, `arrange` and `filter` (with a focus on filter)]{.text-danger}: 
+* [`select`, `arrange` and `filter`](https://cronkitedata.github.io/djtextbook/r-verb-filter.html) (with a focus on filter)
 * [`mutate`](https://cronkitedata.github.io/djtextbook/r-verb-mutate.html) to get new data from old
 
 

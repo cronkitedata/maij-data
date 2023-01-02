@@ -16,7 +16,7 @@ I have to leave early today. I'll get you started, and you can turn in as far as
 
 ## Upcoming deadlines
 
-* [Today]{.sked-dates}: Billboard 100 [prelab01-yourname.qmd](https://github.com/cronkitedata/maij-data/tree/main/prelabs)
+* [Today]{.sked-dates}: Billboard 100 [prelab](https://github.com/cronkitedata/maij-data/tree/main/prelabs)  (we'll do this in class)
 * [Monday Feb. 6]{.sked-dates} : "What would you do?" : choosing a data source. See assignment in Canvas.
 
 

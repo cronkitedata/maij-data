@@ -17,7 +17,7 @@ Some of this may feel abstract to you in the beginning but it will become more c
 
 [Sunday Jan. 29]{.sked-dates} : The life of a dataset
 
-## Learning materials
+## Preparation
 
 * [Replication and the data diary](https://cronkitedata.github.io/djtextbook/start-data-diary.html) from the course textbook
 
@@ -35,7 +35,7 @@ Here are the chapters we went through in bootcamp.  There is zero expectation th
 
 *  [Excel filter and sort](https://cronkitedata.github.io/djtextbook/xl-filter-sort.html) 
 
-* [Grouping with pivot tables](https://cronkitedata.github.io/djtextbook/xl-pivot.html)
+* [Grouping with pivot tables](https://cronkitedata.github.io/djtextbook/xl-pivot.html): I rewrote this chapter after our boot camp. It might be a little clearer now. 
 
 *  [Excel formulas](https://cronkitedata.github.io/djtextbook/xl-formulas.html) 
 
@@ -43,7 +43,7 @@ If you don't remember how to work with fractions, percents, etc., review the [Ma
 
 Try watching Mary Jo Webster's great tutorial on New Yorker comics if you're still a little confused by pivot tables: 
 
-{{< video https://youtu.be/NjOfLP5s24w width="600" height="300" >}}
+{{< video https://youtu.be/NjOfLP5s24w width="400"  >}}
 
 
 

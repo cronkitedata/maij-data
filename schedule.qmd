@@ -32,7 +32,7 @@ The schedule is subject to change as we discover where you need or want more tim
 |08|Feb 27-March 1|Catch-up week & labs for replication project | Su 2/27: Replication update (50)|
 |||Spring break|
 |09|March 13-15|Intro to data viz| W 3/15: "What would you do?" (25)
-|10|March 20-22|Scraping | Su 3/19: Replication final draft (100)| 
+|10|March 20-22|Scraping | Su 3/19: Replication final draft (75)| 
 |11|March 27-29|Build your own database| Su 3/26: Memo proposal (25) <br> W 3/29 : Building your own database (50)
 |12|April 3-5|Intro to maps and GIS| M 4/3: "What would you do?" (25)
 |13|April 10-12|Cleaning data with OpenRefine;  <br> working with pdfs| Su 4/9: First memo update (50)

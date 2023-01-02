@@ -25,7 +25,7 @@ description:  Data isn't just numbers. We'll learn how to think broadly about da
 
 [Sunday Jan. 29]{.sked-dates} : The life of a dataset 
 
-## Preparation and learning materials
+## Preparation 
 
 Read the textbook chapter first: 
 
@@ -63,41 +63,36 @@ It's ok if you can't answer all of these things, but it's useful to undertake th
 
 * We measured pop music’s falsetto obsession, Vox, August 2019:  
 
-<div class="mx-auto my-3" style="width:560px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qJT2h5uGAC0" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
+::: {.ps-4 .ms-4}
+{{< video https://www.youtube.com/embed/qJT2h5uGAC0 width="60%" height="400px">}}
+::: 
 
-
-
-## In-class lab details
+##  In-class lab details
 
 You must do this assignment WITHOUT looking at the actual data, just the definitions and the background.
 
 We will look at the promise and the limitations of working with the Phoenix Open Government's version of the [Police 911](https://www.phoenixopendata.com/dataset/calls-for-service/resource/1d536ee6-7ffb-49c3-bffe-5cdd98a3c97e) calls for service.
 
-Review the data elements available in Phoenix by expanding the data dictionary below the preview table. 
+Review the data elements available in Phoenix by expanding the data dictionary below the preview table.  Compare it to a more complete dataset made public by the  [New Orleans Police Department](https://data.nola.gov/Public-Safety-and-Preparedness/Calls-for-Service-2022/nci8-thrr)  (be sure to expand the "Columns in this Dataset" area) 
 
-Then discuss among yourselves how it compares with  one of the most complete set of 911 records regularly made public by the [New Orleans Police Department](https://data.nola.gov/Public-Safety-and-Preparedness/Calls-for-Service-2022/nci8-thrr)  by expanding the "Columns in this Dataset" area to show all of the column names. Note the data columns that are included but are missing from the Phoenix version and think about what kinds of stories would be made possible if those columns were included. Hint: There is no reason for the police to hide this information -- it's public, and they should make it public!  
-
-Try to think like the agency that received the call. For example, a 911 call doesn't necessarily mean a crime was committed - it means that the police were dispatched to a specific location.  Also, 911 operators don't ask for someone's race, ethnicity or DOB when they call -- just what is happening and where they are. And there are crimes committed that never have a 911 call -- for example, if your car is stolen and you figure it out the next day, you'd call the main police number, not 911 emergency; if a police officer sees someone selling drugs, there is no 911 call -- just a police stop. 
+Try to imagine what might or might not be in the original data held by the agency. For example, a 911 call doesn't necessarily mean a crime was committed - it means that the police were dispatched to a specific location.  Also, 911 dispatchers don't ask for someone's race, ethnicity or DOB when they call -- just what is happening and where they are. They don't even require your name. And there are crimes committed that never have a 911 call --  if a police officer sees someone selling drugs, there is no 911 call , just an arrest. 
 
 
 Once you have a handle on what's in the data and what's missing, answer these questions about the Phoenix data to the best of your ability:
 
-- Where did it come from, and what time period does it cover? 
+- What government agency did it originally come from, and what time period does it cover? 
 - What questions must you ask of the dataset provider to understand its usefulness? 
 - Come up with one interesting question that might be answered by this dataset
 - Come up with one interesting question that can't be answered in its current form. 
 - If you were to request this dataset over again from the original source, what other pieces of information would you ask that the government include in the data. Try to imagine what else would be in the data and should be a public record, and ignore things that wouldn't ever be in it such as information from a court file related to this call.  
-
 
 The instructions on submitting your work are detailed in the [Canvas assignment](https://asu.instructure.com/courses/138967/assignments/3723182/)
 
 
 ## Going further
 
-Here are some more examples of datasets coming from unexpected places: historical site lines, investigative files, and rap. 
+Here are some more examples of datasets coming from unexpected places: historical site lines, investigative files, and Hamilton. 
 
 - [This documentary and report](https://forensic-architecture.org/investigation/environmental-racism-in-death-alley-louisiana) by the independent firm Forensic Architecture in partnership with RISE St. James on environmental racism in "death alley", Louisiana, is quite long. But it's a great example of the emerging form of open source investigations that use imaging, historical site lines and similar non-traditional data in service of a larger piece, often conducted by human rights investigators rather than journalists.   (I can't get the direct link to work. If it won't work for you, choose Investigations, and look for those in the United States. At this writing there were only two. )
 

@@ -7,12 +7,12 @@ description: You can now ditch those painstaking data diaries and write self-doc
 ## Agenda 
 
 * Discussion of "life of a dataset" assignment
-* Create your first document -- this will also be an example of what you will be doing on your own in pre-labs.
-
+* Questions about the R Studio tour and tutorials
+* Create your first document
 
 ## Upcoming deadlines
 
-* [Today]{.sked-dates} : Your first Quarto doc [prelab01-yourname.qmd]()
+* [Today]{.sked-dates} : Your first [Quarto doc](https://raw.githubusercontent.com/cronkitedata/maij-data/main/prelabs/prelab01-yourname.qmd)
 * [Monday Feb. 6]{.sked-dates} : "What would you do?" : choosing a data source. See assignment in Canvas.
 
 
@@ -28,7 +28,7 @@ This prep might leave you feeling bewildered. Don't let it get to you. You will 
 
     * Watch Andrew Heiss's [RStudio tour](https://youtu.be/cnQ-v1UUWyE). Again, don't worry much about how math-centric it is. Our work will be much less so. But he does a good job of going through the most confusing pieces of what's in front of you. 
 
-**I expect this to take about 2 hours. Don't spend more time on it. You might finish sooner, but you'll need this to move forward so don't rush. I also expect you'll have questions when we get to class.**
+**Don't spend more than 2 hours on this. You might finish sooner, but you'll need this to move forward so don't rush. I also expect you'll have questions when we get to class.**
 
 
 OPTIONAL: If you are nervous, consider reviewing the [Using Quarto](https://cronkitedata.github.io/djtextbook/r-quarto.html) chapter that we'll be following in our class lab today. 

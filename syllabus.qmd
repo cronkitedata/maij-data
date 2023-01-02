@@ -162,7 +162,7 @@ Doing well in this class means working slowly, methodically and consistently thr
 
 Nearly half of your grade is dependent on this slow and steady work. 
 
-many weeks, there will be one or two low-stakes assignments. Sometimes, I'll ask you to reflect on what you did and provide feedback. Other times, you will show that you went through a tutorial on your own. It also includes labs that we do in class. 
+Many weeks, there will be one or two low-stakes assignments. Sometimes, I'll ask you to reflect on what you did and provide feedback. Other times, you will show that you went through a tutorial on your own. It also includes labs that we do in class. 
 
 ::: { .text-muted style="font-size:.75rem;"}
 (NB: I haven't written out all of these assignments yet -- I expect that most pre-labs will be 10 points and most labs will be 20 points, but I have to figure out how many of each first.)
@@ -170,26 +170,7 @@ many weeks, there will be one or two low-stakes assignments. Sometimes, I'll ask
 
 #### What would you do? 
 
-You've had some background in journalism ethics, but there are specific issues that come up surrounding acquiring, analyzing and presenting data. You will be presented with at least four scenarios that are based on real-world situations. After reading the material, you will be asked to reflect on some specific questions on a discussion board, which will form the basis of our in-class discussion. 
-
-#### Grading daily work
-
-
-::: {#syllabus-table}
-
-Percentage | Definition
----- | -----
-[115%]{.highlight} | I reserve the right to award extra points when the work shows extraordinary effort, thought and engagement. You can do everything right and still receive an A+ in the course without ever seeing one of these. Instead, it's a way for me to acknowledge unusually ambitious work that goes well beyond the original assignment. 
-[100%]{.highlight}  |  You have completed all of the work assigned at an acceptable level of quality, and submitted it according to the instructions by the deadline. This might include running code, writing code, providing questions or feedback, or summarizing your results as a journalist.  The work shows no fundamental factual errors and reflects an attempt to apply the material at hand. Sometimes, you'll end up explaining in your homework what you tried to accomplish but couldn't quite succeed. I hope all of your assignments can acheive this level but understand that it's not always possible. 
-[50%]{.highlight} |  You turned in a late or partial assignment or one that shows cursory review of the material. I hope these will be rare, but I expect most people will have one or two of these throughout the semester.  
-[0%]{.highlight} |   You didn't turn anything in, or what was turned had no meaningful work done. 
-
-: {tbl-colwidths="[10,90]"}
-
-:::
-
-
-You will get some very limited written feedback on these assignments, but much of class will be spent addressing the questions and opportunities that come up in them. 
+You've had some background in journalism ethics, but there are specific issues that come up surrounding acquiring, analyzing and presenting data. You will be presented with four scenarios that are based on real-world situations. After reading the material, you will be asked to reflect on some specific questions on a discussion board, which will form the basis of our in-class discussion. 
 
 ### Replication project {.mb-0}
 [175 points]{.quarto-title-meta-heading}
@@ -197,24 +178,12 @@ You will get some very limited written feedback on these assignments, but much o
 There are three separate assignments for this project, which challenges you to reproduce some sentences published in real stories using the same data used by the reporters. I’ll provide the stories and the data. Your first job is to identify paragraphs in the story that depended on the dataset that you’ve been given. The second gives you a chance to turn in a draft of your work so that I can help you. The last one is the final version.
 
 
-::: {.ltblue-box .float-end .w-50 .m-3 .p-3 }
-
-
-**This course follows ASU's grading policies:**
-
-
-* *"A"* is reserved for "excellent" or "outstanding" work, which goes beyond the explicit requirements in quality, depth, effort, or presentation.<br>
-* *"B"* means "successful" -- really! That means it's on time, accurate, written or presented in a professional way, and answers the requirements of the assignment. <br>
-* *"C"* is considered "Acceptable" work, in that it has met some, but not all, of the requirements.
-
-:::
-
 ### Story memo {.mb-0}
 
 [225 points]{.quarto-title-meta-heading}
 
 
-In this project, you’ll develop a story pitch using a combination of story backgrounding and data analysis. I’ll give you a choice of three datatsets that I know will work for this assignment. You may propose your own, but it must be easy to obtain, relatively clean, and complicated or large enough that there is something for you to analyze beyond a basic statistic. Generally, the dataset will be of individual records (accidents, inspections, deaths or events), not statistical compilations. You’ll understand this better as we move along.
+In this project, you’ll develop a story pitch using a combination of story backgrounding and data analysis. I’ll give you a choice of at least three datatsets that I know will work for this assignment. You may propose your own, but it must be easy to obtain, relatively clean, and complicated or large enough that there is something for you to analyze beyond a basic statistic. Generally, the dataset will be of individual records (accidents, inspections, deaths or events), not statistical compilations. You’ll understand this better as we move along.
 
 The specific list of datasets may be coordinated with your investigative reporting class, News21 and/or the Howard Center, so they're subject to change. 
 
@@ -225,7 +194,47 @@ Although this is one-fifth of your grade, it’s split among four assignments ov
 
 There will be four smaller graded assignments that are more important than daily work but don't rise to the level of a project.  They are shown in Canvas each with 50 points. 
 
-## Course policies
+
+### Grading policies 
+
+#### 50 points or more
+
+::: grid
+
+::: {.g-col-3 .p-3}
+
+
+Any assignment worth 50 points or more will be graded with letters, ranging from E to A+. It follows ASU's policy on grades. In following Cronkite policies, they will not be rounded up.  
+
+::: 
+::: {.g-col-9 .ltblue-box .m-3 .p-3 }
+ASU's policy is: 
+
+* "A” is reserved for “excellent” or “outstanding” work, which goes beyond the explicit requirements in quality, depth, effort, or presentation.
+* “B” means “successful”. That means it’s on time, accurate, written or presented in a professional way, and answers the requirements of the assignment. 
+* “C” is considered “Acceptable” work, in that it has met some, but not all, of the requirements.
+::: 
+::: 
+
+#### Under 50 points
+
+Smaller assignments and labs will be graded as follows: 
+
+::: {#syllabus-table}
+
+Percentage | Definition
+---- | -----
+[115%]{.highlight} | I will award extra points when the work shows extraordinary effort, thought and engagement. You can do everything right and still receive an A+ in the course without ever seeing one of these. Instead, it's a way for me to acknowledge unusually ambitious work that goes well beyond the original assignment. 
+[100%]{.highlight}  |  You have completed all of the work assigned at an acceptable level of quality, and submitted it according to the instructions by the deadline. This might include running code, writing code, providing questions or feedback, or summarizing your results as a journalist.  The work shows no fundamental factual errors and reflects an attempt to apply the material at hand. Sometimes, you'll end up explaining in your homework what you tried to accomplish but couldn't quite succeed. I hope all of your assignments can acheive this level but understand that it's not always possible. 
+[50%]{.highlight} |  You turned in a late or partial assignment or one that shows cursory review of the material. I hope these will be rare, but I expect most people will have one or two of these throughout the semester.  
+[0%]{.highlight} |   You didn't turn anything in, or what was turned had no meaningful work done. 
+
+: {tbl-colwidths="[10,90]"}
+
+:::
+
+
+## Course requirements
 
  <blockquote class="blockquote-big ">
     <p>Showing up is 80 percent of life.</p>
@@ -238,42 +247,47 @@ The minimal requirement is to arrive on time, prepared, and ready to work. **Ple
 
  I will insist that devices are closed and turned off for guests, but it's disprespectful to the entire class when you decide to do something else during discussions or presentations.  In addition, research shows that you are [much worse at multi-tasking](https://health.clevelandclinic.org/science-clear-multitasking-doesnt-work/) than you think you are, and the class won't stop because you got distracted or sidetracked. 
 
-::: {.callout-note .ms-3 .me-2}
+::: {.callout-warning .ms-3 .me-2}
 ## Disclosure
-I have a great deal of difficulty concentrating when someone is attending to something else during class. I will try not to stare, but I tend to lose my place and stumble over simple questions. In those cases, I may have to ask you to leave the classroom until you are ready to engage with the material we're working on. 
+I have a great deal of difficulty concentrating when someone is attending to something else, including lunch or lost sleep, during class. I know this is a character flaw. I will try to overcome it, but if  I start losing my place or stumbling over simple questions, I may ask you to leave the classroom until you are ready to engage with the material we're working on. 
 :::
+
+I will not monitor or respond to messages in  Slack, Zoom, or email during or just before class time. The only reliable way to get me a message between 9:20 and 11:20 Mondays and Wedesdays is to do so in person in the classroom. 
+
 
 ### Attendance and deadlines
 
-There are no excused absences in this course, except for true medical or other emergencies or religious observances. You might decide it’s more important to schedule a job interview, attend a family event, interview a source, or schedule a tight connection on a flight than to attend class or complete your work. If I were you, I might decide the same thing, but these are choices that reflect your priorities. They’re not emergencies, nor are they excused absences or deadlines.
+There are no excused absences in this course, except for true medical or other emergencies or religious observances. You might decide it’s more important to schedule a job interview, attend a family event, interview a source, or schedule a tight connection on a flight than to attend class or complete your work. If I were you, I might decide the same thing, but these are choices that reflect your priorities. They’re not emergencies, nor are they excused absences or deadlines. 
 
-As in all journalism work, you are expected to meet deadlines. Late graded assignments will be heavily penalized and more routine ones may not be accepted at all. 
+As in all journalism work, you are expected to meet deadlines. Late assignments will be heavily penalized and those with small point counts may not be accepted at all. 
 
-However, no one wants you to come to school if you are infected with COVID or have another serious illness, or if you have been instructed to quarantine because of close contact with someone who has tested positive. Here is what to do if you’re ill or in quarantine / isolation:
+Please advise me the first week of class of any ASU-endorsed absences such as a religious holiday or participation in an ASU team sport that will cause you to miss class so that I can plan accommodations. Here's what to do if you want an accommodation for an emergency: 
 
-* If you suspect you have COVID, or if you believe you have been exposed and should quarantine, you should contact the dean of students for instructions about what to do next. I can get verification for your absence from them. If you test positive, I will work with you to help you keep up or catch up while you are not allowed to come to school.
-* If there is a true emergency, such as a car accident or a death in the family, please let me know as soon as possible and we’ll work out what to do next. The same policy is in effect for religious observances.
-* If you are feeling sick, you should contact ASU Health Services or your doctor. I will need a doctor’s note to extend any deadline or make accommodations for you.
+* If you suspect you have COVID, or if you believe you have been exposed and should quarantine, you should contact the dean of students for instructions about what to do next. I can get verification for your absence from them. 
 
-In rare instances, another professor may try to require you to miss a class. Please inform me right away if this happens. I am already aware of  the Borderlands trip. 
+* If there is an emergency, such as a car accident or a death in your close circle or family, please let me know as soon as possible and we’ll work out what to do next. 
 
-When these emergency absences occur, it may be possible to let you observe via Zoom without participating in the class. It depends on when you tell me and what we're doing that day. 
+* We all know there is a lot of flu and RSV going around this year. If you are sick, you should contact ASU Health Services or your doctor. They can provide the documentation needed to offer accommodations if you are too ill or contagious to leave home. 
+
+In these circumstances, I will work with you to accommodate the absence. That might include extending deadlines and helping you find assistance such as ASU mental health resources and tutoring.  I may be able to let you observe (without participating) via Zoom, but you shouldn't count on it. 
 
 ::: {.callout-note .ms-3}
 ## May I be excused?
 
-The short answer is "yes" -- I don't take attendance and there is no class participation grade.  I get it --- sometimes you just don't feel 100% or you have something more important to do or you just can't get to school on time. 
+The short answer is "yes" -- I don't take attendance and there is no class participation grade.  I get it --- sometimes you don't feel 100% or you have something more important to do or the bus broke down. 
 
 However, it will be up to you to keep up or catch up. You will not be offered the opportunity to observe via Zoom. Deadlines will not be extended. You'll also be excluded from any group assignments that might be part of the class that day.
 :::
 
-That said, **give yourself a break**. You may miss get an extension on two daily assignments without penalty without question.  You don't need to give me a reason. 
+That said, **give yourself a break**. You may get an extension on daily work twice during the semester without any penalty. This includes labs/prelabs and graded homework.  You don't need to give me a reason -- just let me know by 6pm the day before the deadline, and I'll give you an automatic 48-hour extension.  Any parts of the two major projects are not included in this policy. 
 
 ### Accuracy
 
-If you pursue reporting with data-driven techniques, you’ll often create original information that no one else can confirm. In fact, your sources are often happy to explain a result you present to them, even if it’s entirely wrong. This puts an even bigger burden on you to understand your sources, to question your assumptions and find holes in your work. If an answer seems too newsworthy, walk through everything you’ve done step by step. Seek out errors; ask experts or colleagues to challenge your results. We’ll spend a lot of time on practices that will help protect you from errors but your own skepticism (and sometimes even fear) is the best defense.
+If you pursue reporting with data-driven techniques, you’ll often create original information that no one else can confirm. In fact, your sources are often happy to explain a result you present to them, [even if it’s entirely wrong](https://cronkitedata.s3.amazonaws.com/docs/cx-dogs-stpete.pdf). This puts an even bigger burden on you to understand your sources, to question your assumptions and find holes in your work. If an answer seems too newsworthy, walk through everything you’ve done step by step. Seek out errors; ask experts or colleagues to challenge your results. We’ll spend a lot of time on practices that will help protect you from errors but your own skepticism (and sometimes even fear) is the best defense.
 
-I don’t expect your work to be polished and exact. However, work that shows a fundamental misunderstanding of the source, contains a severe miscalculation or misinterpretation, or ignores clear warning signs will receive an E. This is the equivalent of having to retract an entire story because it was based on an obvious falsehood.
+I don’t expect your work to be polished and exact. However, work that shows a fundamental misunderstanding of the source, contains a severe miscalculation or misinterpretation, or ignores clear warning signs will receive an E. This is the equivalent of having to retract an entire story because it was based on an obvious error.
+
+This requires you to gut-check all of your data work before you turn it in or include it in a sentence. Actually look at your results and decide "could this possibly be true?"
 
 :::: {.container .ltblue-box}
 
@@ -292,7 +306,7 @@ Learning data skills requires a lot of trial and error -- a LOT of error. It's f
 * Slow down! Unlike the rest of journalism, going faster doesn't help. Separate the problem into pieces and solve it one step at a time. 
 * If you've been working on something for more than 20 minutes **without making any progress**, don't waste more time on it. If you're making just a little progress, keep going. But take a break and come back to it if you're stuck. Get help if you're really stuck.
 * Remember the goal: We're not trying to become social scientists, computer programmers or data analysts. We're journalists. Simplify your questions, focusing on newsworthiness rather than academic research.
-* Practice on something you're working on outside of school or for another class.
+* Practice. Look for opportunities to hone your skills by applying them outside of class on a personal project or for a story or another course. Try the [DataCamp subscription](https://www.datacamp.com/){style="background-color: inherit; text-decoration: underline; color: var(--body-color);"} when it becomes available or a [#tidytuesday](https://github.com/rfordatascience/tidytuesday){style="background-color: inherit; text-decoration: underline; color: var(--body-color);"} challenge. 
 
 :::: 
 
@@ -302,18 +316,20 @@ Learning data skills requires a lot of trial and error -- a LOT of error. It's f
 
 All work submitted under your name must be your work and your work alone. When you are assigned work in teams, contributors should be credited when an individual was primarily responsible for a portion of the work. For example, if one student takes the lead on analyzing data and another on writing the results, you should give credit where it is due.
 
+I will encourage you to work in pairs during some of the labs --- it's much easier to solve problems when two people are looking at the same thing. But you must turn in your work separately and answer question prompts on your own. 
+
 ### Extra Credit
 
 Simple. There is none. Why? This course is made up of a lot of little pieces. They can’t be replaced by attending a lecture.
 
-### Cronkite School Diversity Principles: 
+### Cronkite School Diversity Principles 
 
 The Walter Cronkite School of Journalism and Mass Communication [embraces inclusivity](https://cronkite.asu.edu/dei/) in student, staff and faculty populations in order to create an academic environment that fosters diversity of thought and acceptance of all people regardless of race, gender, age, sexual orientation, or societal, political, cultural, economic, spiritual, or physical differences. To this end, the school directs efforts to the following four principles:
 
-Actively seek out and encourage diverse populations to become productive members of the faculty, staff and the student body;
-Create and maintain a work, learning and social environment that is cognizant and supportive of a diversity of human differences and beliefs;
-Incorporate within the formal content of the curriculum and in each course an affirmation of the core journalistic values of accuracy, fairness, ethical behavior and sensitivity when reflecting an increasingly multicultural world;
-Foster and support a climate in which events and activities of the school reflect diversity of awareness, sensitivity to and support for people of different origins, orientations and abilities.
+* Actively seek out and encourage diverse populations to become productive members of the faculty, staff and the student body;
+- Create and maintain a work, learning and social environment that is cognizant and supportive of a diversity of human differences and beliefs;
+- Incorporate within the formal content of the curriculum and in each course an affirmation of the core journalistic values of accuracy, fairness, ethical behavior and sensitivity when reflecting an increasingly multicultural world;
+- Foster and support a climate in which events and activities of the school reflect diversity of awareness, sensitivity to and support for people of different origins, orientations and abilities.
 
 ### Student Accessibility and Inclusive Learning Services (SAILS) 
 
@@ -321,9 +337,9 @@ Foster and support a climate in which events and activities of the school reflec
 
 ### Academic Integrity 
 
-The school has zero tolerance for academic dishonesty; instructors enforce academic integrity in every course and educational activity offered or sanctioned by the school. Any allegation of academic dishonesty will be referred to an appointed academic integrity officer for investigation. They elevate cases to the school’s standards committee for review and recommendation to the dean of the school. If the committee finds that a student has engaged in academic dishonesty in any form — including but not limited to cheating, plagiarizing, and fabricating (see examples here) — that student shall receive a grade of XE for the class and may face suspension or expulsion from ASU. 
+The school has zero tolerance for academic dishonesty; instructors enforce academic integrity in every course and educational activity offered or sanctioned by the school. Any allegation of academic dishonesty will be referred to an appointed academic integrity officer for investigation. They elevate cases to the school’s standards committee for review and recommendation to the dean of the school. If the committee finds that a student has engaged in academic dishonesty in any form — including but not limited to cheating, plagiarizing, and fabricating  — that student shall receive a grade of XE for the class and may face suspension or expulsion from ASU. 
 
-You must complete the Academic Integrity pledge before the end of the first week of class, included in Canvas as an assignment.
+You must complete the Academic Integrity pledge within the first week of class, included in Canvas as a quiz.
 
 ::: {style="page-break-after: always;"}
 ::: 
@@ -342,9 +358,9 @@ Everyone in this class has gone through the boot camp required of all masters st
 
 **Q: This looks like a lot of work. How long do I have to spend on it every week?**
 
-I expect that this course will follow the typical ASU time commitment -- approximately 9 total hours per week. That suggests that, on average, you should expect to spend about 5 or 6 hours per week outside of class on preparation, homework and projects. The time commitment is a little front-loaded as we race to get you the skills you need to apply them later in the semester. 
+I try to follow the ASU standard for a 3-credit course --- approximately 9 hours per week, including class and lab time. That suggests that, on average, you should expect to spend about 5 or 6 hours per week outside of class on preparation, homework and projects. The time commitment is a little front-loaded as we race to get you the skills you need later in the semester. 
 
-If you're spending significantly LESS time, try to reconsider whether you're really engaging with the material. If you 're spending considerably MORE time, please let me know  --- that's not the intention. 
+If you're spending considerably more time on assigned work and preparation, please let me know -- that's not the intention.   
 
 **Q: What is Slack?**
 
@@ -370,12 +386,10 @@ In technical work, asking a good question is an art. Try to:
 
 **Q: I already know how to code and analyze data. Why do I have to take this class?**
 
-Even if you know how to code, I presume you are at Cronkite because you want to apply all of your skills to a journalism career. You probably knew how to use a phone or take a picture before you came to j-school, but you may not have used them the way you do now. That said, talk with me if you’re concerned that you won’t be challenged enough. We’ll find ways to make the time productive and take you to the next level in data reporting.
+Even if you know how to code, I presume you are at Cronkite because you want to apply all of your skills to a journalism career. You probably knew how to use a phone or take a picture before you came to j-school, but you may not have used them the way you do now. That said, talk with me if you’re concerned that you won’t be challenged enough or want to go further. We’ll find ways to make the time productive and take you to the next level in data reporting.
 
-**Q: Can I use ChatGPT to help me with my coding?**
+**Q: Can I use [ChatGPT](https://openai.com/blog/chatgpt/) to help me with my coding?**
 
-Sure -- for help, not for answers. In fact, one of the things it's really good at is answering the question, "Why doesn't this code work?"  You will have to determine if its answer is right, or if it uses the material you're responsible for mastering. But if it helps, it's no different than asking Google to help in your coding. 
-
-
+Sure --- for help, not for answers. In fact, one of the things it's really good at is answering the question, "Why doesn't this code work?"  You will have to determine if its answer is right and if it uses the functions and code you're responsible for mastering. But *for this purpose* I consider it similar to searching Google and Substack  or asking colleague for help. It might do a little better than the alternatives. 
 
 
