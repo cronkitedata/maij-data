@@ -20,7 +20,11 @@ I have to leave early today. I'll get you started, and you can turn in as far as
 * [Monday Feb. 6]{.sked-dates} : "What would you do?" : choosing a data source. See assignment in Canvas.
 
 
-## Textbook chapters we'll review
+## Preparation
+
+If you feel uncomfortable with what we did on Monday, take a look at some of the [additonal resources](http://cronkitedata.github.io/djtextbook/r-quarto.html#other-resources) on Quarto / RMarkdown from the textbook.
+
+## Textbook chapters we'll cover in class
 
 * [Getting and saving data](https://cronkitedata.github.io/djtextbook/r-data-import.html)
 * [A quick tour of verbs](https://cronkitedata.github.io/djtextbook/r-verbs.html)

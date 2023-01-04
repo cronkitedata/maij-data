@@ -57,15 +57,13 @@ DO NOT expect to use Google drive to store your work -- it won't work. You will 
 
 * Create a folder on your portable hard drive or thumb drive called `maij-working` 
 
-
-
-
-
 ## In-class links
 
 * Textbook: "[Getting started with R and R Studio](https://cronkitedata.github.io/djtextbook/r-start.html)"
 * [More details](../inclass/01-github-logistics.qmd) and Github options
 
+## Resources for organizing your computer
 
+I know that a lot of people don't use folders or subfolders on their computers, using search instead to find files and projects. Others use Google Drive almost exclusively. That's not going to work when you start programming -- the specific locations of files on your computer are important. Consider [reviewing how to organize your computer](../inclass/01-github-logistics.qmd) if you're unsure about this. 
 
  

@@ -1,7 +1,6 @@
 ---
 title: "File management and Github starter"
 date:  "2023-01-19"
-description: "Week 3: File managemant and optional Github tutorial"
 --- 
 
 
@@ -32,38 +31,15 @@ Key points:
 
 ## Setting up the Github repository for this class - OPTIONAL 
 
-If you want to get ahead in data journalism, you'll be expected to have presence on the code sharing site called Github. Each project in Github is called a `repository` or `repo`. I'll hold an optional lab for anyone who wants to start working in Github for this class. If you do it, I'll have an easier time helping you if you get stuck on a coding problem and you'll know how it works for when you need it. But I'll also distribute all of the homework via Canvas, and you can upload either your code directly to Canvas OR a github link. 
+If you want to get ahead in data journalism, you'll be expected to have presence on the code sharing site called Github. Each project in Github is called a `repository` or `repo`. You have the option of submitting your coding assignments through Github insteaed of Canvas. Here are the basics of setting it up, but I'll hold an optional Zoom lab walking through these steps if enough people are interested. 
 
+1. Create an account on https://github.com/join . Be sure to use a username that you won't mind employers seeing -- it's kind of hard to change it later. 
+2. Create a new "repo", or repository, for this class. You might call it "mco510"
+3. Download and install the Github desktop app for your operating system. 
+4. Open the app, and use your credentials to get to your account. 
+5. In the File menu, "clone" your mco510 repo
 
-1. Create a folder for your R projects
-  
-  Within your Documents folder (which exists in both Windows and Macs), create a folder for this class called "mco510".  
+Now, any document you put in that folder on your computer can be "pushed" to the online repo.   
 
-2. Open a browser and sign into github using the credentials you set up before class. 
-
-3. Go to https://github.com/mco510/mco510-code  , and press the button that says "Use this template" . That will bring you to a window that looks something like this: 
-
-![](../assets/img/github-template.png)
-
-After you submit it, you should be taken to your account's version of the repo. You can tell because the "Use this template" will be gone. 
-
-4. Look under "Settings" and look for the "Access" sidebar. Add your instructor (and anyone else you want to share with) as a collaborator. My email for github is `sarah.h.cohen@asu.edu` 
-
-5. Open Github Desktop on your computer, and sign in if necessary. Under the File menu, choose "Clone a Repository" and choose the one that you just created. Make sure to save it as a folder your mco510 folder that you just created. It might look like it's just a list of folders, but it also has a hidden file called .git, which keeps track of things as you want it to. (It will track differences between "commits" -- TMI. )
-
-At the end of the workshop, you'll see how to upload your changes to the repo. 
-
-### Using Github Desktop
-
-If you use this method, you don't have to worry that you've uploaded an incomplete file, or that your computer is out of sync with your repo. However if you get a message telling you that you have sync conflict, contact me right away. You don't want to lose any of your work.  
-
-* Open Github Desktop
-* Choose "Add repository" from the file menu if it's not already shown as the "Current repository". Choose the "Fetch origin" button just to make sure you have all of the updates that might have been made online. 
-* At the bottom of the window, there is a box for "Summary (required)" -- this just tells you which version of your repo it is. It's like a name for this version. It might be "Filter homework" or "updated replication project"
-* Then "commit to main"
-* Then make sure to press the button at the top called "Push origin"  
-
-When you open your online version of Github, your changes will be there. 
-
-
+You may keep your repos private, but be sure to add me as a collaborator: sarah.h.cohen@asu.edu
 

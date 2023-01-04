@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-02-14">
+<meta name="dcterms.date" content="2022-02-13">
 <meta name="description" content="Convert your pivot tables into R code using the verbs group_by and summarize">
 
 <title>Data reporting for investigative journalism - Verbs part II: Summarize and Group</title>
@@ -32,6 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../weeks/week07.html" rel="next">
 <link href="../weeks/week05.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -229,39 +230,34 @@ ul.task-list li input[type="checkbox"] {
   <a href="../weeks/week06.html" class="sidebar-item-text sidebar-link active">6: In-depth verbs pt 2</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link">7: In-depth verbs pt 3</a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Important links</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://cronkitedata.github.io/djtextbook" class="sidebar-item-text sidebar-link">Course textbook</a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://asu.instructure.com/courses/138967" class="sidebar-item-text sidebar-link">Canvas</a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://asu-2231-mco510-21913.slack.com/" class="sidebar-item-text sidebar-link">Slack</a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://start.me/p/nRyOGj/public-page" class="sidebar-item-text sidebar-link">Other links</a>
   </div>
 </li>
-      </ul>
-  </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
     </ul>
     </div>
@@ -271,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#preparation-and-learning-materials" id="toc-preparation-and-learning-materials" class="nav-link" data-scroll-target="#preparation-and-learning-materials">Preparation and learning materials</a></li>
+  <li><a href="#textbook-chapter" id="toc-textbook-chapter" class="nav-link" data-scroll-target="#textbook-chapter">Textbook chapter</a></li>
   </ul>
 </nav>
 </nav>
@@ -299,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 14, 2022</p>
+      <p class="date">February 13, 2022</p>
     </div>
   </div>
   
@@ -309,33 +305,24 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-<!-- You don't have anything due this week, so I strongly suggest you review the work we did last week until you're comfortable with it. Here are a few practice datasets that you can use to start honing your ability to ask questions and use code to get close to the answers,-->
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
+<ul>
+<li>Sentences chosen from replication project proposals</li>
+<li>Re-introduction to aggregating for stats and story tips</li>
+</ul>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<p><span class="sked-dates">Sunday 2/19</span> Your proposal for the <a href="../projects/replication.qmd">replication project</a></p>
-<p><span class="sked-dates">Monday 2/20</span> <em>What would you do?</em> Assigning characteristics based on Census data.</p>
-<p><span class="sked-dates">Friday 3/3</span> Update on the replication project.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>I understand that some of you will before March 3 for your Borderlands trip. I will not accept requests for extensions on this assignment because of it – there is plenty of time to turn it in early, before you go.</p>
-</div>
-</div>
+<p><span class="sked-dates">Sunday 2/12</span> Your proposal for the <a href="../projects/replication.qmd">replication project</a></p>
+<p><span class="sked-dates">Wednesday 2/15</span> Pre-lab and lab</p>
+<p><span class="sked-dates">Sunday 2/19</span> PPP data on your own</p>
 </section>
-<section id="preparation-and-learning-materials" class="level2">
-<h2 class="anchored" data-anchor-id="preparation-and-learning-materials">Preparation and learning materials</h2>
-<p>We’ll be walking through chapters in the textbook this week, and you don’t have anything else. Instead, spend some time looking at the story choices for the replication project so you make a smart choice and study the sentences to come up with the ones you want to replicate.</p>
+<section id="textbook-chapter" class="level2">
+<h2 class="anchored" data-anchor-id="textbook-chapter">Textbook chapter</h2>
+<ul>
+<li><a href="https://cronkitedata.github.io/djtextbook/r-verb-groupby.html">Grouping and aggregation</a></li>
+</ul>
 
 
 </section>
@@ -481,6 +468,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../weeks/week07.html" class="pagination-link">
+        <span class="nav-page-text">7: In-depth verbs pt 3</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

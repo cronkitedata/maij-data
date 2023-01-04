@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-02-28">
-<meta name="description" content="For the week before Spring Break, we’ll have a lab for your replication project and I’ll demo some methods to make better-looking tables in your work. We’ll also delve more into the regular expressions used in str_detect and its cousins, as well as RStudio snippets to save typing.">
+<meta name="dcterms.date" content="2022-02-20">
+<meta name="description" content="After this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.">
 
-<title>Data reporting for investigative journalism - Regular expressions, tables and snippets</title>
+<title>Data reporting for investigative journalism - In-depth verbs pt 3</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../weeks/week06.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -125,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Regular expressions, tables and snippets</h1>
+      <h1 class="quarto-secondary-nav-title">In-depth verbs pt 3</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -178,11 +179,11 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../weeks.html" class="sidebar-item-text sidebar-link">Weekly details</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-1.html" class="sidebar-item-text sidebar-link">1.1: Intros</a>
@@ -228,39 +229,34 @@ ul.task-list li input[type="checkbox"] {
   <a href="../weeks/week06.html" class="sidebar-item-text sidebar-link">6: In-depth verbs pt 2</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link active">7: In-depth verbs pt 3</a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Important links</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://cronkitedata.github.io/djtextbook" class="sidebar-item-text sidebar-link">Course textbook</a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://asu.instructure.com/courses/138967" class="sidebar-item-text sidebar-link">Canvas</a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://asu-2231-mco510-21913.slack.com/" class="sidebar-item-text sidebar-link">Slack</a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://start.me/p/nRyOGj/public-page" class="sidebar-item-text sidebar-link">Other links</a>
   </div>
 </li>
-      </ul>
-  </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
     </ul>
     </div>
@@ -268,13 +264,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a>
-  <ul class="collapse">
-  <li><a href="#monday" id="toc-monday" class="nav-link" data-scroll-target="#monday">Monday</a></li>
-  <li><a href="#wednesday" id="toc-wednesday" class="nav-link" data-scroll-target="#wednesday">Wednesday</a></li>
-  </ul></li>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#preparation-learning-materials" id="toc-preparation-learning-materials" class="nav-link" data-scroll-target="#preparation-learning-materials">Preparation &amp; learning materials</a></li>
+  <li><a href="#textbook-chapters-for-labs" id="toc-textbook-chapters-for-labs" class="nav-link" data-scroll-target="#textbook-chapters-for-labs">Textbook chapters for labs</a></li>
   </ul>
 </nav>
 </nav>
@@ -286,12 +278,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Regular expressions, tables and snippets</h1>
+<h1 class="title d-none d-lg-block">In-depth verbs pt 3</h1>
 </div>
 
 <div>
   <div class="description">
-    For the week before Spring Break, we’ll have a lab for your replication project and I’ll demo some methods to make better-looking tables in your work. We’ll also delve more into the regular expressions used in <code>str_detect</code> and its cousins, as well as RStudio snippets to save typing.
+    After this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.
   </div>
 </div>
 
@@ -302,7 +294,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 28, 2022</p>
+      <p class="date">February 20, 2022</p>
     </div>
   </div>
   
@@ -314,36 +306,25 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<section id="monday" class="level3">
-<h3 class="anchored" data-anchor-id="monday">Monday</h3>
 <ul>
-<li><p>More on regular expressions - A lab that helps you understand more about what you are doing in the <code>str_detect</code> function in filtering and mutating - some of this will not be in R, but will be on a website that helps you write the patterns.</p></li>
-<li><p>Open lab to work on getting started on your replication project. While you may work together in labs to help one another get started, this is intended as an individual, not a team, project. Your work must be your own – you can’t copy and paste from one another.</p></li>
+<li>Discuss PPP homework and ideas</li>
+<li>Introduce pre-lab concept: joining</li>
 </ul>
-</section>
-<section id="wednesday" class="level3">
-<h3 class="anchored" data-anchor-id="wednesday">Wednesday</h3>
-<ul>
-<li>Pro tip: Using RStudio snippets to save yourself from having to type so much! (It will also save you from having to remember exactly how a function or verb works – you’ll be prompted for the correct syntax)</li>
-<li>Examples of better-looking tables using two packages : <code>gt</code> for static tables, and <code>reactable</code> for interactive (much less typing if you use snippets!)</li>
-</ul>
-</section>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<p>Reminder: There is an “explainer” due instead of a final exam, which you might want to knock out as soon as you come across something you want to do.</p>
-<p>Friday 3/4 {.text-dark} Update on the <a href="../dataj/coursedocs/replication/">replication project</a>. The sentences/paragraphs to replicate are on Canvas, under the Replication Project module, which links to <a href="https://docs.google.com/document/d/15nFfwZme3bJ0wBIrdn8Ptl3eshYfaQg1JbYd23XNnEg/edit?usp=sharing">this Google Doc</a>. More details are in the Canvas assignment.</p>
-<p>You should have at least imported the data correctly, done the reading and review to make sure you understand it, and taken a stab at getting to some of the answers for the project. Don’t take the paragraphs in order – instead, look for ones you know how to do to and knock them out. The further you get on this, the more I can help you before the final is due. Please be aware that this project MUST be done using R and R Markdown. You will not get credit for anything done in Excel or any other platform.</p>
-<p>NOTE: Expect that you will forget a lot of what you learned over Spring Break. Be prepared to take some time when you get back to refresh yourself.</p>
-<p>Sunday 3/20 {.text-dark} Final replication project</p>
-<p>Friday 3/25 {.text-dark} 2nd self-assessment</p>
+<ul>
+<li><span class="sked-dates">Wednesday Feb.&nbsp;22</span> : Prelab and lab on joining. Lab will try to put it all together.</li>
+<li><span class="sked-dates">Sunday Feb.&nbsp;26</span>: Replication project update. By now you should have imported all of your data, examined it, and attempted the easiest of the sentences to replicate. This gives me an opportunity to help you before the last minute.</li>
+</ul>
+<p>Next week will be a catch-up week and an opportunity to work on your final replication project in class. We’ll decide on the specifics together.</p>
 </section>
-<section id="preparation-learning-materials" class="level2">
-<h2 class="anchored" data-anchor-id="preparation-learning-materials">Preparation &amp; learning materials</h2>
-<p>Spend some time going <a href="https://cronkitedata.s3.amazonaws.com/markdown_templates/ppp_lab_0223_solutions.html">over some of the possible solutions to the lab</a> from last week, and the textbook, to see how the concepts and practices in the textbook translate into real-data questions. Try asking some questions of your own, and see how you might approach them. This is some time for you to do review on your own, as you’re expected to be able to apply what we’ve spent the last month doing in this project and the next.</p>
-<p>Pro tip: If you are doing a lot of printing out of data without limiting the number of rows shown, your markdowns might get too large for your computer to handle. Consider using <code>glimpse()</code> or <code>str()</code> to get the number of rows and information about the data you use, or use <code>head()</code>, <code>tail()</code>, or <code>sample_n(100)</code> to look at the beginning, the end, or a randome sample of 100 rows.</p>
-<p>You can also add this line to your setup chunk to limit the number of rows that are used after each command, but it will not show you how many rows were extracted this way – just what they look like (at the same time avoiding scientific notation on numbers):</p>
-<pre><code>options (scipen=999, max.print=100)</code></pre>
+<section id="textbook-chapters-for-labs" class="level2">
+<h2 class="anchored" data-anchor-id="textbook-chapters-for-labs">Textbook chapters for labs</h2>
+<ul>
+<li><a href="">Joining tables</a></li>
+<li><a href="">Putting it all together</a></li>
+</ul>
 
 
 </section>
@@ -482,6 +463,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation column-page-right">
+  <div class="nav-page nav-page-previous">
+      <a href="../weeks/week06.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">6: In-depth verbs pt 2</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

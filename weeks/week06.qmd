@@ -1,32 +1,32 @@
 ---
 title: "Verbs part II: Summarize and Group" 
-date:  "2022-02-14"
+date:  "2022-02-13"
 description: Convert your pivot tables into R code using the verbs `group_by` and `summarize`
 --- 
 
 
-<!-- You don't have anything due this week, so I strongly suggest you review the work we did last week until you're comfortable with it. Here are a few practice datasets that you can use to start honing your ability to ask questions and use code to get close to the answers,-->
 
 ## Agenda
+
+* Sentences chosen from replication project proposals
+* Re-introduction to aggregating for stats and story tips
+
 
 
 
 ## Upcoming deadlines
 
-[Sunday 2/19]{.sked-dates} Your proposal for the [replication project](../projects/replication.qmd)
+[Sunday 2/12]{.sked-dates} Your proposal for the [replication project](../projects/replication.qmd)
 
-[Monday 2/20]{.sked-dates} *What would you do?* Assigning characteristics based on Census data. 
+[Wednesday 2/15]{.sked-dates} Pre-lab and lab 
 
-[Friday 3/3]{.sked-dates} Update on the replication project. 
+[Sunday 2/19]{.sked-dates} PPP data on your own
 
-::: {.callout-note}
-I understand that some of you will before March 3 for your Borderlands trip. I will not accept requests for extensions on this assignment because of it -- there is plenty of time to turn it in early, before you go.
-::: 
+## Textbook chapter
+
+* [Grouping and aggregation ](https://cronkitedata.github.io/djtextbook/r-verb-groupby.html)
 
 
-## Preparation and learning materials 
-
-We'll be walking through chapters in the textbook this week, and you don't have anything else.  Instead, spend some time looking at the story choices for the replication project so you make a smart choice and study the sentences to come up with the ones you want to replicate.
 
 
 

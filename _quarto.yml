@@ -80,17 +80,17 @@ website:
             file: weeks/week05.qmd
           - text: "6: In-depth verbs pt 2"
             file: weeks/week06.qmd
+          - text: "7: In-depth verbs pt 3"
+            file: weeks/week07.qmd
       - text: "----"
-      - section: Important links
-        contents:
-          - text: Course textbook
-            href: https://cronkitedata.github.io/djtextbook
-          - text: Canvas 
-            href: https://asu.instructure.com/courses/138967
-          - text: Slack
-            href: https://asu-2231-mco510-21913.slack.com/
-          - text: Other links
-            href: https://start.me/p/nRyOGj/public-page
+      - text: Course textbook
+        href: https://cronkitedata.github.io/djtextbook
+      - text: Canvas 
+        href: https://asu.instructure.com/courses/138967
+      - text: Slack
+        href: https://asu-2231-mco510-21913.slack.com/
+      - text: Other links
+        href: https://start.me/p/nRyOGj/public-page
       - text: "---"
 
 format:
