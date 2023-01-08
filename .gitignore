@@ -1,5 +1,7 @@
 .RProj
 working/
+scratch/
+docs/scratch/
 
 .quarto/
 **/.DS_Store
