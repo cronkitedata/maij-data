@@ -35,7 +35,7 @@ The schedule is subject to change as we discover where you need or want more tim
 |11|March 27-29|Build your own database| Su 3/26: Memo proposal (25) <br> W 3/29 : Building your own database (50)
 |12|April 3-5|Intro to maps and GIS| M 4/3: "What would you do?" (25)
 |13|April 10-12|Cleaning data with OpenRefine;  <br> working with pdfs| Su 4/9: First memo update (50)
-|14|April 17-19|Statistics in the newsroom; Students' choice| Su 4/16: 2nd memo update (50)
+|14|April 17-19|Statistics in the newsroom; Spreadsheets redux| Su 4/16: 2nd memo update (50)
 |15|April 24-26|Creating a Github site for job-hunting; <br> Paying it forward| Su 4/23: Final memo  (100)
 
 

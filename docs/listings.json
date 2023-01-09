@@ -12,6 +12,10 @@
     ]
   },
   {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
     "listing": "/updates.html",
     "items": [
       "/posts/welcome.html"
@@ -31,9 +35,5 @@
       "/weeks/week06.html",
       "/weeks/week07.html"
     ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": []
   }
 ]
