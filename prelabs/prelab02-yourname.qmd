@@ -9,6 +9,10 @@ format:
     code-tools: true
 ---
 
+This prelab goes with the textbook chapters "Getting and Saving Data[https://cronkitedata.github.io/djtextbook/r-data-import.html]", and "A quick tour of verbs[https://cronkitedata.github.io/djtextbook/r-verbs.html]". You should follow along with those chapters while you do this prelab. 
+
+Make sure to hit the "PLay" button on this code chunk, or nothing else will work. 
+
 ```{r}
 #| label: setup
 
@@ -143,7 +147,7 @@ top100_clean |>
 top100_clean |>
   filter (performer=="Taylor Swift" & this_week == 1) |>
   arrange ( chart_date)  |>
-  select ( this_week, song, chart_date, last_week)
+  select ( this_week, title, chart_date, last_week)
 
 
 ```
@@ -186,14 +190,19 @@ top100_clean |>
 
 -   Describe , in your own words, what this result says.
 
+
+There are a couple of other things shown in the textbook that we are not replicating here. 
+
 ## Make up a new question
 
-Now that you've seen a little about what kinds of things you can do, try to think of a question you'd like to ask of this data. It doesn't have to be something you already know how to do. For example, maybe you want to see whether one-hit wonders are more common now than they were in the past. Try to keep your question to something that THIS data could tell you.
+Now that you've seen a little about what kinds of things you can do, try to think of a question you'd like to ask of this data. **It doesn't have to be something you already know how to do.** For example, maybe you want to see whether one-hit wonders are more common now than they were in the past. Try to keep your question to something that THIS data could tell you.
 
-## Note three things from this lesson that you don't want to forget
+## Note three things from this lesson that you don't want to forget or questions that you want to discuss
 
 They can be part of the formal walkthrough, something in the chapter itself, or something that struck you as you were trying to do the work.
 
 1.  First:
 2.  Second:
 3.  Third:
+
+
