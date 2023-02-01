@@ -9,8 +9,12 @@ format:
     code-tools: true
 ---
 
+**Don't forget to run this code before you try anything else!**
+
 ```{r}
 #| label: setup
+#| warning: false
+#| message: false
 
 
 
@@ -24,7 +28,7 @@ library(lubridate)
 
 ## Import data
 
-Run the code chunk below and explain:
+**Run the code chunk below and explain:**
 
 1.  What the command does
 2.  What the output means.
@@ -143,7 +147,7 @@ top100_clean |>
 top100_clean |>
   filter (performer=="Taylor Swift" & this_week == 1) |>
   arrange ( chart_date)  |>
-  select ( this_week, song, chart_date, last_week)
+  select ( this_week, title, chart_date, last_week)
 
 
 ```
@@ -188,7 +192,7 @@ top100_clean |>
 
 ## Make up a new question
 
-Now that you've seen a little about what kinds of things you can do, try to think of a question you'd like to ask of this data. It doesn't have to be something you already know how to do. For example, maybe you want to see whether one-hit wonders are more common now than they were in the past. Try to keep your question to something that THIS data could tell you.
+Now that you've seen a little about what kinds of things you can do, try to think of a question you'd like to ask of this data. It doesn't have to be something you already know how to do, but try to keep it to something that this dataset alone could answer.
 
 ## Note three things from this lesson that you don't want to forget
 

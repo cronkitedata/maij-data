@@ -7,16 +7,22 @@ format:
     embed-resources:  true
     toc: true
     code-tools: true
+editor: visual
 ---
 
 This prelab goes along with <https://cronkitedata.github.io/djtextbook/r-verb-filter.html> and <https://cronkitedata.github.io/djtextbook/r-verb-mutate.html> . You should follow along with the explanations and details in the textbook as you walk through this prelab.
 
-## Load data 
+## Load data
 
 You can examine in the Environment tab or by previewing the table, or by "glimpsing" it here. It's up to you.
 
+**Don't forget to run this code chunk every time you open a new Quarto document:**
+
 ```{r}
 #| label: setup
+#| warning: false
+#| message: false
+
 
 library(tidyverse)
 library(janitor)
@@ -25,6 +31,8 @@ library(lubridate)
 
 
 ```
+
+**This loads data from a saved dataset**
 
 ```{r}
 
@@ -37,7 +45,7 @@ ppp_orig <- readRDS (
 
 ```
 
-## Select 
+## Select
 
 Run this code
 
@@ -56,7 +64,7 @@ glimpse(ppp_small)
 
 **Describe, in your own words, what you just did:**
 
-## Arrange 
+## Arrange
 
 What will the following code do?
 
@@ -152,13 +160,17 @@ The wildcard probably picked up a few addresses you didn't intend to keep -- tha
 Write out three things you want to remember about `select`, `arrange` and `filter`:
 
 1.  
+
 2.  
+
 3.  
 
 Write out up to three things that you'd like to have clarified about `select`, `arrange` and `filter`
 
 1.  
+
 2.  
+
 3.  
 
-## Mutate 
+## Mutate
