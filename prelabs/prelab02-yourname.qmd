@@ -7,14 +7,17 @@ format:
     embed-resources:  true
     toc: true
     code-tools: true
+editor: visual
 ---
 
-This prelab goes with the textbook chapters "Getting and Saving Data[https://cronkitedata.github.io/djtextbook/r-data-import.html]", and "A quick tour of verbs[https://cronkitedata.github.io/djtextbook/r-verbs.html]". You should follow along with those chapters while you do this prelab. 
+This prelab goes with the textbook chapters "[Getting and Saving Data](https://cronkitedata.github.io/djtextbook/r-data-import.html)", and "[A quick tour of verbs](https://cronkitedata.github.io/djtextbook/r-verbs.html)". You should follow along with those chapters while you do this prelab.
 
-Make sure to hit the "PLay" button on this code chunk, or nothing else will work. 
+**Make sure to hit the "Play" button on this code chunk, or nothing else will work.**
 
 ```{r}
 #| label: setup
+#| message: false
+#| warning: false
 
 
 
@@ -190,19 +193,18 @@ top100_clean |>
 
 -   Describe , in your own words, what this result says.
 
-
-There are a couple of other things shown in the textbook that we are not replicating here. 
+There are a couple of other things shown in the textbook that we are not replicating here.
 
 ## Make up a new question
 
-Now that you've seen a little about what kinds of things you can do, try to think of a question you'd like to ask of this data. **It doesn't have to be something you already know how to do.** For example, maybe you want to see whether one-hit wonders are more common now than they were in the past. Try to keep your question to something that THIS data could tell you.
+Now that you've seen a little about what kinds of things you can do, try to think of a question you'd like to ask of this data. **It doesn't have to be something you already know how to do.** Try to keep your question to something that THIS data could tell you.
 
 ## Note three things from this lesson that you don't want to forget or questions that you want to discuss
 
 They can be part of the formal walkthrough, something in the chapter itself, or something that struck you as you were trying to do the work.
 
+Copy anything you don't want to forget into a log that you update every week as you learn new things.
+
 1.  First:
 2.  Second:
 3.  Third:
-
-
