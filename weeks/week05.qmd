@@ -24,8 +24,8 @@ Wednesday:
 
 ### Upcoming deadlines
 
-- [Wednesday]{.sked-dates}: Pre-lab (9:30am) and lab on this week's verbs
-- [Sunday Feb. 12]{.sked-dates} : The sentences you propose replicating for the [data replication project](../projects/replication.qmd)
+- [Wednesday]{.sked-dates}: [Pre-lab](https://raw.githubusercontent.com/cronkitedata/maij-data/main/prelabs/prelab03-yourname.qmd) (10:00) and [lab](https://raw.githubusercontent.com/cronkitedata/maij-data/main/labs/lab03-yourname.qmd) on this week's verbs
+- [Sunday Feb. 12]{.sked-dates} : The sentences you propose replicating for the data replication project (See Canvas for details) 
 - [Sunday Feb. 19]{.sked-dates} : PPP story lines
 
 
