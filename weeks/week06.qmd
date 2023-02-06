@@ -16,7 +16,7 @@ description: Convert your pivot tables into R code using the verbs `group_by` an
 
 ## Upcoming deadlines
 
-[Sunday 2/12]{.sked-dates} Your proposal for the [replication project](../projects/replication.qmd)
+[Sunday 2/12]{.sked-dates} The sentences for the replication project (see Canvas)
 
 [Wednesday 2/15]{.sked-dates} Pre-lab and lab 
 

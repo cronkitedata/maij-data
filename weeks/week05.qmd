@@ -25,7 +25,7 @@ Wednesday:
 ### Upcoming deadlines
 
 - [Wednesday]{.sked-dates}: Pre-lab (9:30am) and lab on this week's verbs
-- [Sunday Feb. 12]{.sked-dates} : The sentences you propose replicating for the [data replication project](../projects/replication.qmd)
+- [Sunday Feb. 12]{.sked-dates} : The sentences you propose replicating for the data replication project
 - [Sunday Feb. 19]{.sked-dates} : PPP story lines
 
 

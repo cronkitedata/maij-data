@@ -11,8 +11,8 @@ listing:
 
 There are two major projects in this class: 
 
-* [Story replication project](replication.qmd), in which you reverse engineer parts of stories using the same data used by the reporters. 
-* [Story memo project](story-memo.qmd) in which you choose a dataset to analyze, research enough to know what might be newsworthy out of it, and pitch a story based on your analysis. 
+* Story replication project, in which you reverse engineer parts of stories using the same data used by the reporters. 
+* Story memo project in which you choose a dataset to analyze, research enough to know what might be newsworthy out of it, and pitch a story based on your analysis. 
 
 Both of these projects are done in pieces so I can give you feedback and advice as you move along. Paying attention to editorial direction is a skill that you'll need as you move ahead in your journalism career. Editors are not likely to give you much leeway if they suspect you won't pay attention to their advice and direction. 
 
