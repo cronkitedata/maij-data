@@ -187,7 +187,7 @@ ppp_orig |>
   mutate ( amt_diff =  forgiveness_amount-amount, 
            amt_pct_diff = amt_diff / amount  * 100 ) |>                   
   select ( borrower_name, borrower_city, amount, forgiveness_amount) |>   
-  head(5).                                                                
+  head(5)                                                                
 
 
 ```

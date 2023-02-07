@@ -45,9 +45,22 @@ Write a code chunk under each of the questions below that attempts to get the li
 After each item, describe why this might be an interesting list for a story --- why might you want to visit the place or interview the people who are listed from these queries? What story might emerge?
 
 1.  List all of the loans worth at least \$1 million.
+
+
+
 2.  Look at all of the projects in Maricopa County of less than \$1,000
+
+
+
+
 3.  List all of the loans that were not forgiven. These are listed with `NA` in the `forgiven` amount, not 0.
+
+
+
 4.  List all the loans to non-profit organizations in Scottsdale, Phoenix and Tempe.
+
+
+
 5.  Find the McDonald's franchises.
 
 You'll have to get a handle on what is actually in the data and examine your answers to make sure you got what you wanted.
@@ -78,12 +91,23 @@ For each idea, take a stab at trying to produce those lists in a code chunk or a
 Add code chunks to do the following: 
 
 1. Using the if_else() function, create a column that shows whether or not the loan was forgiven. (None have been charged off yet)
+
+
+
 2. Using the case_when() , categorize the loans as "Small", "Medium" or "Large". You choose the amounts to assign to each of those categories. We'll learn a more statisticially serious way of doing that in the future. 
+
+
+
+
 3. Try to turn the date column in something by month. Here is a phrase that takes a date value, and then sets it to the first of the month that it's in: 
    
    ``` floor_date ( column_name , 'month') ```
 
-4.  The [list of the first digits of the industry code](https://www.census.gov/naics/?58967?yearbck=2017) can help you determine what kind of business it was. Use a mutate statement using str_like() and case_when() to distinguish between a) retail trade (this includes restaurants and stores), b) Mining and agriculture, and c) Professional services. Code everything as as "Other". This might be hard, and it will require str_like, an "OR" condition, and the case_when function.  Get as far as you can with this. 
+4.  The [list of the first digits of the industry code](https://www.census.gov/naics/?58967?yearbck=2017) can help you determine what kind of business it was. Use a mutate statement using str_like() and case_when() to distinguish between a) retail trade , hotels or restaurants , b) Mining and agriculture, and c) Professional, technical and scientific services. Code everything as as "Other". This might be hard, and it will require some str_like / OR conditions, or you have to create a new column with just the first two digits and then test it using the `%in%` operator.  Get as far as you can with this. HINT: The function `str_sub( col name, first position, last position)` lets you extract the nth characters of a string.
+
+Use the 2017 version from the NAICS site -- 2022 wasn't invented when the loans were given. It's shown toward the bottom of the link page (I can't seem to link to it directly). 
+
+
 
 
 ## What do you want to remember? 
