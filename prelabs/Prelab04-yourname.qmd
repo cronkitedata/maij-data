@@ -1,0 +1,181 @@
+---
+title: "Filter, arrange, mutate prelab"
+author: "YOUR NAME HERE"
+format: 
+  html: 
+    theme: cosmos
+    embed-resources:  true
+    toc: true
+    code-tools: true
+    df-print: paged
+execute: 
+    message: false
+    error: true
+---
+
+(You may notice I made a couple of small changes to the YAML above, and the setup chunk below. These are the ones I typically use. They suppress some of the scary warnings you get that aren't very helpful and let you render your document even if there are errors.)
+
+```{r}
+#| label: setup
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(janitor)
+library(lubridate)
+
+
+
+```
+
+Load the PPP data:
+
+```{r}
+
+ppp_orig <- readRDS (
+               url ( 
+                 "https://cronkitedata.s3.amazonaws.com/rdata/ppp_az_loans.RDS"
+                 )
+               )
+
+```
+
+## Summarize
+
+Fill in the blanks to get summary statistics about the whole data set:
+
+```{r}
+
+ppp_orig |> 
+  summarize (  number_of_rows = _________, 
+               sum_of_amount = sum (______, na.rm=TRUE), 
+               avg_amount = _____ (amount, na.rm=TRUE), 
+               median_amount = ______ (________, ______ ), 
+               first_loan = min ( date_approved), 
+               last_loan = max (_________ )
+  ) |>
+  glimpse()
+
+
+```
+
+Describe in your own words what the new data frame includes and excludes:
+
+## Grouping
+
+Using the textbook as a guide, try to enter the code you would need to produce the following table. Try not to copy and paste. Instead, work one line at a time and see what each of the statements does.
+
+| draw   | loan_count | total_amount | total_forgiven |
+|--------|------------|--------------|----------------|
+| First  | 128715     | 9465606369   | 8972228355     |
+| Second | 40544      | 2925279615   | 2779422635     |
+
+```{r}
+
+
+# your code here
+
+
+
+```
+
+Now do the same thing, but add a grouping level for the loan status :
+
+```{r}
+
+# your code here
+
+
+
+
+```
+
+Describe in your own words what you just did -- how would you explain this last code chunk to a stranger?
+
+### The `count()` shortcut
+
+Rewrite the following code chunk to be produced using the `count()` verb:
+
+Original:
+
+```{r}
+
+ppp_orig |> 
+  group_by ( draw, loan_status) |> 
+  summarize ( number_of_loans = n() ) |> 
+  arrange ( desc ( number_of_loans ))
+
+
+```
+
+Your rewrite:
+
+```{r}
+
+# your code here
+
+
+
+
+```
+
+## Pivoting data to "wide" format
+
+Fill in the blanks to convert the list produced in the last code chunk into a rectangle instead of a list -- "wide" vs. "long" format.
+
+```{r}
+
+ppp_orig |> 
+  group_by ( draw, loan_status) |> 
+  summarize ( number_of_loans = n() ) |> 
+  arrange ( desc ( number_of_loans )) |> 
+  pivot_wider ( id_cols = _________, 
+                names_from = _________, 
+                values_from = _________, 
+                values_fill = 0)
+
+
+
+```
+
+## Percent of total 
+
+Fill in the blanks to compute the percent of total loans that have each status.
+
+```{r}
+
+
+ppp_orig |> 
+  group_by ( loan_status) |> 
+  summarize (number_of_loans = n() ) |> 
+  mutate ( percent_of_loans = number_of_loans / ____ (number_of_loans) * 100 )
+
+
+
+
+```
+
+OPTIONAL:
+
+Try to produce a table that looks like this:
+
++---------------------+-----------+----------+
+| loan_status         | First     | Second   |
+|                     |           |          |
+| \<chr\>             | \<dbl\>   | \<dbl\>  |
++:====================+==========:+=========:+
+| Active Un-Disbursed | 100.00000 | NA       |
++---------------------+-----------+----------+
+| Exemption 4         | 77.68874  | 22.31126 |
++---------------------+-----------+----------+
+| Paid in Full        | 75.85664  | 24.14336 |
++---------------------+-----------+----------+
+
+```{r}
+
+
+# your code here
+
+
+
+```
