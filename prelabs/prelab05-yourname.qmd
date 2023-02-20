@@ -35,9 +35,7 @@ glimpse(naics_codes)
 
 ```
 
-Take a close look at this table -- it's slightly different than the one in the textbook, in that I've created a column that I called "nacis_cronkite" to mix sector and subsector into categories that we want to see. We'll go through this together. 
-
-
+Take a close look at this table -- it's slightly different than the one in the textbook, in that I've created a column that I called "nacis_cronkite" to mix sector and subsector into categories that we want to see. We'll go through this together.
 
 Here, the "join" takes the code in the PPP table, and looks up the information from the industry code table. It's a simple concept that has a lot of nuance.
 
@@ -56,10 +54,9 @@ ppp_orig |>
 
 ## Joining the data to the code translations
 
-Rather than get into the intricacies of NAICS codes, just use the categories I created to produce a table that uses the cronkite version: 
+Rather than get into the intricacies of NAICS codes, just use the categories I created to produce a table that uses the cronkite version:
 
-
-Here, the `select` MUST come after the join, because we need the original 
+Here, the `select` MUST come after the join, because we need the original
 
 ```{r}
 
@@ -83,9 +80,9 @@ joined_industry <-
 glimpse (joined_industry)
 ```
 
-Look at the number of rows that you have in the two tables: Why does the joined_industry have fewer rows than the PPP_orig? 
+Look at the number of rows that you have in the two tables: Why does the joined_industry have fewer rows than the PPP_orig?
 
-Try a "left_join" to see why: 
+Try a "left_join" to see why:
 
 ```{r}
 
@@ -111,12 +108,11 @@ glimpse (joined_industry)
 
 ```
 
-This suggests that there are some rows in the original PPP data that have invalid or missing industry codes. Typically, you will use a left_join (if your main table is first, and your lookup table is second) to "protect" the master table. 
+This suggests that there are some rows in the original PPP data that have invalid or missing industry codes. Typically, you will use a left_join (if your main table is first, and your lookup table is second) to "protect" the master table.
 
 ## Using the joined data
 
-Now we can summarize our dataset to find out what kind of industry got the most, the least, average amounts, etc: 
-
+Now we can summarize our dataset to find out what kind of industry got the most, the least, average amounts, etc:
 
 ```{r}
 
@@ -133,7 +129,7 @@ joined_industry |>
 
 ```
 
-It also means you can get lists of restaurants in a zip code to visit: 
+It also means you can get lists of restaurants in a zip code to visit:
 
 ```{r}
 
@@ -144,4 +140,3 @@ joined_industry |>
 
 
 ```
-
