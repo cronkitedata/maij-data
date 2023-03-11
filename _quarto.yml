@@ -82,6 +82,10 @@ website:
             file: weeks/week06.qmd
           - text: "7: In-depth verbs pt 3"
             file: weeks/week07.qmd
+          - text: "9: Potpourri & Build your own data"
+            file: weeks/week09.qmd
+          - text: "10: Visualization as a reporting tool"
+            file: weeks/week10.qmd
       - text: "----"
       - text: Course textbook
         href: https://cronkitedata.github.io/djtextbook

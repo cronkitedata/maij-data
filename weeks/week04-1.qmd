@@ -1,6 +1,6 @@
 ---
 title: Getting started with programming - a walkthrough
-date:  2022-01-30
+date:  2023-01-30
 description: You can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto. 
 --- 
 

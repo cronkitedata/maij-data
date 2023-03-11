@@ -3,7 +3,7 @@ title: "Weekly details"
 listing:
   contents: weeks
   sort: "date"
-  type: grid
+  type: default
   fields: [date, title, description]
 ---
 

@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.253">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-04-04">
-<meta name="description" content="I’ll use this week to lay out the rest of the semester, since there aren’t many deliverables. But please keep an eye on this for readings.">
+<meta name="dcterms.date" content="2023-03-19">
+<meta name="description" content="Visualizing data is a whole ’nother skill, but we can borrow from the design and statistics world to help make our reporting more efficient. Don’t worry about style here – think about whether you’ll be able to “see” a story easier in infographic form than in numbers.">
 
-<title>Data reporting for investigative journalism - … and we’re almost done!</title>
+<title>Data reporting for investigative journalism - Visualization as a reporting tool</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,7 +19,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -32,6 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../weeks/week09.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -80,54 +81,61 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Data reporting for investigative journalism</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../index.html" aria-current="page"><i class="bi bi-house-door-fill" role="img">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page"><i class="bi bi-house-door-fill" role="img">
 </i> 
  <span class="menu-text"> </span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../syllabus.html">
+    <a class="nav-link" href="../syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../schedule.html">
+    <a class="nav-link" href="../schedule.html" rel="" target="">
  <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../weeks.html">
+    <a class="nav-link" href="../weeks.html" rel="" target="">
  <span class="menu-text">Weeks</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/cronkitedata/maijdata/"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/cronkitedata/maijdata/" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/sarah_h_cohen/"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/sarah_h_cohen/" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">… and we’re almost done!</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week10.html">10: Visualization as a reporting tool</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -135,30 +143,33 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
-      <div class="mt-2 flex-shrink-0 align-items-center">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">Home</a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../updates.html" class="sidebar-item-text sidebar-link">Updates</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a href="../updates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Updates</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/welcome.html" class="sidebar-item-text sidebar-link">Class Zero</a>
+  <a href="../posts/welcome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Class Zero</span></a>
   </div>
 </li>
       </ul>
@@ -166,71 +177,96 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
+  <a href="../syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../schedule.html" class="sidebar-item-text sidebar-link">Course schedule</a>
+  <a href="../schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Course schedule</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../weeks.html" class="sidebar-item-text sidebar-link">Weekly details</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a href="../weeks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Weekly details</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week01-1.html" class="sidebar-item-text sidebar-link">1.1: Intros</a>
+  <a href="../weeks/week01-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.1: Intros</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week01-2.html" class="sidebar-item-text sidebar-link">1.2: Reading the story</a>
+  <a href="../weeks/week01-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.2: Reading the story</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week02.html" class="sidebar-item-text sidebar-link">2: Replication / spreadsheet review</a>
+  <a href="../weeks/week02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2: Replication / spreadsheet review</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week03-1.html" class="sidebar-item-text sidebar-link">3.1: The life of data</a>
+  <a href="../weeks/week03-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.1: The life of data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week03-2.html" class="sidebar-item-text sidebar-link">3.2: Install party!</a>
+  <a href="../weeks/week03-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3.2: Install party!</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">4.1: Your first R program</a>
+  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.1: Your first R program</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week04-2.html" class="sidebar-item-text sidebar-link">4.2: An example analysis: Billboard Hot 100</a>
+  <a href="../weeks/week04-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4.2: An example analysis: Billboard Hot 100</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week05.html" class="sidebar-item-text sidebar-link">5: In-depth verbs pt 1</a>
+  <a href="../weeks/week05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5: In-depth verbs pt 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week06.html" class="sidebar-item-text sidebar-link">6: In-depth verbs pt 2</a>
+  <a href="../weeks/week06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6: In-depth verbs pt 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link">7: In-depth verbs pt 3</a>
+  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7: In-depth verbs pt 3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9: Potpourri &amp; Build your own data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week10.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">10: Visualization as a reporting tool</span></a>
   </div>
 </li>
       </ul>
@@ -238,22 +274,26 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://cronkitedata.github.io/djtextbook" class="sidebar-item-text sidebar-link">Course textbook</a>
+  <a href="https://cronkitedata.github.io/djtextbook" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Course textbook</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://asu.instructure.com/courses/138967" class="sidebar-item-text sidebar-link">Canvas</a>
+  <a href="https://asu.instructure.com/courses/138967" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Canvas</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://asu-2231-mco510-21913.slack.com/" class="sidebar-item-text sidebar-link">Slack</a>
+  <a href="https://asu-2231-mco510-21913.slack.com/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Slack</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://start.me/p/nRyOGj/public-page" class="sidebar-item-text sidebar-link">Other links</a>
+  <a href="https://start.me/p/nRyOGj/public-page" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Other links</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -263,21 +303,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link active" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#reading-and-agenda-by-class-date" id="toc-reading-and-agenda-by-class-date" class="nav-link" data-scroll-target="#reading-and-agenda-by-class-date">Reading and agenda by class date</a>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a>
   <ul class="collapse">
-  <li><a href="#monday-april-4" id="toc-monday-april-4" class="nav-link" data-scroll-target="#monday-april-4">Monday, April 4</a></li>
-  <li><a href="#wednesday-april-6" id="toc-wednesday-april-6" class="nav-link" data-scroll-target="#wednesday-april-6">Wednesday April 6</a></li>
-  <li><a href="#wednesday-april-27" id="toc-wednesday-april-27" class="nav-link" data-scroll-target="#wednesday-april-27">Wednesday April 27</a></li>
+  <li><a href="#monday-320" id="toc-monday-320" class="nav-link" data-scroll-target="#monday-320">Monday 3/20</a></li>
+  <li><a href="#wednesday-322" id="toc-wednesday-322" class="nav-link" data-scroll-target="#wednesday-322">Wednesday 3/22</a></li>
   </ul></li>
-  <li><a href="#recommendations-for-going-further" id="toc-recommendations-for-going-further" class="nav-link" data-scroll-target="#recommendations-for-going-further">Recommendations for going further</a>
-  <ul class="collapse">
-  <li><a href="#openrefine" id="toc-openrefine" class="nav-link" data-scroll-target="#openrefine">OpenRefine</a></li>
-  <li><a href="#scraping" id="toc-scraping" class="nav-link" data-scroll-target="#scraping">Scraping</a></li>
-  </ul></li>
+  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
   </ul>
 </nav>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
@@ -286,12 +322,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">… and we’re almost done!</h1>
+<h1 class="title">Visualization as a reporting tool</h1>
 </div>
 
 <div>
   <div class="description">
-    I’ll use this week to lay out the rest of the semester, since there aren’t many deliverables. But please keep an eye on this for readings.
+    Visualizing data is a whole ’nother skill, but we can borrow from the design and statistics world to help make our reporting more efficient. Don’t worry about style here – think about whether you’ll be able to “see” a story easier in infographic form than in numbers.
   </div>
 </div>
 
@@ -302,7 +338,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 4, 2022</p>
+      <p class="date">March 19, 2023</p>
     </div>
   </div>
   
@@ -312,91 +348,44 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="upcoming-deadlines" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<p>Friday 4/8 {.text-dark} * Your database design for the “building a database” assignment. Turn in a link to an Airtable, and be sure you’ve shared it with me (shcohen1@asu.edu)</p>
-<p>Sunday 4/10 {.text-dark} * First update to story memo</p>
-<p>Sunday 4/17 {.text-dark} * Second update to story memo</p>
-<p>Sunday 4/24 {.text-dark} * Final version of story memo and documentation</p>
-<p>Friday 5/4 {.text-dark} * Explainer</p>
-</section>
-<section id="reading-and-agenda-by-class-date" class="level2">
-<h2 class="anchored" data-anchor-id="reading-and-agenda-by-class-date">Reading and agenda by class date</h2>
-<section id="monday-april-4" class="level3">
-<h3 class="anchored" data-anchor-id="monday-april-4">Monday, April 4</h3>
+<p>DRAFT: DETAILS TK</p>
+<section id="agenda" class="level2">
+<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
+<section id="monday-320" class="level3">
+<h3 class="anchored" data-anchor-id="monday-320">Monday 3/20</h3>
 <ul>
-<li><p>Textbook chapter : “<a href="https://cronkitedata.github.io/djtextbook/start-build-own.html">Building your own database</a>”</p></li>
-<li><p>Sign into Airtable - we’ll do a tutorial on it on Monday. Be sure you know how to sign in.</p></li>
-<li><p>Re-review the chapter in the textbook on “<a href="https://cronkitedata.github.io/djtextbook/appendix-program.html">A gentle introduction to programming</a>”. We’re going to introduce looping on Monday, which is exemplified by the restaurant example.</p></li>
-</ul>
-</section>
-<section id="wednesday-april-6" class="level3">
-<h3 class="anchored" data-anchor-id="wednesday-april-6">Wednesday April 6</h3>
-<p>We’ll be joined by Daniela Porat, senior reporter for Law360 covering employment law, who has been building databases for her stories since she began her reporting career in 2016. Read a couple of her examples (or watch the second one while she shivers in front of the Niagara River).</p>
+<li><p>Sometimes the best visualization is just a really useful table, either static or interactive. We’ll look at a few packages and details on creating them.</p></li>
+<li><p>Principles of visualization as a reporting tool</p>
 <ul>
-<li><p>“A drumbeat of multiple shootings, but America isn’t listening” , by Sharon LaFraniere , Daniela Porat and Agustin Armendariz, New York Times, May 2016. NOTE: Daniela will be a guest speaker on April 6 so be sure to read it carefully.</p></li>
-<li><p>“<a href="https://urldefense.com/v3/__https:/www.investigativepost.org/2018/02/13/training-equipment-deficient-in-police-drowning/">Training , equipment deficient in Police Drowning</a>”, Daniela Porat, Investigative Post and WGRZ in Buffalo. A little context : The Niagara River feeds into Niagara Falls just a short distance from where the police officer drowned – those rapids are among most dangerous in the world. Everyone in their audience already knows that.</p></li>
-</ul>
-</section>
-<section id="wednesday-april-27" class="level3">
-<h3 class="anchored" data-anchor-id="wednesday-april-27">Wednesday April 27</h3>
-<p>Ethics in data journalism. There is some easy reading and viewing to get ready for this class - it shouldn’t take more than two hours, most of it in the videos. We’ll look at some common cognitive biases that you should consider when working on a data-driven project, and look at some of the best practices to avoid common pitfalls.</p>
-<section id="posting-raw-data-on-your-website" class="level4">
-<h4 class="anchored" data-anchor-id="posting-raw-data-on-your-website">Posting raw data on your website</h4>
-<ul>
-<li><p>“<a href="https://source.opennews.org/articles/public-info-doesnt-always-want-be-free/">Public information doesn’t always want to be free</a>”, by Matt Waite, 2013</p></li>
-<li><p>Pages 174 to 181 in “<a href="https://cronkitedata.s3.amazonaws.com/docs/post-or-not.pdf">To Post or Not to Post</a>”, by David Craig, Stan Ketterer, and Mohammad Yousuf, Journalism &amp; Mass Communications Quarterly, 2017, via ResearchGate.</p></li>
-</ul>
-</section>
-<section id="ethics-in-scraping" class="level4">
-<h4 class="anchored" data-anchor-id="ethics-in-scraping">Ethics in scraping</h4>
-<ul>
-<li>“<a href="https://www.storybench.org/to-scrape-or-not-to-scrape-the-technical-and-ethical-challenges-of-collecting-data-off-the-web/">To scrape or not to scrape: technical and ethical challenges to collecting data off the web</a>” Sophie Chou, Storybench, April 2016</li>
-</ul>
-</section>
-<section id="common-cognitive-biases-in-data-journalism" class="level4">
-<h4 class="anchored" data-anchor-id="common-cognitive-biases-in-data-journalism">Common cognitive biases in data journalism</h4>
-<ul>
-<li><p><a href="https://onlinejournalismblog.com/2020/04/07/how-to-prevent-confirmation-bias-affecting-your-journalism/">“How to prevent confirmation bias affecting your journalism”</a> Paul Bradshaw, Online Journalism Blog. This is a particularly big problem in data journalism, since we often seek out stories in databases based on tips or broad ideas, and can often find them. If you’re interested (not required), read “<a href="https://onlinejournalismblog.com/2020/03/24/a-journalists-guide-to-cognitive-bias-and-how-to-avoid-it/">A journalist’s guide to cognitive bias (and how to avoid it</a>” for other kinds of biases that we might bring to our reporting. These include common problems in newsrooms, such as a “sunk-cost” bias or a negativity bias.</p></li>
-<li><p>BBC Worklife, <a href="https://www.bbc.com/worklife/article/20200827-how-survivorship-bias-can-cause-you-to-make-mistakes">How ‘survivorship bias’ can cause you to make mistakes</a> (just watch the video)</p></li>
-<li><p>The videos # 1-4 from the Knight Center for the Americas on “Equity and Ethics in Data Journalism’s” module 3. I’m not thrilled with the pace or specific content with these videos, but they’re the best single spot I’ve found for these common problems. Feel free to speed this up considerably. I found that 1.75 was the right speed for me! (She talks about writing data journalism stories, but she’s never been a journalist of any kind. Sigh.)</p>
-<ul>
-<li><a href="https://youtu.be/4ndrF2cSqVo">Common mistakes in data analysis</a></li>
-<li><a href="https://youtu.be/9nKs7mJukSk">Causal mistakes in data</a></li>
-<li><a href="https://youtu.be/f5gMwGfZL3g">Simpson’s paradox in data journalism</a></li>
-<li><a href="https://youtu.be/0y3sco0lKzc">Prosecutor’s Fallacy in data journalism</a> OR <a href="https://towardsdatascience.com/the-prosecutors-fallacy-cb0da4e9c039">this piece on prosecutor’s fallacy</a> by Ray Johns, 2019.</li>
+<li><p><a href="https://docs.google.com/presentation/d/1JV8jIOEKodAc7KNZsr8aFhmv2sKkCHXFeYvVQjcbALE/edit?usp=sharing">Presentation</a> on visualization as a reporting tool</p></li>
+<li><p><a href="https://journalismcourses.org/course/data-visualization-for-storytelling-and-discovery/">Knight Center’s online course</a> on visualization from Alberto Cairo</p></li>
+<li><p><a href="https://cronkitedata.s3.amazonaws.com/docs/A4-fema-summaries.html">Example R Markdown on disasters compiled for reporters in News 21</a>. This is just an example of how an analysis can be used with visualizations to help reporting in a team.</p></li>
+<li><p><a href="https://cronkitedata.s3.amazonaws.com/docs/county_delinquency.pdf">Example of a one-time use graphic</a>, with little explanation. I’ll explain it in class, and why it was so useful for a total of 10 minutes. This is <a href="https://cronkitedata.s3.amazonaws.com/docs/reveal_metro_area_master.html">another example of a graphic used by reporters for selecting locations</a> in the PPP story from Reveal.</p></li>
 </ul></li>
 </ul>
-<p>“<a href="https://faculty.mccombs.utexas.edu/carlos.carvalho/teaching/regression_to_the_mean.pdf">Fighter pilots and firing coaches</a>”, Brian Burke, 2009, in Advanced Football Analytics, with an explanation of regression to the mean. (This link is to a printout of the original piece, since the website version is a little bit of a mess.) It isn’t very well written, but it eventually gets around to an anecdote about fighter pilots and the concept we care about: “regression to the mean”.</p>
 </section>
-<section id="accuracy-as-the-ultimate-in-ethics" class="level4">
-<h4 class="anchored" data-anchor-id="accuracy-as-the-ultimate-in-ethics">Accuracy as the ultimate in ethics</h4>
-<p>There are a lot of bulletproofing pieces out there, but this <a href="https://cronkitedata.s3.amazonaws.com/docs/bulletproof-email.pdf">email from me to Criag Silverman</a>, who at the time wrote “Regret the Error” for Poynter, goes over most of them. (The piece he wrote is no longer on the web.)</p>
-</section>
-<section id="additional-optional-reading" class="level4">
-<h4 class="anchored" data-anchor-id="additional-optional-reading">Additional optional reading:</h4>
+<section id="wednesday-322" class="level3">
+<h3 class="anchored" data-anchor-id="wednesday-322">Wednesday 3/22</h3>
 <ul>
-<li>“<a href="https://source.opennews.org/articles/distrust-your-data/">Distrust your data</a>”, by Jacob Harris, The Source, 2014. At the time, Harris was a news developer at The New York Times.</li>
+<li>Finishing up with visualization</li>
 </ul>
+<p>Following up from our last session in which I introduced packages used to style numbers, <a href="https://rpubs.com/cohensh/833550">here is an example markdown</a> that you can use that goes over styling your Markdown documents - it includes examples of using different kinds of templates, formatting numbers, and data preparation in order to make decent-looking tables. There are examples of using <code>gt</code> and <code>reactable</code> libraries to style numbers. (To download the code, use Chrome. For some reason, Safari doesn’t let you do that.)</p>
 </section>
 </section>
+<section id="upcoming-deadlines" class="level2">
+<h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
+<p><span class="sked-dates">Sunday 3/26</span> : Memo proposal</p>
+<p><span class="sked-dates">Monday 4/3</span> : What would you do? (Census race and ethnicity)</p>
+<p><span class="sked-dates">Sunday 4/9</span>: First memo update</p>
 </section>
-<section id="recommendations-for-going-further" class="level2">
-<h2 class="anchored" data-anchor-id="recommendations-for-going-further">Recommendations for going further</h2>
-<section id="openrefine" class="level3">
-<h3 class="anchored" data-anchor-id="openrefine">OpenRefine</h3>
-<p>People who work in digital humanities, such as historians or experts in literature, often need to do many of the data cleaning chores that reporters do. That community has taken to OpenRefine, and there are a ton of good tutorials in that space. Here are a few:</p>
+<section id="preparation" class="level2">
+<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
 <ul>
-<li><a href="http://miriamposner.com/classes/dh201w19/tutorials-guides/data-cleaning-and-manipulation/getting-started-with-openrefine/">UCLA’s Digital Humanities 201 course</a> , by Miriam Posner</li>
-<li>Digital humanities OpenRefine lesson from <a href="https://data-lessons.github.io/dh-openrefine/">Data Carpentry</a></li>
+<li><a href="https://cronkitedata.github.io/djtextbook/viz-intro.html">Introduction to visualization</a> for tips and resources,</li>
+<li><a href="https://cronkitedata.github.io/djtextbook/viz-reporting.html">Visualization as a reporting tool</a></li>
 </ul>
-</section>
-<section id="scraping" class="level3">
-<h3 class="anchored" data-anchor-id="scraping">Scraping</h3>
-<p>Try doing a couple of the other tutorials listed in the textbook. Also, when you sign up for your free DataCamp account, you’ll see some assignments from me. The two that relate to scraping are particularly good.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -427,9 +416,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -494,6 +497,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -533,6 +622,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation column-page-right">
+  <div class="nav-page nav-page-previous">
+      <a href="../weeks/week09.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">9: Potpourri &amp; Build your own data</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

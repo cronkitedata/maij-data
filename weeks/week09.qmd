@@ -1,0 +1,35 @@
+---
+title: Building your own database (and a little pot luck)
+date:  2023-03-12
+description: You will often find yourself trying to piece together a database -- sometimes it's documents that must be compiled, other times it's details that come from disparate places. Still other times, you need to build a chronology out of a mess of notes. Getting good at this will save you in the end. 
+--- 
+
+
+The next four or five weeks are special skills that are useful, and all built around the primary colors that you've already learned. Mastering them now isn't as important as understanding what's possible, so we'll stop the pre-labs, and work with labs in class. You'll usually only go as far as you can during class, much like we did with the Join exercise. 
+
+
+## Agenda
+
+Monday: Pot luck: Things that require no preparation on your part, such as PDF extraction and an intro to regular expressions (you really want this!)
+Wednesday: Build your own database. Be sure to do the reading before class. 
+
+
+## Upcoming deadlines
+
+* [Wednesday 3/15]{.sked-dates} Build your own database Airtable exercise  (submit at the end of class)
+* [Sunday 3/19]{.sked-dates} Final replication project. NOTE: I will not respond to requests for help after noon on Sunday. It's a recipe for disaster. 
+* [Wednesday 3/22]{.sked-dates} What would you do? Scraping edition
+
+## Preparation
+
+### For Wednesday
+
+* Sign up for an Airtable account through your ASU email, and make a copy of the sample project that I'll share on Slack and through email. 
+* Read "[Build your own database](https://cronkitedata.github.io/djtextbook/start-build-own.html)" chapter . 
+* [Be sure to read the story](https://www.nytimes.com/2016/05/23/us/americas-overlooked-gun-violence.html) that is linked off of it from the New York Times in some detail -- we will be recreating the database structure needed to produce this story, so you should be familiar with what the story says.
+
+
+I will add some resources in the Startme page linked here to go through with you. 
+
+
+
