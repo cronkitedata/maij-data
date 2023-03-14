@@ -1,6 +1,6 @@
 ---
 title: "Verbs Part I: Filter and mutate"
-date:  "2023-02-05"
+date:  2023-02-05
 --- 
 
 Beginning this week, the structure for most weeks will be: 

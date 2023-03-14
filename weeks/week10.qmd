@@ -2,7 +2,7 @@
 title: Visualization as a reporting tool
 date:  2023-03-19
 draft: false
-description: Visualizing data is a whole 'nother skill, but we can borrow from the design and statistics world to help make our reporting more efficient. Don't worry about style here -- think about whether you'll be able to "see" a story easier in infographic form than in numbers. 
+description: Visualizing data is a whole 'nother skill, but we can borrow from the design and statistics world to help make our reporting more efficient.  
 --- 
 
 

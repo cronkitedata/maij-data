@@ -1,6 +1,6 @@
 ---
 title: "Replication in data journalism"
-date:  "2022-01-19"
+date:  2023-01-19
 --- 
 
 Some of this may feel abstract to you in the beginning but it will become more concrete as you start tackling datasets. 

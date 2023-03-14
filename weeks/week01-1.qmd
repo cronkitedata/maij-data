@@ -1,6 +1,6 @@
 ---
 title: "Introductions"
-date: "2022-01-9"
+date: 2023-01-9
 description: "Agenda and preparation for the first day"
 draft: false
 --- 

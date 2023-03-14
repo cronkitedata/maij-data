@@ -1,6 +1,6 @@
 ---
 title: "The journalistic method"
-date:  "2022-01-11"
+date:  2023-01-11
 draft: false
 description: Consuming news as a reporter 
 --- 
