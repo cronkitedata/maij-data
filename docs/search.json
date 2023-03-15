@@ -21,13 +21,6 @@
     "text": "Last year, The Verge sent a shiver through the spines of professors everywhere with the piece called “File Not Found”, which chronicled the way Zoomers grew up using computers — with search. Historically, anyone who used a computer had to understand how they were organized and how to use folders. But powerful search engines both in the cloud and on your computer made that unnecessary. With that change came a huge roadblock to learning how to code – creating and navigating to a folder became an unfamiliar concept.\nComputer programs are dumb. They don’t have search – all they see are file names, prefaced by the names of the folders that contain them.\nOn a Mac, everything begins in your “home” directory – the folder that contains all of the things specific to you when you open up the computer. When we use R, RStudio and Github, it will become crucial that you understand how the computer sees your files, and how you can find them yourself.\nHere are two introductory videos about folder and files:\n\nWindows\nMacs\n\nKey points:\n\nSet up folders in your documents folder for our class — if we put everything in the same place called the same thing, you’ll always be able to follow along with tutorials and in class.\nHow to rename files on a Mac and on Windows. This will be useful when you download.\nMoving vs. copying files across folders\nBacking up your work\nStyle guide for naming conventions: “How to Name Files” from Jenny Bryant\n\n\n\n\n\nxkcd"
   },
   {
-    "objectID": "inclass/01-github-logistics.html#review-organizing-your-computer-with-folders",
-    "href": "inclass/01-github-logistics.html#review-organizing-your-computer-with-folders",
-    "title": "File management and Github starter",
-    "section": "",
-    "text": "Last year, The Verge sent a shiver through the spines of professors everywhere with the piece called “File Not Found”, which chronicled the way Zoomers grew up using computers — with search. Historically, anyone who used a computer had to understand how they were organized and how to use folders. But powerful search engines both in the cloud and on your computer made that unnecessary. With that change came a huge roadblock to learning how to code – creating and navigating to a folder became an unfamiliar concept.\nComputer programs are dumb. They don’t have search – all they see are file names, prefaced by the names of the folders that contain them.\nOn a Mac, everything begins in your “home” directory – the folder that contains all of the things specific to you when you open up the computer. When we use R, RStudio and Github, it will become crucial that you understand how the computer sees your files, and how you can find them yourself.\nHere are two introductory videos about folder and files:\n\nWindows\nMacs\n\nKey points:\n\nSet up folders in your documents folder for our class — if we put everything in the same place called the same thing, you’ll always be able to follow along with tutorials and in class.\nHow to rename files on a Mac and on Windows. This will be useful when you download.\nMoving vs. copying files across folders\nBacking up your work\nStyle guide for naming conventions: “How to Name Files” from Jenny Bryant\n\n\n\n\n\nxkcd"
-  },
-  {
     "objectID": "inclass/01-github-logistics.html#setting-up-the-github-repository-for-this-class---optional",
     "href": "inclass/01-github-logistics.html#setting-up-the-github-repository-for-this-class---optional",
     "title": "File management and Github starter",
@@ -65,13 +58,6 @@
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
-    "title": "Preliminary schedule at a glance",
-    "section": "",
-    "text": "You do not have to keep track of the assignments on this site – they are all in Canvas with submission instructions. All of them exist for a reason. If you don’t understand the point of what we’re doing, please speak up! Understanding why an assignment is important has a lot to do with how you do it.\nI will often tell you how long I’d like you to spend on an assignment. I hope you’ll take these time recommendations seriously – they reflect the priority you should place on the assignment. For instance, if I say, “Don’t spend more than about an hour on this”, I expect the result to show about one hour’s worth of effort and any more effort is wasted. But it also means that a cursory glance or 10-minute effort probably isn’t enough, and you should think about whether you really paid attention."
-  },
-  {
-    "objectID": "schedule.html#schedule-and-assignment-logistics",
-    "href": "schedule.html#schedule-and-assignment-logistics",
     "title": "Preliminary schedule at a glance",
     "section": "",
     "text": "You do not have to keep track of the assignments on this site – they are all in Canvas with submission instructions. All of them exist for a reason. If you don’t understand the point of what we’re doing, please speak up! Understanding why an assignment is important has a lot to do with how you do it.\nI will often tell you how long I’d like you to spend on an assignment. I hope you’ll take these time recommendations seriously – they reflect the priority you should place on the assignment. For instance, if I say, “Don’t spend more than about an hour on this”, I expect the result to show about one hour’s worth of effort and any more effort is wasted. But it also means that a cursory glance or 10-minute effort probably isn’t enough, and you should think about whether you really paid attention."
@@ -133,13 +119,6 @@
     "text": "FAQ\nQ: I don’t have any experience. What do I need to succeed?\nEveryone in this class has gone through the boot camp required of all masters students. We covered numeracy and spreadsheet basics in that class, and those modules are prerequisites for this one. No other coding or data analysis background is expected.\nQ: This looks like a lot of work. How long do I have to spend on it every week?\nI try to follow the ASU standard for a 3-credit course — approximately 9 hours per week, including class and lab time. That suggests that, on average, you should expect to spend about 5 or 6 hours per week outside of class on preparation, homework and projects. The time commitment is a little front-loaded as we race to get you the skills you need later in the semester.\nIf you’re spending considerably more time on assigned work and preparation, please let me know – that’s not the intention.\nQ: How should I communicate with you?\nSlack or in person is best. All assignments must be turned in via Canvas assignments unless I direct you elsewhere. Do NOT email assignments.\nQ: How will I know how I’m doing?\nPay attention to the feedback on your routine homework and labs. I’ll give you a sense of where you’re excelling and where you might improve. I’m always happy to meet and discuss strategies that will help you get to the next level in your journalism or your data analysis skills.\nI’ve found that Canvas isn’t very accurate in estimating the final grade as we work through the semester, so I’ve turned that feature off. It will just mislead you.\nQ: How do I ask good questions?\nIn technical work, asking a good question is an art. Try to:\n\nDescribe what you are trying to do – what does success look like? What question are you trying to answer?\nProvide a snippet of the code or the Excel formula that you’re trying\nTake a screen shot or quote the error message if there is one\n\nQ: I already know how to code and analyze data. Why do I have to take this class?\nEven if you know how to code, I presume you are at Cronkite because you want to apply all of your skills to a journalism career. You probably knew how to use a phone or take a picture before you came to j-school, but you may not have used them the way you do now. That said, talk with me if you’re concerned that you won’t be challenged enough or want to go further. We’ll find ways to make the time productive and take you to the next level in data reporting.\nQ: Can I use ChatGPT to help me with my coding?\nSure — for help, not for answers. In fact, one of the things it’s really good at is answering the question, “Why doesn’t this code work?” You will have to determine if its answer is right and if it uses the functions and code you’re responsible for mastering. But for this purpose it’s pretty similar to searching Google and Substack or asking colleague for help. It might do a little better than the alternatives."
   },
   {
-    "objectID": "syllabus.html#footnotes",
-    "href": "syllabus.html#footnotes",
-    "title": "Empirical Reporting",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nAnything that can run the full version of Mac OS or Windows is fine, such as a Microsoft Surface↩︎\nI waited until you’d use it so that you can have it for as long as possible after class ends↩︎"
-  },
-  {
     "objectID": "updates.html",
     "href": "updates.html",
     "title": "Updates",
@@ -187,13 +166,6 @@
     "title": "Introductions",
     "section": "In-class resources",
     "text": "In-class resources\nSlide deck: data-driven reporting"
-  },
-  {
-    "objectID": "weeks/week01-1.html#footnotes",
-    "href": "weeks/week01-1.html#footnotes",
-    "title": "Introductions",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSlack is an official ASU app, meaning you should not put anything on it that must be held secret. The class Slack is protected under federal privacy laws to those at ASU who have a right to see them, including administrators.↩︎"
   },
   {
     "objectID": "weeks/week01-2.html",
@@ -308,13 +280,6 @@
     "text": "Going further\nHere are some more examples of datasets coming from unexpected places: historical site lines, investigative files, and Hamilton.\n\nThis documentary and report by the independent firm Forensic Architecture in partnership with RISE St. James on environmental racism in “death alley”, Louisiana, is quite long. But it’s a great example of the emerging form of open source investigations that use imaging, historical site lines and similar non-traditional data in service of a larger piece, often conducted by human rights investigators rather than journalists. (I can’t get the direct link to work. If it won’t work for you, choose Investigations, and look for those in the United States. At this writing there were only two. )\n“Locked up and left to die” , by Michael Barajas and Sophie Novack, Texas Observer, Nov. 1, 2021, is based largely on an ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths. (I worked with the authors as a mentor on this story through the Fund for Investigative Journalism.)\nAnd a shoutout to this incredible piece by The Wall Street Journal, tracing the roots of the lyrical signatures in Hamilton"
   },
   {
-    "objectID": "weeks/week03-1.html#footnotes",
-    "href": "weeks/week03-1.html#footnotes",
-    "title": "The life of data",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nNo, there is no byline or credit line – I told her that was fine – it only took me 45 minutes to do this.↩︎"
-  },
-  {
     "objectID": "weeks/week03-2.html",
     "href": "weeks/week03-2.html",
     "title": "Install party!",
@@ -364,13 +329,6 @@
     "text": "Discussion of “life of a dataset” assignment\nQuestions about the R Studio tour and tutorials\nCreate your first document"
   },
   {
-    "objectID": "weeks/week04-1.html#agenda",
-    "href": "weeks/week04-1.html#agenda",
-    "title": "Getting started with programming - a walkthrough",
-    "section": "",
-    "text": "Discussion of “life of a dataset” assignment\nQuestions about the R Studio tour and tutorials\nCreate your first document"
-  },
-  {
     "objectID": "weeks/week04-1.html#upcoming-deadlines",
     "href": "weeks/week04-1.html#upcoming-deadlines",
     "title": "Getting started with programming - a walkthrough",
@@ -392,22 +350,8 @@
     "text": "Textbook chapters we’ll review\n\nA gentle introduction to programming\nCreating Quarto documents"
   },
   {
-    "objectID": "weeks/week04-1.html#footnotes",
-    "href": "weeks/week04-1.html#footnotes",
-    "title": "Getting started with programming - a walkthrough",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nI tried to make a version of the videos for you and failed miserably.↩︎"
-  },
-  {
     "objectID": "weeks/week04-2.html",
     "href": "weeks/week04-2.html",
-    "title": "Example: The Hot 100 list",
-    "section": "",
-    "text": "Note\n\n\n\nI have to leave early today. I’ll get you started, and you can turn in as far as you got by the end of class.\n\n\n\nWhat the next few weeks look like\nBillboard 100: Analyzing the hot songs of the past 65 years"
-  },
-  {
-    "objectID": "weeks/week04-2.html#agenda",
-    "href": "weeks/week04-2.html#agenda",
     "title": "Example: The Hot 100 list",
     "section": "",
     "text": "Note\n\n\n\nI have to leave early today. I’ll get you started, and you can turn in as far as you got by the end of class.\n\n\n\nWhat the next few weeks look like\nBillboard 100: Analyzing the hot songs of the past 65 years"
@@ -469,13 +413,6 @@
     "text": "Sentences chosen from replication project proposals\nRe-introduction to aggregating for stats and story tips"
   },
   {
-    "objectID": "weeks/week06.html#agenda",
-    "href": "weeks/week06.html#agenda",
-    "title": "Verbs part II: Summarize and Group",
-    "section": "",
-    "text": "Sentences chosen from replication project proposals\nRe-introduction to aggregating for stats and story tips"
-  },
-  {
     "objectID": "weeks/week06.html#upcoming-deadlines",
     "href": "weeks/week06.html#upcoming-deadlines",
     "title": "Verbs part II: Summarize and Group",
@@ -492,13 +429,6 @@
   {
     "objectID": "weeks/week07.html",
     "href": "weeks/week07.html",
-    "title": "Verbs Part III: Joining",
-    "section": "",
-    "text": "Discuss PPP homework and ideas\nIntroduce pre-lab concept: joining"
-  },
-  {
-    "objectID": "weeks/week07.html#agenda",
-    "href": "weeks/week07.html#agenda",
     "title": "Verbs Part III: Joining",
     "section": "",
     "text": "Discuss PPP homework and ideas\nIntroduce pre-lab concept: joining"
@@ -543,7 +473,7 @@
     "href": "weeks/week09.html#preparation",
     "title": "Building your own database (and a little pot luck)",
     "section": "Preparation",
-    "text": "Preparation\n\nFor Wednesday\n\nSign up for an Airtable account through your ASU email, and make a copy of the sample project that I’ll share on Slack and through email.\nRead “Build your own database” chapter .\nBe sure to read the story that is linked off of it from the New York Times in some detail – we will be recreating the database structure needed to produce this story, so you should be familiar with what the story says.\n\nI will add some resources in the Startme page linked here to go through with you."
+    "text": "Preparation\n\nFor Wednesday\n\nSign up for an Airtable account through your ASU email, and make a copy of the sample project (Updated just before class – sorry about that!).\nRead “Build your own database” chapter .\nBe sure to read the story that is linked off of it from the New York Times in some detail – we will be recreating the database structure needed to produce this story, so you should be familiar with what the story says.\n\nI will add some resources in the Startme page linked here to go through with you."
   },
   {
     "objectID": "weeks/week10.html",

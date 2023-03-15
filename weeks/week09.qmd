@@ -24,7 +24,7 @@ Wednesday: Build your own database. Be sure to do the reading before class.
 
 ### For Wednesday
 
-* Sign up for an Airtable account through your ASU email, and make a copy of the sample project that I'll share on Slack and through email. 
+* Sign up for an Airtable account through your ASU email, and make a copy of [the sample project](https://airtable.com/shrrceFXTjmjLhO5o) (Updated just before class -- sorry about that!). 
 * Read "[Build your own database](https://cronkitedata.github.io/djtextbook/start-build-own.html)" chapter . 
 * [Be sure to read the story](https://www.nytimes.com/2016/05/23/us/americas-overlooked-gun-violence.html) that is linked off of it from the New York Times in some detail -- we will be recreating the database structure needed to produce this story, so you should be familiar with what the story says.
 
