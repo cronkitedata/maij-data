@@ -6,14 +6,15 @@ description: Visualizing data is a whole 'nother skill, but we can borrow from t
 --- 
 
 
-DRAFT: DETAILS TK
-
-
 ## Agenda
+
+NOTE: We may move everything back a day or two to give you a breather after the replication project. It doesn't affect your final project. We'll discuss on Monday.
 
 ### Monday 3/20
 
-* Sometimes the best visualization is just a really useful table, either static or interactive. We'll look at a few packages and details on creating them. 
+* Sometimes the best visualization is just a really useful table, either static or interactive. We'll look at a few packages and details on creating them, using our PPP data as an example.
+
+
 * Principles of visualization as a reporting tool 
 
    - [Presentation](https://docs.google.com/presentation/d/1JV8jIOEKodAc7KNZsr8aFhmv2sKkCHXFeYvVQjcbALE/edit?usp=sharing) on visualization as a reporting tool
@@ -22,7 +23,7 @@ DRAFT: DETAILS TK
 
    - [Example R Markdown on disasters compiled for reporters in News 21](https://cronkitedata.s3.amazonaws.com/docs/A4-fema-summaries.html). This is just an example of how an analysis can be used with visualizations to help reporting in a team. 
 
-   - [Example of a one-time use graphic](https://cronkitedata.s3.amazonaws.com/docs/county_delinquency.pdf), with little explanation. I'll explain it in class, and why it was so useful for a total of 10 minutes. This is [another example of a graphic used by reporters for selecting locations](https://cronkitedata.s3.amazonaws.com/docs/reveal_metro_area_master.html) in the PPP story from Reveal. 
+   - [Example of a one-time use graphic](https://cronkitedata.s3.amazonaws.com/docs/reveal_metro_area_master.html) in the PPP story from Reveal, used to select locations for further reporting. 
 
 
 ### Wednesday 3/22
@@ -45,7 +46,11 @@ Following up from our last session in which I introduced packages used to style 
 
 
 
-## Preparation
+## Textbook chapters
 
-- [Introduction to visualization](https://cronkitedata.github.io/djtextbook/viz-intro.html) for tips and resources, 
-- [Visualization as a reporting tool](https://cronkitedata.github.io/djtextbook/viz-reporting.html)
+We'll base some of our work on these chapters, but you are not responsible for reading them before class. Instead, we'll walk through together.
+
+- [Introduction to visualization](https://cronkitedata.github.io/djtextbook/vis.html) for tips and resources, 
+- [Visualization as a reporting tool](https://cronkitedata.github.io/djtextbook/vis-reporting.html)
+- [Report-making in R](https://cronkitedata.github.io/djtextbook/vis-tables.html)
+- [Visualization demo](https://cronkitedata.github.io/djtextbook/vis-demo.html)

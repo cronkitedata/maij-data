@@ -550,14 +550,14 @@
     "href": "weeks/week10.html",
     "title": "Visualization as a reporting tool",
     "section": "",
-    "text": "DRAFT: DETAILS TK"
+    "text": "NOTE: We may move everything back a day or two to give you a breather after the replication project. It doesn’t affect your final project. We’ll discuss on Monday.\n\n\n\nSometimes the best visualization is just a really useful table, either static or interactive. We’ll look at a few packages and details on creating them, using our PPP data as an example.\nPrinciples of visualization as a reporting tool\n\nPresentation on visualization as a reporting tool\nKnight Center’s online course on visualization from Alberto Cairo\nExample R Markdown on disasters compiled for reporters in News 21. This is just an example of how an analysis can be used with visualizations to help reporting in a team.\nExample of a one-time use graphic in the PPP story from Reveal, used to select locations for further reporting.\n\n\n\n\n\n\nFinishing up with visualization\n\nFollowing up from our last session in which I introduced packages used to style numbers, here is an example markdown that you can use that goes over styling your Markdown documents - it includes examples of using different kinds of templates, formatting numbers, and data preparation in order to make decent-looking tables. There are examples of using gt and reactable libraries to style numbers. (To download the code, use Chrome. For some reason, Safari doesn’t let you do that.)"
   },
   {
     "objectID": "weeks/week10.html#agenda",
     "href": "weeks/week10.html#agenda",
     "title": "Visualization as a reporting tool",
-    "section": "Agenda",
-    "text": "Agenda\n\nMonday 3/20\n\nSometimes the best visualization is just a really useful table, either static or interactive. We’ll look at a few packages and details on creating them.\nPrinciples of visualization as a reporting tool\n\nPresentation on visualization as a reporting tool\nKnight Center’s online course on visualization from Alberto Cairo\nExample R Markdown on disasters compiled for reporters in News 21. This is just an example of how an analysis can be used with visualizations to help reporting in a team.\nExample of a one-time use graphic, with little explanation. I’ll explain it in class, and why it was so useful for a total of 10 minutes. This is another example of a graphic used by reporters for selecting locations in the PPP story from Reveal.\n\n\n\n\nWednesday 3/22\n\nFinishing up with visualization\n\nFollowing up from our last session in which I introduced packages used to style numbers, here is an example markdown that you can use that goes over styling your Markdown documents - it includes examples of using different kinds of templates, formatting numbers, and data preparation in order to make decent-looking tables. There are examples of using gt and reactable libraries to style numbers. (To download the code, use Chrome. For some reason, Safari doesn’t let you do that.)"
+    "section": "",
+    "text": "NOTE: We may move everything back a day or two to give you a breather after the replication project. It doesn’t affect your final project. We’ll discuss on Monday.\n\n\n\nSometimes the best visualization is just a really useful table, either static or interactive. We’ll look at a few packages and details on creating them, using our PPP data as an example.\nPrinciples of visualization as a reporting tool\n\nPresentation on visualization as a reporting tool\nKnight Center’s online course on visualization from Alberto Cairo\nExample R Markdown on disasters compiled for reporters in News 21. This is just an example of how an analysis can be used with visualizations to help reporting in a team.\nExample of a one-time use graphic in the PPP story from Reveal, used to select locations for further reporting.\n\n\n\n\n\n\nFinishing up with visualization\n\nFollowing up from our last session in which I introduced packages used to style numbers, here is an example markdown that you can use that goes over styling your Markdown documents - it includes examples of using different kinds of templates, formatting numbers, and data preparation in order to make decent-looking tables. There are examples of using gt and reactable libraries to style numbers. (To download the code, use Chrome. For some reason, Safari doesn’t let you do that.)"
   },
   {
     "objectID": "weeks/week10.html#upcoming-deadlines",
@@ -567,10 +567,10 @@
     "text": "Upcoming deadlines\nSunday 3/26 : Memo proposal\nMonday 4/3 : What would you do? (Census race and ethnicity)\nSunday 4/9: First memo update"
   },
   {
-    "objectID": "weeks/week10.html#preparation",
-    "href": "weeks/week10.html#preparation",
+    "objectID": "weeks/week10.html#textbook-chapters",
+    "href": "weeks/week10.html#textbook-chapters",
     "title": "Visualization as a reporting tool",
-    "section": "Preparation",
-    "text": "Preparation\n\nIntroduction to visualization for tips and resources,\nVisualization as a reporting tool"
+    "section": "Textbook chapters",
+    "text": "Textbook chapters\nWe’ll base some of our work on these chapters, but you are not responsible for reading them before class. Instead, we’ll walk through together.\n\nIntroduction to visualization for tips and resources,\nVisualization as a reporting tool\nReport-making in R\nVisualization demo"
   }
 ]
