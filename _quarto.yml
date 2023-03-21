@@ -84,8 +84,10 @@ website:
             file: weeks/week07.qmd
           - text: "9: Potpourri & Build your own data"
             file: weeks/week09.qmd
-          - text: "10: Visualization as a reporting tool"
+          - text: "10: Review, statistics and ethics"
             file: weeks/week10.qmd
+          - text: "11: Intro to GIS and mapping"
+            file: weeks/week11.qmd
       - text: "----"
       - text: Course textbook
         href: https://cronkitedata.github.io/djtextbook

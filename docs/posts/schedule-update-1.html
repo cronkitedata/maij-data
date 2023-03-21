@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-01-30">
-<meta name="description" content="You can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto.">
+<meta name="dcterms.date" content="2023-03-20">
+<meta name="description" content="We talked about your priorities and how we can arrange the rest of the semester. Here are some details.">
 
-<title>Data reporting for investigative journalism - Getting started with programming - a walkthrough</title>
+<title>Data reporting for investigative journalism - Rethinking the schedule</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week04-2.html" rel="next">
-<link href="../weeks/week03-2.html" rel="prev">
+<link href="../posts/welcome.html" rel="next">
+<link href="../updates.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week04-1.html">4.1: Your first R program</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../updates.html">Updates</a></li><li class="breadcrumb-item"><a href="../posts/schedule-update-1.html">Rethinking the schedule</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -162,14 +162,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../updates.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Updates</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/schedule-update-1.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/schedule-update-1.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Rethinking the schedule</span></a>
   </div>
 </li>
@@ -199,11 +199,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../weeks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Weekly details</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-1.html" class="sidebar-item-text sidebar-link">
@@ -236,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link active">
+  <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">4.1: Your first R program</span></a>
   </div>
 </li>
@@ -312,16 +312,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
     </ul>
     </div>
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
-  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
-  <li><a href="#textbook-chapters-well-review" id="toc-textbook-chapters-well-review" class="nav-link" data-scroll-target="#textbook-chapters-well-review">Textbook chapters we’ll review</a></li>
-  </ul>
-</nav>
+    
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
@@ -332,12 +323,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Getting started with programming - a walkthrough</h1>
+<h1 class="title">Rethinking the schedule</h1>
 </div>
 
 <div>
   <div class="description">
-    You can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto.
+    <p>We talked about your priorities and how we can arrange the rest of the semester. Here are some details.</p>
   </div>
 </div>
 
@@ -346,9 +337,9 @@ ul.task-list li input[type="checkbox"] {
 
     
     <div>
-    <div class="quarto-title-meta-heading">Class date</div>
+    <div class="quarto-title-meta-heading"></div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 30, 2023</p>
+      <p class="date">March 20, 2023</p>
     </div>
   </div>
   
@@ -358,52 +349,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="agenda" class="level2">
-<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<ul>
-<li>Discussion of “life of a dataset” assignment</li>
-<li>Questions about the R Studio tour and tutorials</li>
-<li>Create your first document</li>
-</ul>
-</section>
-<section id="upcoming-deadlines" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<ul>
-<li><span class="sked-dates">Today</span> : Your first <a href="https://raw.githubusercontent.com/cronkitedata/maij-data/main/prelabs/prelab01-yourname.qmd">Quarto doc</a></li>
-<li><span class="sked-dates">Monday Feb.&nbsp;6</span> : “What would you do?” : choosing a data source. See assignment in Canvas.</li>
-</ul>
-</section>
-<section id="preparation" class="level2">
-<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
-<p>This prep might leave you feeling bewildered. Don’t let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don’t have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You’ll probably get a lot of errors, and that’s fine — they’re not judging you. They’re supposed to be hints, even when they’re <span class="text-danger">red</span> and use words that look like <em>$#u893q#r32</em>.</p>
-<ul>
-<li><p>Review the textbook chapter, “<a href="https://cronkitedata.github.io/djtextbook/r-start.html">Getting started with R and RStudio</a>”</p>
-<ul>
-<li><p>Make sure to install the packages at the beginning of the chapter. (We might have been able to get this part done in class already – we’ll see how it goes.) You might want to get it going and then get a cup of tea – it will take at least a few minutes once it starts and could take longer. It might look like it’s stalled. If you have trouble at this point, please post a question to <code>#dj-sos</code> Slack channel and describe what’s happening.</p></li>
-<li><p>Try the <a href="https://posit.cloud/learn/primers/1.2">“Programming basics” tutorial</a> linked in that chapter. Don’t worry about all of the math in it; you don’t have to go through the part where you answer questions. Instead, just focus on the concepts of the 1-minute videos: functions, arguments, objects and data types.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></li>
-<li><p>Watch Andrew Heiss’s <a href="https://youtu.be/cnQ-v1UUWyE">RStudio tour</a>. Again, don’t worry much about how math-centric it is. Our work will be much less so. But he does a good job of going through the most confusing pieces of what’s in front of you.</p></li>
-</ul></li>
-</ul>
-<p><strong>Don’t spend more than 2 hours on this. You might finish sooner, but you’ll need this to move forward so don’t rush. I also expect you’ll have questions when we get to class.</strong></p>
-<p>OPTIONAL: If you are nervous, consider reviewing the <a href="https://cronkitedata.github.io/djtextbook/r-quarto.html">Using Quarto</a> chapter that we’ll be following in our class lab today.</p>
-</section>
-<section id="textbook-chapters-well-review" class="level2">
-<h2 class="anchored" data-anchor-id="textbook-chapters-well-review">Textbook chapters we’ll review</h2>
-<ul>
-<li><a href="https://cronkitedata.github.io/djtextbook/appendix-program.html">A gentle introduction to programming</a></li>
-<li><a href="https://cronkitedata.github.io/djtextbook/r-quarto.html">Creating Quarto documents</a></li>
-</ul>
+<p>Today in class, we went through some of your priorities and decided to make a few changes to the schedule. In particular, we’re taking a bit of a break this week; we’ll really focus on GIS and mapping (but also get visualization practice); we’ll include scraping; but we’ll just do data cleaning as a demo.</p>
+<p>This means you have some <a href="../weeks/week01-1.html">reading to do for Wednesday</a>, but nothing else much changes.</p>
+<p>These changes might affect some of your grades – I have to look at the labs that have points and make sure there are optional assignments could account for any assignments or labs that we eliminate. This would ensure that everything adds up to 1000, so that nothing you’ve done so far carries more weight than you thought it would. But if you’re happy with how it’s going, you really don’t need to do it. I’ll have to figure that out, which I’ll do by April 1.</p>
 
 
-</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>I tried to make a version of the videos for you and failed miserably.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -639,13 +591,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../weeks/week03-2.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">3.2: Install party!</span>
+      <a href="../updates.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Updates</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../weeks/week04-2.html" class="pagination-link">
-        <span class="nav-page-text">4.2: An example analysis: Billboard Hot 100</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../posts/welcome.html" class="pagination-link">
+        <span class="nav-page-text">Class Zero</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

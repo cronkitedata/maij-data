@@ -8,6 +8,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/schedule-update-1.html",
       "/posts/welcome.html"
     ]
   },
@@ -18,6 +19,7 @@
   {
     "listing": "/updates.html",
     "items": [
+      "/posts/schedule-update-1.html",
       "/posts/welcome.html"
     ]
   },
@@ -35,7 +37,8 @@
       "/weeks/week06.html",
       "/weeks/week07.html",
       "/weeks/week09.html",
-      "/weeks/week10.html"
+      "/weeks/week10.html",
+      "/weeks/week11.html"
     ]
   }
 ]

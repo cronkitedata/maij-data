@@ -1,0 +1,15 @@
+---
+title: "Rethinking the schedule"
+date: "2023-03-20"
+description: |
+   We talked about your priorities and how we can arrange the rest of the semester. Here are some details.
+format: 
+  html: 
+    published-title: ""
+---
+
+Today in class, we went through some of your priorities and decided to make a few changes to the schedule. In particular, we're taking a bit of a break this week; we'll really focus on GIS and mapping (but also get visualization practice); we'll include scraping; but we'll just do data cleaning as a demo. 
+
+This means you have some [reading to do for Wednesday](../weeks/week01-1.qmd), but nothing else much changes.
+
+These changes might affect some of your grades -- I have to look at the labs that have points and make sure there are optional assignments could account for any assignments or labs that we eliminate.  This would ensure that everything adds up to 1000, so that nothing you've done so far carries more weight than you thought it would. But if you're happy with how it's going, you really don't need to do it. I'll have to figure that out, which I'll do by April 1. 
