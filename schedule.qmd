@@ -7,6 +7,8 @@ description: "A broad outline of what we'll be doing"
 
 ## Schedule and assignment logistics
 
+**Updated Monday March 20**
+
 You do not have to keep track of the assignments on this site -- they are all in Canvas with submission instructions. All of them  exist for a reason. If you don't understand the point of what we're doing, please speak up! Understanding why an assignment is important has a lot to do with how you do it. 
 
 
@@ -31,13 +33,14 @@ The schedule is subject to change as we discover where you need or want more tim
 |08|Feb 27-March 1|Catch-up week & labs for replication project | Su 2/26: Replication update (50)|
 |||Spring break|
 |09|March 13-15| Pot luck: PDFs, regular expressions;  Build your own database | W 3/15: Build your own database lab (50)
-|10|March 20-22| Visualization as a reporting tool  / building better looking tables | Su 3/19: Replication final draft (75) <br>  W 3/22: What would you do? (scraping) | 
-|11|March 27-29| Scraping | Su 3/26: Memo proposal (25) 
-|12|April 3-5| Intro to maps & GIS |  Mo 4/3: What would you do? (Census)
-|13|April 10-12| Data cleaning strategies, OpenRefine, and a return to regular expressions | Su 4/9: First memo update (50)
-|14|April 17-19|Statistics in the newsroom; Students' choice| Su 4/16: 2nd memo update (50)
+|10|March 20-22| Review of replication project; statistical concepts and ethics in data journalism| Su 3/19: Replication final draft (75) <br>  W 3/22: What would you do? (scraping) | 
+|11|March 27-29| Intro to maps & GIS  | Su 3/26: Memo proposal (25) 
+|12|April 3-5| Continue with maps & visualization|  Mo 4/3: What would you do? (Census)
+|13|April 10-12| Guest panel; Intro to scraping | Su 4/9: First memo update (50)
+|14|April 17-19| Lab for final memo ; TBD | Su 4/16: 2nd memo update (50)
 |15|April 24-26|Creating a Github site for job-hunting; <br> Paying it forward| Su 4/23: Final memo  (100)
 
+Note: I will be out of town on Monday April 10. I am arranging a one-hour panel led by Brandon Quester from the Arizona Center for Investigative Reporting, with recent graduates who have gone on to use data in their investigative journalism. You'll have some free time after that. 
 
  
 
