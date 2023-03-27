@@ -1,0 +1,224 @@
+---
+title: "Lab for first map"
+author: "Sarah Cohen"
+format: 
+   html: 
+      theme: cosmo
+      layout: article
+      output: false
+editor: visual
+---
+
+## Making your first map in R
+
+### Libraries to install
+
+-   `pacman` - you may have done this already, but it's useful to have on your computer.
+
+```{=html}
+<!-- -->
+```
+-   `sf`  - for dealing with geographic data
+
+-   `tigris`  - for getting geometry from the Census bureau
+
+-   `tmap` - for making simple maps without a lot of fuss
+
+### Setup chunk
+
+Earlier in the semester, I asked you to install a package called `pacman`, which will make this part much easier. This will take a minute.
+
+You have to re-install the "Rcpp" package or you might get an error. I have no idea what this means. Once you've installed it, you can comment out that line.
+
+```{r}
+#| label: setup
+#| echo: fenced
+#| message: false
+#| output: false
+
+# install.packages("Rcpp")
+pacman::p_load ("tidyverse", "janitor", "lubridate", "tigris", "sf", "tmap")
+
+
+
+options(tigris_class="sf",
+        tigris_use_cache = TRUE)
+```
+
+## Make dots on a map
+
+The URL to the CSV file is at <https://bit.ly/startme-public>, where you can copy and paste it in here:
+
+```{r}
+#| label: import-data
+
+locations <- read_csv("https://cronkitedata.s3.amazonaws.com/rdata/maricopa_voting_places.csv")
+
+glimpse(locations)
+
+
+
+```
+
+Create a geographic dataset out of it, using the `sf` library. Confusingly, all of the `sf` commands begin with `st_`. From a text file, you have to tell it what projection the points are in -- it's usually WGS84, or crs code 4326. But you'll have to get that from the person who made the map. (GPS systems use this projection, so it's a good guess.)
+
+```{r}
+#| label: latlon-to-points
+
+locations_map <- 
+    locations |> 
+    st_as_sf ( 
+               coords = c("longitude", "latitude"), 
+               crs = 4326)
+
+
+
+```
+
+Take a look at the structure of the new dataset:
+
+```{r}
+#| label: locations-structure
+
+
+str(locations_map)
+
+
+```
+
+Draw the map:
+
+```{r}
+
+#| label: draw-points
+
+
+tm_shape( locations_map ) +
+  tm_bubbles ()
+
+
+
+```
+
+hmm. That doesn't help a lot, since we don't quite know where they are. This library doesn't have many options for what is called "base" maps, so we'll switch to an interactive version that has some underlying information, make the bubbles smaller and be able to see through them.
+
+```{r}
+#| label: tm-view-leaflet
+#| message: false
+
+tmap_mode (mode="view")
+tm_shape ( locations_map ) +
+  tm_bubbles( col="red", 
+              alpha = .3)
+              
+
+
+
+
+
+```
+
+## Get some Census data
+
+```{r}
+#| label: get-tracts-shape
+
+
+maricopa_geo <- 
+  tracts ( state="04" , county="013", year = "2020", 
+           cb=TRUE)
+
+
+glimpse ( maricopa_geo)
+
+
+```
+
+Check the projection that was derived from the Census bureau:
+
+```{r}
+
+st_crs(maricopa_geo)
+
+```
+
+For now, it's ok that this is different than our points. But if we wanted to put them together, we'd have to force them both into the same projection.
+
+### Display the two maps on one
+
+```{r}
+
+tm_shape ( maricopa_geo, projections=2868) +
+  tm_polygons ( alpha=.5) +
+tm_shape ( locations_map, projection = 2868) +
+  tm_dots()
+
+
+
+
+
+```
+
+## Add Census data to our tracts
+
+```{r}
+
+#| label: add-census-data
+
+maricopa_demo <- readRDS(
+                       url ("https://cronkitedata.s3.amazonaws.com/rdata/maricopa_tract.Rds")
+)
+
+
+glimpse (maricopa_demo)
+```
+
+You can use your geographic dataset just like any other data frame!
+
+```{r}
+#| label: join-maricopa
+
+maricopa_demo_map <- 
+  maricopa_geo |> 
+  left_join ( maricopa_demo, join_by ( GEOID==geoid)) |> 
+  select (GEOID, tot_pop:pct_minority )
+  
+
+glimpse (maricopa_demo_map)
+
+
+
+```
+
+## A chloropeth map
+
+```{r}
+
+
+tm_shape ( maricopa_demo_map, 
+           projection = 2868) +
+  tm_polygons ( col = "pct_minority", 
+                style = "jenks", 
+                palette = "YlGnBu", 
+                border.col = NULL)
+
+
+```
+
+### And add the voting locations. 
+
+```{r}
+
+
+
+tm_shape ( maricopa_demo_map, 
+           projection = 2868) +
+  tm_polygons ( col = "pct_minority", 
+                style = "jenks", 
+                palette = "YlGnBu", 
+                border.col = NULL, 
+                alpha = .3) +
+tm_shape ( locations_map) +
+  tm_dots (col = "red")
+
+```
