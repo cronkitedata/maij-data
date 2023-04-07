@@ -22,6 +22,10 @@ Making your own map; finding and using government and other source data.
 
 * Principles of visualization as a reporting tool , and some practice to get you started
 
+### Monday, April 10
+
+Brandon Quester from AZCIR will join the class at the beginning to talk data and jobs. There is an assignment in Canvas for a [mapping lab](https://cronkitedata.s3.amazonaws.com/rdata/mapping-exercise.html)
+
 
 ## Upcoming deadlines
 
