@@ -77,7 +77,7 @@ There are a lot of bulletproofing pieces out there,  but this [email from me to 
 * "[Distrust your data](https://source.opennews.org/articles/distrust-your-data/)", by Jacob Harris, The Source, 2014. At the time, Harris was a news developer at The New York Times. 
 
 
-
+Made a change just to see what happens with Github. 
 
 
 ## Recommendations for going further 
