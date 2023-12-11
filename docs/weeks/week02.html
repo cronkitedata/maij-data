@@ -2,13 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.310">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-01-19">
+<meta name="dcterms.date" content="2024-01-17">
+<meta name="description" content="Using Quarto to combine your programming and your documenation in one place.">
 
-<title>Data reporting for investigative journalism - Replication in data journalism</title>
+<title>Data reporting for investigative journalism - Replication and your first R program</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,7 +60,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <meta name="robots" content="noindex">
@@ -115,11 +117,6 @@ ul.task-list li input[type="checkbox"] {
 </i> 
  <span class="menu-text"></span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/sarah_h_cohen/" rel="" target=""><i class="bi bi-twitter" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
 </ul>
             <div class="quarto-navbar-tools">
 </div>
@@ -131,10 +128,10 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week02.html">2: Replication / spreadsheet review</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week02.html">2: Accuracy and replication</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -158,27 +155,8 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../updates.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Updates</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../posts/schedule-update-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Rethinking the schedule</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../posts/welcome.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Class Zero</span></a>
-  </div>
-</li>
-      </ul>
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Updates</span></span>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
@@ -212,73 +190,82 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1.2: Reading the story</span></a>
+ <span class="menu-text">1.2: Jump start</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week02.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">2: Replication / spreadsheet review</span></a>
+ <span class="menu-text">2: Accuracy and replication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week03-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3.1: The life of data</span></a>
+ <span class="menu-text">3.1: First steps in data analysis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week03-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3.2: Install party!</span></a>
+ <span class="menu-text">3.2: A quick tour of verbs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.1: Your first R program</span></a>
+ <span class="menu-text">4.1: Filter and sort to find stories</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week04-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.2: An example analysis: Billboard Hot 100</span></a>
+ <span class="menu-text">4.2: Creating new from old with mutate</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5: In-depth verbs pt 1</span></a>
+  <a href="../weeks/week05-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.1: Summarize with group by</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+ <span class="menu-text">5.2: Matchmaking with joins</span>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week06.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6: The power of regular expressions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6: In-depth verbs pt 2</span></a>
+  <a href="../weeks/week07.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7: TK</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7: In-depth verbs pt 3</span></a>
+  <a href="../weeks/week08-1.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8-1: Cognitive bias in data journalism</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9: Potpourri &amp; Build your own data</span></a>
+  <a href="../weeks/week08-2.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8-2: The life of data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10: Review, statistics and ethics</span></a>
+  <a href="../weeks/week09.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9-1: Visualization as a reporting tool</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">11: Intro to GIS and mapping</span></a>
+  <a href="../weeks/week11.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9-2: Intro to GIS and mapping</span></a>
   </div>
 </li>
       </ul>
@@ -292,13 +279,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://asu.instructure.com/courses/138967" class="sidebar-item-text sidebar-link">
+  <a href="https://asu.instructure.com/courses/171974" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Canvas</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://asu-2231-mco510-21913.slack.com/" class="sidebar-item-text sidebar-link">
+  <a href="https://app.slack.com/client/T068BE4K9QU/C068BF87G9J" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slack</span></a>
   </div>
 </li>
@@ -317,8 +304,12 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
-  <li><a href="#reminder-on-spreadsheet-skills-chapters" id="toc-reminder-on-spreadsheet-skills-chapters" class="nav-link" data-scroll-target="#reminder-on-spreadsheet-skills-chapters">Reminder on spreadsheet skills chapters</a></li>
+  <li><a href="#preparation-and-learning-materials" id="toc-preparation-and-learning-materials" class="nav-link" data-scroll-target="#preparation-and-learning-materials">Preparation and learning materials</a>
+  <ul class="collapse">
+  <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">Reading</a></li>
+  <li><a href="#get-to-know-r-and-rstudio" id="toc-get-to-know-r-and-rstudio" class="nav-link" data-scroll-target="#get-to-know-r-and-rstudio">Get to know R and RStudio</a></li>
+  </ul></li>
+  <li><a href="#follow-up-materials" id="toc-follow-up-materials" class="nav-link" data-scroll-target="#follow-up-materials">Follow-up materials</a></li>
   </ul>
 </nav>
 </nav>
@@ -331,9 +322,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Replication in data journalism</h1>
+<h1 class="title">Replication and your first R program</h1>
 </div>
 
+<div>
+  <div class="description">
+    Using Quarto to combine your programming and your documenation in one place.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -342,7 +338,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 19, 2023</p>
+      <p class="date">January 17, 2024</p>
     </div>
   </div>
   
@@ -352,46 +348,95 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Some of this may feel abstract to you in the beginning but it will become more concrete as you start tackling datasets.</p>
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
 <ul>
-<li>Discussion: “What would you do?” assignment</li>
-<li>Replication in data journalism and the data diary</li>
-<li>Spreadsheet skills - lab to start the homework due on Sunday</li>
+<li>Review of What Would You Do?</li>
+<li>Questions about the R and RStudio tour and tutorials</li>
+<li>Replication and documenting your work in Quarto</li>
+<li>Lab: Your first Quarto document</li>
 </ul>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<p><span class="sked-dates">Sunday Jan.&nbsp;22</span> : Spreadsheet review . We’ll start the spreadsheet review assignment in class, but I expect you will have to finish it over the weekend.</p>
-<p><span class="sked-dates">Sunday Jan.&nbsp;29</span> : The life of a dataset</p>
-</section>
-<section id="preparation" class="level2">
-<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<p><span class="sked-dates">Today</span> :</p>
 <ul>
-<li><p><a href="https://cronkitedata.github.io/djtextbook/start-data-diary.html">Replication and the data diary</a> from the course textbook</p></li>
-<li><p>“ <a href="http://mediashift.org/2014/07/take-an-interviewing-approach-to-find-stories-in-data/">Take an Interviewing Approach to Find Stories in Data</a> ”, by Derek Willis, Mediashift, July 2014.</p></li>
+<li>What would you do? (Live election results) (9:30 am)</li>
+<li><a href="https://raw.githubusercontent.com/cronkitedata/maij-data/main/prelabs/prelab01-yourname.qmd">In-class lab</a></li>
+</ul>
+</section>
+<section id="preparation-and-learning-materials" class="level2">
+<h2 class="anchored" data-anchor-id="preparation-and-learning-materials">Preparation and learning materials</h2>
+<section id="reading" class="level3">
+<h3 class="anchored" data-anchor-id="reading">Reading</h3>
+<p><span class="small-text">Estimated time: less than an hour</span></p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+TK
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Replication and data documentation from the textbook</p>
+</div>
+</div>
+<ul>
+<li><p>“<a href="http://mediashift.org/2014/07/take-an-interviewing-approach-to-find-stories-in-data/">Take an Interviewing Approach to Find Stories in Data</a>”, by Derek Willis, Mediashift, July 2014.</p></li>
 <li><p><a href="https://datajournalism.com/read/handbook/one/understanding-data/basic-steps-in-working-with-data">“Basic steps in working with data”</a>, the Data Journalism Handbook, Steve Doig, ASU Prof.</p></li>
-<li><p><a href="https://onlinejournalismblog.com/2020/08/11/here-are-the-7-types-of-stories-most-often-found-in-data/">“Here are the 7 types of stories most often found in data”</a>, Paul Bradshaw, Online Journalism Blog, 2020. I’m not sure I agree with these – they are very focused on visualizations rather than narrative or video stories, but they are a good start.</p></li>
 </ul>
 </section>
-<section id="reminder-on-spreadsheet-skills-chapters" class="level2">
-<h2 class="anchored" data-anchor-id="reminder-on-spreadsheet-skills-chapters">Reminder on spreadsheet skills chapters</h2>
-<p>Here are the chapters we went through in bootcamp. There is zero expectation that you have memorized keystrokes! Just memorize where you can look them up. It’s much easier.</p>
+<section id="get-to-know-r-and-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="get-to-know-r-and-rstudio">Get to know R and RStudio</h3>
+<p><span class="small-text">Estimated time: 1-2 hours</span></p>
+<p>This prep might leave you feeling bewildered. Don’t let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don’t have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You’ll probably get a lot of errors, and that’s fine — they’re not judging you. They’re supposed to be hints, even when they’re <span class="text-danger">red</span> and use words that look like <em>$#u893q#r32</em>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I usually list the readings in a suggested order. They often build on one another.</p>
+</div>
+</div>
 <ul>
-<li><p><a href="https://cronkitedata.github.io/djtextbook/xl-refresher.html">An Excel Refresher</a></p></li>
-<li><p><a href="https://cronkitedata.github.io/djtextbook/xl-filter-sort.html">Excel filter and sort</a></p></li>
-<li><p><a href="https://cronkitedata.github.io/djtextbook/xl-pivot.html">Grouping with pivot tables</a>: I rewrote this chapter after our boot camp. It might be a little clearer now.</p></li>
-<li><p><a href="https://cronkitedata.github.io/djtextbook/xl-formulas.html">Excel formulas</a></p></li>
+<li>Follow along in the textbook chapter, “<a href="https://cronkitedata.github.io/djtextbook/r-start.html">Getting started with R and RStudio</a>”.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
 </ul>
-<p>If you don’t remember how to work with fractions, percents, etc., review the <a href="https://cronkitedata.github.io/djtextbook/appendix-math.html">Math appendix</a> to the course textbook or consult the Numbers in the Newsroom book that is shared in Canvas.</p>
-<p>Try watching Mary Jo Webster’s great tutorial on New Yorker comics if you’re still a little confused by pivot tables:</p>
-<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/NjOfLP5s24w" width="400" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Be sure to:</p>
+<ul>
+<li><p>Install the packages at the end of the chapter. Depending on how you installed R and RStudio, this could be slow and appear that it’s stopped working. Just go get some coffee and come back in a little while.</p></li>
+<li><p>Watch the <a href="https://youtu.be/cnQ-v1UUWyE?si=zBRWU1R53yml1jJ0">Andrew Heiss</a> video shown in the textbook. Ignore how math-centric it is, and just concentrate on his explanation of the screens.</p></li>
+<li><p><strong>Optional</strong> Try the <a href="https://cronkitedata.github.io/djtextbook/r-start.html#optional-hands-on-tutorial"><code>swirl</code> tutorial</a> mentioned in the textbook.</p></li>
+<li><p><strong>Optional</strong> Try the <a href="https://posit.cloud/learn/primers/1.2">“Programming basics” tutorial</a> linked in that chapter. Don’t worry about all of the math in it; you don’t have to go through the part where you answer questions. Instead, just focus on the concepts of the 1-minute videos: functions, arguments, objects and data types. We’ll be going over these ideas in a future class, so don’t feel like you need to do this unless you’re feeling nervous.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></li>
+</ul>
+</section>
+</section>
+<section id="follow-up-materials" class="level2">
+<h2 class="anchored" data-anchor-id="follow-up-materials">Follow-up materials</h2>
+<ul>
+<li><a href="https://cronkitedata.github.io/djtextbook/r-quarto.html">Creating Quarto documents</a>
+<ul>
+<li><a href="https://youtu.be/FlX75wfL9ew">22-minute video</a> that goes through what we will go through in class</li>
+</ul></li>
+</ul>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This means, “Open RStudio yourself and compare your screens and your commands to the ones in the book.” Don’t just skim this.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>I tried to make a version of the videos for you and failed miserably.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -628,12 +673,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
       <a href="../weeks/week01-2.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">1.2: Reading the story</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">1.2: Jump start</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="../weeks/week03-1.html" class="pagination-link">
-        <span class="nav-page-text">3.1: The life of data</span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text">3.1: First steps in data analysis</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

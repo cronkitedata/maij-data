@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.310">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-01-03">
+<meta name="dcterms.date" content="2023-12-05">
 
 <title>Data reporting for investigative journalism - Empirical Reporting</title>
 <style>
@@ -58,7 +58,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <meta name="robots" content="noindex">
@@ -114,11 +115,6 @@ ul.task-list li input[type="checkbox"] {
 </i> 
  <span class="menu-text"></span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/sarah_h_cohen/" rel="" target=""><i class="bi bi-twitter" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
 </ul>
             <div class="quarto-navbar-tools">
 </div>
@@ -133,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./syllabus.html">Syllabus</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -157,27 +153,8 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="./updates.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Updates</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./posts/schedule-update-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Rethinking the schedule</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./posts/welcome.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Class Zero</span></a>
-  </div>
-</li>
-      </ul>
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Updates</span></span>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
@@ -211,73 +188,82 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./weeks/week01-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1.2: Reading the story</span></a>
+ <span class="menu-text">1.2: Reading the data-driven story</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./weeks/week02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2: Replication / spreadsheet review</span></a>
+ <span class="menu-text">2: Your first R program</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./weeks/week03-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3.1: The life of data</span></a>
+ <span class="menu-text">3.1: First steps in data analysis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./weeks/week03-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3.2: Install party!</span></a>
+ <span class="menu-text">3.2: A quick tour of verbs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./weeks/week04-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.1: Your first R program</span></a>
+ <span class="menu-text">4.1: Filter and sort to find stories</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./weeks/week04-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.2: An example analysis: Billboard Hot 100</span></a>
+ <span class="menu-text">4.2: Creating new from old with mutate</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./weeks/week05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5: In-depth verbs pt 1</span></a>
+  <a href="./weeks/week05-1.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5.1: Summarize with group by</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+ <span class="menu-text">5.2: Matchmaking with joins</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./weeks/week06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6: In-depth verbs pt 2</span></a>
+ <span class="menu-text">6: The power of regular expressions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./weeks/week07.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7: In-depth verbs pt 3</span></a>
+  <a href="./weeks/week07.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7: TK</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./weeks/week09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9: Potpourri &amp; Build your own data</span></a>
+  <a href="./weeks/week08-1.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8-1: Cognitive bias in data journalism</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./weeks/week10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10: Review, statistics and ethics</span></a>
+  <a href="./weeks/week08-2.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8-2: The life of data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./weeks/week11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">11: Intro to GIS and mapping</span></a>
+  <a href="./weeks/week09.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9-1: Visualization as a reporting tool</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week11.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9-2: Intro to GIS and mapping</span></a>
   </div>
 </li>
       </ul>
@@ -291,13 +277,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://asu.instructure.com/courses/138967" class="sidebar-item-text sidebar-link">
+  <a href="https://asu.instructure.com/courses/171974" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Canvas</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://asu-2231-mco510-21913.slack.com/" class="sidebar-item-text sidebar-link">
+  <a href="https://app.slack.com/client/T068BE4K9QU/C068BF87G9J" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slack</span></a>
   </div>
 </li>
@@ -368,7 +354,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Last updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 3, 2023</p>
+      <p class="date">December 5, 2023</p>
     </div>
   </div>
   
@@ -384,12 +370,12 @@ ul.task-list li input[type="checkbox"] {
 <p>CLASS DETAILS</p>
 </div>
 <div class="card-body">
-<p>M-W 11:30-1:20p Cronkite 404b (behind the elevators)<br> <strong>Canvas</strong>: <a href="https://asu.instructure.com/courses/138967" class="uri">https://asu.instructure.com/courses/138967</a><br> <strong>Slack Workspace</strong>: <a href="https://asu-2231-mco510-21913.slack.com/" class="uri">https://asu-2231-mco510-21913.slack.com/</a></p>
+<p>M-W 11:30-1:20p Cronkite 404b (behind the elevators)<br> <strong>Canvas</strong>: <a href="https://asu.instructure.com/courses/171974" class="uri">https://asu.instructure.com/courses/171974</a><br> <strong>Slack Workspace</strong>: <a href="https://asu-2241-mco510-20559.slack.com" class="uri">https://asu-2241-mco510-20559.slack.com</a></p>
 </div>
 </div>
 <div class="card bg-light mt-3 mb-3 ps-2">
 <div class="card-body">
-<p>Sarah Cohen <br> sarah.h.cohen@asu.edu <br> Slack: <span class="citation" data-cites="shcohen1">@shcohen1</span> <br> Zoom: <a href="https://asu.zoom.us/my/sarah.cohen" class="uri">https://asu.zoom.us/my/sarah.cohen</a></p>
+<p>Sarah Cohen <br> sarah.h.cohen@asu.edu <br> Slack: <span class="citation" data-cites="shcohen1">@shcohen1</span> <br></p>
 <div class="small-note">
 <p>I’m available to work with you almost any time Mondays through Thursdays except 9:00-1:30 on class days - Just let me know in advance when you’d like to meet. We can talk via Zoom or in person. I will also hold some study halls during the semester as you want them.</p>
 </div>
@@ -413,7 +399,7 @@ By Chris Wormhoudt via Unsplash
 <p>By the end of this semester, you will be able to:</p>
 <ul>
 <li>Identify how and when analysis of electronic records might strengthen your story, provide important insights, or suggest new lines of reporting.</li>
-<li>Apply tools such as Excel and the R programming language for reporting in efficient, effective and ethical ways that avoid errors.</li>
+<li>Apply the R programming language for reporting in efficient, effective and ethical ways that avoid errors.</li>
 <li>Integrate data journalism techniques with traditional reporting methods.</li>
 <li>Write effectively with and about data, whether for text or for the ear.</li>
 </ul>
@@ -422,7 +408,7 @@ By Chris Wormhoudt via Unsplash
 <p>This is a required course for the Masters’ of Arts in Investiative Journalism at Cronkite. It is tightly coordinated with the rest of the curriculum, and depends on your having mastered the work done in Boot Camp in the fall semester. If you have not done this, you’ll need to review on your own:</p>
 <ul>
 <li>Numeracy for journalism. There is some self-help material on Canvas if you want to review it.</li>
-<li>Spreadsheet basics: Simple calculations, sorting, filtering and pivot tables. We’ll review this for one week, but you are expected to have completed the assignment from fall and reviewed the results of that assignment.</li>
+<li>Spreadsheet basics: Simple calculations, sorting, filtering and pivot tables. There are videos and exercises in the MAIJ textbook as refreshers. You do not need to have mastered spreadsheets before you start the class, but some material at the end assumes you have knowledge of these techniques.</li>
 <li>Ethics in journalism: You should have a basic background on journalistic ethics, at least as practiced in the United States.</li>
 </ul>
 <p>There is NO expectation that you have acquired or used data for your stories in the past, or that you have ever tried to write any computer code in any language.</p>
@@ -439,14 +425,13 @@ By Chris Wormhoudt via Unsplash
 <p>The following free software will be used extensively in this class.</p>
 <ul>
 <li>The Slack app (available in Apple app stores, Android stores and Windows store). When possible, use the app rather than the version in your browser. The browser lacks some of the functions that are in the app.</li>
-<li>A free copy of Microsoft Excel available in https://myapps.asu.edu . We’re only going to use Excel for about a week, so you might just want to use the ones in Cronkite labs. (Don’t use the Office 365 online version.)</li>
 <li>R and RStudio, both free community versions. You don’t need to install them yet. We’re going to do that together.</li>
 </ul>
-<p>We’ll discuss any other software such as OpenRefine for data cleaning and Tabula for dealing with PDFs.</p>
+<p>At the end of the semester, we’ll be exploring some of the advanced features of Microsoft Excel and how they differ from Google sheets, but you should feel free to use lab computers for this.</p>
+<p>There will be other free software that we’ll use for specific projects. I’ll provide links to those as we go along.</p>
 <section id="recommended" class="level4">
 <h4 class="anchored" data-anchor-id="recommended">Recommended</h4>
-<p>Beginning on Jan.&nbsp;23, you will have access to all of the lessons in <a href="https://app.datacamp.com/learn">Datacamp</a>, an online training academy that usually costs $25/month. You’ll have free access to it for six months, after which you would have to pay to keep going. I’ll distribute a link to let you sign up as soon as it’s activated. <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
-<p><strong>Books you already have</strong></p>
+<p><strong>Books you may already have</strong></p>
 <p><a href="https://www.amazon.com/Art-Access-Strategies-Acquiring-Records/dp/1506380700/ref=pd_sbs_14_t_0/141-5195764-7429116">The Art of Access: Strategies for Acquiring Public Records</a>, David Cullier and Charles N. Davis, 2nd edition (2018).</p>
 <p><a href="https://store.macmillanlearning.com/us/product/Investigative-Reporters-Handbook/p/1319102840?_ga=2.33227454.1887889074.1629301752-1807901874.1626798218">Investigative Reporters’ Handbook: A Guide to Documents, Databases, and Techniques</a>, 6th Edition , by Brant Houston and Mark Horvit, 2021. Available for rent or purchase from MacMillan Learning.</p>
 <p><strong>Other data journalism texts</strong></p>
@@ -457,25 +442,12 @@ By Chris Wormhoudt via Unsplash
 <li><a href="https://datajournalism.com/read/handbook/two">The data journalism handbook 2</a>” (Free), European Journalism Centre and Google News Initiative. This free book is a thoughtful collection of essays about the international movement.</li>
 </ul>
 <p>I’ll provide other resources for learning R for journalism when we get to that part of the course.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Optional: A free Github account and Github Desktop app
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Many data journalists use <a href="https://github.com" class="uri">https://github.com</a> to share and collaborate on data journalism work. If a job requires significant data work, most employers will consider a candidate’s Github account in the same way they look their social media presence. You have the option of setting up a Github repository for this class and using it to submit your assignments. Please message me on Slack if you want to try that.</p>
-</div>
-</div>
 </section>
 </section>
 </section>
 <section id="grading" class="level2">
 <h2 class="anchored" data-anchor-id="grading">Grading</h2>
-<p>The class uses a point system that initially adds up to 1,000 points for the semester.</p>
+<p>The class uses a point system that initially adds up to 1,000 points for the semester. It’s possible this number of total points may fall if we find there are just too many assignments. If so, I’ll provide an optional assignment during the exam period to make up the difference.</p>
 <ul class="mb-4" style="list-style: none; padding-left: 0;">
 <li>
 <strong>Daily work</strong>: 400
@@ -489,38 +461,33 @@ Class preparation and labs: 300
 </li>
 </ul>
 <li>
-<strong>Graded homework</strong>: 200
+<strong>Graded homework</strong>: 150
 </li>
 <li>
-<strong>Projects</strong> : 400
+<strong>Projects</strong> : 450
 <ul class="mb-0">
 <li>
-Data replication project: 175
+Data replication project: 200
 </li>
 <li>
-Final story memo : 225
+Final story memo : 250
 </li>
 </ul>
 </li></ul>
 <p>All work will be submitted and feedback reviewed through Canvas based on the due date shown there in Mountain Standard Time.</p>
-<section id="y-grade-option" class="level4">
-<h4 class="anchored" data-anchor-id="y-grade-option">Y grade option</h4>
-<p>You have the option of a Y grade this semester, which signifies “satisfactory” completion of the course and is considered to be the equivalent of a C or above. This grade lets you earn course credit but is not factored into your GPA. If you opt for a Y grade and do not achieve a “satisfactory” level (70 percent or above), you will receive a D or an E, depending on their grades on assignments during the course. Email me at <a href="mailto:sarah.h.cohen@asu.edu" class="email">sarah.h.cohen@asu.edu</a> informing me that you have elected the Y grade option <strong>by January 15</strong>. You cannot change your mind after the drop/add period.</p>
-</section>
 <section id="daily-work" class="level3 mb-0">
 <h3 class="mb-0 anchored" data-anchor-id="daily-work">Daily work</h3>
 <p><span class="points">400 points</span></p>
 <section id="labs-pre-labs-and-class-preparation" class="level4">
 <h4 class="anchored" data-anchor-id="labs-pre-labs-and-class-preparation">Labs, pre-labs and class preparation</h4>
 <p>Doing well in this class means working slowly, methodically and consistently throughout the semester.</p>
+<p>Nearly half of your grade is dependent on this slow and steady work.</p>
 <div class="sm-10 ps-4">
 <p><img src="assets/img/mwtweet-edited.png" class="img-fluid" alt="Matt Waite: Not due today, not doing it today"></p>
 </div>
-<p>Nearly half of your grade is dependent on this slow and steady work.</p>
-<p>Many weeks, there will be one or two low-stakes assignments. Sometimes, I’ll ask you to reflect on what you did and provide feedback. Other times, you will show that you went through a tutorial on your own. It also includes labs that we do in class. I plan on many “prelabs”, which force you to slow down as you review tutorials and reading on your own and help me diagnose where things are muddy. Labs are done in class, usually on Wednesdays.</p>
-<div class="text-muted small">
-<p>(NB: Initially the pre-labs are 10 points and the labs are 25, but that could change as we gain experience using this system, which is new this semester.)</p>
-</div>
+<p>Many weeks, there will be one or two low-stakes assignments. Sometimes, I’ll ask you to reflect on what you did and provide feedback. Other times, you will show that you went through a tutorial on your own. It also includes labs that we do in class.</p>
+<p><em>Prelabs</em> are exercises intended to force you to slow down and go through a tutorial on y our own, reflecting on areas that are muddy or difficult. I’ll use them as diagnostics to decide how to focus our class time. <em>Labs</em> are exercises for you to practice and apply what you’ve learned.</p>
+<p>These will be submitted in Canvas assignments, but I haven’t yet produced all of them. This means the total points in Canvas won’t be correct until partway through the semester.</p>
 </section>
 <section id="what-would-you-do" class="level4">
 <h4 class="anchored" data-anchor-id="what-would-you-do">What would you do?</h4>
@@ -529,20 +496,20 @@ Final story memo : 225
 </section>
 <section id="replication-project" class="level3 mb-0">
 <h3 class="mb-0 anchored" data-anchor-id="replication-project">Replication project</h3>
-<p><span class="points">175 points</span></p>
+<p><span class="points">200 points</span></p>
 <p>There are three separate assignments for this project, which challenges you to reproduce some sentences published in real stories using the same data used by the reporters. I’ll provide the stories and the data. Your first job is to identify paragraphs in the story that depended on the dataset that you’ve been given. The second gives you a chance to turn in a draft of your work so that I can help you. The last one is the final version.</p>
 </section>
 <section id="story-memo" class="level3 mb-0">
 <h3 class="mb-0 anchored" data-anchor-id="story-memo">Story memo</h3>
-<p><span class="points">225 points</span></p>
-<p>In this project, you’ll develop a story pitch using a combination of story backgrounding and data analysis. I’ll give you a choice of at least three datatsets that I know will work for this assignment. You may propose your own, but it must be easy to obtain, relatively clean, and complicated or large enough that there is something for you to analyze beyond a basic statistic. Generally, the dataset will be of individual records (accidents, inspections, deaths or events), not statistical compilations. You’ll understand this better as we move along.</p>
+<p><span class="points">250 points</span></p>
+<p>In this project, you’ll develop a story pitch using a combination of story backgrounding and data analysis. I’ll give you a choice of at least three datasets that I know will work for this assignment. You may propose your own, but it must be easy to obtain, relatively clean, and complicated or large enough that there is something for you to analyze beyond a basic statistic. Generally, the dataset will be of individual records (accidents, inspections, deaths or events), not statistical compilations. You’ll understand this better as we move along.</p>
 <p>The specific list of datasets may be coordinated with your investigative reporting class, News21 and/or the Howard Center, so they’re subject to change.</p>
-<p>Although this is one-fifth of your grade, it’s split among four assignments over more than a month. You’ll build the memo a little at a time, so by the end, it won’t seem like a big lift. I promise.</p>
+<p>Although this is one-quarter of your grade, it’s split among four assignments over more than a month. You’ll build the memo a little at a time, so by the end, it won’t seem like a big lift. I promise.</p>
 </section>
 <section id="graded-homework" class="level3 mb-0">
 <h3 class="mb-0 anchored" data-anchor-id="graded-homework">Graded homework</h3>
-<p><span class="points">200 points</span></p>
-<p>There will be four smaller graded assignments that are more important than daily work but don’t rise to the level of a project. They are shown in Canvas each with 50 points.</p>
+<p><span class="points">150 points</span></p>
+<p>There will be three smaller graded assignments that are more important than daily work but don’t rise to the level of a project. They are shown in Canvas each with 50 points.</p>
 </section>
 <section id="grading-policies" class="level3">
 <h3 class="anchored" data-anchor-id="grading-policies">Grading policies</h3>
@@ -550,7 +517,7 @@ Final story memo : 225
 <h4 class="anchored" data-anchor-id="points-or-more">50 points or more</h4>
 <div class="grid">
 <div class="g-col-4 p-3">
-<p>Any assignment worth 50 points or more will be graded with letters, ranging from E to A+. It follows ASU’s policy on grades. In following Cronkite policies, they will not be rounded up.</p>
+<p>Any assignment worth 50 points or more will be graded with letters, ranging from E to A+. It follows ASU’s policy on grades. They will not be rounded up.</p>
 </div>
 <div class="g-col-8 ltblue-box m-3 p-3">
 <p>ASU’s policy is:</p>
@@ -617,26 +584,27 @@ Showing up is 80 percent of life.
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Disclosure
+Devices in class
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>I have a great deal of difficulty concentrating when someone is attending to something else, including lunch or lost sleep, during class. I know this is a character flaw. I will try to overcome it, but if I start losing my place or stumbling over simple questions, I may ask you to leave the classroom until you are ready to engage with the material we’re working on.</p>
+<p>I have a great deal of difficulty concentrating when someone is attending to something else, including researching something, catching up on your homework or using your phone, during class.</p>
+<p>I know this is a character flaw. I will try to overcome it, but if I start losing my place or stumbling over simple questions, I may ask you to leave the classroom or close your computer until you are ready to engage with the material we’re working on.</p>
 </div>
 </div>
-<p>I generally will not monitor messages in Slack, Zoom, or email during or just before class time. The only reliable way to get me a message between 10:20a and 1:20p Mondays and Wednesdays is to do so in person in the classroom.</p>
+<p>I generally will not monitor messages in Slack or email during or just before class time. The only reliable way to get me a message between 10:20a and 1:20p Mondays and Wednesdays is to do so in person in the classroom.</p>
+<p>If you need an accommodation, please message me BEFORE 10:20 on the day of class.</p>
 <section id="attendance-and-deadlines" class="level3">
 <h3 class="anchored" data-anchor-id="attendance-and-deadlines">Attendance and deadlines</h3>
 <p>There are no excused absences in this course, except for true medical or other emergencies or religious observances. You might decide it’s more important to schedule a job interview, attend a family event, interview a source, or schedule a tight connection on a flight than to attend class or complete your work. If I were you, I might decide the same thing, but these are choices that reflect your priorities. They’re not emergencies, nor are they excused absences or deadlines.</p>
 <p>As in all journalism work, you are expected to meet deadlines. Late assignments will be heavily penalized and those with small point counts may not be accepted at all.</p>
 <p>Please advise me the first week of class of any ASU-endorsed absences such as a religious holiday or participation in an ASU team sport that will cause you to miss class so that I can plan accommodations. Here’s what to do if you want an accommodation for an emergency:</p>
 <ul>
-<li><p>If you suspect you have COVID, or if you believe you have been exposed and should quarantine, you should contact the dean of students for instructions about what to do next. I can get verification for your absence from them.</p></li>
 <li><p>If there is an emergency, such as a car accident or a death in your close circle or family, please let me know as soon as possible and we’ll work out what to do next.</p></li>
-<li><p>We all know there is a lot of flu and RSV going around this year. If you are sick, you should contact ASU Health Services or your doctor. They can provide the documentation if you are too ill or contagious to leave home.</p></li>
+<li><p>We all know there is a lot of flu, COVID and RSV going around this year. If you are sick, you should contact ASU Health Services or your doctor. They can provide the documentation if you are too ill or contagious to leave home.</p></li>
 </ul>
 <p>In these circumstances, I will work with you to accommodate the absence. That might include extending deadlines and helping you find assistance such as ASU mental health resources and tutoring. I may be able to let you observe (without participating) via Zoom, but you shouldn’t count on it.</p>
-<div class="ms-3 callout callout-style-default callout-note callout-titled">
+<div class="ms-3 callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -650,30 +618,33 @@ May I be excused?
 <p>However, it will be up to you to keep up or catch up. You will not be offered the opportunity to observe via Zoom. Deadlines will not be extended. You’ll also be excluded from any group assignments that might be part of the class that day.</p>
 </div>
 </div>
-<p>That said, <strong>give yourself a break</strong>. You may get an extension on daily work twice during the semester without any penalty. This includes labs/prelabs and graded homework. You don’t need to give me a reason – just let me know by 10am the day of class, or 6pm the night before the deadline, and I’ll give you an automatic 48-hour extension. These extensions will not be granted for any part of the two large projects.</p>
+<p>That said, <strong>give yourself a break</strong>. There are <strong>two no-questions-asked 48-hour extensions</strong> on daily work during the semester. This includes labs/prelabs and graded homework. You don’t need to give me a reason – just let me know by 10:20am the day of class, or 6pm the night before the deadline, and I’ll change your deadline. These extensions will not be granted for any part of the two large projects or for the simple “What would you do?” assignments.</p>
 </section>
 <section id="accuracy" class="level3">
 <h3 class="anchored" data-anchor-id="accuracy">Accuracy</h3>
-<p>If you pursue reporting with data-driven techniques, you’ll often create original information that no one else can confirm. In fact, your sources are often happy to explain a result you present to them, <a href="https://cronkitedata.s3.amazonaws.com/docs/cx-dogs-stpete.pdf">even if it’s entirely wrong</a>. This puts an even bigger burden on you to understand your sources, to question your assumptions and find holes in your work. If an answer seems too newsworthy, walk through everything you’ve done step by step. Seek out errors; ask experts or colleagues to challenge your results. We’ll spend a lot of time on practices that will help protect you from errors but your own skepticism (and sometimes even fear) is the best defense.</p>
+<p>If you pursue reporting with data-driven techniques, you’ll often create original information that no one else can confirm. In fact, your sources are often happy to explain a result you present to them, <a href="https://cronkitedata.s3.amazonaws.com/docs/cx-dogs-stpete.pdf">even if it’s entirely wrong</a>. This puts an even bigger burden on you to understand your sources, to question your assumptions and find holes in your work. If an answer seems too newsworthy<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, walk through everything you’ve done step by step. Seek out errors; ask experts or colleagues to challenge your results. We’ll spend a lot of time on practices that will help protect you from errors but your own skepticism (and sometimes even fear) is the best defense.</p>
 <p>I don’t expect your work to be polished and exact. However, work that shows a fundamental misunderstanding of the source, contains a severe miscalculation or misinterpretation, or ignores clear warning signs will receive an E. This is the equivalent of having to retract an entire story because it was based on an obvious error.</p>
 <p>This requires you to gut-check all of your data work before you turn it in or include it in a sentence. Actually look at your results and decide “could this possibly be true?”</p>
 <div class="container ltblue-box">
-<div class="fs-3">
+<div class="display-5 fw-bold">
 <p>Having trouble?</p>
 </div>
-<figure class="figure float-end sm-6 ps-4" width="60%">
+<figure class="figure float-end sm-6 ps-4" width="80%">
 <img src="assets/img/moller.png" width="100%" class="figure-img img-fluid">
-<figcaption class="figure-caption">
-By Fabian Moller via Unsplash
+<figcaption class="figure-caption" alt="Breathe!">
+Fabian Moller via Unsplash
 </figcaption>
 </figure>
+<div class="small">
 <p>Learning data skills requires a lot of trial and error – a LOT of error. It’s frustrating and maddening at times and you won’t be alone. But there are some strategies that you can use to help get you past roadblocks.</p>
 <ul>
 <li>Slow down! Unlike the rest of journalism, going faster doesn’t help. Separate the problem into pieces and solve it one step at a time.</li>
+<li>Don’t get upset over errors. They don’t reflect some kind of flaw in your work – they’re supposed to be helpful. Try to read the error and piece together what’s wrong. A story goes through many drafts before it’s finished, and the same thing will happen with your programs.</li>
 <li>If you’ve been working on something for more than 20 minutes <strong>without making any progress</strong>, don’t waste more time on it. If you’re making just a little progress, keep going. But take a break and come back to it if you’re stuck. Get help if you’re really stuck.</li>
 <li>Remember the goal: We’re not trying to become social scientists, computer programmers or data analysts. We’re journalists. Simplify your questions, focusing on newsworthiness rather than academic research.</li>
-<li>Practice. Look for opportunities to hone your skills by applying them outside of class on a personal project or for a story or another course. Try the <a href="https://www.datacamp.com/" style="background-color: inherit; text-decoration: underline; color: var(--body-color);">DataCamp subscription</a> when it becomes available or a <a href="https://github.com/rfordatascience/tidytuesday" style="background-color: inherit; text-decoration: underline; color: var(--body-color);">#tidytuesday</a> challenge.</li>
+<li>Practice. Look for opportunities to hone your skills by applying them outside of class on a personal project or for a story or another course. If you can’t think of any practice, try a <a href="https://github.com/rfordatascience/tidytuesday" style="background-color: inherit; text-decoration: underline; color: var(--body-color);">#tidytuesday</a> challenge.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
 </ul>
+</div>
 </div>
 </section>
 </section>
@@ -710,9 +681,9 @@ By Fabian Moller via Unsplash
 
 </div>
 <figure class="figure">
-<img src="assets/img/brodeur.png" height="90%" class="figure-img img-fluid">
+<img src="assets/img/brodeur.png" height="90%" class="figure-img img-fluid" alt="?$!# &amp;%">
 <figcaption class="figure-caption">
-via Unsplash
+Brodeur via Unsplash
 </figcaption>
 </figure>
 </section>
@@ -720,11 +691,11 @@ via Unsplash
 <section id="faq" class="level2">
 <h2 class="anchored" data-anchor-id="faq">FAQ</h2>
 <p><strong>Q: I don’t have any experience. What do I need to succeed?</strong></p>
-<p>Everyone in this class has gone through the boot camp required of all masters students. We covered numeracy and spreadsheet basics in that class, and those modules are prerequisites for this one. No other coding or data analysis background is expected.</p>
+<p>Everyone in this class has gone through the boot camp required of all masters students. You covered spreadsheet basics and were expected to have basic numeracy skills such as computing percentages and averages. No other coding or data analysis background is expected.</p>
 <p><strong>Q: This looks like a lot of work. How long do I have to spend on it every week?</strong></p>
-<p>I try to follow the ASU standard for a 3-credit course — approximately 9 hours per week, including class and lab time. That suggests that, on average, you should expect to spend about 5 or 6 hours per week outside of class on preparation, homework and projects. The time commitment is a little front-loaded as we race to get you the skills you need later in the semester.</p>
+<p>I try to follow the ASU standard for a 3-credit course — approximately 9 hours per week, including class and lab time. That suggests that, on average, you should expect to spend about 5 or 6 hours per week outside of class on preparation, homework and projects.</p>
 <p>If you’re spending considerably more time on assigned work and preparation, please let me know – that’s not the intention.</p>
-<p><strong>Q: How should I communicate with you?</strong></p>
+<p><strong>Q: How should I communicate with you? A: Slack</strong></p>
 <p>Slack or in person is best. All assignments must be turned in via Canvas assignments unless I direct you elsewhere. Do NOT email assignments.</p>
 <p><strong>Q: How will I know how I’m doing?</strong></p>
 <p>Pay attention to the feedback on your routine homework and labs. I’ll give you a sense of where you’re excelling and where you might improve. I’m always happy to meet and discuss strategies that will help you get to the next level in your journalism or your data analysis skills.</p>
@@ -733,13 +704,14 @@ via Unsplash
 <p>In technical work, asking a good question is an art. Try to:</p>
 <ul>
 <li>Describe what you are trying to do – what does success look like? What question are you trying to answer?</li>
-<li>Provide a snippet of the code or the Excel formula that you’re trying</li>
+<li>Provide a snippet of the code or a screenshot of what you are trying. Include any context needed.</li>
 <li>Take a screen shot or quote the error message if there is one</li>
 </ul>
 <p><strong>Q: I already know how to code and analyze data. Why do I have to take this class?</strong></p>
 <p>Even if you know how to code, I presume you are at Cronkite because you want to apply all of your skills to a journalism career. You probably knew how to use a phone or take a picture before you came to j-school, but you may not have used them the way you do now. That said, talk with me if you’re concerned that you won’t be challenged enough or want to go further. We’ll find ways to make the time productive and take you to the next level in data reporting.</p>
 <p><strong>Q: Can I use <a href="https://openai.com/blog/chatgpt/">ChatGPT</a> to help me with my coding?</strong></p>
-<p>Sure — for help, not for answers. In fact, one of the things it’s really good at is answering the question, “Why doesn’t this code work?” You will have to determine if its answer is right and if it uses the functions and code you’re responsible for mastering. But for this purpose it’s pretty similar to searching Google and Substack or asking colleague for help. It might do a little better than the alternatives.</p>
+<p>Sure — for help, not for answers. In fact, one of the things it’s really good at is answering the question, “Why doesn’t this code work?” You will have to determine if its answer is right. But for this purpose it’s pretty similar to searching Google and Substack or asking colleague for help.</p>
+<p>You are responsible for learning the methods taught in the class, not some other way to accomplish the same thing. (You don’t have to memorize anything, but we’re working in very limited version of the world of programming and R, and I won’t go outside it to help you or accept your work.)</p>
 
 
 </section>
@@ -749,7 +721,8 @@ via Unsplash
 
 <ol>
 <li id="fn1"><p>Anything that can run the full version of Mac OS or Windows is fine, such as a Microsoft Surface<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>I waited until you’d use it so that you can have it for as long as possible after class ends<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>In the <a href="https://cronkitedata.s3.amazonaws.com/docs/cx-dogs-stpete.pdf">St.&nbsp;Pete Times story</a>, the Labrador was nowhere in the top 10 list, and at the time small dogs were pretty rare.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>In principle, I object to these “play with a dataset” exercises. As you’ll see, understanding the data takes time and research, and in these cases the experts just assume they know. But they’re useful for honing your skills.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

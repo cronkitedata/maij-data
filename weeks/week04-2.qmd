@@ -1,6 +1,6 @@
 ---
-title: "Example: The Hot 100 list"
-date:  2023-02-01
+title: "From old to new with mutate"
+date:  2024-02-01
 description: Now that you know a little about how to run R, you're ready to do some analysis. This example gets you acclimated to the next few weeks using Billboard's Hot 100 list for the last 65 years. 
 --- 
 

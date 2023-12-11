@@ -1,43 +1,29 @@
 ---
-title: Getting started with programming - a walkthrough
-date:  2023-01-30
-description: You can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto. 
+title: Filter and sort for stories
+date:  2024-01-30
+description: Filtering and sorting in R to find needles and stories
 --- 
 
 ## Agenda 
 
-* Discussion of "life of a dataset" assignment
-* Questions about the R Studio tour and tutorials
-* Create your first document
+* Review of prelab
+* Lab: TK
+
+
 
 ## Upcoming deadlines
 
-* [Today]{.sked-dates} : Your first [Quarto doc](https://raw.githubusercontent.com/cronkitedata/maij-data/main/prelabs/prelab01-yourname.qmd)
-* [Monday Feb. 6]{.sked-dates} : "What would you do?" : choosing a data source. See assignment in Canvas.
-
+* [Monday Jan 30 10am]{.sked-dates} : "What would you do?" : choosing a data source. See assignment in Canvas.
+* [Sunday Jan 29]{.sked-dates} : [Filter prelab](TK) 
+* [Today after class]{.sked-dates} : Lab TK
 
 ## Preparation
 
-This prep might leave you feeling bewildered. Don't let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don't have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You'll probably get a lot of errors, and that's fine --- they're not judging you. They're supposed to be hints, even when they're [red]{.text-danger} and use words that look like *$#u893q#r32*.
+* Read the chapter on finding stories using filtering and sorting in the textbook (TK)
+* Complete the prelab on filtering and sorting.
 
-* Review the textbook chapter, "[Getting started with R and RStudio](https://cronkitedata.github.io/djtextbook/r-start.html)"
+Get basics on working with campaign finance - use it as an appendix in the textbook. 
 
-    * Make sure to install the packages at the beginning of the chapter. (We might have been able to get this part done in class already -- we'll see how it goes.) You might want to get it going and then get a cup of tea -- it will take at least a few minutes once it starts and could take longer. It might look like it's stalled. If you have trouble at this point, please post a question to `#dj-sos` Slack channel and describe what's happening. 
-
-    * Try the ["Programming basics" tutorial](https://posit.cloud/learn/primers/1.2) linked in that chapter. Don't worry about all of the math in it; you don't have to go through the part where you answer questions. Instead, just focus on the concepts of the 1-minute videos:  functions, arguments, objects and data types.^[I tried to make a version of the videos for you and failed miserably.]  
-
-    * Watch Andrew Heiss's [RStudio tour](https://youtu.be/cnQ-v1UUWyE). Again, don't worry much about how math-centric it is. Our work will be much less so. But he does a good job of going through the most confusing pieces of what's in front of you. 
-
-**Don't spend more than 2 hours on this. You might finish sooner, but you'll need this to move forward so don't rush. I also expect you'll have questions when we get to class.**
-
-
-OPTIONAL: If you are nervous, consider reviewing the [Using Quarto](https://cronkitedata.github.io/djtextbook/r-quarto.html) chapter that we'll be following in our class lab today. 
-
-## Textbook chapters we'll review
-
-* [A gentle introduction to programming](https://cronkitedata.github.io/djtextbook/appendix-program.html)
-* [Creating Quarto documents](https://cronkitedata.github.io/djtextbook/r-quarto.html)
-
-
+To create the public appearance that his campaign had met that financial benchmark and was otherwise financially viable, Santos and Marks allegedly agreed to falsely report to the FEC that at least 10 family members of Santos and Marks had made significant financial contributions to the campaign, when Santos and Marks both knew that these individuals had neither made the reported contributions nor given authorization for their personal information to be included in such false public reports. In addition, understanding that the national party committee relied on FEC fundraising data to evaluate candidates’ qualification for the program, Santos and Marks allegedly agreed to falsely report to the FEC that Santos had loaned the campaign significant sums of money, including in one instance a $500,000 loan, when, in fact, Santos had not made the reported loans and, at the time the loans were reported, did not have the funds necessary to make such loans. 
 
 

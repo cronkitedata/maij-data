@@ -1,0 +1,54 @@
+DONE EXCEPT FOR THE EXCEL PARTS. I DON'T REALLY PLAN TO INCLUDE THIS AGAIN - I CAN WRITE A SEPARATE BOOK ON THAT? OR COVER THE 
+EXCEL VIDEOS IN ADVANCED SPREADSHEETS. NOT SURE WHAT TO DO WITH IT - SPREADSHEET REFRESHER? 
+---
+title: "Replication in data journalism"
+date:  2023-01-19
+--- 
+
+Some of this may feel abstract to you in the beginning but it will become more concrete as you start tackling datasets. 
+
+## Agenda
+
+* Discussion: "What would you do?" assignment
+* Replication in data journalism and the data diary
+* Getting started in R
+
+## Upcoming deadlines
+
+[Sunday Jan. 22]{.sked-dates} : Spreadsheet review . We'll start the spreadsheet review assignment in class, but I expect you will have to finish it over the weekend. 
+
+[Sunday Jan. 29]{.sked-dates} : The life of a dataset
+
+## Preparation and learning materials
+
+* [Replication and the data diary](https://cronkitedata.github.io/djtextbook/start-data-diary.html) from the course textbook
+
+* “ [Take an Interviewing Approach to Find Stories in Data](http://mediashift.org/2014/07/take-an-interviewing-approach-to-find-stories-in-data/) ”, by Derek Willis, Mediashift, July 2014.
+
+* ["Basic steps in working with data"](https://datajournalism.com/read/handbook/one/understanding-data/basic-steps-in-working-with-data), the Data Journalism Handbook, Steve Doig, ASU Prof.
+
+* ["Here are the 7 types of stories most often found in data"](https://onlinejournalismblog.com/2020/08/11/here-are-the-7-types-of-stories-most-often-found-in-data/), Paul Bradshaw, Online Journalism Blog, 2020. I'm not sure I agree with these -- they are very focused on visualizations rather than narrative or video stories, but they are a good start. 
+
+## Reminder on spreadsheet skills chapters
+
+WHERE TO PUT THESE CHAPTERS IN A NEW BOOK? I'm NOT SURE. MAYBE KEEP THEM AS THEY ARE, BUT JUST CONDENSE INTO THE MANUAL PARTS OF IT AND DON'T WORRY ABOUT THE CONCEPTS? 
+
+Here are the chapters we went through in bootcamp.  There is zero expectation that you have memorized keystrokes! Just memorize where you can look them up. It's much easier.
+
+*  [An Excel Refresher](https://cronkitedata.github.io/djtextbook/xl-refresher.html)  
+
+*  [Excel filter and sort](https://cronkitedata.github.io/djtextbook/xl-filter-sort.html) 
+
+* [Grouping with pivot tables](https://cronkitedata.github.io/djtextbook/xl-pivot.html): I rewrote this chapter after our boot camp. It might be a little clearer now. 
+
+*  [Excel formulas](https://cronkitedata.github.io/djtextbook/xl-formulas.html) 
+
+If you don't remember how to work with fractions, percents, etc., review the [Math appendix](https://cronkitedata.github.io/djtextbook/appendix-math.html) to the course textbook or consult the Numbers in the Newsroom book that is shared in Canvas. 
+
+Try watching Mary Jo Webster's great tutorial on New Yorker comics if you're still a little confused by pivot tables: 
+
+{{< video https://youtu.be/NjOfLP5s24w width="400"  >}}
+
+
+
+

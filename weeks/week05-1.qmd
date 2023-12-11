@@ -1,6 +1,6 @@
 ---
 title: "Verbs part II: Summarize and Group" 
-date:  2023-02-12
+date:  2024-02-12
 description: Convert your pivot tables into R code using the verbs `group_by` and `summarize`
 --- 
 

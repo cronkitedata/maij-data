@@ -3,46 +3,46 @@ title: "Preliminary schedule at a glance"
 description: "A broad outline of what we'll be doing"
 --- 
 
-
-
 ## Schedule and assignment logistics
 
-**Updated Monday March 20**
+This is a preliminary schedule that will probably change as we move along. You may want to spend more or less time on a topic, or we might have some guest speakers. I'll try to keep this updated as we go along.
 
-You do not have to keep track of the assignments on this site -- they are all in Canvas with submission instructions. All of them  exist for a reason. If you don't understand the point of what we're doing, please speak up! Understanding why an assignment is important has a lot to do with how you do it. 
+The due dates listed here are only for scheduled assigments. Expect to have a lab and / or a prelab due nearly every day. 
+
+| Class | Date | Topics | Deadlines 
+-----| ---------- | --------------------------------------------------| --------------------- |
+[01-M](weeks/week01-1.qmd) | Jan. 8 | The journalistic method | Su 1/7: Pre-class survey & Slack setup
+[01-W](weeks/week01-2.qmd) | Jan. 10 | Replication in data journalism ; install party; an introduction to programming  | Fri: Cronkite academic integrity pledge ; R installation setup  | |
+[02-W](weeks/week02.qmd) | Jan 17 | Your first program |  | 
+[03-M](weeks/week03-1.qmd) | Jan 22 | From documentation to data: First steps | |
+03-W | Jan 24 | A tour of the tidyverse verbs |  We 9:30am: What would you do? (25) | 
+04-M | Jan 29 | Mutate to create new from old: Categories from numbers, dates || 
+04-W | Jan 31 | Filter and arrange | |
+05-M | Feb 5 | Group by and summarize | Su 2/4: Replication project sentences (50) |
+05-W | Feb 7 | Matchmaking with joins | |
+06-M | Feb 12 | Regular expressions & advanced filter and mutate | Su 2/11: Campaign finance ideas (50) |
+06-W | Feb 14 | Q&A - reviewing what we've done so far | |  
+07-M | Feb 19 | Principles of data design; dealing with PDFs | Su 2/18: Replication project update (75) |
+07-W | Feb 21 | Lab for replication project | | 
+08-M | Feb 26 | Ethics and cognitive bias in data journalism | Su 2/25: Replication project final (75) 
+08-W | Feb 28 | The life of a dataset lab | Fri 3/1: The life of a dataset (50) |
+| | Spring break | | |
+09-M | March 11 | Intro to visualization | We 3/13: Memo proposal  (25) |
+09-W | March 13 | Intro to GIS and maps | 
+10-M | March 18 | Continue with GIS and visualization | Su 3/17: What would you do? (25)  |
+10-W | March 20 | Tablemaking and presenting  your work (back to Quarto) | We 3/20 What would you do? (25) | 
+11-M | March 25 | Intro to scraping | Su 3/24: First memo update (50) | 
+11-W | March 27 | Scraping continued   | |  
+12-M | April 1 | Story memo lab  | Su 3/31: Second memo update  (100) |
+12-W | April 3 | Reserved for catch-up   | We 4/3: What would you do? (25) |
+13-M | April 8 | Story memo discussion;  | Su 4/7: Final memo  (100) |
+13-W | April 10 | Building your own database warmup | |
+14-M | April 15 | Advanced spreadsheets (Excel **and** Google Sheets) |  Su 4/14 Build your own (50)| 
+14-W | April 17 | Cleaning data in OpenRefine | |
+15-M | April 22 | Creating a Github site for job-hunting | 
+15-W | April 24 | Paying it forward | |
 
 
-I will often tell you how long I'd like you to spend on an assignment. I hope you'll take these time recommendations seriously -- they reflect the priority you should place on the assignment. For instance, if I say, "Don't spend more than about an hour on this", I expect the result to show about one hour's worth of effort and any more effort is wasted. But it also means that a cursory glance or 10-minute effort probably isn't enough, and you should think about whether you really paid attention. 
-
-
-## Preliminary schedule
-
-The schedule is subject to change as we discover where you need or want more time on subjects. Please refer to the Canvas assignments for specifics on class preparation activities and labs. 
-
-
-
-| Week No. | Dates | Topics | Deadlines  |
-| ------|------|-------------------|--------------- |
-|01|Jan 9-11|Intros; Reading the story; |Su 1/8: Pre-class survey; <br> Fri: Cronkite academic integrity pledge |
-|02|Jan 18|Replication and the data diary; Spreadsheet review|W 1/18: "What would you do?" (25) |
-|03|Jan 23-25| The life of data; Setting up your computer| Su 1/22: Spreadsheet review (50) |
-|04|Jan 30-Feb 1|R demo: A run-through from start to finish. | Su 1/29: The life of a dataset (50) 
-|05|Feb 6-8|Filter, sort, mutate| M 2/6: "What would you do?" (25)
-|06|Feb 13-15|Group by and summarize| Su 2/12: Replication sentences (50)
-|07|Feb 20-22|Join, advanced filter/mutate expressions| Su 2/19: PPP ideas (50)
-|08|Feb 27-March 1|Catch-up week & labs for replication project | Su 2/26: Replication update (50)|
-|||Spring break|
-|09|March 13-15| Pot luck: PDFs, regular expressions;  Build your own database | W 3/15: Build your own database lab (50)
-|10|March 20-22| Review of replication project; statistical concepts and ethics in data journalism| Su 3/19: Replication final draft (75) <br>  W 3/22: What would you do? (scraping) | 
-|11|March 27-29| Intro to maps & GIS  | Su 3/26: Memo proposal (25) 
-|12|April 3-5| Continue with maps & visualization|  Mo 4/3: What would you do? (Census)
-|13|April 10-12| Guest panel; Intro to scraping | Su 4/9: First memo update (50)
-|14|April 17-19| Lab for final memo ; TBD | Su 4/16: 2nd memo update (50)
-|15|April 24-26|Creating a Github site for job-hunting; <br> Paying it forward| Su 4/23: Final memo  (100)
-
-Note: I will be out of town on Monday April 10. I am arranging a one-hour panel led by Brandon Quester from the Arizona Center for Investigative Reporting, with recent graduates who have gone on to use data in their investigative journalism. You'll have some free time after that. 
-
- 
 
 
 

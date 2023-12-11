@@ -1,16 +1,17 @@
 [
   {
-    "listing": "/class.html",
+    "listing": "/weeks.html",
     "items": [
-      "/inclass/01-github-logistics.html",
-      "/inclass/02-map1.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/posts/schedule-update-1.html",
-      "/posts/welcome.html"
+      "/weeks/week01-1.html",
+      "/weeks/week01-2.html",
+      "/weeks/week02.html",
+      "/weeks/week04-1.html",
+      "/weeks/week04-2.html",
+      "/weeks/week05-1.html",
+      "/weeks/week05-2.html",
+      "/weeks/week13-2.html",
+      "/weeks/week10.html",
+      "/weeks/week09-2.html"
     ]
   },
   {
@@ -18,28 +19,22 @@
     "items": []
   },
   {
-    "listing": "/updates.html",
+    "listing": "/class.html",
     "items": [
-      "/posts/schedule-update-1.html",
+      "/inclass/01-file-management.html",
+      "/inclass/02-map1.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
       "/posts/welcome.html"
     ]
   },
   {
-    "listing": "/weeks.html",
+    "listing": "/updates.html",
     "items": [
-      "/weeks/week01-1.html",
-      "/weeks/week01-2.html",
-      "/weeks/week02.html",
-      "/weeks/week03-1.html",
-      "/weeks/week03-2.html",
-      "/weeks/week04-1.html",
-      "/weeks/week04-2.html",
-      "/weeks/week05.html",
-      "/weeks/week06.html",
-      "/weeks/week07.html",
-      "/weeks/week09.html",
-      "/weeks/week10.html",
-      "/weeks/week11.html"
+      "/posts/welcome.html"
     ]
   }
 ]

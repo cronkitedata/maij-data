@@ -1,0 +1,42 @@
+---
+title: "File management refresher"
+date:  "2023-01-19"
+--- 
+
+
+
+
+In 2022, The Verge sent a shiver through the spines of professors everywhere with the piece called "[File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z)", which chronicled the way Zoomers grew up using computers --- with search. Historically, anyone who used a computer had to understand how they were organized and how to use folders. But powerful search engines both in the cloud and on your computer made that unnecessary. With that change came a huge roadblock to learning how to code -- creating and navigating to a folder became an unfamiliar concept.  In fact, the paper folder and file cabinet icons are now meaningless to some students.
+
+If you have spent any time working with photo or video editing, you know how important it is to understand where your files are within a folder or directory structure. Programming languages are the same. They have to be explicitly told where to find files, images and resources they need to do their job.  All they understand are file names, prefaced by the names of the folders that contain them. 
+
+On a Mac, everything begins in your "home" directory -- the folder that contains all of the things specific to you when you open up the computer.  This is often shown as the symbol "~/". On Windows, it's usually the "User" folder. 
+
+Here are two introductory videos about folder and files: 
+
+* [Windows](https://youtu.be/HDmwiJxzIrw)
+* [Macs](https://youtu.be/3TAEC-1YUZw)
+
+::: {.callout-tip} 
+## Pro-tip for Windows users
+Although it may seem that you have to use backslashes to refer to folders or directories in Windows, it understands the forward slash as well.  You don't need to change examples that were written for Macs. It's also easier to use the forward slash for technical reasons that aren't worth your time to understand right now. But if you ever start working with regular expressions or programmatic path references, you'll be happy that this works.
+::: 
+
+
+Key points: 
+
+* Set up folders in your documents folder for our class --- if everyone puts their work using the same named folders and file names, you'll always be able to follow along with tutorials and in class. If you choose to go your own way, you won't be offered any help when you get a dreaded "Not found" or some other error that makes no sense. 
+
+* How to rename files  [on a Mac](https://themacbeginner.com/rename-files-and-folders-in-mac-osx/) and on [Windows](https://www.teachucomp.com/how-to-rename-files-and-folders-in-windows-11-instructions/). This will be useful when you download. 
+
+* Moving vs. copying files across folders
+
+* Backing up your work
+
+* Style guide for naming conventions: "[How to Name Files](https://speakerdeck.com/jennybc/how-to-name-files?)" from Jenny Bryant
+
+::: {.figure}
+![xkcd](https://imgs.xkcd.com/comics/documents.png)
+:::
+
+

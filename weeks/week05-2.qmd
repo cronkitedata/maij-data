@@ -1,6 +1,6 @@
 ---
-title: "Verbs Part III: Joining"
-date:  2023-02-19
+title: "Matchmaking with joins"
+date:  2024-02-19
 description: After this last verb of the tidyverse, you'll know much of what's used in any reporting analysis.  
 --- 
 

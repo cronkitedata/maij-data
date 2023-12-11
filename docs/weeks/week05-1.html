@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.310">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-03-12">
-<meta name="description" content="You will often find yourself trying to piece together a database – sometimes it’s documents that must be compiled, other times it’s details that come from disparate places. Still other times, you need to build a chronology out of a mess of notes. Getting good at this will save you in the end.">
+<meta name="dcterms.date" content="2024-02-12">
+<meta name="description" content="Convert your pivot tables into R code using the verbs group_by and summarize">
 
-<title>Data reporting for investigative journalism - Building your own database (and a little pot luck)</title>
+<title>Data reporting for investigative journalism - Verbs part II: Summarize and Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week10.html" rel="next">
-<link href="../weeks/week07.html" rel="prev">
+<link href="../weeks/week06.qmd" rel="next">
+<link href="../weeks/week04-2.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -60,7 +60,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <meta name="robots" content="noindex">
@@ -116,11 +117,6 @@ ul.task-list li input[type="checkbox"] {
 </i> 
  <span class="menu-text"></span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/sarah_h_cohen/" rel="" target=""><i class="bi bi-twitter" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
 </ul>
             <div class="quarto-navbar-tools">
 </div>
@@ -132,10 +128,10 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week09.html">9: Potpourri &amp; Build your own data</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week05-1.html">5.1: Summarize with group by</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -159,27 +155,8 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../updates.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Updates</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../posts/schedule-update-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Rethinking the schedule</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../posts/welcome.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Class Zero</span></a>
-  </div>
-</li>
-      </ul>
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Updates</span></span>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
@@ -213,73 +190,82 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1.2: Reading the story</span></a>
+ <span class="menu-text">1.2: Jump start</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2: Replication / spreadsheet review</span></a>
+ <span class="menu-text">2: Accuracy and replication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week03-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3.1: The life of data</span></a>
+ <span class="menu-text">3.1: First steps in data analysis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week03-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3.2: Install party!</span></a>
+ <span class="menu-text">3.2: A quick tour of verbs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.1: Your first R program</span></a>
+ <span class="menu-text">4.1: Filter and sort to find stories</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week04-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.2: An example analysis: Billboard Hot 100</span></a>
+ <span class="menu-text">4.2: Creating new from old with mutate</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5: In-depth verbs pt 1</span></a>
+  <a href="../weeks/week05-1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">5.1: Summarize with group by</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+ <span class="menu-text">5.2: Matchmaking with joins</span>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week06.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6: The power of regular expressions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6: In-depth verbs pt 2</span></a>
+  <a href="../weeks/week07.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7: TK</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7: In-depth verbs pt 3</span></a>
+  <a href="../weeks/week08-1.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8-1: Cognitive bias in data journalism</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week09.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">9: Potpourri &amp; Build your own data</span></a>
+  <a href="../weeks/week08-2.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8-2: The life of data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10: Review, statistics and ethics</span></a>
+  <a href="../weeks/week09.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9-1: Visualization as a reporting tool</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">11: Intro to GIS and mapping</span></a>
+  <a href="../weeks/week11.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9-2: Intro to GIS and mapping</span></a>
   </div>
 </li>
       </ul>
@@ -293,13 +279,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://asu.instructure.com/courses/138967" class="sidebar-item-text sidebar-link">
+  <a href="https://asu.instructure.com/courses/171974" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Canvas</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://asu-2231-mco510-21913.slack.com/" class="sidebar-item-text sidebar-link">
+  <a href="https://app.slack.com/client/T068BE4K9QU/C068BF87G9J" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slack</span></a>
   </div>
 </li>
@@ -318,10 +304,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a>
-  <ul class="collapse">
-  <li><a href="#for-wednesday" id="toc-for-wednesday" class="nav-link" data-scroll-target="#for-wednesday">For Wednesday</a></li>
-  </ul></li>
+  <li><a href="#textbook-chapter" id="toc-textbook-chapter" class="nav-link" data-scroll-target="#textbook-chapter">Textbook chapter</a></li>
   </ul>
 </nav>
 </nav>
@@ -334,12 +317,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Building your own database (and a little pot luck)</h1>
+<h1 class="title">Verbs part II: Summarize and Group</h1>
 </div>
 
 <div>
   <div class="description">
-    You will often find yourself trying to piece together a database – sometimes it’s documents that must be compiled, other times it’s details that come from disparate places. Still other times, you need to build a chronology out of a mess of notes. Getting good at this will save you in the end.
+    Convert your pivot tables into R code using the verbs <code>group_by</code> and <code>summarize</code>
   </div>
 </div>
 
@@ -350,7 +333,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 12, 2023</p>
+      <p class="date">February 12, 2024</p>
     </div>
   </div>
   
@@ -360,32 +343,26 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The next four or five weeks are special skills that are useful, and all built around the primary colors that you’ve already learned. Mastering them now isn’t as important as understanding what’s possible, so we’ll stop the pre-labs, and work with labs in class. You’ll usually only go as far as you can during class, much like we did with the Join exercise.</p>
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<p>Monday: Pot luck: Things that require no preparation on your part, such as PDF extraction and an intro to regular expressions (you really want this!) Wednesday: Build your own database. Be sure to do the reading before class.</p>
+<ul>
+<li>Sentences chosen from replication project proposals</li>
+<li>Re-introduction to aggregating for stats and story tips</li>
+</ul>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<ul>
-<li><span class="sked-dates">Wednesday 3/15</span> Build your own database Airtable exercise (submit at the end of class)</li>
-<li><span class="sked-dates">Sunday 3/19</span> Final replication project. NOTE: I will not respond to requests for help after noon on Sunday. It’s a recipe for disaster.</li>
-<li><span class="sked-dates">Wednesday 3/22</span> What would you do? Scraping edition</li>
-</ul>
+<p><span class="sked-dates">Sunday 2/12</span> The sentences for the replication project (see Canvas)</p>
+<p><span class="sked-dates">Wednesday 2/15</span> Pre-lab and lab</p>
+<p><span class="sked-dates">Sunday 2/19</span> PPP data on your own</p>
 </section>
-<section id="preparation" class="level2">
-<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
-<section id="for-wednesday" class="level3">
-<h3 class="anchored" data-anchor-id="for-wednesday">For Wednesday</h3>
+<section id="textbook-chapter" class="level2">
+<h2 class="anchored" data-anchor-id="textbook-chapter">Textbook chapter</h2>
 <ul>
-<li>Sign up for an Airtable account through your ASU email, and make a copy of <a href="https://airtable.com/shrrceFXTjmjLhO5o">the sample project</a> (Updated just before class – sorry about that!).</li>
-<li>Read “<a href="https://cronkitedata.github.io/djtextbook/start-build-own.html">Build your own database</a>” chapter .</li>
-<li><a href="https://www.nytimes.com/2016/05/23/us/americas-overlooked-gun-violence.html">Be sure to read the story</a> that is linked off of it from the New York Times in some detail – we will be recreating the database structure needed to produce this story, so you should be familiar with what the story says.</li>
+<li><a href="https://cronkitedata.github.io/djtextbook/r-verb-groupby.html">Grouping and aggregation</a></li>
 </ul>
-<p>I will add some resources in the Startme page linked here to go through with you.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -624,13 +601,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../weeks/week07.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">7: In-depth verbs pt 3</span>
+      <a href="../weeks/week04-2.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">4.2: Creating new from old with mutate</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../weeks/week10.html" class="pagination-link">
-        <span class="nav-page-text">10: Review, statistics and ethics</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../weeks/week06.qmd" class="pagination-link">
+        <span class="nav-page-text">6: The power of regular expressions</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
