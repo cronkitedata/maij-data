@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-12-05">
+<meta name="dcterms.date" content="2023-12-12">
 
 <title>Data reporting for investigative journalism - Empirical Reporting</title>
 <style>
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/cronkitedata/maijdata/" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/cronkitedata/maij-data/" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -188,13 +188,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./weeks/week01-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1.2: Reading the data-driven story</span></a>
+ <span class="menu-text">1.2: Jump start</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./weeks/week02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2: Your first R program</span></a>
+ <span class="menu-text">2: Accuracy and replication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -223,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./weeks/week05-1.qmd" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week05-1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">5.1: Summarize with group by</span></a>
   </div>
 </li>
@@ -232,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./weeks/week06.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week06.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">6: The power of regular expressions</span></a>
   </div>
 </li>
@@ -303,36 +303,12 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
   <ul class="collapse">
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  </ul></li>
-  <li><a href="#required-materials-and-texts" id="toc-required-materials-and-texts" class="nav-link" data-scroll-target="#required-materials-and-texts">Required materials and texts</a>
-  <ul class="collapse">
-  <li><a href="#books-and-software" id="toc-books-and-software" class="nav-link" data-scroll-target="#books-and-software">Books and software</a></li>
-  </ul></li>
-  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a>
-  <ul class="collapse">
-  <li><a href="#daily-work" id="toc-daily-work" class="nav-link" data-scroll-target="#daily-work">Daily work</a></li>
-  <li><a href="#replication-project" id="toc-replication-project" class="nav-link" data-scroll-target="#replication-project">Replication project</a></li>
-  <li><a href="#story-memo" id="toc-story-memo" class="nav-link" data-scroll-target="#story-memo">Story memo</a></li>
-  <li><a href="#graded-homework" id="toc-graded-homework" class="nav-link" data-scroll-target="#graded-homework">Graded homework</a></li>
-  <li><a href="#grading-policies" id="toc-grading-policies" class="nav-link" data-scroll-target="#grading-policies">Grading policies</a></li>
-  </ul></li>
-  <li><a href="#course-requirements" id="toc-course-requirements" class="nav-link" data-scroll-target="#course-requirements">Course requirements</a>
-  <ul class="collapse">
-  <li><a href="#attendance-and-deadlines" id="toc-attendance-and-deadlines" class="nav-link" data-scroll-target="#attendance-and-deadlines">Attendance and deadlines</a></li>
-  <li><a href="#accuracy" id="toc-accuracy" class="nav-link" data-scroll-target="#accuracy">Accuracy</a></li>
-  </ul></li>
-  <li><a href="#cronkite-school-policies" id="toc-cronkite-school-policies" class="nav-link" data-scroll-target="#cronkite-school-policies">Cronkite school policies</a>
-  <ul class="collapse">
-  <li><a href="#collaborations" id="toc-collaborations" class="nav-link" data-scroll-target="#collaborations">Collaborations</a></li>
-  <li><a href="#extra-credit" id="toc-extra-credit" class="nav-link" data-scroll-target="#extra-credit">Extra Credit</a></li>
-  <li><a href="#cronkite-school-diversity-principles" id="toc-cronkite-school-diversity-principles" class="nav-link" data-scroll-target="#cronkite-school-diversity-principles">Cronkite School Diversity Principles</a></li>
-  <li><a href="#student-accessibility-and-inclusive-learning-services-sails" id="toc-student-accessibility-and-inclusive-learning-services-sails" class="nav-link" data-scroll-target="#student-accessibility-and-inclusive-learning-services-sails">Student Accessibility and Inclusive Learning Services (SAILS)</a></li>
-  <li><a href="#academic-integrity" id="toc-academic-integrity" class="nav-link" data-scroll-target="#academic-integrity">Academic Integrity</a></li>
-  </ul></li>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#required-materials-and-texts" id="toc-required-materials-and-texts" class="nav-link" data-scroll-target="#required-materials-and-texts">Required materials and texts</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#course-requirements" id="toc-course-requirements" class="nav-link" data-scroll-target="#course-requirements">Course requirements</a></li>
+  <li><a href="#cronkite-school-policies" id="toc-cronkite-school-policies" class="nav-link" data-scroll-target="#cronkite-school-policies">Cronkite school policies</a></li>
   <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq">FAQ</a></li>
   </ul>
 </nav>
@@ -343,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Empirical Reporting</h1>
-<p class="subtitle lead">(Otherwise known as MCO 510, Data Journalism, Spring 2023)</p>
+<p class="subtitle lead">(Otherwise known as MCO 510, Data Journalism, Spring 2024)</p>
 </div>
 
 
@@ -354,7 +330,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Last updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 5, 2023</p>
+      <p class="date">December 12, 2023</p>
     </div>
   </div>
   

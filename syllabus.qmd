@@ -1,6 +1,6 @@
 ---
 title: "Empirical Reporting"
-subtitle: "(Otherwise known as MCO 510, Data Journalism, Spring 2023)"
+subtitle: "(Otherwise known as MCO 510, Data Journalism, Spring 2024)"
 date:   last-modified
 draft: false
 engine: knitr

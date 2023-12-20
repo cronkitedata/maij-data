@@ -18,8 +18,8 @@ Jelani Cobb, dean of the Columbia Graduate School of Journalism
 
 You have a lot of little things to do to get ready for today's class. Make sure not to spend more than 1 hour getting R and RStudio installed. 
 
-* Reading the data-driven story
-* A gentle introduction to programming
+* Reading the data-driven story discussion
+* Walthrough of [A gentle introduction to programming](https://cronkitedata.github.com/djtextbook/appendix-program.html). (You don't have to read this in advance)
 * Resolving installation issues
 
 **Please bring your laptop to school if you plan to use it for your homework and projects.**
@@ -31,9 +31,10 @@ Don't get frustrated and **don't try to Google your way out of it** --- it's not
 
 ## Upcoming deadlines
 
-[Friday]{.sked-dates} :
+[Friday]{.sked-dates} (in Canvas):
 
- * Complete the R and RStudio installation assignment in Canvas. I hope we'll take care of any issues during class, but this gives us a couple of days to work out any kinks before you need it. You will need to use the programs before our next class.
+ * Complete the R and RStudio installation assignment in Canvas. You might be able to do this if you have no trouble with the instructions below. This deadline gives us time to resolve any issues you have, but please submit it as soon as you can so I know where there are problems.
+
  * Cronkite Academic Integrity pledge
 
 [Wednesday, Jan. 17]{.sked-dates} : 
@@ -41,32 +42,36 @@ Don't get frustrated and **don't try to Google your way out of it** --- it's not
   * What would you do? Reporting live election results. Note the 9:30am deadline. 
   * In-class lab
 
-## Preparation and learning materials
+## Preparation
 
 ### Learn a new way to read
 
 Today's lab is geared at learning how to read and view journalism as a writer and producer, by closely examining HOW a story was conceived and executed rather than whether you liked it or thought it was "good". This reading gets you ready for the lab: 
 
-* [Learn a New Way to Read](https://cronkitedata.github.io/djtextbook/start-story.html) from our course textbook site. You don't need to do the exercises.
+#### Textbook: 
 
-* [Defining data](https://cronkitedata.github.io/djtextbook/start-data.html) from the course textbook. We'll come back to this later in the semester after you have some practice looking at data, but it's useful to get familiar with the ideas now.
+* [Introduction to Quick Start](https://cronkitedata.github.io/djtextbook/start.html) 
 
-* [Rural Aid goes to Urban Areas](https://cronkitedata.s3.amazonaws.com/docs/rural_development.pdf) This is a pdf of a very old story from the Washington Post. I use it not because it's so great, but because it is *reasonably* short and remains one of the most straightforward examples of investigative data reporting that I know of. This is a classic example of using administrative records to find anecdotes and examples for stories, then aggregating them into broader findings. Pay attention to the elements that make this story work -- the data sources, examples used, use of experts to define classifications, and the public records mentioned. Make sure to read the methodology notes on the second page.
+* [Learn a New Way to Read](https://cronkitedata.github.io/djtextbook/start-story.html) 
 
-### Install R and RStudio
+#### Story
 
-#### If you plan to use your own laptop:
+* [Rural Aid goes to Urban Areas](https://cronkitedata.s3.amazonaws.com/docs/rural_development.pdf) This is a pdf of a very old story from the Washington Post. I use it not because it's  great, but because it is *reasonably* short and remains one of the most straightforward examples of investigative data reporting that I know of. This is a classic example of using **administrative** records to find anecdotes and examples for stories, then aggregating them into broader statistical findings. Pay attention to the elements that make this story work -- the data sources, examples used, use of experts to define classifications, and the public records mentioned. Make sure to read the methodology notes on the second page.
 
-Try to follow along with  [Installing R and RStudio](https://cronkitedata.github.io/djtextbook/r-install.html) .  For most of you, this will be straightforward if you follow the instructions, and will take less than 15 minutes. But there is always a chance that there are problems. **DO NOT SPEND MORE THAN ONE HOUR TRYING TO GET THIS TO WORK.**. 
+### Try to install R and RStudio 
 
+* Complete the [installation tutorial in the textbook](https://cronkitedata.github.io/r-install.html) , including the videos linked at the top. You don't have to answer the questions after the videos.
+
+#### If you plan to use your own laptop or desktop:
 
 * Get as far as you can with the installation
 * Try starting up RStudio (not R). 
 * Note any error messages or other troubles you have so we can fix them in class. Don't try to Google the resolution on this -- the answers might create more problems than they fix. I'll help you at the end of class. 
 
+
 #### If you are going to use something else: 
 
-* In school: Make sure you know where you will use the software and have tried starting it. Please let me know if the lab is not set up as you might expect. 
+* Labs in school: Make sure you know where you will use the software and have tried starting it. Please let me know if the lab is not set up as you might expect. 
 
 * Posit  Cloud : Sign up for the service and make sure you know how to access it in class. It's not the great alternative that it seems. In particular, students have had it eat their work in the past and submitting your homework will be more difficult. You'll probably have to start paying before too long. But it is OK for the first few days as we get you set up for the future.
 
@@ -74,7 +79,7 @@ Try to follow along with  [Installing R and RStudio](https://cronkitedata.github
 
 **No matter how far you got in the installation, be sure to set up your course folder as shown in the video**
 
-DO NOT expect to use Google drive to store your work -- it won't work. You will not be able to directly access the data in the Google drive on your computer, and there are strict limits on the size of the data file you can transfer using it. Believe me. We've tried. If you use Dropbox, you can set up your course folder within Dropbox instead of within your Documents folder. 
+DO NOT expect to use Google drive to store your work -- it won't work. We've tried. If you use Dropbox, you can set up your course folder within Dropbox instead of within your Documents folder.^ [There are gazillions of tiny files that change every time you make a change in an R project, so you may want to pause syncing while you're working.]
 
 #### On your own computer
 
@@ -82,11 +87,14 @@ This video is about 5 minutes, and is shown using a Mac. If you're on Windows, t
 
 {{< video https://youtu.be/KbAcoHbEanI?si=oOm9gPitlgQnXotqß   width="80%" height=400 >}}
 
-#### If you're using something else
+::: {.callout-warning}
+Be sure to open RStudio, not R: 
 
-* Create a folder on your portable hard drive or thumb drive called `maij-working` 
+![](../assets/img/r-start-r-or-rstudio.png)
 
-**When you're done, follow the directions in the Canvas assignment called Prelab 0: Install R and RStudio.**
+:::
+
+Your `maij-working` folder should be somewhere on your computer or portable drive that you can find it every day. My suggestion is within the "Documents" folder, but you may need to adjust that if you  use Dropbox or are using a thumb drive. 
 
 ## Follow up materials
 

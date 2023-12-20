@@ -24,7 +24,7 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/cronkitedata/maijdata/
+        href: https://github.com/cronkitedata/maij-data/
     left: 
       - icon: house-door-fill
         # otherwise it fills with "Data reporting" or site name
@@ -108,8 +108,9 @@ format:
     max-width: 1920px
     page-layout: full
     toc: true
-    toc-location: left
-    toc-depth: 3
+#    toc-location: left
+#    toc-depth: 2
+    toc-expand: 3
     header-includes: |
        <meta name="robots" content="noindex">
     published-title: "Class date"

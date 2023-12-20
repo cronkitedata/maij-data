@@ -8,8 +8,7 @@ description:  Using Quarto to combine your programming and your documenation in 
 
 * Review of What Would You Do?
 * Questions about the R and RStudio tour and tutorials
-* Replication and documenting your work in Quarto
-* Lab: Your first Quarto document
+* Replication and documenting your work in Quarto (lab)
 
 ## Upcoming deadlines
 
@@ -28,9 +27,7 @@ description:  Using Quarto to combine your programming and your documenation in 
   Replication and data documentation from the textbook
 ::: 
 
-* “[Take an Interviewing Approach to Find Stories in Data](http://mediashift.org/2014/07/take-an-interviewing-approach-to-find-stories-in-data/) ”, by Derek Willis, Mediashift, July 2014.
 
-* ["Basic steps in working with data"](https://datajournalism.com/read/handbook/one/understanding-data/basic-steps-in-working-with-data), the Data Journalism Handbook, Steve Doig, ASU Prof.
 
 ### Get to know R and RStudio
 [Estimated time: 1-2 hours ]{.small-text}
@@ -57,4 +54,5 @@ Be sure to:
 ## Follow-up materials
 
 * [Creating Quarto documents](https://cronkitedata.github.io/djtextbook/r-quarto.html)
-    * [22-minute video](https://youtu.be/FlX75wfL9ew) that goes through what we will go through in class
+
+* [22-minute video](https://youtu.be/FlX75wfL9ew) that goes through what we will go through in class

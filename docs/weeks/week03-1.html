@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/cronkitedata/maijdata/" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/cronkitedata/maij-data/" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -298,7 +298,11 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
     </ul>
     </div>
-    <nav id="TOC" role="doc-toc" class="toc-active">
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -309,13 +313,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#going-further" id="toc-going-further" class="nav-link" data-scroll-target="#going-further">Going further</a></li>
   </ul>
 </nav>
-</nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -350,7 +350,7 @@ ul.task-list li input[type="checkbox"] {
 <p>You might do the data dance when your FOIA is returned or you find a great dataset online. But you’ve only overcome the first challenge. The next one is to understand what the data represents – what <em>noun</em> each row represents, and what characteristic, or attribute, each column will show. Then you have to actually get it into R or any other program you want to use without corrupting it.</p>
 <ul>
 <li>Understanding data before you start (<a href="#class-lab-details">lab</a>)</li>
-<li>Reviewing questions on data import</li>
+<li>Reviewing data import</li>
 </ul>
 </section>
 <section id="upcoming-deadlines" class="level2">
@@ -372,13 +372,16 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="preparation" class="level2">
 <h2 class="anchored" data-anchor-id="preparation">Preparation:</h2>
+<p>Your prepration may take a little longer this weekend – don’t leave it until the last minute.</p>
 <p><span class="text-small">(Please do these in the order listed)</span></p>
 <ul>
-<li>Read the “understanding data” chapter in the textbook - TK</li>
-<li>Data import chapter and prelab</li>
+<li><p><a href="https://cronkitedata.github.io/djtextbook/start-data.html">Defining data</a> We’ll come back to this later in the semester after you have some practice looking at data, but it’s useful to get familiar with the ideas now. Don’t do the further reading or exercises unless you really want to. Instead, try to internalize the concepts. They are fundamental to your ability to work with data.</p></li>
+<li><p>Data import chapter and prelab (TK). Be sure to focus on the part about data and file types – they’re important. Submit your prelab to Canvas.</p></li>
+<li><p>“<a href="http://mediashift.org/2014/07/take-an-interviewing-approach-to-find-stories-in-data/">Take an Interviewing Approach to Find Stories in Data</a>”, by Derek Willis, Mediashift, July 2014.</p></li>
+<li><p><a href="https://datajournalism.com/read/handbook/one/understanding-data/basic-steps-in-working-with-data">“Basic steps in working with data”</a>, the Data Journalism Handbook, Steve Doig, ASU Prof.</p></li>
 </ul>
 <p><em>Come to class prepared to discuss a passage from one of the following pieces that caught your eye. Remember to analyze them as a reporter, not a casual media consumer. Think about why I might have chosen these three pieces.</em></p>
-<p>Somehow, almost all of these relate to the pandemic and may feel dated. Try to listen / read with an eye toward what can be done in the midst of a crisis.</p>
+<p>Most of these relate to the pandemic and may feel dated. Try to digest them as examples of what data means, not the specifics of the stories. They may help you understand how to look at data dictionaries and the importance of granular data.</p>
 <ul>
 <li>Listen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily’s “<a href="https://www.nytimes.com/2020/07/08/podcasts/the-daily/coronavirus-data-united-states.html">Counting the Infected</a>” The Daily, July 8, 2020. (His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)</li>
 </ul>
@@ -389,7 +392,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>“<a href="https://www.nytimes.com/2022/09/20/us/politics/covid-data-outbreaks.html?unlocked_article_code=FRdsQf82dJp3EBYCyTtHOQZ6XenNqhytAqexFVw4uOQ61e_LdTBWGrs4wzoB6fWy2AW68kzGxoOI3GLeZC0vpQT5LVtLzcaKMS4InJOnfWRRoDWK1dvMTjz6cFWkPbrJG-nOHB0LnOgYBr8dfBrPinG0znqZIArExzAtdg0Ms-e5GXTNwtrXBB1PwyBM2sN5u1i7GnRvcZpJ633aDyv4GHuKLm53ow4r53aH54xma1rDyekLL8NVNJPy0PYMhKn8AsbyyWZq5HHFTOce_irmKCw9P_XBDqzlsCu9GbS5fALXkDzrmAxUHwjTEeYW6Ibb6uqqAzdiKGtS0qXN2LfcWyzO&amp;smid=share-url">‘Very Harmful’ lack of data blunts US response to outbreaks - gift link</a>”, Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists.</p></li>
 <li><p>“<a href="https://apnews.com/article/virus-outbreak-ky-state-wire-ia-state-wire-ap-top-news-health-3bf753f9036e7d88f4746b1a36c1ddc4">Thousands allowed to bypass environmental rules in pandemic</a>”, Associated Press, August 2020. This is a great example of looking beyond the news in front of you to collect documents that show a pattern. It shows what can be done in just a couple of months by collecting 50 states’ worth of documents, once you know they should exist.</p></li>
-<li><p>We measured pop music’s falsetto obsession, Vox, August 2019:</p></li>
+<li><p>We measured pop music’s falsetto obsession, Vox, August 2019. This one reminds us that data is everywhere if we choose to look at it that way:</p></li>
 </ul>
 <div class="ps-4 ms-4">
 <div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/qJT2h5uGAC0" width="60%" height="400px" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
@@ -415,7 +418,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Here are some more examples of datasets coming from unexpected places: historical site lines, investigative files, and Hamilton.</p>
 <ul>
 <li><p><a href="https://forensic-architecture.org/investigation/environmental-racism-in-death-alley-louisiana">This documentary and report</a> by the independent firm Forensic Architecture in partnership with RISE St.&nbsp;James on environmental racism in “death alley”, Louisiana, is quite long. But it’s a great example of the emerging form of open source investigations that use imaging, historical site lines and similar non-traditional data in service of a larger piece, often conducted by human rights investigators rather than journalists. (I can’t get the direct link to work. If it won’t work for you, choose Investigations, and look for those in the United States. At this writing there were only two. )</p></li>
-<li><p><a href="https://www.texasobserver.org/locked-up-and-left-to-die/">“Locked up and left to die”</a> , by Michael Barajas and Sophie Novack, Texas Observer, Nov.&nbsp;1, 2021, is based largely on an ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths. (I worked with the authors as a mentor on this story through the Fund for Investigative Journalism.)</p></li>
+<li><p><a href="https://www.texasobserver.org/locked-up-and-left-to-die/">“Locked up and left to die”</a> , by Michael Barajas and Sophie Novack, Texas Observer, Nov.&nbsp;1, 2021, is based largely on an ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths.</p></li>
 <li><p>And a shoutout to this <a href="http://graphics.wsj.com/hamilton/">incredible piece by The Wall Street Journal</a>, tracing the roots of the musical and lyrical signatures in <em>Hamilton</em></p></li>
 </ul>
 
@@ -662,7 +665,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-page-right">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
       <a href="../weeks/week02.html" class="pagination-link">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">2: Accuracy and replication</span>
