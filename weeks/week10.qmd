@@ -1,7 +1,7 @@
 ---
 title: Ethics in data journalism
 date:  2024-03-19
-draft: false
+draft: true
 description:  After going through the replication project, we'll look at some specific issues related to statistics and other problems in data reporting.
 ---
 

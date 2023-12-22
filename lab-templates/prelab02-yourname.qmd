@@ -1,0 +1,141 @@
+---
+title: "Top 100 walkthrough"
+author: "YOUR NAME HERE"
+format: 
+  html: 
+    theme: cosmos
+    embed-resources:  true
+    toc: true
+    code-tools: true
+editor: visual
+---
+
+**Before you start**
+
+1.  Be sure to open your project as a project, not through the File tab or by double-clicking. Nothing will work if you forget this.
+
+2.  Be sure to hit the "Play" button on ALL of the code chunks, especially this first one. Don't depend on this already existing on your computer because when you try to render it, Quarto starts from scratch. It won't remember anything you've done already.
+
+This prelab just lets you run some code and see what happens. I don't expect you to have internalized ANY of it. We'll be coming back to each of these verbs one by one.
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+
+
+
+library(tidyverse)
+library(janitor)
+library(lubridate)
+
+
+
+```
+
+## Load your saved data
+
+In the previous chapter, you cleaned and saved a data set to work with the Hot 100 file. Use this code chunk to load in the R data file you saved.
+
+```{r}
+
+top100 <- 
+  readRDS("hit100.RDS")
+
+```
+
+**Question:** How is this different from the `read_csv()` function you used in the last chapter? In other words, why would you use that function sometimes, and `readRDS()` sometimes?
+
+## Verbs
+
+**NOTE**: If the results are too smushed when you run these code chunks, switch back to "Source" mode. I've found Visual mode isn't very eyeball-friendly for exploring data frames.
+
+### All Taylor Swift songs
+
+Note that there are TWO "=" signs in the code below to test the condition "Does the `performer` column equal the letters within the quotes?" . (Try it with only one and see what happens! )
+
+**Question:** What happens if you try "TAYLOR SWIFT" instead of "Taylor Swift"?
+
+```{r}
+
+top100 |> 
+   filter ( performer == "Taylor Swift") |> 
+   arrange ( chart_date )
+
+
+
+```
+
+**Describe this output in your own words:**
+
+### Taylor Swift #1 hits
+
+-   Run this code to see her #1 hits.
+
+    -   What changed in the code that made that happen?
+
+    -   What do you think the `&` operator do in the filter?
+
+    -   What does the `select` verb do? (compare this answer to the one above if you're not sure. )
+
+```{r}
+
+top100 |>
+  filter (performer=="Taylor Swift" & this_week == 1) |>
+  arrange ( chart_date)  |>
+  select ( this_week, title, chart_date, last_week)
+
+
+```
+
+### Summary statistics
+
+In this code:
+
+-   What is the left side of each "=" sign?
+-   What is the right side each "=" sign?
+-   Why is there only one "=" sign instead of two?
+
+```{r}
+
+top100 |>
+  summarize ( number_of_entries = n() , 
+              first_entry = min(chart_date), 
+              last_entry= max(chart_date)
+              )
+
+
+```
+
+**Question:** What does that answer mean in your own words?
+
+### Grouping with summarizing
+
+You're combining more verbs with this code chunk.
+
+```{r}
+
+top100 |>
+  group_by ( performer) |>
+  summarise ( times_on_list = n() ) |>
+  arrange (desc ( times_on_list ))   |> 
+  head (10)
+
+
+```
+
+**Describe** , in your own words, what this result says.
+
+## Make up a new question
+
+Now that you've seen a little about what kinds of things you can do, try to think of a question you'd like to ask of this data. **It doesn't have to be something you already know how to do.** Try to keep your question to something that THIS data could tell you.
+
+## Takeaways
+
+Note three things from this lesson that you don't want to forget or questions that you want to discuss. They can be part of the formal walkthrough, something in the chapter itself, or something that struck you as you were trying to do the work.
+
+Copy them into your log.
+
+1.  First:
+2.  Second:
+3.  Third:

@@ -7,4 +7,9 @@ format:
     embed-resources:  true
     toc: true
     code-tools: true
+editor: visual
 ---
+
+Use this template for your Quarto documents until you get used to the options. 
+
+This version is for the first lab: Your first program.

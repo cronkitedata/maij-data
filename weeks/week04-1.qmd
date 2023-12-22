@@ -1,29 +1,44 @@
 ---
 title: Filter and sort for stories
-date:  2024-01-30
+date:  2024-01-29
 description: Filtering and sorting in R to find needles and stories
 --- 
 
 ## Agenda 
 
-* Review of prelab
-* Lab: TK
-
-
+* Review of example data
+* Filtering and sorting lab 
 
 ## Upcoming deadlines
 
-* [Monday Jan 30 10am]{.sked-dates} : "What would you do?" : choosing a data source. See assignment in Canvas.
-* [Sunday Jan 29]{.sked-dates} : [Filter prelab](TK) 
-* [Today after class]{.sked-dates} : Lab TK
+::: callout-note
+From now on, I won't list the labs and prelabs on these upcoming deadlines. 
+::: 
+
+[Wednesday]{.sked-dates}: What would you do? Pick a data source
+
+[Sunday, Feb. 4]{.sked-dates}: Sentences for replication project
 
 ## Preparation
 
-* Read the chapter on finding stories using filtering and sorting in the textbook (TK)
-* Complete the prelab on filtering and sorting.
+This weekend's workload is a little heavier than usual. Please allow time for it, and do the reading  / tutorials in the order given here. 
 
-Get basics on working with campaign finance - use it as an appendix in the textbook. 
 
-To create the public appearance that his campaign had met that financial benchmark and was otherwise financially viable, Santos and Marks allegedly agreed to falsely report to the FEC that at least 10 family members of Santos and Marks had made significant financial contributions to the campaign, when Santos and Marks both knew that these individuals had neither made the reported contributions nor given authorization for their personal information to be included in such false public reports. In addition, understanding that the national party committee relied on FEC fundraising data to evaluate candidates’ qualification for the program, Santos and Marks allegedly agreed to falsely report to the FEC that Santos had loaned the campaign significant sums of money, including in one instance a $500,000 loan, when, in fact, Santos had not made the reported loans and, at the time the loans were reported, did not have the funds necessary to make such loans. 
+1. Read:
+    * [Introduction](https://cronkitedata.github.io/djtextbook/rdepth.html) to Verbs in Depth; 
+    * Chapter 12, [Tidy Data](https://cronkitedata.github.io/djtextbook/start-tidy.html); and 
+    * Chapter 13, [Sorting and Filtering](https://cronkitedata.github.io/djtextbook/start-filter-sort-story.html) to find stories
 
+2. Review the [documentation of our example PPP](https://cronkitedata.github.io/djtextbook/appendix-ppp.html) data and review the following stories. You don't have to study them, but be sure to look at them in enough detail to start thinking about the different approaches the reporters took to the same dataset. They also have, as part of the stories, background on the program that might be useful to you. 
+
+    * ["Hundreds of PPP Loans Went to Fake Farms in Absurd Places"](https://www.propublica.org/article/ppp-farms), Derek Willis and Lydia DePillis, ProPublica, May 18, 2021
+    * "[Six Stories From a Downtown District Show Pandemic's Uneven Toll](https://www.wsj.com/articles/some-asheville-businesses-thrived-with-government-backed-ppp-loans-others-struggled-11609426801)",  Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec. 31, 2020. (Read this on campus if you haven't signed up for the free WSJ subscription through the library.)
+    * ["Banking on Inequity"](https://revealnews.org/podcast/banking-on-inequity/) , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021. 
+
+
+3. Read Chapter 14, [Select, arrange and filter](https://cronkitedata.github.io/djtextbook/r-verb-filter.html)
+
+4. Complete the prelab on select, arrange and filter (In Canvas)
+
+As always, come prepared to discuss questions, observations, and areas of confusion. 
 

@@ -5,13 +5,10 @@
       "/weeks/week01-1.html",
       "/weeks/week01-2.html",
       "/weeks/week02.html",
+      "/weeks/week03-1.html",
+      "/weeks/week03-2.html",
       "/weeks/week04-1.html",
-      "/weeks/week04-2.html",
-      "/weeks/week05-1.html",
-      "/weeks/week05-2.html",
-      "/weeks/week13-2.html",
-      "/weeks/week10.html",
-      "/weeks/week09-2.html"
+      "/weeks/week04-2.html"
     ]
   },
   {
@@ -19,17 +16,14 @@
     "items": []
   },
   {
-    "listing": "/class.html",
-    "items": [
-      "/inclass/01-file-management.html",
-      "/inclass/02-map1.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/posts/welcome.html"
     ]
+  },
+  {
+    "listing": "/class.html",
+    "items": []
   },
   {
     "listing": "/updates.html",

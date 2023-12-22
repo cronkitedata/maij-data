@@ -2,6 +2,7 @@
 title: Building your own database (and a little pot luck)
 date:  2024-03-12
 description: You will often find yourself trying to piece together a database -- sometimes it's documents that must be compiled, other times it's details that come from disparate places. Still other times, you need to build a chronology out of a mess of notes. Getting good at this will save you in the end. 
+draft: true
 --- 
 
 

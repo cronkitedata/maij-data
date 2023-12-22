@@ -7,7 +7,7 @@ listing:
   fields: [date, title, description]
 ---
 
-<!--NOTE TO SELF: I need to figure out how to manage this so that it contains the next couple of weeks and then the history, and doesn't include the ones too far into the future. I know how to do this in Hugo, but not in quarto. -->
+
 
 There are two major projects in this class: 
 

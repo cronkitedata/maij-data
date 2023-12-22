@@ -8,6 +8,10 @@ format:
   html: 
     toc-location: right
     published-title: "Last updated"
+  pdf: 
+    output-file: "syllabus.pdf"
+    default-image-extension: png
+    toc: true
 --- 
 
 ::::: {.card-columns}
@@ -46,20 +50,23 @@ I'm available to work with you almost any time Mondays through Thursdays except 
 
 This is a class in data journalism focused the systematic use of public records, documents and other material in public affairs reporting. Previous generations might have called it “computer-assisted reporting” or “precision journalism”. Whatever the name, the idea is the same: original reporting and analysis in the service of stories, particularly in the accountability and explanatory genres.
 
-::: {.g-col-4  style="--bs-gap: 1rem;"}
+::: {.g-col-4  style="--bs-gap: 1rem;" .content-visible when-format="html"}
 
 <!--ms-2 means margin-left 2 spacers. I always forget -->
 
 <figure class="figure float-end ms-2" style="width: 75%;" >
-<img src="/assets/img/wormhoudt.png" width="80%" class="figure-img img-fluid ms-2" ></img>
+<img src="assets/img/wormhoudt.png" width="80%" class="figure-img img-fluid ms-2" ></img>
 <figcaption class="figure-caption">By Chris Wormhoudt via Unsplash</figcaption>
 </figure>
 
 
 ::: 
 
-Analyzing records can help you confirm or disprove a tip, isolate anecdotes, and explore stories or patterns that no one has thought to mention. When you use data-driven techniques, your street reporting will become deeper and more enlightening. Better yet, the techniques you’ll learn in this class will often yield exclusive stories.
+::: {.content-visible when-format="pdf"}
+![Chris Wormhoudt](assets/img/wormhoudt.png)
+::: 
 
+Analyzing records can help you confirm or disprove a tip, isolate anecdotes, and explore stories or patterns that no one has thought to mention. When you use data-driven techniques, your street reporting will become deeper and more enlightening. Better yet, the techniques you’ll learn in this class will often yield exclusive stories.
 
 By the end of this semester, you will be able to:
 
@@ -68,28 +75,29 @@ By the end of this semester, you will be able to:
 * Integrate data journalism techniques with traditional reporting methods.
 * Write effectively with and about data, whether for text or for the ear.
 
+
+
 ### Prerequisites
 
 This is a required course for the Masters' of Arts in Investiative Journalism at Cronkite. It is tightly coordinated with the rest of the curriculum, and depends on your having mastered the work done in Boot Camp in the fall semester. If you have not done this, you'll need to review on your own: 
 
-* Numeracy for journalism. There is some self-help material on Canvas if you want to review it. 
-* Spreadsheet basics: Simple calculations, sorting, filtering and pivot tables. There are videos and exercises in the MAIJ textbook as refreshers. You do not need to have mastered spreadsheets before you start the class, but some material at the end assumes you have knowledge of these techniques.
-* Ethics in journalism: You should have a basic background on journalistic ethics, at least as practiced in the United States.
+* [Spreadsheet basics]{.underline}: Simple calculations, sorting, filtering and pivot tables. There are videos and exercises in the MAIJ textbook in case you need a refresher.
+* [Ethics]{.underline} Standard journalistic ethics as practiced in the United States.
+* [Basic numeracy]{.underline}: As graduate students, we expect you to come to school with basic numeracy skills such as computing percents or averages. There are materials provided to you if you need refreshers.
 
-There is NO expectation that you have acquired or used data for your stories in the past, or that you have ever tried to write any computer code in any language.
-
+You are not expected to have acquired or used data for your stories in the past, or to have ever tried to write any computer code in any language.
 
 ## Required materials and texts
 
-All of the hardware and software required for class is available in our classroom and in the lab in Cronkite 320. 
+All of the hardware and software required for class is available in our classroom, in the lab in Cronkite 320, and in the ASU lab in UCENT across from Cronkite.
 
-If you choose to use your own laptop or desktop computer, it must be running Mac OS Catalina (version 10.15, released in late 2019, or newer) or Windows 10 or 11. Please contact me if you’re not sure if your operating system needs updating. A tablet or Chrome book just won't work, and I can't help you if you try to use them.^[Anything that can run the full version of Mac OS or Windows is fine, such as a Microsoft Surface]
+If you choose to use your own laptop or desktop computer, it must be running Mac OS 11 (Big Sur) or newer^[Macs made in the past decade will generally work], or Windows 10 or newer. Please contact me if you’re not sure if your operating system needs updating. Macs that are more than 10 years old won't work. Neither will Chrome books or iPads.  
 
-A regular mouse is strongly recommended. A basic wired mouse that connects to your USB port costs about $10 on Amazon.
+I suggest working on a large screen with a regular mouse whenever you can, even if it means doing some of  your work in a lab.
 
 ### Books and software
 
-You do not need to buy any books or software. This site contains or links to all of the reading, viewing, and texts you need. We are using a [bespoke online textbook](https://cronkitedata.github.io/djtextbook/) I made that puts together and updates a lot of handouts and tutorials I've had scattered around various Canvas sites, Google Drive docs and Github repos. It's a work in progress that will be updated throughout the semester.
+You do not need to buy any books or software.
 
 The following free software will be used extensively in this class.
 
@@ -99,6 +107,8 @@ The following free software will be used extensively in this class.
 At the end of the semester, we'll be exploring some of the advanced features of Microsoft Excel and how they differ from Google sheets, but you should feel free to use lab computers for this.  
 
 There will be other free software that we'll use for specific projects. I'll provide links to those as we go along.
+
+All of the readings and materials will be provided to you at no cost.
 
 #### Recommended 
 
@@ -152,9 +162,9 @@ Nearly half of your grade is dependent on this slow and steady work.
 :::
 
 
-Many weeks, there will be one or two low-stakes assignments. Sometimes, I'll ask you to reflect on what you did and provide feedback. Other times, you will show that you went through a tutorial on your own. It also includes labs that we do in class. 
+There will be at least one low-stakes assignment nearly every week. Sometimes, I'll ask you to reflect on what you did and provide feedback. Other times, you will show that you went through a tutorial on your own. We'll do a lot of labs in class.
 
-*Prelabs* are exercises intended to force you to slow down and go through a tutorial on y our own, reflecting on areas that are muddy or difficult. I'll use them as diagnostics to decide how to focus our class time. *Labs* are exercises for you to practice and apply what you've learned.
+*Prelabs* are exercises intended to force you to slow down and go through a tutorial on your own, providing feedback on areas that are muddy or difficult. I'll use them as diagnostics to decide how to focus our class time. *Labs* are exercises for you to practice and apply what you've learned.
 
 These will be submitted in Canvas assignments, but I haven't yet produced all of them. This means the total points in Canvas won't be correct until partway through the semester.
 
@@ -173,7 +183,7 @@ There are three separate assignments for this project, which challenges you to r
 
 [250 points]{.points}
 
-In this project, you’ll develop a story pitch using a combination of story backgrounding and data analysis. I’ll give you a choice of at least three datasets that I know will work for this assignment. You may propose your own, but it must be easy to obtain, relatively clean, and complicated or large enough that there is something for you to analyze beyond a basic statistic. Generally, the dataset will be of individual records (accidents, inspections, deaths or events), not statistical compilations. You’ll understand this better as we move along.
+You’ll develop a story pitch using a combination of story backgrounding and data analysis. I’ll give you a choice of at least three datasets that I know will work for this assignment. You may propose your own, but it must be easy to obtain, relatively clean, and complicated or large enough that there is something for you to analyze beyond a basic statistic. Generally, the dataset will be of individual records (accidents, inspections, deaths or events), not statistical compilations. You’ll understand this better as we move along.
 
 The specific list of datasets may be coordinated with your investigative reporting class, News21 and/or the Howard Center, so they're subject to change. 
 
@@ -230,46 +240,55 @@ Percentage | Definition
     <span> <a href="https://quoteinvestigator.com/2013/06/10/showing-up/" class="text-decoration-none link-secondary">Woody Allen </a></span>
   </blockquote> 
 
-This is an immersion, in-person class and is not offered via Zoom or ASU Sync. 
+This is an immersion, in-person class and is not offered via Zoom. 
 
-The minimal requirement is to arrive on time, prepared, and ready to work. **Please refrain from eating, napping, using social media, shopping, or working on something else.** I expect you to treat your colleagues with respect and be polite to any guests. (I understand this class is over a lunchtime, but there is no eating allowed in the labs. I'll be enforcing that.) 
+The minimal requirement is to arrive on time, prepared, and ready to work.  Be sure to refresh your memory before class begins if you can't recall what you wrote or read in preparation.
 
- I will insist that devices are closed and turned off for guests, but it's disprespectful to the entire class when you decide to do something else during discussions or presentations.  In addition, research shows that you are [much worse at multi-tasking](https://health.clevelandclinic.org/science-clear-multitasking-doesnt-work/) than you think you are, and the class won't stop because you got distracted or sidetracked. 
+**Please refrain from eating, napping, using social media, shopping, or working on something else.** I expect you to treat your colleagues with respect and be polite to any guests. The classroom is a strict no-eating zone.
 
-::: {.callout-warning .ms-3 .me-2}
+ Devices must be closed and turned off for guests and used only for class work the rest of the time.  Research shows that you are [much worse at multi-tasking](https://health.clevelandclinic.org/science-clear-multitasking-doesnt-work/) than you think you are, and the class won't stop because you got sidetracked. 
+
+::: {.callout-important .ms-3 .me-2}
 ## Devices in class
-I have a great deal of difficulty concentrating when someone is attending to something else, including researching something, catching up on your homework or using your phone, during class. 
+I am easily distracted when someone is disengaged or doing something else during class. I can't stop staring at someone who nods off, is looking at their phone, or is eating lunch.  
 
 I know this is a character flaw. I will try to overcome it, but if  I start losing my place or stumbling over simple questions, I may ask you to leave the classroom or close your computer until you are ready to engage with the material we're working on. 
 :::
 
-I generally will not monitor messages in  Slack or email during or just before class time. The only reliable way to get me a message between 10:20a and 1:20p Mondays and Wednesdays is to do so in person in the classroom. 
 
-If you need an accommodation, please message me BEFORE 10:20 on the day of class.
+
+I will not monitor messages in  Slack or email during or just before class time. The only reliable way to get me a message between 11am and 1:20p Mondays and Wednesdays is to do so in person in the classroom. If you need to get between those hours, please ask a classmate to get my attention.
 
 ### Attendance and deadlines
 
-There are no excused absences in this course, except for true medical or other emergencies or religious observances. You might decide it’s more important to schedule a job interview, attend a family event, interview a source, or schedule a tight connection on a flight than to attend class or complete your work. If I were you, I might decide the same thing, but these are choices that reflect your priorities. They’re not emergencies, nor are they excused absences or deadlines. 
+
+There are no excused absences in this course, except for true medical or other emergencies or religious observances. 
+
+You might decide it’s more important to go to a job interview, attend a family event, interview a source, or schedule a tight connection on a flight than to attend class or complete your work. If I were you, I might decide the same thing, but these are choices that reflect your priorities. They’re not emergencies, nor are they excused absences. 
 
 As in all journalism work, you are expected to meet deadlines. Late assignments will be heavily penalized and those with small point counts may not be accepted at all. 
 
-Please advise me the first week of class of any ASU-endorsed absences such as a religious holiday or participation in an ASU team sport that will cause you to miss class so that I can plan accommodations. Here's what to do if you want an accommodation for an emergency: 
+That said, **give yourself a break**. There are **two no-questions-asked 48-hour extensions** on daily work during the semester.  This includes only the labs/prelabs and graded homework, not any part of the project or "What would you do?" assignments.  You don't a reason; just let me know before class or deadline.  
 
-* If there is an emergency, such as a car accident or a death in your close circle or family, please let me know as soon as possible and we’ll work out what to do next. 
-
-* We all know there is a lot of flu, COVID and RSV going around this year. If you are sick, you should contact ASU Health Services or your doctor. They can provide the documentation if you are too ill or contagious to leave home. 
-
-In these circumstances, I will work with you to accommodate the absence. That might include extending deadlines and helping you find assistance such as ASU mental health resources and tutoring.  I may be able to let you observe (without participating) via Zoom, but you shouldn't count on it. 
-
-::: {.callout-tip .ms-3}
+::: {.callout-note .ms-3}
 ## May I be excused?
 
-The short answer is "yes" -- I don't take attendance and there is no class participation grade.  I get it --- sometimes you don't feel 100% or you have something more important to do or the bus broke down. 
+The short answer is "yes". I don't take attendance and there is no class participation grade.  I get it --- sometimes you don't feel 100% or you have something more important to do or the bus broke down. 
 
-However, it will be up to you to keep up or catch up. You will not be offered the opportunity to observe via Zoom. Deadlines will not be extended. You'll also be excluded from any group assignments that might be part of the class that day.
+But when you make that choice, you have to catch up on your own. I can't offer a Zoom option, and you'll receive a zero for any missed deadline.  
 :::
 
-That said, **give yourself a break**. There are **two no-questions-asked 48-hour extensions** on daily work during the semester.  This includes labs/prelabs and graded homework.  You don't need to give me a reason -- just let me know by 10:20am the day of class, or 6pm the night before the deadline, and I'll change your deadline.  These extensions will not be granted for any part of the two large projects or for the simple "What would you do?" assignments.
+
+Please advise me the first week of class of any ASU-endorsed absences such as a religious holiday or participation in an ASU team sport that will cause you to miss class so that I can plan accommodations. 
+
+Here's what to do in the event of an emergency or illness: 
+
+* If there is an emergency, such as a car accident or a death in your close circle or family, please let me know as soon as possible and we’ll work out what to do next. (If you've already worked with the dean of students, I can coordinate with them and you don't have to talk to me individually.)
+
+* If you are sick, you should contact ASU Health Services or your doctor. They can provide  documentation if you are too ill or contagious to leave home.
+
+Accommodations in these circumstances can include extending deadlines and helping you find assistance such as ASU mental health resources and tutoring.  I may be able to let you observe (without participating) via Zoom, but you shouldn't count on it. 
+
 
 ### Accuracy
 
@@ -279,8 +298,9 @@ I don’t expect your work to be polished and exact. However, work that shows a 
 
 This requires you to gut-check all of your data work before you turn it in or include it in a sentence. Actually look at your results and decide "could this possibly be true?"
 
-::: {.container .ltblue-box}
+::: {.container .ltblue-box }
 
+::: {.content-visible when-format="html"}
 ::: {.display-5 .fw-bold}
 Having trouble? 
 :::
@@ -290,6 +310,14 @@ Having trouble?
 <img src="assets/img/moller.png" width="100%" class="figure-img img-fluid" ></img>
 <figcaption class="figure-caption" alt="Breathe!"> Fabian Moller via Unsplash</figcaption>
 </figure>
+:::
+
+::: {.content-visible when-format="pdf"}
+#### Having trouble? 
+
+![by Fabian Moller](assets/img/moller.png)
+:::
+
 
 :::: {.small}
 Learning data skills requires a lot of trial and error -- a LOT of error. It's frustrating and maddening at times and you won't be alone. But there are some strategies that you can use to help get you past roadblocks.
@@ -335,13 +363,19 @@ The school has zero tolerance for academic dishonesty; instructors enforce acade
 You must complete the Academic Integrity pledge within the first week of class, included in Canvas as a quiz.
 
 ::: {style="page-break-after: always;"}
-::: 
+::: {.content-visible when-format="html"}
 
 
 <figure class="figure"  >
 <img src= "assets/img/brodeur.png" height="90%" class="figure-img img-fluid" alt="?$!# &%"></img>
 <figcaption class="figure-caption">Brodeur via Unsplash</figcaption>
 </figure>
+
+:::
+
+::: {.content-visible when-format="pdf"}
+![by Brodeur via Unsplash](assets/img/brodeur.png)
+::: 
 
 ## FAQ
 
@@ -377,8 +411,10 @@ In technical work, asking a good question is an art. Try to:
 
 Even if you know how to code, I presume you are at Cronkite because you want to apply all of your skills to a journalism career. You probably knew how to use a phone or take a picture before you came to j-school, but you may not have used them the way you do now. That said, talk with me if you’re concerned that you won’t be challenged enough or want to go further. We’ll find ways to make the time productive and take you to the next level in data reporting.
 
-**Q: Can I use [ChatGPT](https://openai.com/blog/chatgpt/) to help me with my coding?**
+**Q: Can I use AI like [ChatGPT](https://openai.com/blog/chatgpt/) to help me with my coding?**
 
 Sure --- for help, not for answers. In fact, one of the things it's really good at is answering the question, "Why doesn't this code work?"  You will have to determine if its answer is right. But for this purpose it's pretty similar to searching Google and Substack  or asking colleague for help. 
 
 You are responsible for learning the methods taught in the class, not some other way to accomplish the same thing. (You don't have to memorize anything, but we're working in very limited version of the world of programming and R, and I won't go outside it to help you or accept your work.)
+
+The free version of ChatGPT is a little too old for some of the things you'll be learning. Consider trying Perplexity.ai or Github Copilot instead.

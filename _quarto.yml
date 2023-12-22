@@ -9,8 +9,10 @@ project:
     - "*.md"
     - "*.Rmd"
     - "!labs/"
-    - "!prelabs/"
+    - "!lab-templates/"
     - "!working/"
+    - "!inclass/"
+    - "!projects.qmd"
 
 website:
   favicon: assets/img/favicon.ico
@@ -75,21 +77,21 @@ website:
             file: weeks/week04-1.qmd
           - text: "4.2: Creating new from old with mutate"
             file: weeks/week04-2.qmd
-          - text: "5.1: Summarize with group by"
-            file: weeks/week05-1.qmd
-          - text: "5.2: Matchmaking with joins"
-          - text: "6: The power of regular expressions"
-            file: weeks/week06.qmd
-          - text: "7: TK"
-            file: weeks/week07.qmd
-          - text: "8-1: Cognitive bias in data journalism"
-            file: weeks/week08-1.qmd
-          - text: "8-2: The life of data"
-            file: weeks/week08-2.qmd
-          - text: "9-1: Visualization as a reporting tool"
-            file: weeks/week09.qmd
-          - text: "9-2: Intro to GIS and mapping"
-            file: weeks/week11.qmd
+          # - text: "5.1: Summarize with group by"
+          #   file: weeks/week05-1.qmd
+          # - text: "5.2: Matchmaking with joins"
+          # - text: "6: The power of regular expressions"
+          #   file: weeks/week06.qmd
+          # - text: "7: TK"
+          #   file: weeks/week07.qmd
+          # - text: "8-1: Cognitive bias in data journalism"
+          #   file: weeks/week08-1.qmd
+          # - text: "8-2: The life of data"
+          #   file: weeks/week08-2.qmd
+          # - text: "9-1: Visualization as a reporting tool"
+          #   file: weeks/week09.qmd
+          # - text: "9-2: Intro to GIS and mapping"
+          #   file: weeks/week11.qmd
       - text: "----"
       - text: Course textbook
         href: https://cronkitedata.github.io/djtextbook

@@ -1,7 +1,7 @@
 ---
 title: "A quick tour of the verbs"
 date:   2024-01-24
-draft: true
+draft: false
 description:  You can do an awful lot in R just by mastering seven verbs. We'll go through six of them in a quick tour.
 --- 
 

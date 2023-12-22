@@ -14,14 +14,8 @@ editor: visual
 ### Libraries to install
 
 -   `pacman` - you may have done this already, but it's useful to have on your computer.
-
-```{=html}
-<!-- -->
-```
 -   `sf`  - for dealing with geographic data
-
 -   `tigris`  - for getting geometry from the Census bureau
-
 -   `tmap` - for making simple maps without a lot of fuss
 
 ### Setup chunk
