@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "weeks/week05-1.html",
+    "href": "weeks/week05-1.html",
+    "title": "Verbs part II: Summarize and Group",
+    "section": "",
+    "text": "Sentences chosen from replication project proposals\nQuestions about group by and summarize (I expect many)\nGroup by / summarize lab"
+  },
+  {
+    "objectID": "weeks/week05-1.html#agenda",
+    "href": "weeks/week05-1.html#agenda",
+    "title": "Verbs part II: Summarize and Group",
+    "section": "",
+    "text": "Sentences chosen from replication project proposals\nQuestions about group by and summarize (I expect many)\nGroup by / summarize lab"
+  },
+  {
+    "objectID": "weeks/week05-1.html#upcoming-deadlines",
+    "href": "weeks/week05-1.html#upcoming-deadlines",
+    "title": "Verbs part II: Summarize and Group",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\nFeb. 18 Replication project draft"
+  },
+  {
+    "objectID": "weeks/week05-1.html#preparation",
+    "href": "weeks/week05-1.html#preparation",
+    "title": "Verbs part II: Summarize and Group",
+    "section": "Preparation",
+    "text": "Preparation\nThere isn’t a lot of prep to do this week, so please spend some time trying to internalize this chapter. It’s a little hard to digest. Please do this preparation BEFORE you do your story idea homework.\n\nGrouping and aggregation"
+  },
+  {
     "objectID": "weeks/week04-1.html",
     "href": "weeks/week04-1.html",
     "title": "Filter and sort for stories",
@@ -25,7 +53,56 @@
     "href": "weeks/week04-1.html#preparation",
     "title": "Filter and sort for stories",
     "section": "Preparation",
-    "text": "Preparation\nThis weekend’s workload is a little heavier than usual. Please allow time for it, and do the reading / tutorials in the order given here.\n\nRead:\n\nIntroduction to Verbs in Depth;\nChapter 12, Tidy Data; and\nChapter 13, Sorting and Filtering to find stories\n\nReview the documentation of our example PPP data and review the following stories. You don’t have to study them, but be sure to look at them in enough detail to start thinking about the different approaches the reporters took to the same dataset. They also have, as part of the stories, background on the program that might be useful to you.\n\n“Hundreds of PPP Loans Went to Fake Farms in Absurd Places”, Derek Willis and Lydia DePillis, ProPublica, May 18, 2021\n“Six Stories From a Downtown District Show Pandemic’s Uneven Toll”, Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec. 31, 2020. (Read this on campus if you haven’t signed up for the free WSJ subscription through the library.)\n“Banking on Inequity” , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021.\n\nRead Chapter 14, Select, arrange and filter\nComplete the prelab on select, arrange and filter (In Canvas)\n\nAs always, come prepared to discuss questions, observations, and areas of confusion."
+    "text": "Preparation\n\nRead:\n\nIntroduction to Verbs in Depth;\nChapter 12, Tidy Data; and\nChapter 13, Sorting and Filtering to find stories\n\nReview the documentation of our example PPP data and review the following stories. You don’t have to study them, but be sure to look at them in enough detail to start thinking about the different approaches the reporters took to the same dataset. They also have, as part of the stories, background on the program that might be useful to you.\n\n“Hundreds of PPP Loans Went to Fake Farms in Absurd Places”, Derek Willis and Lydia DePillis, ProPublica, May 18, 2021\n“Six Stories From a Downtown District Show Pandemic’s Uneven Toll”, Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec. 31, 2020. (Read this on campus if you haven’t signed up for the free WSJ subscription through the library.)\n“Banking on Inequity” , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021.\n\nRead Chapter 14, Select, arrange and filter\nComplete the prelab on select, arrange and filter (In Canvas)\n\nAs always, come prepared to discuss questions, observations, and areas of confusion."
+  },
+  {
+    "objectID": "weeks/week03-1.html",
+    "href": "weeks/week03-1.html",
+    "title": "First steps with data",
+    "section": "",
+    "text": "You might do the data dance when your FOIA is returned or you find a great dataset online. But you’ve only overcome the first challenge. The next one is to understand what the data represents – what noun each row represents, and what characteristic, or attribute, each column will show. Then you have to actually get it into R or any other program you want to use without corrupting it.\n\nUnderstanding data before you start (lab)\nReviewing data import"
+  },
+  {
+    "objectID": "weeks/week03-1.html#agenda",
+    "href": "weeks/week03-1.html#agenda",
+    "title": "First steps with data",
+    "section": "",
+    "text": "You might do the data dance when your FOIA is returned or you find a great dataset online. But you’ve only overcome the first challenge. The next one is to understand what the data represents – what noun each row represents, and what characteristic, or attribute, each column will show. Then you have to actually get it into R or any other program you want to use without corrupting it.\n\nUnderstanding data before you start (lab)\nReviewing data import"
+  },
+  {
+    "objectID": "weeks/week03-1.html#upcoming-deadlines",
+    "href": "weeks/week03-1.html#upcoming-deadlines",
+    "title": "First steps with data",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\n\nToday 10am: Data import prelab\nWednesday: Hot 100 walkthrough prelab and lab\nMon Jan 29:\n\nWhat would you do? (25 pts)\nFilter and sort prelab\n\nWed Jan 31:\n\nMutate prelab\nFilter, sort & mutate lab\n\n\n\n\n\n\n\n\nNote\n\n\n\nAfter this week, I won’t note the labs and prelabs in the upcoming deadlines. Assume you’ll have one every day."
+  },
+  {
+    "objectID": "weeks/week03-1.html#preparation",
+    "href": "weeks/week03-1.html#preparation",
+    "title": "First steps with data",
+    "section": "Preparation:",
+    "text": "Preparation:\nYour prepration may take a little longer this weekend – don’t leave it until the last minute.\n\n(Please do these in the order listed)\n\n\nDefining data We’ll come back to this later in the semester after you have some practice looking at data, but it’s useful to get familiar with the ideas now. Don’t do the further reading or exercises unless you really want to. Instead, try to internalize the concepts. They are fundamental to your ability to work with data.\nGetting and Saving Data and prelab(TK). Be sure to focus on the part about data and file types – they’re important. Submit your prelab to Canvas.\n“Take an Interviewing Approach to Find Stories in Data”, by Derek Willis, Mediashift, July 2014.\n“Basic steps in working with data”, the Data Journalism Handbook, Steve Doig, ASU Prof.\n\nCome to class prepared to discuss a passage from one of the following pieces that caught your eye. Remember to analyze them as a reporter, not a casual media consumer. Think about why I might have chosen these three pieces.\nMost of these relate to the pandemic and may feel dated. Try to digest them as examples of what data means, not the specifics of the stories. They may help you understand how to look at data dictionaries and the importance of granular data.\n\nListen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily’s “Counting the Infected” (gift link), The Daily, July 8, 2020.\n(His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)\n\n\n\n\n\n\n“‘Very Harmful’ lack of data blunts US response to outbreaks - gift link”, Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists.\n“Thousands allowed to bypass environmental rules in pandemic”, Associated Press, August 2020. This is a great example of looking beyond the news in front of you to collect documents that show a pattern. It shows what can be done in just a couple of months by collecting 50 states’ worth of documents, once you know they should exist.\nWe measured pop music’s falsetto obsession, Vox, August 2019. This one reminds us that data is everywhere if we choose to look at it that way:"
+  },
+  {
+    "objectID": "weeks/week03-1.html#class-lab-details",
+    "href": "weeks/week03-1.html#class-lab-details",
+    "title": "First steps with data",
+    "section": "Class lab details",
+    "text": "Class lab details\nWe will look at the promise and the limitations of working with the Phoenix Open Government’s version of the Police 911 calls for service.\nReview the data elements available in Phoenix by expanding the data dictionary below the preview table.\nCompare it to a more complete dataset made public by the New Orleans Police Department (be sure to expand the “Columns in this Dataset” area)\nIn groups, try to evaluate your assigned question without referring to anything other than the documentation on these datasets:\n\nWhat government agency did it originally come from, and what time period does it cover? What questions do you have about the columns’ meanings that you would have to ask the agency or experts? (Group 1)\nCome up with three interesting questions that might be answered by this dataset – questions that could lead to a news story.(Group 2)\nCome up with three interesting questions that you would like to write about but can’t be answered in the data’s current form. (Group 3)\nIf you were to request this dataset from the original source, what other pieces of information would you ask that the government include in the data? Try to imagine what else would be in the data and should be a public record, and ignore things that wouldn’t ever be in it such as information from a court file related to this call.1(Group 4)\n\nRemember that the real world process and the definitions of the data matter.\nFor example, a 911 call doesn’t necessarily mean a crime was committed - it means that the police were dispatched to a specific location. Also, 911 dispatchers don’t ask for someone’s race, ethnicity or DOB when they call – just what is happening and where they are. They don’t even require your name. And there are crimes committed that never have a 911 call – if a police officer sees someone selling drugs, there is no 911 call , just an arrest."
+  },
+  {
+    "objectID": "weeks/week03-1.html#going-further",
+    "href": "weeks/week03-1.html#going-further",
+    "title": "First steps with data",
+    "section": "Going further",
+    "text": "Going further\nHere are some more examples of datasets coming from unexpected places: historical site lines, investigative files, and Hamilton.\n\nThis documentary and report by the independent firm Forensic Architecture in partnership with RISE St. James on environmental racism in “death alley”, Louisiana, is quite long. But it’s a great example of the emerging form of open source investigations that use imaging, historical site lines and similar non-traditional data in service of a larger piece, often conducted by human rights investigators rather than journalists. (I can’t get the direct link to work. If it won’t work for you, choose Investigations, and look for those in the United States. At this writing there were only two. )\n“Locked up and left to die” , by Michael Barajas and Sophie Novack, Texas Observer, Nov. 1, 2021, is based largely on an ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths.\nAnd a shoutout to this incredible piece by The Wall Street Journal, tracing the roots of the musical and lyrical signatures in Hamilton"
+  },
+  {
+    "objectID": "weeks/week03-1.html#footnotes",
+    "href": "weeks/week03-1.html#footnotes",
+    "title": "First steps with data",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHint: Look at the New Orleans version to see what else might be held in 911 systems in general.↩︎"
   },
   {
     "objectID": "weeks/week01-2.html",
@@ -53,7 +130,7 @@
     "href": "weeks/week01-2.html#preparation",
     "title": "Jump start",
     "section": "Preparation",
-    "text": "Preparation\n\nLearn a new way to read\nToday’s lab is geared at learning how to read and view journalism as a writer and producer, by closely examining HOW a story was conceived and executed rather than whether you liked it or thought it was “good”. This reading gets you ready for the lab:\n\nTextbook:\n\nIntroduction to Quick Start\nLearn a New Way to Read\n\n\n\nStory\n\nRural Aid goes to Urban Areas This is a pdf of a very old story from the Washington Post. I use it not because it’s great, but because it is reasonably short and remains one of the most straightforward examples of investigative data reporting that I know of. This is a classic example of using administrative records to find anecdotes and examples for stories, then aggregating them into broader statistical findings. Pay attention to the elements that make this story work – the data sources, examples used, use of experts to define classifications, and the public records mentioned. Make sure to read the methodology notes on the second page.\n\n\n\n\nTry to install R and RStudio\n\nComplete the installation tutorial in the textbook , including the videos linked at the top. You don’t have to answer the questions after the videos.\n\n\nIf you plan to use your own laptop or desktop:\n\nGet as far as you can with the installation\nTry starting up RStudio (not R).\nNote any error messages or other troubles you have so we can fix them in class. Don’t try to Google the resolution on this – the answers might create more problems than they fix. I’ll help you at the end of class.\n\n\n\nIf you are going to use something else:\n\nLabs in school: Make sure you know where you will use the software and have tried starting it. Please let me know if the lab is not set up as you might expect.\nPosit Cloud : Sign up for the service and make sure you know how to access it in class. It’s not the great alternative that it seems. In particular, students have had it eat their work in the past and submitting your homework will be more difficult. You’ll probably have to start paying before too long. But it is OK for the first few days as we get you set up for the future.\n\n\n\n\nSet up your course folders / hard drive\nNo matter how far you got in the installation, be sure to set up your course folder as shown in the video\nDO NOT expect to use Google drive to store your work – it won’t work. We’ve tried. If you use Dropbox, you can set up your course folder within Dropbox instead of within your Documents folder.^ [There are gazillions of tiny files that change every time you make a change in an R project, so you may want to pause syncing while you’re working.]\n\nOn your own computer\nThis video is about 5 minutes, and is shown using a Mac. If you’re on Windows, the idea is the same – create a folder within your Documents folder. The RStudio parts are the same regardless of your operating system.\n\n\n\n\n\n\n\nWarning\n\n\n\nBe sure to open RStudio, not R:\n\n\n\nYour maij-working folder should be somewhere on your computer or portable drive that you can find it every day. My suggestion is within the “Documents” folder, but you may need to adjust that if you use Dropbox or are using a thumb drive."
+    "text": "Preparation\n\nLearn a new way to read\nToday’s lab is geared at learning how to read and view journalism as a writer and producer, by closely examining HOW a story was conceived and executed rather than whether you liked it or thought it was “good”. This reading gets you ready for the lab:\n\nTextbook:\n\nIntroduction to Quick Start\nLearn a New Way to Read\n\n\n\nStory\n\nRural Aid goes to Urban Areas This is a pdf of a very old story from the Washington Post. I use it not because it’s great, but because it is reasonably short and remains one of the most straightforward examples of investigative data reporting that I know of. This is a classic example of using administrative records to find anecdotes and examples for stories, then aggregating them into broader statistical findings. Pay attention to the elements that make this story work – the data sources, examples used, use of experts to define classifications, and the public records mentioned. Make sure to read the methodology notes on the second page.\n\n\n\n\nTry to install R and RStudio\n\nComplete the installation tutorial in the textbook , including the videos linked at the top. You don’t have to answer the questions after the videos.\n\n\nIf you plan to use your own laptop or desktop:\n\nGet as far as you can with the installation\nTry starting up RStudio (not R).\nNote any error messages or other troubles you have so we can fix them in class. Don’t try to Google the resolution on this – the answers might create more problems than they fix. I’ll help you at the end of class.\n\n\n\nIf you are going to use something else:\n\nLabs in school: Make sure you know where you will use the software and have tried starting it. Please let me know if the lab is not set up as you might expect.\nPosit Cloud : Sign up for the service and make sure you know how to access it in class. It’s not the great alternative that it seems. In particular, students have had it eat their work in the past and submitting your homework will be more difficult. You’ll probably have to start paying before too long. But it is OK for the first few days as we get you set up for the future.\n\n\n\n\nSet up your course folders / hard drive\nNo matter how far you got in the installation, be sure to set up your course folder as shown in the video\nDO NOT expect to use Google drive to store your work – it won’t work. We’ve tried.\n\nOn your own computer\nThis video is about 5 minutes, and is shown using a Mac. If you’re on Windows, the idea is the same – create a folder within your Documents folder. The RStudio parts are the same regardless of your operating system.\n\n\n\n\n\n\n\nWarning\n\n\n\nBe sure to open RStudio, not R:\n\n\n\nYour maij-working folder should be somewhere on your computer or portable drive that you can find it every day. My suggestion is within the “Documents” folder, but you may need to adjust that if you use Dropbox or are using a thumb drive."
   },
   {
     "objectID": "weeks/week01-2.html#follow-up-materials",
@@ -67,7 +144,7 @@
     "href": "weeks.html",
     "title": "Weekly details",
     "section": "",
-    "text": "Introductions\n\n\n\n\n\nAgenda and preparation for the first day\n\n\n\n\n\n\nJan 8, 2024\n\n\n\n\n\n\n\n\nJump start\n\n\n\n\n\nConsuming news as a reporter. Plus an install party, and a gentle introduction to programming!\n\n\n\n\n\n\nJan 10, 2024\n\n\n\n\n\n\n\n\nReplication and your first R program\n\n\n\n\n\nUsing Quarto to combine your programming and your documenation in one place.\n\n\n\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\nFirst steps with data\n\n\n\n\n\nFirst steps in working with data in R (or really anything)\n\n\n\n\n\n\nJan 22, 2024\n\n\n\n\n\n\n\n\nA quick tour of the verbs\n\n\n\n\n\nYou can do an awful lot in R just by mastering seven verbs. We’ll go through six of them in a quick tour.\n\n\n\n\n\n\nJan 24, 2024\n\n\n\n\n\n\n\n\nFilter and sort for stories\n\n\n\n\n\nFiltering and sorting in R to find needles and stories\n\n\n\n\n\n\nJan 29, 2024\n\n\n\n\n\n\n\n\nFrom old to new with mutate\n\n\n\n\n\nData rarely comes the way you need it. Use the mutate verb to create new columns.\n\n\n\n\n\n\nJan 31, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Introductions\n\n\n\n\n\nAgenda and preparation for the first day\n\n\n\n\n\n\nJan 8, 2024\n\n\n\n\n\n\n\n\nJump start\n\n\n\n\n\nConsuming news as a reporter. Plus an install party, and a gentle introduction to programming!\n\n\n\n\n\n\nJan 10, 2024\n\n\n\n\n\n\n\n\nReplication and your first R program\n\n\n\n\n\nUsing Quarto to combine your programming and your documenation in one place.\n\n\n\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\nFirst steps with data\n\n\n\n\n\nFirst steps in working with data in R\n\n\n\n\n\n\nJan 22, 2024\n\n\n\n\n\n\n\n\nA quick tour of the verbs\n\n\n\n\n\nYou can do an awful lot in R just by mastering seven verbs. We’ll go through six of them in a quick tour.\n\n\n\n\n\n\nJan 24, 2024\n\n\n\n\n\n\n\n\nFilter and sort for stories\n\n\n\n\n\nFiltering and sorting in R to find needles and stories\n\n\n\n\n\n\nJan 29, 2024\n\n\n\n\n\n\n\n\nFrom old to new with mutate\n\n\n\n\n\nData rarely comes the way you need it. Use the mutate verb to create new columns.\n\n\n\n\n\n\nJan 31, 2024\n\n\n\n\n\n\n\n\nVerbs part II: Summarize and Group\n\n\n\n\n\nAggergating data by grouping and summarizing\n\n\n\n\n\n\nFeb 12, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "syllabus.html",
@@ -126,11 +203,25 @@
     "text": "Footnotes\n\n\nMacs made in the past decade will generally work↩︎\nIn the St. Pete Times story, the Labrador was nowhere in the top 10 list, and at the time small dogs were pretty rare.↩︎\nIn principle, I object to these “play with a dataset” exercises. As you’ll see, understanding the data takes time and research, and in these cases the experts just assume they know. But they’re useful for honing your skills.↩︎"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "posts/welcome.html",
+    "href": "posts/welcome.html",
+    "title": "Class Zero",
     "section": "",
-    "text": "There are two major projects in this class:\n\nStory replication project, in which you reverse engineer parts of stories using the same data used by the reporters.\nStory memo project in which you choose a dataset to analyze, research enough to know what might be newsworthy out of it, and pitch a story based on your analysis.\n\nBoth of these projects are done in pieces so I can give you feedback and advice as you move along. Paying attention to editorial direction is a skill that you’ll need as you move ahead in your journalism career. Editors are not likely to give you much leeway if they suspect you won’t pay attention to their advice and direction.\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "via Unsplash\n\n\n\nMost of the links you need for class will be on both this site AND Canvas, but I’ll put ASU-only links in Canvas without linking here. If there’s ever a conflict, Canvas wins.\nYou have a few things to do to get ready for the first class.\n\nComplete the Skills and Interests survey (link is in Canvas assignment so it’s not public)\nComplete the pre-class Slack assignment. This will be our primary method of communicating, so it’s crucial that this is set up properly for you to get notifications and be able to ask questions.\nReview the Syllabus\n\nComplete the “Preparation” for the first day\n\n\n\n\n\n\n\nIf you plan to use your laptop\n\n\n\nBy Wednesday, you need to make sure your operating system (Mac or Windows) is reasonably up to date. For Macs, you must have Mac Big Sur (v11, released in 2020) or newer installed; for Windows, you must have Windows 10 or 11. Please let me know if you need help with this. It doesn’t matter if it’s the latest version of the operating system.\nTablets and Chromebooks are not adquate replacements for a computer in this class, but you don’t need your own computer to take this class. All of the software you need is installed in our classroom, the lab in Cronkite 320, and the labs at ASU, including UCENT."
+  },
+  {
+    "objectID": "class.html",
+    "href": "class.html",
+    "title": "In-class tutorials",
+    "section": "",
+    "text": "This page contains some details on work we’ll do in class that don’t fit neatly anywhere else. Everything here will be linked off of the week if needed.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nDescription\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is the poorly named website for my data journalism course at Arizona State University’s Cronkite School. It focuses on documents and data reporting in investigations.\nI began teaching in Arizona in 2018 as the Knight Chair in Journalism. This is my second tour as a Knight chair – the first was at Duke University’s Sanford School of Public Policy, from 2009 to 2012.\nI’ve been a reporter and editor for most of my career, starting out as a beat reporter in Florida covering health care, workplace issues and the local economy. That beat led me to hang out a lot in federal bankruptcy and civil courthouses, where many juicy stories seemed to land. I began specializing in data reporting when I found that officials didn’t examine their own data and often had no idea what was in their files.\nFrom there, I went to The Washington Post, where I received most major national investigative journalism awards. They include the Pulitzer Prize in Investigative Reporting, the Robert F. Kennedy award for public service, the Investigative Reporters and Editors medal, and the Goldsmith Prize for Investigative Reporting. Before I joined Cronkite I led the data reporting team at The New York Times that focused on investigative and enterprise stories. My team’s members were finalists for the Pulitzer Prize twice in my five years there, and contributed to another Pulitzer.\nI was an elected board member for the 5,000-member Investigative Reporters and Editors for eight years, two of them as president. Currently I serve on the boards of the Arizona Center for Investigative Reporting and the [Investigative Post](https://investigativepost.org] in Buffalo. Some of my favorite journalism volunteer work involves helping select newsrooms and reporters for Report for America and working as a mentor for IRE journalist of color and the Fund for Investigative Journalism grantees. I sometimes work on contract with news organizations for reporting, editing, and mentoring – I consulted on a recent project that was just accepted for the Sundance Film Festival!\n— Sarah Cohen    December 2022   sarah.h.cohen@asu.edu"
   },
   {
     "objectID": "index.html",
@@ -147,39 +238,18 @@
     "text": "Updates\nI’ll put updates here when needed, but all important updates will come via Slack in the #dj-announcements channel. Be sure to set it up for alerts."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is the poorly named website for my data journalism course at Arizona State University’s Cronkite School. It focuses on documents and data reporting in investigations.\nI began teaching in Arizona in 2018 as the Knight Chair in Journalism. This is my second tour as a Knight chair – the first was at Duke University’s Sanford School of Public Policy, from 2009 to 2012.\nI’ve been a reporter and editor for most of my career, starting out as a beat reporter in Florida covering health care, workplace issues and the local economy. That beat led me to hang out a lot in federal bankruptcy and civil courthouses, where many juicy stories seemed to land. I began specializing in data reporting when I found that officials didn’t examine their own data and often had no idea what was in their files.\nFrom there, I went to The Washington Post, where I received most major national investigative journalism awards. They include the Pulitzer Prize in Investigative Reporting, the Robert F. Kennedy award for public service, the Investigative Reporters and Editors medal, and the Goldsmith Prize for Investigative Reporting. Before I joined Cronkite I led the data reporting team at The New York Times that focused on investigative and enterprise stories. My team’s members were finalists for the Pulitzer Prize twice in my five years there, and contributed to another Pulitzer.\nI was an elected board member for the 5,000-member Investigative Reporters and Editors for eight years, two of them as president. Currently I serve on the boards of the Arizona Center for Investigative Reporting and the [Investigative Post](https://investigativepost.org] in Buffalo. Some of my favorite journalism volunteer work involves helping select newsrooms and reporters for Report for America and working as a mentor for IRE journalist of color and the Fund for Investigative Journalism grantees. I sometimes work on contract with news organizations for reporting, editing, and mentoring – I consulted on a recent project that was just accepted for the Sundance Film Festival!\n— Sarah Cohen    December 2022   sarah.h.cohen@asu.edu"
-  },
-  {
-    "objectID": "class.html",
-    "href": "class.html",
-    "title": "In-class tutorials",
-    "section": "",
-    "text": "This page contains some details on work we’ll do in class that don’t fit neatly anywhere else. Everything here will be linked off of the week if needed.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nDescription\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/welcome.html",
-    "href": "posts/welcome.html",
-    "title": "Class Zero",
-    "section": "",
-    "text": "via Unsplash\n\n\n\nMost of the links you need for class will be on both this site AND Canvas, but I’ll put ASU-only links in Canvas without linking here. If there’s ever a conflict, Canvas wins.\nYou have a few things to do to get ready for the first class.\n\nComplete the Skills and Interests survey (link is in Canvas assignment so it’s not public)\nComplete the pre-class Slack assignment. This will be our primary method of communicating, so it’s crucial that this is set up properly for you to get notifications and be able to ask questions.\nReview the Syllabus\n\nComplete the “Preparation” for the first day\n\n\n\n\n\n\n\nIf you plan to use your laptop\n\n\n\nBy Wednesday, you need to make sure your operating system (Mac or Windows) is reasonably up to date. For Macs, you must have Mac Big Sur (v11, released in 2020) or newer installed; for Windows, you must have Windows 10 or 11. Please let me know if you need help with this. It doesn’t matter if it’s the latest version of the operating system.\nTablets and Chromebooks are not adquate replacements for a computer in this class, but you don’t need your own computer to take this class. All of the software you need is installed in our classroom, the lab in Cronkite 320, and the labs at ASU, including UCENT."
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Preliminary schedule at a glance",
     "section": "",
-    "text": "This is a preliminary schedule that will probably change as we move along. You may want to spend more or less time on a topic, or we might have some guest speakers. I’ll try to keep this updated as we go along.\nThe due dates listed here are only for scheduled assigments. Expect to have a lab and / or a prelab due nearly every day.\n\n\n\nClass\nDate\nTopics\nDeadlines\n\n\n\n\n01-M\nJan. 8\nThe journalistic method\nSu 1/7: Pre-class survey & Slack setup\n\n\n01-W\nJan. 10\nReplication in data journalism ; install party; an introduction to programming\nFri: Cronkite academic integrity pledge ; R installation setup\n\n\n02-W\nJan 17\nYour first program\nW: What would you do? (25)\n\n\n03-M\nJan 22\nFrom documentation to data: First steps\n\n\n\n03-W\nJan 24\nA tour of the tidyverse verbs\n\n\n\n04-M\nJan 29\nIntro to our example data; filter and arrange for stories\n\n\n\n04-W\nJan 31\nMutate to create new from old: Categories from numbers, dates\nW: What would you do? (25)\n\n\n05-M\nFeb 5\nGroup by and summarize\nSu 2/4: Replication project sentences (50)\n\n\n05-W\nFeb 7\nMatchmaking with joins\n\n\n\n06-M\nFeb 12\nRegular expressions & advanced filter and mutate\nSu 2/11: Campaign finance ideas (50)\n\n\n06-W\nFeb 14\nQ&A - reviewing what we’ve done so far\n\n\n\n07-M\nFeb 19\nPrinciples of data design; dealing with PDFs\nSu 2/18: Replication project update (75)\n\n\n07-W\nFeb 21\nLab for replication project\n\n\n\n08-M\nFeb 26\nEthics and cognitive bias in data journalism\nSu 2/25: Replication project final (75)\n\n\n08-W\nFeb 28\nNumbers in the newsroom; The life of a dataset lab\nFri 3/1: The life of a dataset (50)\n\n\n\nSpring break\n\n\n\n\n09-M\nMarch 11\nIntro to visualization\nWe 3/13: Memo proposal (25)\n\n\n09-W\nMarch 13\nIntro to GIS and maps\n\n\n\n10-M\nMarch 18\nContinue with GIS and visualization\nSu 3/17: What would you do? (25)\n\n\n10-W\nMarch 20\nTablemaking and presenting your work (back to Quarto)\nWe 3/20 What would you do? (25)\n\n\n11-M\nMarch 25\nIntro to scraping\nSu 3/24: First memo update (50)\n\n\n11-W\nMarch 27\nScraping continued\n\n\n\n12-M\nApril 1\nReview lab – come with questions\nSu 3/31: Second memo update (100)\n\n\n12-W\nApril 3\nStory memo lab\nWe 4/3: What would you do? (25)\n\n\n13-M\nApril 8\nStory memo discussion; Build your own database warmup\nSu 4/7: Final memo (100)\n\n\n13-W\nApril 10\nDealing with PDFs\n\n\n\n14-M\nApril 15\nAdvanced spreadsheets con’t\nSu 4/14 Build your own (50)\n\n\n14-W\nApril 17\nCleaning data in OpenRefine\n\n\n\n15-M\nApril 22\nCreating a Github site for job-hunting\n\n\n\n15-W\nApril 24\nPaying it forward"
+    "text": "This is a preliminary schedule that will probably change as we move along. You may want to spend more or less time on a topic, or we might have some guest speakers. I’ll try to keep this updated as we go along.\nThe due dates listed here are only for scheduled assigments. Expect to have a lab and / or a prelab due nearly every day.\n\n\n\nClass\nDate\nTopics\nDeadlines\n\n\n\n\n01-M\nJan. 8\nThe journalistic method\nSu 1/7: Pre-class survey & Slack setup\n\n\n01-W\nJan. 10\nReplication in data journalism ; install party; an introduction to programming\nFri: Cronkite academic integrity pledge ; R installation setup\n\n\n02-W\nJan 17\nYour first program\nW: What would you do? (25)\n\n\n03-M\nJan 22\nFrom documentation to data: First steps\n\n\n\n03-W\nJan 24\nA tour of the tidyverse verbs\n\n\n\n04-M\nJan 29\nIntro to our example data; filter and arrange for stories\n\n\n\n04-W\nJan 31\nMutate to create new from old: Categories from numbers, dates\nW: What would you do? (25)\n\n\n05-M\nFeb 5\nGroup by and summarize\nSu 2/4: Replication project sentences (50)\n\n\n05-W\nFeb 7\nMatchmaking with joins\n\n\n\n06-M\nFeb 12\nRegular expressions & advanced filter and mutate\nSu 2/11: Story idea homework (50)\n\n\n06-W\nFeb 14\nQ&A - reviewing what we’ve done so far\n\n\n\n07-M\nFeb 19\nPrinciples of data design; dealing with PDFs\nSu 2/18: Replication project update (75)\n\n\n07-W\nFeb 21\nLab for replication project\n\n\n\n08-M\nFeb 26\nEthics and cognitive bias in data journalism\nSu 2/25: Replication project final (75)\n\n\n08-W\nFeb 28\nNumbers in the newsroom; The life of a dataset lab\nFri 3/1: The life of a dataset (50)\n\n\n\nSpring break\n\n\n\n\n09-M\nMarch 11\nIntro to visualization\nWe 3/13: Memo proposal (25)\n\n\n09-W\nMarch 13\nIntro to GIS and maps\n\n\n\n10-M\nMarch 18\nContinue with GIS and visualization\nSu 3/17: What would you do? (25)\n\n\n10-W\nMarch 20\nTablemaking and presenting your work (back to Quarto)\nWe 3/20 What would you do? (25)\n\n\n11-M\nMarch 25\nIntro to scraping\nSu 3/24: First memo update (50)\n\n\n11-W\nMarch 27\nScraping continued\n\n\n\n12-M\nApril 1\nReview lab – come with questions\nSu 3/31: Second memo update (100)\n\n\n12-W\nApril 3\nStory memo lab\nWe 4/3: What would you do? (25)\n\n\n13-M\nApril 8\nStory memo discussion; Build your own database warmup\nSu 4/7: Final memo (100)\n\n\n13-W\nApril 10\nDealing with PDFs\n\n\n\n14-M\nApril 15\nAdvanced spreadsheets con’t\nSu 4/14 Build your own (50)\n\n\n14-W\nApril 17\nCleaning data in OpenRefine\n\n\n\n15-M\nApril 22\nCreating a Github site for job-hunting\n\n\n\n15-W\nApril 24\nPaying it forward"
   },
   {
     "objectID": "schedule.html#schedule-and-assignment-logistics",
     "href": "schedule.html#schedule-and-assignment-logistics",
     "title": "Preliminary schedule at a glance",
     "section": "",
-    "text": "This is a preliminary schedule that will probably change as we move along. You may want to spend more or less time on a topic, or we might have some guest speakers. I’ll try to keep this updated as we go along.\nThe due dates listed here are only for scheduled assigments. Expect to have a lab and / or a prelab due nearly every day.\n\n\n\nClass\nDate\nTopics\nDeadlines\n\n\n\n\n01-M\nJan. 8\nThe journalistic method\nSu 1/7: Pre-class survey & Slack setup\n\n\n01-W\nJan. 10\nReplication in data journalism ; install party; an introduction to programming\nFri: Cronkite academic integrity pledge ; R installation setup\n\n\n02-W\nJan 17\nYour first program\nW: What would you do? (25)\n\n\n03-M\nJan 22\nFrom documentation to data: First steps\n\n\n\n03-W\nJan 24\nA tour of the tidyverse verbs\n\n\n\n04-M\nJan 29\nIntro to our example data; filter and arrange for stories\n\n\n\n04-W\nJan 31\nMutate to create new from old: Categories from numbers, dates\nW: What would you do? (25)\n\n\n05-M\nFeb 5\nGroup by and summarize\nSu 2/4: Replication project sentences (50)\n\n\n05-W\nFeb 7\nMatchmaking with joins\n\n\n\n06-M\nFeb 12\nRegular expressions & advanced filter and mutate\nSu 2/11: Campaign finance ideas (50)\n\n\n06-W\nFeb 14\nQ&A - reviewing what we’ve done so far\n\n\n\n07-M\nFeb 19\nPrinciples of data design; dealing with PDFs\nSu 2/18: Replication project update (75)\n\n\n07-W\nFeb 21\nLab for replication project\n\n\n\n08-M\nFeb 26\nEthics and cognitive bias in data journalism\nSu 2/25: Replication project final (75)\n\n\n08-W\nFeb 28\nNumbers in the newsroom; The life of a dataset lab\nFri 3/1: The life of a dataset (50)\n\n\n\nSpring break\n\n\n\n\n09-M\nMarch 11\nIntro to visualization\nWe 3/13: Memo proposal (25)\n\n\n09-W\nMarch 13\nIntro to GIS and maps\n\n\n\n10-M\nMarch 18\nContinue with GIS and visualization\nSu 3/17: What would you do? (25)\n\n\n10-W\nMarch 20\nTablemaking and presenting your work (back to Quarto)\nWe 3/20 What would you do? (25)\n\n\n11-M\nMarch 25\nIntro to scraping\nSu 3/24: First memo update (50)\n\n\n11-W\nMarch 27\nScraping continued\n\n\n\n12-M\nApril 1\nReview lab – come with questions\nSu 3/31: Second memo update (100)\n\n\n12-W\nApril 3\nStory memo lab\nWe 4/3: What would you do? (25)\n\n\n13-M\nApril 8\nStory memo discussion; Build your own database warmup\nSu 4/7: Final memo (100)\n\n\n13-W\nApril 10\nDealing with PDFs\n\n\n\n14-M\nApril 15\nAdvanced spreadsheets con’t\nSu 4/14 Build your own (50)\n\n\n14-W\nApril 17\nCleaning data in OpenRefine\n\n\n\n15-M\nApril 22\nCreating a Github site for job-hunting\n\n\n\n15-W\nApril 24\nPaying it forward"
+    "text": "This is a preliminary schedule that will probably change as we move along. You may want to spend more or less time on a topic, or we might have some guest speakers. I’ll try to keep this updated as we go along.\nThe due dates listed here are only for scheduled assigments. Expect to have a lab and / or a prelab due nearly every day.\n\n\n\nClass\nDate\nTopics\nDeadlines\n\n\n\n\n01-M\nJan. 8\nThe journalistic method\nSu 1/7: Pre-class survey & Slack setup\n\n\n01-W\nJan. 10\nReplication in data journalism ; install party; an introduction to programming\nFri: Cronkite academic integrity pledge ; R installation setup\n\n\n02-W\nJan 17\nYour first program\nW: What would you do? (25)\n\n\n03-M\nJan 22\nFrom documentation to data: First steps\n\n\n\n03-W\nJan 24\nA tour of the tidyverse verbs\n\n\n\n04-M\nJan 29\nIntro to our example data; filter and arrange for stories\n\n\n\n04-W\nJan 31\nMutate to create new from old: Categories from numbers, dates\nW: What would you do? (25)\n\n\n05-M\nFeb 5\nGroup by and summarize\nSu 2/4: Replication project sentences (50)\n\n\n05-W\nFeb 7\nMatchmaking with joins\n\n\n\n06-M\nFeb 12\nRegular expressions & advanced filter and mutate\nSu 2/11: Story idea homework (50)\n\n\n06-W\nFeb 14\nQ&A - reviewing what we’ve done so far\n\n\n\n07-M\nFeb 19\nPrinciples of data design; dealing with PDFs\nSu 2/18: Replication project update (75)\n\n\n07-W\nFeb 21\nLab for replication project\n\n\n\n08-M\nFeb 26\nEthics and cognitive bias in data journalism\nSu 2/25: Replication project final (75)\n\n\n08-W\nFeb 28\nNumbers in the newsroom; The life of a dataset lab\nFri 3/1: The life of a dataset (50)\n\n\n\nSpring break\n\n\n\n\n09-M\nMarch 11\nIntro to visualization\nWe 3/13: Memo proposal (25)\n\n\n09-W\nMarch 13\nIntro to GIS and maps\n\n\n\n10-M\nMarch 18\nContinue with GIS and visualization\nSu 3/17: What would you do? (25)\n\n\n10-W\nMarch 20\nTablemaking and presenting your work (back to Quarto)\nWe 3/20 What would you do? (25)\n\n\n11-M\nMarch 25\nIntro to scraping\nSu 3/24: First memo update (50)\n\n\n11-W\nMarch 27\nScraping continued\n\n\n\n12-M\nApril 1\nReview lab – come with questions\nSu 3/31: Second memo update (100)\n\n\n12-W\nApril 3\nStory memo lab\nWe 4/3: What would you do? (25)\n\n\n13-M\nApril 8\nStory memo discussion; Build your own database warmup\nSu 4/7: Final memo (100)\n\n\n13-W\nApril 10\nDealing with PDFs\n\n\n\n14-M\nApril 15\nAdvanced spreadsheets con’t\nSu 4/14 Build your own (50)\n\n\n14-W\nApril 17\nCleaning data in OpenRefine\n\n\n\n15-M\nApril 22\nCreating a Github site for job-hunting\n\n\n\n15-W\nApril 24\nPaying it forward"
   },
   {
     "objectID": "updates.html",
@@ -242,7 +312,7 @@
     "href": "weeks/week02.html#preparation-and-learning-materials",
     "title": "Replication and your first R program",
     "section": "Preparation and learning materials",
-    "text": "Preparation and learning materials\n\nReading\nEstimated time: less than an hour\n\n\n\n\n\n\nTK\n\n\n\nReplication and data documentation from the textbook\n\n\n\n\nGet to know R and RStudio\nEstimated time: 1-2 hours\nThis prep might leave you feeling bewildered. Don’t let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don’t have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You’ll probably get a lot of errors, and that’s fine — they’re not judging you. They’re supposed to be hints, even when they’re red and use words that look like $#u893q#r32.\n\n\n\n\n\n\nTip\n\n\n\nI usually list the readings in a suggested order. They often build on one another.\n\n\n\nFollow along in the textbook chapter, “Getting started with R and RStudio”.1\n\nBe sure to:\n\nInstall the packages at the end of the chapter. Depending on how you installed R and RStudio, this could be slow and appear that it’s stopped working. Just go get some coffee and come back in a little while.\nWatch the Andrew Heiss video shown in the textbook. Ignore how math-centric it is, and just concentrate on his explanation of the screens.\nOptional Try the swirl tutorial mentioned in the textbook.\nOptional Try the “Programming basics” tutorial linked in that chapter. Don’t worry about all of the math in it; you don’t have to go through the part where you answer questions. Instead, just focus on the concepts of the 1-minute videos: functions, arguments, objects and data types. We’ll be going over these ideas in a future class, so don’t feel like you need to do this unless you’re feeling nervous.2"
+    "text": "Preparation and learning materials\n\nReading\nEstimated time: less than an hour\n\nDocumenting your work from the textbook\n\n\n\nGet to know R and RStudio\nThis prep might leave you feeling bewildered. Don’t let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don’t have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You’ll probably get a lot of errors, and that’s fine — they’re not judging you. They’re supposed to be hints, even when they’re red and use words that look like $#u893q#r32.\n\n\n\n\n\n\nNote\n\n\n\nI usually list the readings in a suggested order. They often build on one another.\n\n\n\nFollow along in the textbook chapter, “Getting started with R and RStudio”. This means, “Open RStudio yourself and compare your screens and your commands to the ones in the book.” Don’t just skim this. Take notes and be prepared to go over any points of confusion in class.\n\nBe sure to:\n\nInstall the packages at the end of the chapter. Depending on how you installed R and RStudio, this could be slow and appear that it’s stopped working. Just go get some coffee and come back in a little while.\nWatch the Andrew Heiss video shown in the textbook. Ignore how math-centric it is, and just concentrate on his explanation of the screens.\n\n\nOptional Try the swirl tutorial mentioned in the textbook."
   },
   {
     "objectID": "weeks/week02.html#follow-up-materials",
@@ -252,11 +322,32 @@
     "text": "Follow-up materials\n\nCreating Quarto documents\n22-minute video that goes through what we will go through in class"
   },
   {
-    "objectID": "weeks/week02.html#footnotes",
-    "href": "weeks/week02.html#footnotes",
-    "title": "Replication and your first R program",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis means, “Open RStudio yourself and compare your screens and your commands to the ones in the book.” Don’t just skim this.↩︎\nI tried to make a version of the videos for you and failed miserably.↩︎"
+    "objectID": "weeks/week03-2.html",
+    "href": "weeks/week03-2.html",
+    "title": "A quick tour of the verbs",
+    "section": "",
+    "text": "Finish anything that we couldn’t get to on Monday\nDo the lab on verbs in class"
+  },
+  {
+    "objectID": "weeks/week03-2.html#agenda",
+    "href": "weeks/week03-2.html#agenda",
+    "title": "A quick tour of the verbs",
+    "section": "",
+    "text": "Finish anything that we couldn’t get to on Monday\nDo the lab on verbs in class"
+  },
+  {
+    "objectID": "weeks/week03-2.html#upcoming-deadlines",
+    "href": "weeks/week03-2.html#upcoming-deadlines",
+    "title": "A quick tour of the verbs",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\nPre-labs are due by 10am the day of class unless otherwise noted. Labs are due after our in-class lab unless otherwise noted. You will have a lab, prelab, or both nearly every day so they won’t be listed here anymore.\n\nMonday Jan. 29 : What would you do?"
+  },
+  {
+    "objectID": "weeks/week03-2.html#preparation",
+    "href": "weeks/week03-2.html#preparation",
+    "title": "A quick tour of the verbs",
+    "section": "Preparation:",
+    "text": "Preparation:\n\nA quick tour of verbs. We’ll do the prelab in class, but come to class ready to ask questions about the chapter."
   },
   {
     "objectID": "weeks/week04-2.html",
@@ -285,82 +376,5 @@
     "title": "From old to new with mutate",
     "section": "Preparation",
     "text": "Preparation\n\nRead Chapter 15, Mutate\nComplete the prelab on Mutate\nReview the list of three story examples for the replication project and decide which one you want to choose."
-  },
-  {
-    "objectID": "weeks/week04-2.html#textbook-chapters-well-cover-in-class",
-    "href": "weeks/week04-2.html#textbook-chapters-well-cover-in-class",
-    "title": "From old to new with mutate",
-    "section": "Textbook chapters we’ll cover in class",
-    "text": "Textbook chapters we’ll cover in class"
-  },
-  {
-    "objectID": "weeks/week03-1.html",
-    "href": "weeks/week03-1.html",
-    "title": "First steps with data",
-    "section": "",
-    "text": "You might do the data dance when your FOIA is returned or you find a great dataset online. But you’ve only overcome the first challenge. The next one is to understand what the data represents – what noun each row represents, and what characteristic, or attribute, each column will show. Then you have to actually get it into R or any other program you want to use without corrupting it.\n\nUnderstanding data before you start (lab)\nReviewing data import"
-  },
-  {
-    "objectID": "weeks/week03-1.html#agenda",
-    "href": "weeks/week03-1.html#agenda",
-    "title": "First steps with data",
-    "section": "",
-    "text": "You might do the data dance when your FOIA is returned or you find a great dataset online. But you’ve only overcome the first challenge. The next one is to understand what the data represents – what noun each row represents, and what characteristic, or attribute, each column will show. Then you have to actually get it into R or any other program you want to use without corrupting it.\n\nUnderstanding data before you start (lab)\nReviewing data import"
-  },
-  {
-    "objectID": "weeks/week03-1.html#upcoming-deadlines",
-    "href": "weeks/week03-1.html#upcoming-deadlines",
-    "title": "First steps with data",
-    "section": "Upcoming deadlines",
-    "text": "Upcoming deadlines\n\nToday: Data import prelab (10 pts)\nWednesday: Hot 100 walkthrough (10 pts)\nMon Jan 29:\n\nWhat would you do? (25 pts)\nFilter and sort prelab (10)\n\nWed Jan 31:\n\nMutate prelab (10)\nFilter, sort & mutate lab (25)"
-  },
-  {
-    "objectID": "weeks/week03-1.html#preparation",
-    "href": "weeks/week03-1.html#preparation",
-    "title": "First steps with data",
-    "section": "Preparation:",
-    "text": "Preparation:\nYour prepration may take a little longer this weekend – don’t leave it until the last minute.\n(Please do these in the order listed)\n\nDefining data We’ll come back to this later in the semester after you have some practice looking at data, but it’s useful to get familiar with the ideas now. Don’t do the further reading or exercises unless you really want to. Instead, try to internalize the concepts. They are fundamental to your ability to work with data.\nData import chapter and prelab (TK). Be sure to focus on the part about data and file types – they’re important. Submit your prelab to Canvas.\n“Take an Interviewing Approach to Find Stories in Data”, by Derek Willis, Mediashift, July 2014.\n“Basic steps in working with data”, the Data Journalism Handbook, Steve Doig, ASU Prof.\n\nCome to class prepared to discuss a passage from one of the following pieces that caught your eye. Remember to analyze them as a reporter, not a casual media consumer. Think about why I might have chosen these three pieces.\nMost of these relate to the pandemic and may feel dated. Try to digest them as examples of what data means, not the specifics of the stories. They may help you understand how to look at data dictionaries and the importance of granular data.\n\nListen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily’s “Counting the Infected” The Daily, July 8, 2020. (His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)\n\n\n\n\n\n\n“‘Very Harmful’ lack of data blunts US response to outbreaks - gift link”, Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists.\n“Thousands allowed to bypass environmental rules in pandemic”, Associated Press, August 2020. This is a great example of looking beyond the news in front of you to collect documents that show a pattern. It shows what can be done in just a couple of months by collecting 50 states’ worth of documents, once you know they should exist.\nWe measured pop music’s falsetto obsession, Vox, August 2019. This one reminds us that data is everywhere if we choose to look at it that way:"
-  },
-  {
-    "objectID": "weeks/week03-1.html#class-lab-details",
-    "href": "weeks/week03-1.html#class-lab-details",
-    "title": "First steps with data",
-    "section": "Class lab details",
-    "text": "Class lab details\nWe will look at the promise and the limitations of working with the Phoenix Open Government’s version of the Police 911 calls for service.\nReview the data elements available in Phoenix by expanding the data dictionary below the preview table.\nCompare it to a more complete dataset made public by the New Orleans Police Department (be sure to expand the “Columns in this Dataset” area)\nIn groups, try to evaluate your assigned question without referring to anything other than the documentation on these datasets:\n\nWhat government agency did it originally come from, and what time period does it cover? What questions do you have about the columns’ meanings that you would have to ask the agency or experts? (Group 1)\nCome up with three interesting questions that might be answered by this dataset – questions that could lead to a news story.(Group 2)\nCome up with three interesting questions that you would like to write about but can’t be answered in the data’s current form. (Group 3)\nIf you were to request this dataset from the original source, what other pieces of information would you ask that the government include in the data? Try to imagine what else would be in the data and should be a public record, and ignore things that wouldn’t ever be in it such as information from a court file related to this call.1(Group 4)\n\nRemember that the real world process and the definitions of the data matter.\nFor example, a 911 call doesn’t necessarily mean a crime was committed - it means that the police were dispatched to a specific location. Also, 911 dispatchers don’t ask for someone’s race, ethnicity or DOB when they call – just what is happening and where they are. They don’t even require your name. And there are crimes committed that never have a 911 call – if a police officer sees someone selling drugs, there is no 911 call , just an arrest."
-  },
-  {
-    "objectID": "weeks/week03-1.html#going-further",
-    "href": "weeks/week03-1.html#going-further",
-    "title": "First steps with data",
-    "section": "Going further",
-    "text": "Going further\nHere are some more examples of datasets coming from unexpected places: historical site lines, investigative files, and Hamilton.\n\nThis documentary and report by the independent firm Forensic Architecture in partnership with RISE St. James on environmental racism in “death alley”, Louisiana, is quite long. But it’s a great example of the emerging form of open source investigations that use imaging, historical site lines and similar non-traditional data in service of a larger piece, often conducted by human rights investigators rather than journalists. (I can’t get the direct link to work. If it won’t work for you, choose Investigations, and look for those in the United States. At this writing there were only two. )\n“Locked up and left to die” , by Michael Barajas and Sophie Novack, Texas Observer, Nov. 1, 2021, is based largely on an ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths.\nAnd a shoutout to this incredible piece by The Wall Street Journal, tracing the roots of the musical and lyrical signatures in Hamilton"
-  },
-  {
-    "objectID": "weeks/week03-1.html#footnotes",
-    "href": "weeks/week03-1.html#footnotes",
-    "title": "First steps with data",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nHint: Look at the New Orleans version to see what else might be held in 911 systems in general.↩︎"
-  },
-  {
-    "objectID": "weeks/week03-2.html",
-    "href": "weeks/week03-2.html",
-    "title": "A quick tour of the verbs",
-    "section": "",
-    "text": "Pre-labs are due by 9:30am on the day of class unless otherwise noted. Labs are due after our in-class lab unless otherwise noted. The deadlines are correct in Canvas.1"
-  },
-  {
-    "objectID": "weeks/week03-2.html#preparation",
-    "href": "weeks/week03-2.html#preparation",
-    "title": "A quick tour of the verbs",
-    "section": "Preparation:",
-    "text": "Preparation:\n\nRead the TK chapter in the textbook on granularity of data and where it comes from. You do not need to watch the video from Duke University.\nListen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily’s “Counting the Infected” The Daily, July 8, 2020. (His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)\n\n\n\n\n\n\n“‘Very Harmful’ lack of data blunts US response to outbreaks” (gift link), Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists."
-  },
-  {
-    "objectID": "weeks/week03-2.html#footnotes",
-    "href": "weeks/week03-2.html#footnotes",
-    "title": "A quick tour of the verbs",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nI often set the lab deadlines to midnight for those who can’t come to class, but I don’t want you doing work on them after class. You have more important things to do!↩︎"
   }
 ]

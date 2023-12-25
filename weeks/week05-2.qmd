@@ -7,21 +7,16 @@ draft: true
 
 ## Agenda
 
-* Discuss PPP homework and ideas
-* Introduce pre-lab concept: joining
 
 ## Upcoming deadlines
 
-* [Wednesday Feb. 22]{.sked-dates} : Prelab and lab on joining. Lab will try to put it all together. 
-* [Sunday Feb. 26]{.sked-dates}: Replication project update. By now you should have imported all of your data, examined it, and attempted the easiest of the sentences to replicate. This gives me an opportunity to help you before the last minute. 
 
-Next week will be a catch-up week and an opportunity to work on your final replication project in class. We'll decide on the specifics together. 
-
-
+* [Sunday Feb. 18]{.sked-dates}:  Replication project draft
+* [Sunday Feb. 25]{.sked-dates}: Final replication project
 
 
 ## Textbook chapters for labs
 
-* [Joining tables]()
-* [Putting it all together]()
+* Joining tables
+* Putting it all together
 

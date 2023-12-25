@@ -1,8 +1,8 @@
 ---
 title: "Verbs part II: Summarize and Group" 
 date:  2024-02-12
-description: Convert your pivot tables into R code using the verbs `group_by` and `summarize`
-draft: true
+description: Aggergating data by grouping and summarizing
+draft: false
 --- 
 
 
@@ -10,27 +10,19 @@ draft: true
 ## Agenda
 
 * Sentences chosen from replication project proposals
-* Re-introduction to aggregating for stats and story tips
-
-
+* Questions about group by and summarize (I expect many)
+* Group by / summarize lab
 
 
 ## Upcoming deadlines
 
-[Sunday 2/12]{.sked-dates} The sentences for the replication project (see Canvas)
+[Feb. 18]{.sked-dates} Replication project draft
 
-[Wednesday 2/15]{.sked-dates} Pre-lab and lab 
+## Preparation
 
-[Sunday 2/19]{.sked-dates} PPP data on your own
-
-## Textbook chapter
+There isn't a lot of prep to do this week, so please spend some time trying to internalize this chapter. It's a little hard to digest. Please do this preparation BEFORE you do your story idea homework. 
 
 * [Grouping and aggregation ](https://cronkitedata.github.io/djtextbook/r-verb-groupby.html)
-
-
-
-
-
 
 
 

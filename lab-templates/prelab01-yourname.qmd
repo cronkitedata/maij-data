@@ -3,7 +3,7 @@ title: "Your first program"
 author: "YOUR NAME HERE"
 format: 
   html: 
-    theme: cosmos
+    theme: cosmo
     embed-resources:  true
     toc: true
     code-tools: true
@@ -144,6 +144,8 @@ Why didn't anything get printed out after running it?
 
 Insert a code chunk here that lets you look at the details of the new data frame:
 
+If your data frame isn't as expected, go back and look at the code and think about why that might have happened. In particular, don't save and examine your data in the same code chunk. If, for example, you used `glimpse()` on the last code chunk, only that little look will be saved, not the whole data frame.
+
 ## Save for the next chapter
 
 Run this code chunk:
@@ -164,8 +166,8 @@ They can be part of the formal walkthrough, something in the chapter itself, or 
 
 Copy anything you don't want to forget into a log that you update every week as you learn new things.
 
-First:
+1.  
 
-Second:
+2.  
 
-Third:
+3.

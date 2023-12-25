@@ -8,11 +8,12 @@
       "/weeks/week03-1.html",
       "/weeks/week03-2.html",
       "/weeks/week04-1.html",
-      "/weeks/week04-2.html"
+      "/weeks/week04-2.html",
+      "/weeks/week05-1.html"
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/class.html",
     "items": []
   },
   {
@@ -20,10 +21,6 @@
     "items": [
       "/posts/welcome.html"
     ]
-  },
-  {
-    "listing": "/class.html",
-    "items": []
   },
   {
     "listing": "/updates.html",

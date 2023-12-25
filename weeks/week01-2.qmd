@@ -60,7 +60,7 @@ Today's lab is geared at learning how to read and view journalism as a writer an
 
 ### Try to install R and RStudio 
 
-* Complete the [installation tutorial in the textbook](https://cronkitedata.github.io/r-install.html) , including the videos linked at the top. You don't have to answer the questions after the videos.
+* Complete the [installation tutorial in the textbook](https://cronkitedata.github.io/djtextbook/r-install.html) , including the videos linked at the top. You don't have to answer the questions after the videos.
 
 #### If you plan to use your own laptop or desktop:
 
@@ -79,7 +79,7 @@ Today's lab is geared at learning how to read and view journalism as a writer an
 
 **No matter how far you got in the installation, be sure to set up your course folder as shown in the video**
 
-DO NOT expect to use Google drive to store your work -- it won't work. We've tried. If you use Dropbox, you can set up your course folder within Dropbox instead of within your Documents folder.^ [There are gazillions of tiny files that change every time you make a change in an R project, so you may want to pause syncing while you're working.]
+DO NOT expect to use Google drive to store your work -- it won't work. We've tried.
 
 #### On your own computer
 

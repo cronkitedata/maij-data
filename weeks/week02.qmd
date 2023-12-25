@@ -22,34 +22,25 @@ description:  Using Quarto to combine your programming and your documenation in 
 ### Reading 
 [Estimated time: less than an hour]{.small-text}
 
-::: {.callout-caution}
-## TK
-  Replication and data documentation from the textbook
-::: 
-
-
+* [Documenting your work](https://cronkitedata.github.io/djtextbook/start-data-document.html) from the textbook
 
 ### Get to know R and RStudio
-[Estimated time: 1-2 hours ]{.small-text}
 
 This prep might leave you feeling bewildered. Don't let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don't have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You'll probably get a lot of errors, and that's fine --- they're not judging you. They're supposed to be hints, even when they're [red]{.text-danger} and use words that look like *$#u893q#r32*.
 
-::: {.callout-tip}
+::: {.callout-note}
 I usually list the readings in a suggested order. They often build on one another.
 :::
 
-* Follow along in the textbook chapter, "[Getting started with R and RStudio](https://cronkitedata.github.io/djtextbook/r-start.html)".^[This means, "Open RStudio yourself and compare your screens and your commands to the ones in the book." Don't just skim this.]
+1.  Follow along in the textbook chapter, "[Getting started with R and RStudio](https://cronkitedata.github.io/djtextbook/r-start.html)". This means, "Open RStudio yourself and compare your screens and your commands to the ones in the book." Don't just skim this. Take notes and be prepared to go over any points of confusion in class. 
 
-Be sure to: 
+  Be sure to: 
 
   * Install the packages at the end of the chapter. Depending on how you installed R and RStudio, this could be slow and appear that it's stopped working. Just go get some coffee and come back in a little while. 
 
   * Watch the [Andrew Heiss](https://youtu.be/cnQ-v1UUWyE?si=zBRWU1R53yml1jJ0) video shown in the textbook. Ignore how math-centric it is, and just concentrate on his explanation of the screens.
 
-* **Optional** Try the [`swirl` tutorial](https://cronkitedata.github.io/djtextbook/r-start.html#optional-hands-on-tutorial) mentioned in the textbook.
-
-* **Optional** Try the ["Programming basics" tutorial](https://posit.cloud/learn/primers/1.2) linked in that chapter. Don't worry about all of the math in it; you don't have to go through the part where you answer questions. Instead, just focus on the concepts of the 1-minute videos:  functions, arguments, objects and data types. We'll be going over these ideas in a future class, so don't feel like you need to do this unless you're feeling nervous.^[I tried to make a version of the videos for you and failed miserably.]  
-
+2. **Optional** Try the [`swirl` tutorial](https://cronkitedata.github.io/djtextbook/r-start.html#optional-hands-on-tutorial) mentioned in the textbook.
 
 ## Follow-up materials
 

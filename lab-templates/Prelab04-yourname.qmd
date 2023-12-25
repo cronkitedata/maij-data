@@ -1,9 +1,9 @@
 ---
-title: "Filter, arrange, mutate prelab"
+title: "Mutate prelab"
 author: "YOUR NAME HERE"
 format: 
   html: 
-    theme: cosmos
+    theme: cosmo
     embed-resources:  true
     toc: true
     code-tools: true

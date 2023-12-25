@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2024-02-12">
-<meta name="description" content="Convert your pivot tables into R code using the verbs group_by and summarize">
+<meta name="description" content="Aggergating data by grouping and summarizing">
 
 <title>Data reporting for investigative journalism - Verbs part II: Summarize and Group</title>
 <style>
@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week06.qmd" rel="next">
-<link href="../weeks/week04-2.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -128,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week05-1.html">5.1: Summarize with group by</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Verbs part II: Summarize and Group</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -176,11 +174,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../weeks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Weekly details</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-1.html" class="sidebar-item-text sidebar-link">
@@ -223,51 +221,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">4.2: Creating new from old with mutate</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week05-1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">5.1: Summarize with group by</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
- <span class="menu-text">5.2: Matchmaking with joins</span>
-  </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week06.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6: The power of regular expressions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week07.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7: TK</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week08-1.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8-1: Cognitive bias in data journalism</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week08-2.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8-2: The life of data</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week09.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9-1: Visualization as a reporting tool</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week11.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9-2: Intro to GIS and mapping</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -308,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#textbook-chapter" id="toc-textbook-chapter" class="nav-link" data-scroll-target="#textbook-chapter">Textbook chapter</a></li>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
   </ul>
 </nav>
     </div>
@@ -322,7 +275,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Convert your pivot tables into R code using the verbs <code>group_by</code> and <code>summarize</code>
+    Aggergating data by grouping and summarizing
   </div>
 </div>
 
@@ -347,17 +300,17 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
 <ul>
 <li>Sentences chosen from replication project proposals</li>
-<li>Re-introduction to aggregating for stats and story tips</li>
+<li>Questions about group by and summarize (I expect many)</li>
+<li>Group by / summarize lab</li>
 </ul>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<p><span class="sked-dates">Sunday 2/12</span> The sentences for the replication project (see Canvas)</p>
-<p><span class="sked-dates">Wednesday 2/15</span> Pre-lab and lab</p>
-<p><span class="sked-dates">Sunday 2/19</span> PPP data on your own</p>
+<p><span class="sked-dates">Feb.&nbsp;18</span> Replication project draft</p>
 </section>
-<section id="textbook-chapter" class="level2">
-<h2 class="anchored" data-anchor-id="textbook-chapter">Textbook chapter</h2>
+<section id="preparation" class="level2">
+<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<p>There isn’t a lot of prep to do this week, so please spend some time trying to internalize this chapter. It’s a little hard to digest. Please do this preparation BEFORE you do your story idea homework.</p>
 <ul>
 <li><a href="https://cronkitedata.github.io/djtextbook/r-verb-groupby.html">Grouping and aggregation</a></li>
 </ul>
@@ -599,18 +552,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-body">
-  <div class="nav-page nav-page-previous">
-      <a href="../weeks/week04-2.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">4.2: Creating new from old with mutate</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../weeks/week06.qmd" class="pagination-link">
-        <span class="nav-page-text">6: The power of regular expressions</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 

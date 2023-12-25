@@ -1,141 +1,179 @@
 ---
-title: "Lab 05 - Joining"
+title: "Group by prelab"
 author: "YOUR NAME HERE"
 format: 
-   html: 
-     theme: cosmo
-     df-print: paged
-     code-tools: true
-     embed-resources: true
-     layout: full
+  html: 
+    theme: cosmos
+    embed-resources:  true
+    toc: true
+    code-tools: true
+    df-print: paged
 execute: 
-   message: false
+    message: false
+    error: true
 ---
 
-This prelab simply goes through the little bit of code that is in [chapter 20](https://cronkitedata.github.io/djtextbook/r-verb-join.html) . We'll walk through it together and I hope that you'll turn it in at the end of class. At the end, we'll see how this helps make new information out of old.
 
 ```{r}
 #| label: setup
 #| warning: false
-
+#| message: false
 
 library(tidyverse)
-library(lubridate)
 library(janitor)
+library(lubridate)
+
 
 
 ```
+
+Load the PPP data:
 
 ```{r}
 
-naics_codes <- readRDS( url ( "https://cronkitedata.s3.amazonaws.com/rdata/naics_lookup.RDS"))
-ppp_orig <- readRDS (url ( "https://cronkitedata.s3.amazonaws.com/rdata/ppp_az_loans.RDS"))
-
-glimpse(naics_codes)
+ppp_orig <- readRDS (
+               url ( 
+                 "https://cronkitedata.s3.amazonaws.com/rdata/ppp_az_loans.RDS"
+                 )
+               )
 
 ```
 
-Take a close look at this table -- it's slightly different than the one in the textbook, in that I've created a column that I called "nacis_cronkite" to mix sector and subsector into categories that we want to see. We'll go through this together.
+## Summarize
 
-Here, the "join" takes the code in the PPP table, and looks up the information from the industry code table. It's a simple concept that has a lot of nuance.
+Fill in the blanks to get summary statistics about the whole data set:
+
+```{r}
+
+ppp_orig |> 
+  summarize (  number_of_rows = _________, 
+               sum_of_amount = sum (______, na.rm=TRUE), 
+               avg_amount = _____ (amount, na.rm=TRUE), 
+               median_amount = ______ (________, ______ ), 
+               first_loan = min ( date_approved), 
+               last_loan = max (_________ )
+  ) |>
+  glimpse()
+
+
+```
+
+Describe in your own words what the new data frame includes and excludes:
+
+## Grouping
+
+Using the textbook as a guide, try to enter the code you would need to produce the following table. Try not to copy and paste. Instead, work one line at a time and see what each of the statements does.
+
+| draw   | loan_count | total_amount | total_forgiven |
+|--------|------------|--------------|----------------|
+| First  | 128715     | 9465606369   | 8972228355     |
+| Second | 40544      | 2925279615   | 2779422635     |
+
+```{r}
+
+
+# your code here
+
+
+
+```
+
+Now do the same thing, but add a grouping level for the loan status :
+
+```{r}
+
+# your code here
+
+
+
+
+```
+
+Describe in your own words what you just did -- how would you explain this last code chunk to a stranger?
+
+### The `count()` shortcut
+
+Rewrite the following code chunk to be produced using the `count()` verb:
+
+Original:
+
+```{r}
+
+ppp_orig |> 
+  group_by ( draw, loan_status) |> 
+  summarize ( number_of_loans = n() ) |> 
+  arrange ( desc ( number_of_loans ))
+
+
+```
+
+Your rewrite:
+
+```{r}
+
+# your code here
+
+
+
+
+```
+
+## Pivoting data to "wide" format
+
+Fill in the blanks to convert the list produced in the last code chunk into a rectangle instead of a list -- "wide" vs. "long" format.
+
+```{r}
+
+ppp_orig |> 
+  group_by ( draw, loan_status) |> 
+  summarize ( number_of_loans = n() ) |> 
+  arrange ( desc ( number_of_loans )) |> 
+  pivot_wider ( id_cols = _________, 
+                names_from = _________, 
+                values_from = _________, 
+                values_fill = 0)
+
+
+
+```
+
+## Percent of total 
+
+Fill in the blanks to compute the percent of total loans that have each status.
 
 ```{r}
 
 
 ppp_orig |> 
-  select ( borrower_name, amount, naics_code) |> 
-  inner_join ( naics_codes, 
-               join_by (naics_code == naics_code) 
-  ) |> 
-  sample_n(100) 
+  group_by ( loan_status) |> 
+  summarize (number_of_loans = n() ) |> 
+  mutate ( percent_of_loans = number_of_loans / ____ (number_of_loans) * 100 )
 
-
-```
-
-## Joining the data to the code translations
-
-Rather than get into the intricacies of NAICS codes, just use the categories I created to produce a table that uses the cronkite version:
-
-Here, the `select` MUST come after the join, because we need the original
-
-```{r}
-
-
-joined_industry <- 
-  ppp_orig |> 
-  inner_join ( naics_codes, 
-               join_by (naics_code == naics_code) 
-  ) |> 
-  select (naics_cronkite,
-          borrower_name, 
-          borrower_city, 
-          borrower_zip,
-          project_county, 
-          amount, 
-          forgiveness_amount, 
-          loan_status, 
-          business_type) 
-
-
-glimpse (joined_industry)
-```
-
-Look at the number of rows that you have in the two tables: Why does the joined_industry have fewer rows than the PPP_orig?
-
-Try a "left_join" to see why:
-
-```{r}
-
-
-joined_industry <- 
-  ppp_orig |> 
-  left_join ( naics_codes, 
-               join_by (naics_code == naics_code) 
-  ) |> 
-   select (naics_cronkite,
-          borrower_name, 
-          borrower_city, 
-          borrower_zip,
-          project_county, 
-          amount, 
-          forgiveness_amount, 
-          loan_status, 
-          business_type) 
-
-
-glimpse (joined_industry)
-
-
-```
-
-This suggests that there are some rows in the original PPP data that have invalid or missing industry codes. Typically, you will use a left_join (if your main table is first, and your lookup table is second) to "protect" the master table.
-
-## Using the joined data
-
-Now we can summarize our dataset to find out what kind of industry got the most, the least, average amounts, etc:
-
-```{r}
-
-joined_industry |> 
-  group_by ( naics_cronkite) |> 
-  summarize ( loans = n(), 
-              total_amount = sum(amount), 
-              forgiven = sum ( forgiveness_amount, na.rm=T), 
-              avg_per_co = mean (amount), 
-              median_per_co = median (amount)) |> 
-  arrange ( desc (loans))
 
 
 
 ```
 
-It also means you can get lists of restaurants in a zip code to visit:
+OPTIONAL:
+
+Try to produce a table that looks like this:
+
++---------------------+-----------+----------+
+| loan_status         | First     | Second   |
+|                     |           |          |
+| \<chr\>             | \<dbl\>   | \<dbl\>  |
++:====================+==========:+=========:+
+| Active Un-Disbursed | 100.00000 | NA       |
++---------------------+-----------+----------+
+| Exemption 4         | 77.68874  | 22.31126 |
++---------------------+-----------+----------+
+| Paid in Full        | 75.85664  | 24.14336 |
++---------------------+-----------+----------+
 
 ```{r}
 
-joined_industry |> 
-  filter ( str_like (naics_cronkite, "722 %"))
 
+# your code here
 
 
 

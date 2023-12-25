@@ -1,0 +1,144 @@
+---
+title: "Joining prelab"
+author: "YOUR NAME HERE"
+format: 
+   html: 
+     theme: cosmo
+     df-print: paged
+     code-tools: true
+     embed-resources: true
+     layout: full
+execute: 
+   message: false
+   error: true
+---
+
+This prelab simply goes through the little bit of code that is in [chapter 20](https://cronkitedata.github.io/djtextbook/r-verb-join.html) .  
+
+```{r}
+#| label: setup
+#| warning: false
+#| message: false
+
+
+library(tidyverse)
+library(lubridate)
+library(janitor)
+
+
+```
+
+```{r}
+
+naics_codes <- readRDS( url ( "https://cronkitedata.s3.amazonaws.com/rdata/naics_lookup.RDS"))
+ppp_orig <- readRDS (url ( "https://cronkitedata.s3.amazonaws.com/rdata/ppp_az_loans.RDS"))
+
+glimpse(naics_codes)
+
+```
+
+Take a close look at this table -- it's slightly different than the one in the textbook, in that I've created a column that I called "nacis_cronkite" to mix sector and subsector into categories that we want to see. We'll go through this together.
+
+Here, the "join" takes the code in the PPP table, and looks up the information from the industry code table. It's a simple concept that has a lot of nuance.
+
+```{r}
+
+
+ppp_orig |> 
+  select ( borrower_name, amount, naics_code) |> 
+  inner_join ( naics_codes, 
+               join_by (naics_code == naics_code) 
+  ) |> 
+  sample_n(100) 
+
+
+```
+
+## Joining the data to the code translations
+
+Rather than get into the intricacies of NAICS codes, just use the categories I created to produce a table that uses the cronkite version:
+
+Here, the `select` MUST come after the join, because we need the original
+
+```{r}
+
+
+joined_industry <- 
+  ppp_orig |> 
+  inner_join ( naics_codes, 
+               join_by (naics_code == naics_code) 
+  ) |> 
+  select (naics_cronkite,
+          borrower_name, 
+          borrower_city, 
+          borrower_zip,
+          project_county, 
+          amount, 
+          forgiveness_amount, 
+          loan_status, 
+          business_type) 
+
+
+glimpse (joined_industry)
+```
+
+Look at the number of rows that you have in the two tables: Why does the joined_industry have fewer rows than the PPP_orig?
+
+Try a "left_join" to see why:
+
+```{r}
+
+
+joined_industry <- 
+  ppp_orig |> 
+  left_join ( naics_codes, 
+               join_by (naics_code == naics_code) 
+  ) |> 
+   select (naics_cronkite,
+          borrower_name, 
+          borrower_city, 
+          borrower_zip,
+          project_county, 
+          amount, 
+          forgiveness_amount, 
+          loan_status, 
+          business_type) 
+
+
+glimpse (joined_industry)
+
+
+```
+
+This suggests that there are some rows in the original PPP data that have invalid or missing industry codes. Typically, you will use a left_join (if your main table is first, and your lookup table is second) to "protect" the master table.
+
+## Using the joined data
+
+Now we can summarize our dataset to find out what kind of industry got the most, the least, average amounts, etc:
+
+```{r}
+
+joined_industry |> 
+  group_by ( naics_cronkite) |> 
+  summarize ( loans = n(), 
+              total_amount = sum(amount), 
+              forgiven = sum ( forgiveness_amount, na.rm=T), 
+              avg_per_co = mean (amount), 
+              median_per_co = median (amount)) |> 
+  arrange ( desc (loans))
+
+
+
+```
+
+It also means you can get lists of restaurants in a zip code to visit:
+
+```{r}
+
+joined_industry |> 
+  filter ( str_like (naics_cronkite, "722 %"))
+
+
+
+
+```

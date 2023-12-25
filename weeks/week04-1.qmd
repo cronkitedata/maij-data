@@ -21,9 +21,6 @@ From now on, I won't list the labs and prelabs on these upcoming deadlines.
 
 ## Preparation
 
-This weekend's workload is a little heavier than usual. Please allow time for it, and do the reading  / tutorials in the order given here. 
-
-
 1. Read:
     * [Introduction](https://cronkitedata.github.io/djtextbook/rdepth.html) to Verbs in Depth; 
     * Chapter 12, [Tidy Data](https://cronkitedata.github.io/djtextbook/start-tidy.html); and 
