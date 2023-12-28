@@ -16,7 +16,7 @@ editor: visual
 
 2.  Be sure to hit the "Play" button on ALL of the code chunks, especially this first one. Don't depend on this already existing on your computer because when you try to render it, Quarto starts from scratch. It won't remember anything you've done already.
 
-This prelab just lets you run some code and see what happens. I don't expect you to have internalized ANY of it. We'll be coming back to each of these verbs one by one.
+This walkthrough just lets you run some code and see what happens. I don't expect you to have internalized ANY of it. We'll be coming back to each of these verbs one by one.
 
 ```{r}
 #| label: setup
@@ -35,7 +35,7 @@ library(lubridate)
 
 ## Load your saved data
 
-In the previous chapter, you cleaned and saved a data set to work with the Hot 100 file. Use this code chunk to load in the R data file you saved.
+When you did your homework, you cleaned and saved a data set to work with the Hot 100 file. Use this code chunk to load in the R data file you saved in your project. This is often the most confusing single thing that we'll do -- remembering to save data in the right place, open the project instead of the file, and reconciling the type of data you're using. If you get past this easily, you're doing well!
 
 ```{r}
 
@@ -44,7 +44,7 @@ top100 <-
 
 ```
 
-**Question:** How is this different from the `read_csv()` function you used in the last chapter? In other words, why would you use that function sometimes, and `readRDS()` sometimes?
+**Question:** How is this different from the `read_csv()` function you used in the previous walkthrough? In other words, why would you use that function sometimes, and `readRDS()` sometimes?
 
 ## Verbs
 
@@ -66,7 +66,7 @@ top100 |>
 
 ```
 
-**Describe this output in your own words:**
+**Describe the output in your own words:**
 
 ### Taylor Swift #1 hits
 

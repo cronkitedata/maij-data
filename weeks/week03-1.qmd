@@ -14,17 +14,17 @@ You might do the data dance when your FOIA is returned or you find a great datas
 
 ## Upcoming deadlines
 
-* [Today 10am]{.sked-dates}: Data import prelab 
-* [Wednesday]{.sked-dates}: Hot 100 walkthrough prelab and lab
+* [Today 10am]{.sked-dates}: Data import walkthrough 
+* [Wednesday]{.sked-dates}: Hot 100 walkthrough walkthrough
 * [Mon Jan 29]{.sked-dates}: 
     * What would you do? (25 pts)
-    * Filter and sort prelab 
+    * Filter and sort walkthrough
 * [Wed Jan 31]{.sked-dates}: 
-    * Mutate prelab 
+    * Mutate walkthrough
     * Filter, sort & mutate lab 
 
 ::: callout-note
-After this week, I won't note the labs and prelabs in the upcoming deadlines. Assume you'll have one every day.
+After this week, I won't note the labs and walkthroughs in the upcoming deadlines. Assume you'll have one every day. They will be shown in Canvas. (Sorry if that's confusing -- it means I don't have to worry about conflicting instructions when they inevitably change.)
 ::: 
 
 ## Preparation: 
@@ -35,9 +35,9 @@ Your prepration may take a little longer this weekend -- don't leave it until th
 (Please do these in the order listed)
 ::: 
 
-1. [Defining data](https://cronkitedata.github.io/djtextbook/start-data-def.html)  We'll come back to this later in the semester after you have some practice looking at data, but it's useful to get familiar with the ideas now. Don't do the further reading or exercises unless you really want to. Instead, try to internalize the concepts. They are fundamental to your ability to work with data. 
+1. [Defining data](https://cronkitedata.github.io/djtextbook/start-data-def.html)  We'll come back to this later in the semester after you have some practice looking at data, but it's useful to get familiar with the ideas now. 
 
-2. [Getting and Saving Data](https://cronkitedata.github.io/djtextbook/r-data-import.html) and prelab(TK). Be sure to focus on the part about data and file types -- they're important. Submit your prelab to Canvas.
+2. [Getting and Saving Data](https://cronkitedata.github.io/djtextbook/r-data-import.html) and [walkthrough](https://raw.githubusercontent.com/cronkitedata/maij-data/2024-spring/lab-templates/walkthrough01-yourname.qmd). Be sure to focus on the part about data and file types -- they're important. 
 
 3. “[Take an Interviewing Approach to Find Stories in Data](http://mediashift.org/2014/07/take-an-interviewing-approach-to-find-stories-in-data/) ”, by Derek Willis, Mediashift, July 2014.
 
@@ -55,7 +55,7 @@ Most of these relate to the pandemic and may feel dated. Try to digest them as e
 <iframe src="https://www.nytimes.com/svc/oembed/html/?url=https%3A%2F%2Fwww.nytimes.com%2F2020%2F07%2F08%2Fpodcasts%2Fthe-daily%2Fcoronavirus-data-united-states.html" scrolling="no" frameborder="0" allowtransparency="true" title="Counting the Infected" class="embed-responsive-item d-flex justify-content-center" style="height:440px;"></iframe>
 ::: 
 
-6. "['Very Harmful' lack of data blunts US response to outbreaks - gift link](https://www.nytimes.com/2022/09/20/us/politics/covid-data-outbreaks.html?unlocked_article_code=FRdsQf82dJp3EBYCyTtHOQZ6XenNqhytAqexFVw4uOQ61e_LdTBWGrs4wzoB6fWy2AW68kzGxoOI3GLeZC0vpQT5LVtLzcaKMS4InJOnfWRRoDWK1dvMTjz6cFWkPbrJG-nOHB0LnOgYBr8dfBrPinG0znqZIArExzAtdg0Ms-e5GXTNwtrXBB1PwyBM2sN5u1i7GnRvcZpJ633aDyv4GHuKLm53ow4r53aH54xma1rDyekLL8NVNJPy0PYMhKn8AsbyyWZq5HHFTOce_irmKCw9P_XBDqzlsCu9GbS5fALXkDzrmAxUHwjTEeYW6Ibb6uqqAzdiKGtS0qXN2LfcWyzO&smid=share-url)", Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists.  
+6. "['Very Harmful' lack of data blunts US response to outbreaks - gift link](https://www.nytimes.com/2022/09/20/us/politics/covid-data-outbreaks.html?unlocked_article_code=FRdsQf82dJp3EBYCyTtHOQZ6XenNqhytAqexFVw4uOQ61e_LdTBWGrs4wzoB6fWy2AW68kzGxoOI3GLeZC0vpQT5LVtLzcaKMS4InJOnfWRRoDWK1dvMTjz6cFWkPbrJG-nOHB0LnOgYBr8dfBrPinG0znqZIArExzAtdg0Ms-e5GXTNwtrXBB1PwyBM2sN5u1i7GnRvcZpJ633aDyv4GHuKLm53ow4r53aH54xma1rDyekLL8NVNJPy0PYMhKn8AsbyyWZq5HHFTOce_irmKCw9P_XBDqzlsCu9GbS5fALXkDzrmAxUHwjTEeYW6Ibb6uqqAzdiKGtS0qXN2LfcWyzO&smid=share-url)", Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the flow chart on how the data is compiled. You will often have to piece together something like this when you start looking for records. The story reminds us not to assume we know what data exists.  
 
 7. "[Thousands allowed to bypass environmental rules in pandemic](https://apnews.com/article/virus-outbreak-ky-state-wire-ia-state-wire-ap-top-news-health-3bf753f9036e7d88f4746b1a36c1ddc4)", Associated Press, August 2020. This is a great example of looking beyond the news in front of you to collect documents that show a pattern. It shows what can be done in just a couple of months by collecting 50 states' worth of documents, once you know they should exist.  
 
@@ -69,7 +69,7 @@ Most of these relate to the pandemic and may feel dated. Try to digest them as e
 
 We will look at the promise and the limitations of working with the Phoenix Open Government’s version of the Police 911 calls for service.
 
-Review the data elements available in [Phoenix by expanding the data dictionary](https://www.phoenixopendata.com/dataset/calls-for-service/resource/1d536ee6-7ffb-49c3-bffe-5cdd98a3c97e) below the preview table. 
+Review the data elements available in [Phoenix by expanding the data dictionary](https://www.phoenixopendata.com/dataset/calls-for-service/resource/1d536ee6-7ffb-49c3-bffe-5cdd98a3c97e) below the preview table. DO NOT START EXPLORING THE ACTUAL DATA.
 
 Compare it to a more complete dataset made public by the [New Orleans Police Department](https://data.nola.gov/Public-Safety-and-Preparedness/Calls-for-Service-2022/nci8-thrr) (be sure to expand the “Columns in this Dataset” area)
 
