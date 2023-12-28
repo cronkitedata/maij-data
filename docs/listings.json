@@ -1,30 +1,5 @@
 [
   {
-    "listing": "/class.html",
-    "items": [
-      "/inclass/01-github-logistics.html",
-      "/inclass/02-map1.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/posts/schedule-update-1.html",
-      "/posts/welcome.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/updates.html",
-    "items": [
-      "/posts/schedule-update-1.html",
-      "/posts/welcome.html"
-    ]
-  },
-  {
     "listing": "/weeks.html",
     "items": [
       "/weeks/week01-1.html",
@@ -34,12 +9,23 @@
       "/weeks/week03-2.html",
       "/weeks/week04-1.html",
       "/weeks/week04-2.html",
-      "/weeks/week05.html",
-      "/weeks/week06.html",
-      "/weeks/week07.html",
-      "/weeks/week09.html",
-      "/weeks/week10.html",
-      "/weeks/week11.html"
+      "/weeks/week05-1.html"
+    ]
+  },
+  {
+    "listing": "/class.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/welcome.html"
+    ]
+  },
+  {
+    "listing": "/updates.html",
+    "items": [
+      "/posts/welcome.html"
     ]
   }
 ]

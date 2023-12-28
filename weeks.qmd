@@ -9,5 +9,7 @@ listing:
 
 <!--NOTE TO SELF: I need to figure out how to manage this so that it contains the next couple of weeks and then the history, and doesn't include the ones too far into the future. I know how to do this in Hugo, but not in quarto. -->
 
+This page will be updated about a month in advance of the class date.
+
 
 

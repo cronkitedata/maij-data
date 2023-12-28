@@ -1,50 +1,49 @@
 ---
-title: "Replication in data journalism"
-date:  2023-01-19
+title: "Scripted journalism with Quarto"
+date:   2024-01-17
+description:  Using Quarto to combine your programming and your documenation in one place.
 --- 
-
-Some of this may feel abstract to you in the beginning but it will become more concrete as you start tackling datasets. 
 
 ## Agenda
 
-* Discussion: "What would you do?" assignment
-* Replication in data journalism and the data diary
-* Spreadsheet skills - lab to start the homework due on Sunday
+* Review of What Would You Do?
+* Questions about the R and RStudio tour and tutorials
+* Replication and documenting your work in Quarto (lab)
 
 ## Upcoming deadlines
 
-[Sunday Jan. 22]{.sked-dates} : Spreadsheet review . We'll start the spreadsheet review assignment in class, but I expect you will have to finish it over the weekend. 
+[Today]{.sked-dates} : 
+  
+  * What would you do? (Live election results) (9:30 am)
+  * [In-class lab](https://raw.githubusercontent.com/cronkitedata/maij-data/main/prelabs/prelab01-yourname.qmd)
 
-[Sunday Jan. 29]{.sked-dates} : The life of a dataset
+## Preparation and learning materials
 
-## Preparation
+### Reading 
+[Estimated time: less than an hour]{.small-text}
 
-* [Replication and the data diary](https://cronkitedata.github.io/djtextbook/start-data-diary.html) from the course textbook
+* [Documenting your work](https://cronkitedata.github.io/djtextbook/start-data-document.html) from the textbook
 
-* “ [Take an Interviewing Approach to Find Stories in Data](http://mediashift.org/2014/07/take-an-interviewing-approach-to-find-stories-in-data/) ”, by Derek Willis, Mediashift, July 2014.
+### Get to know R and RStudio
 
-* ["Basic steps in working with data"](https://datajournalism.com/read/handbook/one/understanding-data/basic-steps-in-working-with-data), the Data Journalism Handbook, Steve Doig, ASU Prof.
+This prep might leave you feeling bewildered. Don't let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don't have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You'll probably get a lot of errors, and that's fine --- they're not judging you. They're supposed to be hints, even when they're [red]{.text-danger} and use words that look like *$#u893q#r32*.
 
-* ["Here are the 7 types of stories most often found in data"](https://onlinejournalismblog.com/2020/08/11/here-are-the-7-types-of-stories-most-often-found-in-data/), Paul Bradshaw, Online Journalism Blog, 2020. I'm not sure I agree with these -- they are very focused on visualizations rather than narrative or video stories, but they are a good start. 
+::: {.callout-note}
+I usually list the readings in a suggested order. They often build on one another.
+:::
 
-## Reminder on spreadsheet skills chapters
+1.  Follow along in the textbook chapter, "[Getting started with R and RStudio](https://cronkitedata.github.io/djtextbook/r-start.html)". This means, "Open RStudio yourself and compare your screens and your commands to the ones in the book." Don't just skim this. Take notes and be prepared to go over any points of confusion in class. 
 
-Here are the chapters we went through in bootcamp.  There is zero expectation that you have memorized keystrokes! Just memorize where you can look them up. It's much easier.
+  Be sure to: 
 
-*  [An Excel Refresher](https://cronkitedata.github.io/djtextbook/xl-refresher.html)  
+  * Install the packages at the end of the chapter. Depending on how you installed R and RStudio, this could be slow and appear that it's stopped working. Just go get some coffee and come back in a little while. 
 
-*  [Excel filter and sort](https://cronkitedata.github.io/djtextbook/xl-filter-sort.html) 
+  * Watch the [Andrew Heiss](https://youtu.be/cnQ-v1UUWyE?si=zBRWU1R53yml1jJ0) video shown in the textbook. Ignore how math-centric it is, and just concentrate on his explanation of the screens.
 
-* [Grouping with pivot tables](https://cronkitedata.github.io/djtextbook/xl-pivot.html): I rewrote this chapter after our boot camp. It might be a little clearer now. 
+2. **Optional** Try the [`swirl` tutorial](https://cronkitedata.github.io/djtextbook/r-start.html#optional-hands-on-tutorial) mentioned in the textbook.
 
-*  [Excel formulas](https://cronkitedata.github.io/djtextbook/xl-formulas.html) 
+## Follow-up materials
 
-If you don't remember how to work with fractions, percents, etc., review the [Math appendix](https://cronkitedata.github.io/djtextbook/appendix-math.html) to the course textbook or consult the Numbers in the Newsroom book that is shared in Canvas. 
+* [Creating Quarto documents](https://cronkitedata.github.io/djtextbook/r-quarto.html)
 
-Try watching Mary Jo Webster's great tutorial on New Yorker comics if you're still a little confused by pivot tables: 
-
-{{< video https://youtu.be/NjOfLP5s24w width="400"  >}}
-
-
-
-
+* [22-minute video](https://youtu.be/FlX75wfL9ew) that goes through what we will go through in class

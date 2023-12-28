@@ -1,6 +1,7 @@
 ---
 title: "Rethinking the schedule"
-date: "2023-03-20"
+date: "2024-03-20"
+draft: true
 description: |
    We talked about your priorities and how we can arrange the rest of the semester. Here are some details.
 format: 

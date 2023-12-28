@@ -1,0 +1,63 @@
+---
+title: "From documentation to first steps"
+date:   2024-01-23
+draft: true
+description:  Getting started with a dataset 
+--- 
+
+
+## Agenda
+
+* Address any questions that arose from the spreadsheet review assignment
+* Discuss reading
+* [Lab](#in-class-lab-details) - The life of a dataset warmup using Pheonix Open Data 911 records.
+
+## Upcoming deadlines
+
+[Sunday Jan. 29]{.sked-dates} : The life of a dataset 
+
+## Preparation 
+
+Read the textbook chapter first: 
+
+* [Defining Data](https://cronkitedata.github.io/djtextbook/start-data-def.html) from the course textbook. Please watch the embedded video (but feel free to turn up the speed. He talks pretty slowly.)
+
+There is  a prompt in Canvas for you to find one thing for each of these questions in the rest of the reading / viewing :
+
+1. How does it relate to your own experience? Is there something that resonates with you and you can connect with? 
+2. What would you (or did you) tell a friend? 
+3. What part of the material raised a question that you'd like to discuss? 
+4. What do you really want to remember? 
+
+It's ok if you can't answer all of these things, but it's useful to undertake this exercise when you start on your reading for a class. 
+
+
+* "[24 million Americans fear missing next rent payment as benefits dry up](https://www.usatoday.com/in-depth/graphics/2020/07/24/24-million-americans-say-they-have-little-no-chance-being-able-pay-next-months-rent-eviction/5497764002/.)", USA Today, by Kevin Crowe, Theresa Diffendal, and Carlie Procell. July 2020.   The Census Bureau does a lot more than the every-10-year canvas that we're most familiar with. During the pandemic, for example, it's created an experimental survey of households and small businesses specifically to monitor how it's affecting Americans. Unlike the "digital trace data" you read about, this one was made for us to analyze. 
+
+  I'll never understand the USA Today firewall. This doesn't appear to be in any of the services ASU library subscribes to, so [here's a pdf of the page](https://cronkitedata.s3.amazonaws.com/docs/usatoday-crowe-rentpayments-covid.pdf) if you can't get to it.
+
+
+ 
+
+##  In-class lab details
+
+You must do this assignment WITHOUT looking at the actual data, just the definitions and the background.
+
+We will look at the promise and the limitations of working with the Phoenix Open Government's version of the [Police 911](https://www.phoenixopendata.com/dataset/calls-for-service/resource/1d536ee6-7ffb-49c3-bffe-5cdd98a3c97e) calls for service.
+
+Review the data elements available in Phoenix by expanding the data dictionary below the preview table.  Compare it to a more complete dataset made public by the  [New Orleans Police Department](https://data.nola.gov/Public-Safety-and-Preparedness/Calls-for-Service-2022/nci8-thrr)  (be sure to expand the "Columns in this Dataset" area) 
+
+Try to imagine what might or might not be in the original data held by the agency. For example, a 911 call doesn't necessarily mean a crime was committed - it means that the police were dispatched to a specific location.  Also, 911 dispatchers don't ask for someone's race, ethnicity or DOB when they call -- just what is happening and where they are. They don't even require your name. And there are crimes committed that never have a 911 call --  if a police officer sees someone selling drugs, there is no 911 call , just an arrest. 
+
+
+Once you have a handle on what's in the data and what's missing, answer these questions about the Phoenix data to the best of your ability:
+
+- What government agency did it originally come from, and what time period does it cover? 
+- What questions must you ask of the dataset provider to understand its usefulness? 
+- Come up with one interesting question that might be answered by this dataset
+- Come up with one interesting question that can't be answered in its current form. 
+- If you were to request this dataset over again from the original source, what other pieces of information would you ask that the government include in the data. Try to imagine what else would be in the data and should be a public record, and ignore things that wouldn't ever be in it such as information from a court file related to this call.  
+
+The instructions on submitting your work are detailed in the [Canvas assignment](https://asu.instructure.com/courses/138967/assignments/3723182/)
+
+

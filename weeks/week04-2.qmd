@@ -1,32 +1,24 @@
 ---
-title: "Example: The Hot 100 list"
-date:  2023-02-01
-description: Now that you know a little about how to run R, you're ready to do some analysis. This example gets you acclimated to the next few weeks using Billboard's Hot 100 list for the last 65 years. 
+title: "From old to new with mutate"
+date:  2024-01-31
+description: Data rarely comes the way you need it. Use the `mutate` verb to create new columns.
 --- 
 
 ## Agenda
 
-::: callout-note
-I have to leave early today. I'll get you started, and you can turn in as far as you got by the end of class.  
-::: 
-
-* What the next few weeks look like
-* Billboard 100: Analyzing the hot songs of the past 65 years 
-
+* Review What Would You Do? 
+* Discussion of replication project story selections.
+* Questions on prelab
+* Complete the filter, arrange, and mutate lab
 
 ## Upcoming deadlines
 
-* [Today]{.sked-dates}: Billboard 100 [prelab](https://github.com/cronkitedata/maij-data/tree/main/prelabs)  (we'll do this in class)
-* [Monday Feb. 6]{.sked-dates} : "What would you do?" : choosing a data source. See assignment in Canvas.
-
+[Sunday, Feb. 4]{.sked-dates}: Sentences for replication project
 
 ## Preparation
 
-If you feel uncomfortable with what we did on Monday, take a look at some of the [additonal resources](http://cronkitedata.github.io/djtextbook/r-quarto.html#other-resources) on Quarto / RMarkdown from the textbook.
-
-## Textbook chapters we'll cover in class
-
-* [Getting and saving data](https://cronkitedata.github.io/djtextbook/r-data-import.html)
-* [A quick tour of verbs](https://cronkitedata.github.io/djtextbook/r-verbs.html)
+* Read Chapter 15, [Mutate](https://cronkitedata.github.io/djtextbook/r-verb-mutate.html)
+* Complete the prelab on Mutate
+* Review the list of three story examples for the replication project and decide which one you want to choose. 
 
 

@@ -1,93 +1,88 @@
 ---
-title: "The life of data"
-date:   2023-01-23
+title: "First steps with data"
+date:   2024-01-22
 draft: false
-description:  Data isn't just numbers. We'll learn how to think broadly about data for story. 
+description:  First steps in working with data in R 
 --- 
-
-
-<blockquote class="blockquote-big">
-<p><strong>data</strong> <code>/ˈdeɪ.tə/</code> :</p>
-<p> information in an electronic form that can be stored and used by a computer, or information, especially facts or numbers, collected to be examined and considered and used to help decision-making </p>
- <span> <a href="https://dictionary.cambridge.org/dictionary/english/data" class="text-decoration-none link-secondary">Cambridge Dictionary -- almost*</a></span>
-</blockquote>
-
-\* in reverse order
-
 
 ## Agenda
 
-* Address any questions that arose from the spreadsheet review assignment
-* Discuss reading
-* [Lab](#in-class-lab-details) - The life of a dataset warmup using Pheonix Open Data 911 records.
+You might do the data dance when your FOIA is returned or you find a great dataset online. But you've only overcome the first challenge. The next one is to understand what the data represents -- what *noun* each row represents, and what characteristic, or attribute, each column will show. Then you have to actually get it into R or any other program you want to use without corrupting it. 
+
+* Understanding data before you start ([lab](#class-lab-details))
+* Reviewing data import  
 
 ## Upcoming deadlines
 
-[Sunday Jan. 29]{.sked-dates} : The life of a dataset 
+* [Today 10am]{.sked-dates}: Data import prelab 
+* [Wednesday]{.sked-dates}: Hot 100 walkthrough prelab and lab
+* [Mon Jan 29]{.sked-dates}: 
+    * What would you do? (25 pts)
+    * Filter and sort prelab 
+* [Wed Jan 31]{.sked-dates}: 
+    * Mutate prelab 
+    * Filter, sort & mutate lab 
 
-## Preparation 
+::: callout-note
+After this week, I won't note the labs and prelabs in the upcoming deadlines. Assume you'll have one every day.
+::: 
 
-Read the textbook chapter first: 
+## Preparation: 
 
-* [Defining Data](https://cronkitedata.github.io/djtextbook/start-data-def.html) from the course textbook. Please watch the embedded video (but feel free to turn up the speed. He talks pretty slowly.)
+Your prepration may take a little longer this weekend -- don't leave it until the last minute. 
 
-There is  a prompt in Canvas for you to find one thing for each of these questions in the rest of the reading / viewing :
+::: small-note
+(Please do these in the order listed)
+::: 
 
-1. How does it relate to your own experience? Is there something that resonates with you and you can connect with? 
-2. What would you (or did you) tell a friend? 
-3. What part of the material raised a question that you'd like to discuss? 
-4. What do you really want to remember? 
+1. [Defining data](https://cronkitedata.github.io/djtextbook/start-data-def.html)  We'll come back to this later in the semester after you have some practice looking at data, but it's useful to get familiar with the ideas now. Don't do the further reading or exercises unless you really want to. Instead, try to internalize the concepts. They are fundamental to your ability to work with data. 
 
-It's ok if you can't answer all of these things, but it's useful to undertake this exercise when you start on your reading for a class. 
+2. [Getting and Saving Data](https://cronkitedata.github.io/djtextbook/r-data-import.html) and prelab(TK). Be sure to focus on the part about data and file types -- they're important. Submit your prelab to Canvas.
 
+3. “[Take an Interviewing Approach to Find Stories in Data](http://mediashift.org/2014/07/take-an-interviewing-approach-to-find-stories-in-data/) ”, by Derek Willis, Mediashift, July 2014.
 
-* Listen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily's "[Counting the Infected](https://www.nytimes.com/2020/07/08/podcasts/the-daily/coronavirus-data-united-states.html)"  The Daily, July 8, 2020. (His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)
+4. ["Basic steps in working with data"](https://datajournalism.com/read/handbook/one/understanding-data/basic-steps-in-working-with-data), the Data Journalism Handbook, Steve Doig, ASU Prof.
 
-<div class="mx-auto my-3" style="width:220px">
-<iframe style="border: solid 1px #e4edf2;" src="https://www.stitcher.com/embed/129650/75063201" width="220" height="150" frameborder="0" scrolling="no">
- </iframe>
-</div>
+*Come to class prepared to discuss a passage from one of the following pieces that caught your eye. Remember to analyze them as a reporter, not a casual media consumer. Think about why I might have chosen these three pieces.*
 
+Most of these relate to the pandemic and may feel dated. Try to digest them as examples of what data means, not the specifics of the stories. They may help you understand how to look at data dictionaries and the importance of granular data.
 
+5. Listen to Rob Gebeloff from the New York Times talk about the difference between granular CDC data on infections and the summary data that was used by most reporters throughout the pandemic in The Daily's "[Counting the Infected](https://www.nytimes.com/2020/07/08/podcasts/the-daily/coronavirus-data-united-states.html?unlocked_article_code=1.Ik0.JBJv.WmW2cTqCIE7q&hpgrp=k-abar&smid=url-share)" (gift link),  The Daily, July 8, 2020. 
 
-* "['Very Harmful' lack of data blunts US response to outbreaks](https://www.nytimes.com/2022/09/20/us/politics/covid-data-outbreaks.html?unlocked_article_code=FRdsQf82dJp3EBYCyTtHOQZ6XenNqhytAqexFVw4uOQ61e_LdTBWGrs4wzoB6fWy2AW68kzGxoOI3GLeZC0vpQT5LVtLzcaKMS4InJOnfWRRoDWK1dvMTjz6cFWkPbrJG-nOHB0LnOgYBr8dfBrPinG0znqZIArExzAtdg0Ms-e5GXTNwtrXBB1PwyBM2sN5u1i7GnRvcZpJ633aDyv4GHuKLm53ow4r53aH54xma1rDyekLL8NVNJPy0PYMhKn8AsbyyWZq5HHFTOce_irmKCw9P_XBDqzlsCu9GbS5fALXkDzrmAxUHwjTEeYW6Ibb6uqqAzdiKGtS0qXN2LfcWyzO&smid=share-url)", Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists. I helped Sharon with this story, and [you can see the raw data results](https://privatesarah.s3.amazonaws.com/share/covid-times.html) from the [CDC's surveillance database](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4). ^[No, there is no byline or credit line -- I told her that was fine -- it only took me 45 minutes to do this.]
+    (His part is the first 20 minutes or so. Pay particular attention to the part beginning at about 8:00 where he talks about the difference between aggregate and granular data, and what it takes to get the latter.)
 
-* "[24 million Americans fear missing next rent payment as benefits dry up](https://www.usatoday.com/in-depth/graphics/2020/07/24/24-million-americans-say-they-have-little-no-chance-being-able-pay-next-months-rent-eviction/5497764002/.)", USA Today, by Kevin Crowe, Theresa Diffendal, and Carlie Procell. July 2020.   The Census Bureau does a lot more than the every-10-year canvas that we're most familiar with. During the pandemic, for example, it's created an experimental survey of households and small businesses specifically to monitor how it's affecting Americans. Unlike the "digital trace data" you read about, this one was made for us to analyze. 
+::: {.embed-responsive .mx-4}
+<iframe src="https://www.nytimes.com/svc/oembed/html/?url=https%3A%2F%2Fwww.nytimes.com%2F2020%2F07%2F08%2Fpodcasts%2Fthe-daily%2Fcoronavirus-data-united-states.html" scrolling="no" frameborder="0" allowtransparency="true" title="Counting the Infected" class="embed-responsive-item d-flex justify-content-center" style="height:440px;"></iframe>
+::: 
 
-  I'll never understand the USA Today firewall. This doesn't appear to be in any of the services ASU library subscribes to, so [here's a pdf of the page](https://cronkitedata.s3.amazonaws.com/docs/usatoday-crowe-rentpayments-covid.pdf) if you can't get to it.
+6. "['Very Harmful' lack of data blunts US response to outbreaks - gift link](https://www.nytimes.com/2022/09/20/us/politics/covid-data-outbreaks.html?unlocked_article_code=FRdsQf82dJp3EBYCyTtHOQZ6XenNqhytAqexFVw4uOQ61e_LdTBWGrs4wzoB6fWy2AW68kzGxoOI3GLeZC0vpQT5LVtLzcaKMS4InJOnfWRRoDWK1dvMTjz6cFWkPbrJG-nOHB0LnOgYBr8dfBrPinG0znqZIArExzAtdg0Ms-e5GXTNwtrXBB1PwyBM2sN5u1i7GnRvcZpJ633aDyv4GHuKLm53ow4r53aH54xma1rDyekLL8NVNJPy0PYMhKn8AsbyyWZq5HHFTOce_irmKCw9P_XBDqzlsCu9GbS5fALXkDzrmAxUHwjTEeYW6Ibb6uqqAzdiKGtS0qXN2LfcWyzO&smid=share-url)", Sharon LaFraniere, New York Times, September 2022. Pay particular attention to the diagram showing how the systems interact. The story reminds us not to assume we know what data exists.  
 
+7. "[Thousands allowed to bypass environmental rules in pandemic](https://apnews.com/article/virus-outbreak-ky-state-wire-ia-state-wire-ap-top-news-health-3bf753f9036e7d88f4746b1a36c1ddc4)", Associated Press, August 2020. This is a great example of looking beyond the news in front of you to collect documents that show a pattern. It shows what can be done in just a couple of months by collecting 50 states' worth of documents, once you know they should exist.  
 
-* "[Thousands allowed to bypass environmental rules in pandemic](https://apnews.com/article/virus-outbreak-ky-state-wire-ia-state-wire-ap-top-news-health-3bf753f9036e7d88f4746b1a36c1ddc4)", Associated Press, August 2020. This is a great example of looking beyond the news in front of you to collect documents that show a pattern. It shows what can be done in just a couple of months by collecting 50 states' worth of documents, once you know they should exist.  
-
-<!-- * ["AP Finds Most Arrested in protests aren't leftist radicals"](https://apnews.com/article/virus-outbreak-race-and-ethnicity-suburbs-health-racial-injustice-7edf9027af1878283f3818d96c54f748), By Alanna Durkin Richer, Colleen Long and Michael Balsamo, October 2020. Also:  "[AP methodology](http://leads.ap.org/best-of-the-week/analyzing-protest-arrest-records) , Oct. 30, 2020. A great example of developing a story from court records -- creating that "electronic form" of information that can then be analyzed in many different ways. Try to imagine what details the reporters chose to track and which ones they decided to ignore.  Compiling data by examining news stories and court records  are two very common ways that news organizations create data for analysis. They  have flaws but  they're often the best available source. -->
-
-* We measured pop music’s falsetto obsession, Vox, August 2019:  
-
+8. We measured pop music’s falsetto obsession, Vox, August 2019. This one reminds us that data is everywhere if we choose to look at it that way:  
 
 ::: {.ps-4 .ms-4}
 {{< video https://www.youtube.com/embed/qJT2h5uGAC0 width="60%" height="400px">}}
-::: 
+:::
 
-##  In-class lab details
+## Class lab details 
 
-You must do this assignment WITHOUT looking at the actual data, just the definitions and the background.
+We will look at the promise and the limitations of working with the Phoenix Open Government’s version of the Police 911 calls for service.
 
-We will look at the promise and the limitations of working with the Phoenix Open Government's version of the [Police 911](https://www.phoenixopendata.com/dataset/calls-for-service/resource/1d536ee6-7ffb-49c3-bffe-5cdd98a3c97e) calls for service.
+Review the data elements available in [Phoenix by expanding the data dictionary](https://www.phoenixopendata.com/dataset/calls-for-service/resource/1d536ee6-7ffb-49c3-bffe-5cdd98a3c97e) below the preview table. 
 
-Review the data elements available in Phoenix by expanding the data dictionary below the preview table.  Compare it to a more complete dataset made public by the  [New Orleans Police Department](https://data.nola.gov/Public-Safety-and-Preparedness/Calls-for-Service-2022/nci8-thrr)  (be sure to expand the "Columns in this Dataset" area) 
+Compare it to a more complete dataset made public by the [New Orleans Police Department](https://data.nola.gov/Public-Safety-and-Preparedness/Calls-for-Service-2022/nci8-thrr) (be sure to expand the “Columns in this Dataset” area)
 
-Try to imagine what might or might not be in the original data held by the agency. For example, a 911 call doesn't necessarily mean a crime was committed - it means that the police were dispatched to a specific location.  Also, 911 dispatchers don't ask for someone's race, ethnicity or DOB when they call -- just what is happening and where they are. They don't even require your name. And there are crimes committed that never have a 911 call --  if a police officer sees someone selling drugs, there is no 911 call , just an arrest. 
+In groups, try to evaluate your assigned question **without referring to anything other than the documentation** on these datasets: 
 
+* What government agency did it originally come from, and what time period does it cover? What questions do you have about the columns' meanings that you would have to ask the agency or experts? (Group 1)
+* Come up with three interesting questions that might be answered by this dataset -- questions that could lead to a news story.(Group 2)
+* Come up with three interesting questions that you would like to write about but can’t be answered in the data's current form. (Group 3)
+* If you were to request this dataset from the original source, what other pieces of information would you ask that the government include in the data? Try to imagine what else would be in the data and should be a public record, and ignore things that wouldn’t ever be in it such as information from a court file related to this call.^[Hint: Look at the New Orleans version to see what else might be held in 911 systems in general.](Group 4)
 
-Once you have a handle on what's in the data and what's missing, answer these questions about the Phoenix data to the best of your ability:
+Remember that the real world process and the definitions of the data matter. 
 
-- What government agency did it originally come from, and what time period does it cover? 
-- What questions must you ask of the dataset provider to understand its usefulness? 
-- Come up with one interesting question that might be answered by this dataset
-- Come up with one interesting question that can't be answered in its current form. 
-- If you were to request this dataset over again from the original source, what other pieces of information would you ask that the government include in the data. Try to imagine what else would be in the data and should be a public record, and ignore things that wouldn't ever be in it such as information from a court file related to this call.  
-
-The instructions on submitting your work are detailed in the [Canvas assignment](https://asu.instructure.com/courses/138967/assignments/3723182/)
+For example, a 911 call doesn’t necessarily mean a crime was committed - it means that the police were dispatched to a specific location. Also, 911 dispatchers don’t ask for someone’s race, ethnicity or DOB when they call – just what is happening and where they are. They don’t even require your name. And there are crimes committed that never have  a 911 call – if a police officer sees someone selling drugs, there is no 911 call , just an arrest.
 
 
 ## Going further
@@ -96,6 +91,6 @@ Here are some more examples of datasets coming from unexpected places: historica
 
 - [This documentary and report](https://forensic-architecture.org/investigation/environmental-racism-in-death-alley-louisiana) by the independent firm Forensic Architecture in partnership with RISE St. James on environmental racism in "death alley", Louisiana, is quite long. But it's a great example of the emerging form of open source investigations that use imaging, historical site lines and similar non-traditional data in service of a larger piece, often conducted by human rights investigators rather than journalists.   (I can't get the direct link to work. If it won't work for you, choose Investigations, and look for those in the United States. At this writing there were only two. )
 
-- ["Locked up and left to die"](https://www.texasobserver.org/locked-up-and-left-to-die/) , by Michael Barajas and Sophie Novack, Texas Observer, Nov. 1, 2021, is based largely on an  ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths.  (I worked with the authors as a mentor on this story through the Fund for Investigative Journalism.)
+- ["Locked up and left to die"](https://www.texasobserver.org/locked-up-and-left-to-die/) , by Michael Barajas and Sophie Novack, Texas Observer, Nov. 1, 2021, is based largely on an  ambitious attempts to catalog the contents of more than 400 investigative files on jail deaths. 
 
-- And a shoutout to this [incredible piece by The Wall Street Journal](http://graphics.wsj.com/hamilton/), tracing the roots of the lyrical signatures in *Hamilton*  
+- And a shoutout to this [incredible piece by The Wall Street Journal](http://graphics.wsj.com/hamilton/), tracing the roots of the musical and lyrical signatures in *Hamilton*  

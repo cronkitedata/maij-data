@@ -53,7 +53,7 @@ $lt-blue: #add8e6  ;
 
 
 $body-color: $gray-800 !default;
-$link-color: #017698 ;
+$link-color: #8B0000 ;
 $hover-color: lighten($link-color, 20%);
 
 // source sans pro comes out better.
@@ -78,6 +78,14 @@ $font-family-sans-serif:    "Source Sans Pro", -apple-system, BlinkMacSystemFont
 ;
 $h4-font-size:                $font-size-base * 1.2 !default;
 
+$display-font-sizes: (
+  1: 4rem,
+  2: 3rem,
+  3: 2.5rem,
+  4: 2rem,
+  5: 1.5rem,
+  6: 1rem
+);
 
 /*-- scss:rules --*/
 
@@ -143,7 +151,7 @@ h2 {
 
  .small-note {
     color: #6c757d;
-    font-size: 80%;
+    font-size: 90%;
  }
 
  .blockquote-big {

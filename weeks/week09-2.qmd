@@ -1,7 +1,7 @@
 ---
 title: GIS, maps and other visualization
-date:  2023-03-26
-draft: false
+date:  2024-03-26
+draft: true
 description: Finding the right place to center your story is one of the most important first steps in an investigation. Learning how to map data can help.  
 --- 
 

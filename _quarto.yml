@@ -3,13 +3,16 @@ project:
   preview: 
     port: 4200
   output-dir: docs
+  # this says render all qmd, md, rmd files but nothing in labs, prelabs or working
   render: 
     - "*.qmd"
     - "*.md"
     - "*.Rmd"
     - "!labs/"
-    - "!prelabs/"
+    - "!lab-templates/"
     - "!working/"
+    - "!inclass/"
+    - "!projects.qmd"
 
 website:
   favicon: assets/img/favicon.ico
@@ -18,14 +21,12 @@ website:
   
   navbar:
     logo: assets/img/djlogo.png
-    background: primary
+    background: secondary
     max-width: 2400px
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/cronkitedata/maijdata/
-      - icon: twitter
-        href: https://twitter.com/sarah_h_cohen/
+        href: https://github.com/cronkitedata/maij-data/
     left: 
       - icon: house-door-fill
         # otherwise it fills with "Data reporting" or site name
@@ -48,10 +49,9 @@ website:
     contents: 
       - file: index.qmd
         text: "Home"
+      # updates gets auto filled by changes in posts/
       - section: "Updates"
         file: updates.qmd
-        contents: 
-          - auto: posts/*
       - text: "---"
       - file: syllabus.qmd
         text: "Syllabus"
@@ -61,40 +61,46 @@ website:
       # I have to list them, otherwise they show up with the title
       - section: Weekly details 
         file: weeks.qmd
+        #this has to be changed with each schedule. Be careful about it. 
         contents: 
           - text: "1.1: Intros"
             file: weeks/week01-1.qmd
-          - text: "1.2: Reading the story"
+          - text: "1.2: Startup potpourri"
             file: weeks/week01-2.qmd
-          - text: " 2: Replication / spreadsheet review"
+          - text: " 2: Scripted journalism"
             file: weeks/week02.qmd
-          - text: "3.1: The life of data"
+          - text: "3.1: First steps in data analysis"
             file: weeks/week03-1.qmd
-          - text: "3.2: Install party!"
+          - text: "3.2: A quick tour of verbs"
             file: weeks/week03-2.qmd
-          - text: "4.1: Your first R program"
+          - text: "4.1: Filter and sort to find stories"
             file: weeks/week04-1.qmd
-          - text: "4.2: An example analysis: Billboard Hot 100"
+          - text: "4.2: Creating new from old with mutate"
             file: weeks/week04-2.qmd
-          - text: "5: In-depth verbs pt 1"
-            file: weeks/week05.qmd
-          - text: "6: In-depth verbs pt 2"
-            file: weeks/week06.qmd
-          - text: "7: In-depth verbs pt 3"
-            file: weeks/week07.qmd
-          - text: "9: Potpourri & Build your own data"
-            file: weeks/week09.qmd
-          - text: "10: Review, statistics and ethics"
-            file: weeks/week10.qmd
-          - text: "11: Intro to GIS and mapping"
-            file: weeks/week11.qmd
+          - text: "5.1: Summarize with group by"
+            file: weeks/week05-1.qmd
+          - text: "5.2: Matchmaking with joins"
+            file: weeks/week05-2.qmd
+          # - text: "6: The power of regular expressions"
+          #   file: weeks/week06.qmd
+          # - text: "7: TK"
+          #   file: weeks/week07.qmd
+          # - text: "8-1: Cognitive bias in data journalism"
+          #   file: weeks/week08-1.qmd
+          # - text: "8-2: The life of data"
+          #   file: weeks/week08-2.qmd
+          # - text: "9-1: Visualization as a reporting tool"
+          #   file: weeks/week09.qmd
+          # - text: "9-2: Intro to GIS and mapping"
+          #   file: weeks/week11.qmd
       - text: "----"
       - text: Course textbook
         href: https://cronkitedata.github.io/djtextbook
+        # change canvas and slack each year
       - text: Canvas 
-        href: https://asu.instructure.com/courses/138967
+        href: https://asu.instructure.com/courses/171974
       - text: Slack
-        href: https://asu-2231-mco510-21913.slack.com/
+        href: https://app.slack.com/client/T068BE4K9QU/C068BF87G9J
       - text: Other links
         href: https://start.me/p/nRyOGj/public-page
       - text: "---"
@@ -105,17 +111,15 @@ format:
     max-width: 1920px
     page-layout: full
     toc: true
-    toc-location: left
-    toc-depth: 3
+#    toc-location: left
+#    toc-depth: 2
+    toc-expand: 3
     header-includes: |
        <meta name="robots" content="noindex">
     published-title: "Class date"
 
 engine: knitr
 
-# Beginning in version 1.3, we can use the grid options to make the left margin smaller. I'm not sure what it
-# does to responsiveness, but I believe that it works fine. 
-# consider using that in the future. (Current version is 1.2)
 
 
 

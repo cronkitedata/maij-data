@@ -1,9 +1,9 @@
 ---
-title: "Filter, arrange, mutate prelab"
+title: "Group by / summarize walkthrough"
 author: "YOUR NAME HERE"
 format: 
   html: 
-    theme: cosmos
+    theme: cosmo
     embed-resources:  true
     toc: true
     code-tools: true
@@ -121,7 +121,7 @@ Your rewrite:
 
 ## Pivoting data to "wide" format
 
-Fill in the blanks to convert the list produced in the last code chunk into a rectangle instead of a list -- "wide" vs. "long" format.
+Fill in the blanks to convert the list produced in the last code chunk into a rectangle instead of a list -- "wide" vs. "long" format, with the draw across the top and the loan status down the side, with the number of loans in the cells.
 
 ```{r}
 

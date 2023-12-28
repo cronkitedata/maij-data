@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.310">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-02-01">
-<meta name="description" content="Now that you know a little about how to run R, you’re ready to do some analysis. This example gets you acclimated to the next few weeks using Billboard’s Hot 100 list for the last 65 years.">
+<meta name="dcterms.date" content="2024-01-31">
+<meta name="description" content="Data rarely comes the way you need it. Use the mutate verb to create new columns.">
 
-<title>Data reporting for investigative journalism - Example: The Hot 100 list</title>
+<title>Data reporting for investigative journalism - From old to new with mutate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week05.html" rel="next">
 <link href="../weeks/week04-1.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -60,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <meta name="robots" content="noindex">
@@ -112,12 +112,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/cronkitedata/maijdata/" rel="" target=""><i class="bi bi-github" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/sarah_h_cohen/" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://github.com/cronkitedata/maij-data/" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -132,10 +127,10 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week04-2.html">4.2: An example analysis: Billboard Hot 100</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week04-2.html">4.2: Creating new from old with mutate</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -159,27 +154,8 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../updates.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Updates</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../posts/schedule-update-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Rethinking the schedule</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../posts/welcome.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Class Zero</span></a>
-  </div>
-</li>
-      </ul>
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Updates</span></span>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
@@ -213,73 +189,37 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1.2: Reading the story</span></a>
+ <span class="menu-text">1.2: Jump start</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2: Replication / spreadsheet review</span></a>
+ <span class="menu-text">2: Accuracy and replication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week03-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3.1: The life of data</span></a>
+ <span class="menu-text">3.1: First steps in data analysis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week03-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3.2: Install party!</span></a>
+ <span class="menu-text">3.2: A quick tour of verbs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week04-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4.1: Your first R program</span></a>
+ <span class="menu-text">4.1: Filter and sort to find stories</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week04-2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">4.2: An example analysis: Billboard Hot 100</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5: In-depth verbs pt 1</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6: In-depth verbs pt 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7: In-depth verbs pt 3</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9: Potpourri &amp; Build your own data</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10: Review, statistics and ethics</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weeks/week11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">11: Intro to GIS and mapping</span></a>
+ <span class="menu-text">4.2: Creating new from old with mutate</span></a>
   </div>
 </li>
       </ul>
@@ -293,13 +233,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://asu.instructure.com/courses/138967" class="sidebar-item-text sidebar-link">
+  <a href="https://asu.instructure.com/courses/171974" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Canvas</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://asu-2231-mco510-21913.slack.com/" class="sidebar-item-text sidebar-link">
+  <a href="https://app.slack.com/client/T068BE4K9QU/C068BF87G9J" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slack</span></a>
   </div>
 </li>
@@ -312,32 +252,31 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
     </ul>
     </div>
-    <nav id="TOC" role="doc-toc" class="toc-active">
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
   <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
-  <li><a href="#textbook-chapters-well-cover-in-class" id="toc-textbook-chapters-well-cover-in-class" class="nav-link" data-scroll-target="#textbook-chapters-well-cover-in-class">Textbook chapters we’ll cover in class</a></li>
   </ul>
 </nav>
-</nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Example: The Hot 100 list</h1>
+<h1 class="title">From old to new with mutate</h1>
 </div>
 
 <div>
   <div class="description">
-    Now that you know a little about how to run R, you’re ready to do some analysis. This example gets you acclimated to the next few weeks using Billboard’s Hot 100 list for the last 65 years.
+    Data rarely comes the way you need it. Use the <code>mutate</code> verb to create new columns.
   </div>
 </div>
 
@@ -348,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 1, 2023</p>
+      <p class="date">January 31, 2024</p>
     </div>
   </div>
   
@@ -360,40 +299,23 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>I have to leave early today. I’ll get you started, and you can turn in as far as you got by the end of class.</p>
-</div>
-</div>
 <ul>
-<li>What the next few weeks look like</li>
-<li>Billboard 100: Analyzing the hot songs of the past 65 years</li>
+<li>Review What Would You Do?</li>
+<li>Discussion of replication project story selections.</li>
+<li>Questions on prelab</li>
+<li>Complete the filter, arrange, and mutate lab</li>
 </ul>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<ul>
-<li><span class="sked-dates">Today</span>: Billboard 100 <a href="https://github.com/cronkitedata/maij-data/tree/main/prelabs">prelab</a> (we’ll do this in class)</li>
-<li><span class="sked-dates">Monday Feb.&nbsp;6</span> : “What would you do?” : choosing a data source. See assignment in Canvas.</li>
-</ul>
+<p><span class="sked-dates">Sunday, Feb.&nbsp;4</span>: Sentences for replication project</p>
 </section>
 <section id="preparation" class="level2">
 <h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
-<p>If you feel uncomfortable with what we did on Monday, take a look at some of the <a href="http://cronkitedata.github.io/djtextbook/r-quarto.html#other-resources">additonal resources</a> on Quarto / RMarkdown from the textbook.</p>
-</section>
-<section id="textbook-chapters-well-cover-in-class" class="level2">
-<h2 class="anchored" data-anchor-id="textbook-chapters-well-cover-in-class">Textbook chapters we’ll cover in class</h2>
 <ul>
-<li><a href="https://cronkitedata.github.io/djtextbook/r-data-import.html">Getting and saving data</a></li>
-<li><a href="https://cronkitedata.github.io/djtextbook/r-verbs.html">A quick tour of verbs</a></li>
+<li>Read Chapter 15, <a href="https://cronkitedata.github.io/djtextbook/r-verb-mutate.html">Mutate</a></li>
+<li>Complete the prelab on Mutate</li>
+<li>Review the list of three story examples for the replication project and decide which one you want to choose.</li>
 </ul>
 
 
@@ -633,16 +555,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-page-right">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
       <a href="../weeks/week04-1.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">4.1: Your first R program</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">4.1: Filter and sort to find stories</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../weeks/week05.html" class="pagination-link">
-        <span class="nav-page-text">5: In-depth verbs pt 1</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

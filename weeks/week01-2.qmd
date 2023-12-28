@@ -1,8 +1,8 @@
 ---
-title: "The journalistic method"
-date:  2023-01-11
+title: "Startup potpourri"
+date:  2024-01-10
 draft: false
-description: Consuming news as a reporter 
+description: Consuming news as a reporter. Plus an install party, and a gentle introduction to programming! 
 --- 
 
 :::: {.card .mb-3 style="width: 50%;"}
@@ -14,57 +14,74 @@ Jelani Cobb, dean of the Columbia Graduate School of Journalism
 ::::
 
 
-
 ## Agenda
 
-* Discussion: Empirical reporting and the journalistic method
-* Lab: Reading the data-driven story
+You have a lot of little things to do to get ready for today's class. Make sure not to spend more than 1 hour getting R and RStudio installed. 
+
+* Reading the data-driven story discussion
+* Walthrough of [A gentle introduction to programming](https://cronkitedata.github.com/djtextbook/appendix-program.html). (You don't have to read this in advance)
+* Resolving installation issues
+
+**Please bring your laptop to school if you plan to use it for your homework and projects.**
+
+Configuring computers for use in data reporting is one of the most frustrating things that we do. Everyone's computer seems to be set up slightly differently, depending on exactly which version of which operating system you have and when you've last installed various helpers. 
+
+Don't get frustrated and **don't try to Google your way out of it** --- it's not worth your mental energy and you might make things worse. Just stop and bring your laptop to class, where we can troubleshoot together. 
+
 
 ## Upcoming deadlines
 
-::: {.small-note}
-I'm not including labs and pre-labs in this list. Expect to see them every day.
-::: 
+[Friday]{.sked-dates} (in Canvas):
 
-[Sunday Jan. 15]{.sked-dates} : Cronkite Academic Integrity pledge in Canvas; Last date to choose the Y grade
+ * Complete the R and RStudio installation assignment in Canvas. You might be able to do this in 10 minutes, but sometimes there are glitches. This deadline gives us time to resolve any issues before they thwart your work. 
 
-[Wednesday, Jan. 18]{.sked-dates} : What would you do? Reporting live election results
+ * Cronkite Academic Integrity pledge
 
-[Sunday Jan. 22]{.sked-dates} : Spreadsheet review 
+[Wednesday, Jan. 17]{.sked-dates} : 
 
+  * What would you do? Reporting live election results. Note the 10:00am deadline. 
 
 ## Preparation
 
-#### Empirical methods
-
-American journalists have been using empirical methods since the birth of the Republic. Read and watch these materials with an eye for the methods they describe --- data collection, counting and analyzing --- and the sources they used. You're not expected to follow links or watch related material unless I mention them. 
-
-*Come to class prepared to discuss a passage from one of these pieces that caught your eye.*
-
-* [The Journalistic Method: Five principles for blending analysis and narrative](https://journalistsresource.org/tip-sheets/journalistic-method-tip-sheet-blending-analysis-narrative/), by Nicholas Lemann, former dean of the Columbia University Graduate School of Journalism.
-
-* [Ida B. Wells used data journalism to fight lynching](https://www.vox.com/2015/7/16/8979771/ida-b-wells-lynching-data), Dara Lind, Vox.com, July 2015
-
-* [The Myth of the Machine](https://cronkitedata.s3.us-west-1.amazonaws.com/docs/berens_nerds_words.pdf) Michael J. Berens, a chapter in "When Nerds and Words Collide" Poynter Institute, 1999. Although it was written more than 20 years ago, the insights are still relevant today.
-
-* [Introduction to Precision Journalism](https://cronkitedata.s3.us-west-1.amazonaws.com/docs/precision-journalism.pdf), Sage Encyclopedia of Journalism. 
-
-#### Reading the story
+### Learn a new way to read
 
 Today's lab is geared at learning how to read and view journalism as a writer and producer, by closely examining HOW a story was conceived and executed rather than whether you liked it or thought it was "good". This reading gets you ready for the lab: 
 
-* [Learn a New Way to Read](https://cronkitedata.github.io/djtextbook/start-story.html) from our course textbook site. When I assign these chapters, you are not required to study the works listed in the additional reading or exercise sections unless I specifically assign them. 
+#### Textbook: 
 
-* [Rural Aid goes to Urban Areas](https://cronkitedata.s3.amazonaws.com/docs/rural_development.pdf) This is a pdf of a very old story from the Washington Post. I use it not because it's so great, but because it is *reasonably* short and remains one of the most straightforward examples of investigative data reporting that I know of. Pay attention to the elements that make this story work -- the data sources, examples used, use of experts to define classifications, and the public records mentioned. Be sure to read the "nerd box" on the second page. 
-<!--
-* "[The Disproportionate Risk of Driving While Black](https://www.nytimes.com/2015/10/25/us/racial-disparity-traffic-stops-driving-black.html)", Sharon LaFraniere and Andrew Lehren, The New York Times, October 2015. We'll review this story in a group exercise on Wednesday, so be sure to review it fully. Pay attention to the data sources, the way that they were analyzed, the writing and graphics, and the examples used. If great journalism is what some authors call the selection, not the compression, of facts, then think about how those facts and examples might have been found and why they were selected. After class, I'll provide an annotated version that goes through some of the sources and questions.  
--->
+* [Introduction to Reporting with data](https://cronkitedata.github.io/djtextbook/start.html) 
+* [Learn a New Way to Read](https://cronkitedata.github.io/djtextbook/start-story.html) 
 
-## Going further
+#### Story
 
-* An academic guide for "[Reading to Write](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/1740-9713.01469)". This is really for scientists reading academic journals, but we might learn from the techniques.  
+* [Rural Aid goes to Urban Areas](https://cronkitedata.s3.amazonaws.com/docs/rural_development.pdf) This is a pdf of a very old story from the Washington Post. I use it not because it's  great, but because it is *reasonably* short and remains one of the most straightforward examples of investigative data reporting that I know of. This is a classic example of using **administrative** records to find anecdotes and examples for stories, then aggregating them into broader statistical findings. Pay attention to the elements that make this story work -- the data sources, examples used, use of experts to define classifications, and the public records mentioned. Make sure to read the methodology notes on the second page.
 
-* One really good book for learning to write complicated stories in a variety of ways is William Blundell's "[Art and Craft of Feature Writing](https://www.amazon.com/kindle-dbs/entity/author/B001KDWGWQ)" . Although it's old, it has some great tips on writing with data. 
+### Try to install R and RStudio 
 
-* Philip Meyer's "[Precision Journalism](https://www.amazon.com/Precision-Journalism-Reporters-Introduction-Science/dp/0742510883/)" is a staple on many data journalists' bookshelf. ASU library's version isn't the most recent. 
+You'll have to finish this by Friday, but try to get it done before class. That way I can help you if you run into trouble.
 
+Complete the [installation tutorial in the textbook](https://cronkitedata.github.io/djtextbook/r-install.html) , including the videos linked at the top. You don't have to answer the questions after the videos. 
+
+#### If you plan to use your own laptop or desktop:
+
+* Get as far as you can with the installation
+* Try starting up RStudio (not R). 
+* Note any error messages or other troubles you have so we can fix them in class. Don't try to Google the resolution on this -- the answers might create more problems than they fix. I'll help you at the end of class. 
+
+#### If you are going to use something else: 
+
+* Labs in school: Make sure you know where you will use the software and have tried starting it. Please let me know if the lab is not set up as you might expect. 
+
+* Posit  Cloud : Sign up for the service and make sure you know how to access it in class. It's not the great alternative that it seems. In particular, students have had it eat their work in the past and submitting your homework will be more difficult. You'll probably have to start paying before too long. But it is OK for the first few days as we get you set up for the future.
+
+#### Set up your course folders / hard drive 
+
+Be sure to follow along with the setup instructions at the end of the chapter, no matter how far you got in the installataion.  DO NOT expect to use Google drive to store your work -- it won't work. We've tried. 
+
+Your `maij-working` folder should be somewhere on your computer or portable drive that you can find it every day. My suggestion is within the "Documents" folder, but you may need to adjust that if you  use Dropbox or are using a thumb drive. 
+
+## Follow up materials
+
+When we do something in class that you didn't have to do beforehand, I'll often list some links here to remind you of what we did, or to clarify areas that might have been confusing.
+
+* [Appendix B](https://cronkitedata.github.io/djtextbook/appendix-program.html) of the textbook: "A gentle introduction to programming"

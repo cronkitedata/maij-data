@@ -1,16 +1,16 @@
 ---
-title: "Filter, arrange, mutate prelab"
+title: "Mutate walkthrough"
 author: "YOUR NAME HERE"
 format: 
   html: 
-    theme: cosmos
+    theme: cosmo
     embed-resources:  true
     toc: true
     code-tools: true
     df-print: paged
 ---
 
-This prelab goes along with [Verbs in depth Part 1](https://cronkitedata.github.io/djtextbook/r-verb-filter.html) and [Verbs in Depth part 2: Mutate](https://cronkitedata.github.io/djtextbook/r-verb-mutate.html) . You should follow along with the explanations and details in the textbook as you walk through this prelab.
+This prelab goes along with  [Verbs in Depth part 2: Mutate](https://cronkitedata.github.io/djtextbook/r-verb-mutate.html) . You should follow along with the explanations and details in the textbook as you walk through this prelab.
 
 ## Load data
 
@@ -18,6 +18,9 @@ You can examine in the Environment tab or by previewing the table, or by "glimps
 
 ```{r}
 #| label: setup
+#| warning: false
+#| message: false
+
 
 library(tidyverse)
 library(janitor)
@@ -27,156 +30,22 @@ library(lubridate)
 
 ```
 
+
+This time, just pick out the columns without creating an interim data frame from the saved data:
+
 ```{r}
 
-ppp_orig <- readRDS ( 
-               url ( 
-                 "https://cronkitedata.s3.amazonaws.com/rdata/ppp_az_loans.RDS"
-                 )
-               )
+ppp_small <- readRDS ( url ( "https://cronkitedata.s3.amazonaws.com/rdata/ppp_az_loans.RDS" ) |>
+             select (borrower_name, borrower_address, borrower_city,
+                    project_county, date_approved, amount, 
+                    forgiveness_amount)
 
 
 ```
 
-## Select
 
-Run this code. Note that the `glimpse()` function does NOT come after a pipe, meaning it stands on its own. If you had a pipe, the `ppp_small` object would only include the result of the glimpse, not the whole data frame.
-
-```{r}
-
-ppp_small <- 
-   ppp_orig |> 
-  select (borrower_name, borrower_address, borrower_city,
-          project_county, date_approved, amount, 
-          forgiveness_amount)
-
-
-glimpse(ppp_small)
-
-```
-
-**Describe, in your own words, what you just did:**
-
-## Arrange
-
-What will the following code do?
-
-```{r}
-
-ppp_small |>
-  arrange ( date_approved, desc(amount) )
-
-
-```
-
-## Simple filter examples
-
-In the code chunks below, replace the `_____` blanks with whatever you would need to finish the code chunk. Try to get it so that you can run each chunk without errors.
-
-1.  A list of borrowers from Flagstaff
-
-```{r}
-
-ppp_small |> 
-  _____ ( borrower_city ___  "Flagstaff") 
-
-```
-
-2.  A list of borrowers from Flagstaff and Sedona
-
-```{r}
-
-ppp_small |> 
-  filter ( borrower_city == "Flagstaff" ______  borrower_city == "Sedona") 
-
-```
-
-3.  Using the %in% operator, a list from Flagstaff, Sedona and Bisbee:
-
-```{r}
-
-ppp_small |> 
-  filter ( borrower_city _____  
-           c(________, ________, ________)
-           )
-
-
-
-```
-
-4.  Borrowers from Flagstaff and Sedona whose loan was under \$100,000 . Sort it by the date approved.
-
-```{r}
-
-ppp_small |>
-  filter ( 
-           (borrower_city == "Flagstaff" | borrower_city == "Sedona") & 
-            amount ___ _____ 
-  ) |>
-  ______  (date_approved)
-
-
-
-```
-
-5.  Why does this filter result in NO loans?
-
-```{r}
-
-ppp_small |> 
-  filter (project_county == "Cochise County")
-
-
-```
-
-Fix the code above so that it gives you all of the loans in Cochise County
-
-## Inexact matches with str_like()
-
-Fill in the blank to find all loans on North Scottsdale street, road, etc.
-
-```{r}
-
-ppp_small |> 
-  filter ( str_like ( borrower_address, 
-                      "______________" ) ) |> 
-  arrange ( borrower_address)
-
-
-
-```
-
-Look through your answers and see if they appear right -- do they pick up variations of the street name? Are there entries that are in the list but shouldn't be?
-
-Filter the data so that it shows you all rows that are missing any information in the `forgiveness_amount` column:
-
-```{r}
-
-ppp_small |>
-  _______ ( _______ (forgiveness_amount ))
-
-
-
-```
-
-## Thoughts on filters
-
-Write out three things you want to remember about `select`, `arrange` and `filter`:
-
-1.  
-
-2.  
-
-3.  
-
-Write out up to three things that you'd like to have clarified about `select`, `arrange` and `filter`
-
-1.  
-
-2.  
-
-3.  
-
+Add a code chunk here to take check the data: 
+ 
 ## Mutate
 
 Describe in your own words what this code chunk does:
@@ -291,8 +160,8 @@ Now it's your turn to start from scratch, using the information from the textboo
 
 Write out three things that you want to remember or want clarified about the `mutate` verb.
 
-1\.
+1.
 
-2\.
+2.
 
-3\.
+3.

@@ -1,5 +1,5 @@
 ---
-title: "Lab 05 - Joining"
+title: "Joining walkthrough"
 author: "YOUR NAME HERE"
 format: 
    html: 
@@ -10,13 +10,15 @@ format:
      layout: full
 execute: 
    message: false
+   error: true
 ---
 
-This prelab simply goes through the little bit of code that is in [chapter 20](https://cronkitedata.github.io/djtextbook/r-verb-join.html) . We'll walk through it together and I hope that you'll turn it in at the end of class. At the end, we'll see how this helps make new information out of old.
+This prelab simply goes through the little bit of code that is in [chapter 20](https://cronkitedata.github.io/djtextbook/r-verb-join.html) .  
 
 ```{r}
 #| label: setup
 #| warning: false
+#| message: false
 
 
 library(tidyverse)

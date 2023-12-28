@@ -1,43 +1,41 @@
 ---
-title: Getting started with programming - a walkthrough
-date:  2023-01-30
-description: You can now ditch those painstaking data diaries and write self-documenting programs using R and Quarto. 
+title: Filter and sort for stories
+date:  2024-01-29
+description: Filtering and sorting in R to find needles and stories
 --- 
 
 ## Agenda 
 
-* Discussion of "life of a dataset" assignment
-* Questions about the R Studio tour and tutorials
-* Create your first document
+* Review of example data
+* Filtering and sorting lab 
 
 ## Upcoming deadlines
 
-* [Today]{.sked-dates} : Your first [Quarto doc](https://raw.githubusercontent.com/cronkitedata/maij-data/main/prelabs/prelab01-yourname.qmd)
-* [Monday Feb. 6]{.sked-dates} : "What would you do?" : choosing a data source. See assignment in Canvas.
+::: callout-note
+From now on, I won't list the labs and prelabs on these upcoming deadlines. 
+::: 
 
+[Wednesday]{.sked-dates}: What would you do? Pick a data source
+
+[Sunday, Feb. 4]{.sked-dates}: Sentences for replication project
 
 ## Preparation
 
-This prep might leave you feeling bewildered. Don't let it get to you. You will get used to the look and feel of the software and some of the technical language soon. You don't have to internalize all of this. Instead, try to get used to the screen and the process of typing the commands into the computer. You'll probably get a lot of errors, and that's fine --- they're not judging you. They're supposed to be hints, even when they're [red]{.text-danger} and use words that look like *$#u893q#r32*.
+1. Read:
+    * [Introduction](https://cronkitedata.github.io/djtextbook/rdepth.html) to Verbs in Depth; 
+    * Chapter 12, [Tidy Data](https://cronkitedata.github.io/djtextbook/start-tidy.html); and 
+    * Chapter 13, [Sorting and Filtering](https://cronkitedata.github.io/djtextbook/start-filter-sort-story.html) to find stories
 
-* Review the textbook chapter, "[Getting started with R and RStudio](https://cronkitedata.github.io/djtextbook/r-start.html)"
+2. Review the [documentation of our example PPP](https://cronkitedata.github.io/djtextbook/appendix-ppp.html) data and review the following stories. You don't have to study them, but be sure to look at them in enough detail to start thinking about the different approaches the reporters took to the same dataset. They also have, as part of the stories, background on the program that might be useful to you. 
 
-    * Make sure to install the packages at the beginning of the chapter. (We might have been able to get this part done in class already -- we'll see how it goes.) You might want to get it going and then get a cup of tea -- it will take at least a few minutes once it starts and could take longer. It might look like it's stalled. If you have trouble at this point, please post a question to `#dj-sos` Slack channel and describe what's happening. 
-
-    * Try the ["Programming basics" tutorial](https://posit.cloud/learn/primers/1.2) linked in that chapter. Don't worry about all of the math in it; you don't have to go through the part where you answer questions. Instead, just focus on the concepts of the 1-minute videos:  functions, arguments, objects and data types.^[I tried to make a version of the videos for you and failed miserably.]  
-
-    * Watch Andrew Heiss's [RStudio tour](https://youtu.be/cnQ-v1UUWyE). Again, don't worry much about how math-centric it is. Our work will be much less so. But he does a good job of going through the most confusing pieces of what's in front of you. 
-
-**Don't spend more than 2 hours on this. You might finish sooner, but you'll need this to move forward so don't rush. I also expect you'll have questions when we get to class.**
-
-
-OPTIONAL: If you are nervous, consider reviewing the [Using Quarto](https://cronkitedata.github.io/djtextbook/r-quarto.html) chapter that we'll be following in our class lab today. 
-
-## Textbook chapters we'll review
-
-* [A gentle introduction to programming](https://cronkitedata.github.io/djtextbook/appendix-program.html)
-* [Creating Quarto documents](https://cronkitedata.github.io/djtextbook/r-quarto.html)
+    * ["Hundreds of PPP Loans Went to Fake Farms in Absurd Places"](https://www.propublica.org/article/ppp-farms), Derek Willis and Lydia DePillis, ProPublica, May 18, 2021
+    * "[Six Stories From a Downtown District Show Pandemic's Uneven Toll](https://www.wsj.com/articles/some-asheville-businesses-thrived-with-government-backed-ppp-loans-others-struggled-11609426801)",  Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec. 31, 2020. (Read this on campus if you haven't signed up for the free WSJ subscription through the library.)
+    * ["Banking on Inequity"](https://revealnews.org/podcast/banking-on-inequity/) , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021. 
 
 
+3. Read Chapter 14, [Select, arrange and filter](https://cronkitedata.github.io/djtextbook/r-verb-filter.html)
 
+4. Complete the prelab on select, arrange and filter (In Canvas)
+
+As always, come prepared to discuss questions, observations, and areas of confusion. 
 

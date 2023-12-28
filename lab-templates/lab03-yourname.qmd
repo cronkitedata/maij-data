@@ -25,7 +25,6 @@ Nothing else will work until you've done this.
 
 The PPP data is stored in an R data file located here: <https://cronkitedata.s3.amazonaws.com/rdata/ppp_az_loans.RDS> . Write a code chunk that will load it into a new object called `ppp_orig` :
 
-
 If you get errors, check:
 
 -   Have you used the nested functions as shown in the chapter?
@@ -46,24 +45,15 @@ After each item, describe why this might be an interesting list for a story --- 
 
 1.  List all of the loans worth at least \$1 million.
 
-
-
 2.  Look at all of the projects in Maricopa County of less than \$1,000
-
-
-
 
 3.  List all of the loans that were not forgiven. These are listed with `NA` in the `forgiven` amount, not 0.
 
-
-
 4.  List all the loans to non-profit organizations in Scottsdale, Phoenix and Tempe.
-
-
 
 5.  Find the McDonald's franchises.
 
-You'll have to get a handle on what is actually in the data and examine your answers to make sure you got what you wanted.
+HINT: You'll have to get a handle on what is actually in the data and examine your answers to make sure you got what you wanted.
 
 ### Errors
 
@@ -84,39 +74,27 @@ As you get these errors, try to read them and get used to what they're trying to
 
 Describe **three** lists of loans you would like to examine that might lead you to businesses, people or places to interview for a story based solely on what is contained in this data. An example of this kind of list is the Wall Street Journal story you read: downtown businesses along a specific stretch of Asheville. This is JUST for looking at interesting lists, NOT for summarizing or counting or summing amounts.
 
-For each idea, take a stab at trying to produce those lists in a code chunk or a series of code chunks. 
+For each idea, take a stab at trying to produce those lists in a code chunk or a series of code chunks.
 
 ## Mutate
 
-Add code chunks to do the following: 
+Add code chunks to do the following:
 
-1. Using the if_else() function, create a column that shows whether or not the loan was forgiven. (None have been charged off yet)
+1.  Using the if_else() function, create a column that shows whether or not the loan was forgiven. (None had been charged off as of the date of the data)
 
+2.  Using the case_when() , categorize the loans as "Small", "Medium" or "Large". You choose the amounts to assign to each of those categories. We'll learn a more statisticially serious way of doing that in the future.
 
+3.  Try to turn the date column in something by month. Here is a phrase that takes a date value, and then sets it to the first of the month that it's in:
 
-2. Using the case_when() , categorize the loans as "Small", "Medium" or "Large". You choose the amounts to assign to each of those categories. We'll learn a more statisticially serious way of doing that in the future. 
+    `floor_date ( column_name , 'month')`
 
+4.  The [list of the first digits of the industry code](https://www.census.gov/naics/?58967?yearbck=2017) can help you determine what kind of business it was. Use a mutate statement using str_like() and case_when() to distinguish between a) retail trade , hotels or restaurants , b) Mining and agriculture, and c) Professional, technical and scientific services. Code everything as as "Other". This might be hard, and it will require some str_like / OR conditions, or you have to create a new column with just the first two digits and then test it using the `%in%` operator. Get as far as you can with this. HINT: The function `str_sub( col name, first position, last position)` lets you extract the nth characters of a string.
 
+Use the 2017 version from the NAICS site -- 2022 wasn't invented when the loans were given. It's shown toward the bottom of the link page (I can't seem to link to it directly).
 
+## What do you want to remember?
 
-3. Try to turn the date column in something by month. Here is a phrase that takes a date value, and then sets it to the first of the month that it's in: 
-   
-   ``` floor_date ( column_name , 'month') ```
-
-4.  The [list of the first digits of the industry code](https://www.census.gov/naics/?58967?yearbck=2017) can help you determine what kind of business it was. Use a mutate statement using str_like() and case_when() to distinguish between a) retail trade , hotels or restaurants , b) Mining and agriculture, and c) Professional, technical and scientific services. Code everything as as "Other". This might be hard, and it will require some str_like / OR conditions, or you have to create a new column with just the first two digits and then test it using the `%in%` operator.  Get as far as you can with this. HINT: The function `str_sub( col name, first position, last position)` lets you extract the nth characters of a string.
-
-Use the 2017 version from the NAICS site -- 2022 wasn't invented when the loans were given. It's shown toward the bottom of the link page (I can't seem to link to it directly). 
-
-
-
-
-## What do you want to remember? 
-
-List three things that you want to remember from this lab. (They may not be any different than the prelab. That's ok.) 
-
-
-
-
+List three things that you want to remember from this lab. (They may not be any different than the prelab. That's ok.)
 
 ## Render if you can
 

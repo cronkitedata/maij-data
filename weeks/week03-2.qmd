@@ -1,69 +1,22 @@
 ---
-title: "Install party!"
-date:   2023-01-25
-description:  Logistics for starting your journey into coding
+title: "A quick tour of the verbs"
+date:   2024-01-24
+draft: false
+description:  You can do an awful lot in R just by mastering seven verbs. We'll go through six of them in a quick tour.
 --- 
-
-**Please bring your laptop to school if you plan to use it for your homework and projects.**
-
-Configuring computers for use in data reporting is one of the most frustrating things that we do. Everyone's computer seems to be set up slightly differently, depending on exactly which version of which operating system you have and when you've last installed various helpers. Don't let yourself get frustrated with this and don't try to Google your way out of it --- it's not worth your mental energy and you might make things worse.  
-
 
 ## Agenda
 
-* Review of file management on computers to stay organized
-* Setting up your computer for the rest of the course
-* Installing packages (you'll undestand what this means when the time comes)
-* A quick introduction to RStudio environment, which can be a little intimidating
-* Resolving installation issues 
+* Finish anything that we couldn't get to on Monday
+* Do the lab on verbs in class
 
+## Upcoming deadlines 
 
-## Upcoming deadlines
+Pre-labs are due by 10am the day of class unless otherwise noted. Labs are due after our in-class lab unless otherwise noted. You will have a lab, prelab, or both nearly every day so they won't be listed here anymore.
 
-[Friday Jan. 27]{.sked-dates}: Complete the R Installation assignment in Canvas. Note the Friday due date -- I hope we'll finish this during the lab but this gives us a couple of days to work out any kinks. 
+* [Monday Jan. 29]{.sked-dates} : What would you do? 
 
-[Sunday Jan. 29]{.sked-dates}: The life of a dataset
+## Preparation: 
 
-## Preparation  
+* [A quick tour of verbs](https://cronkitedata.github.io/djtextbook/r-verbs.html). We'll do the prelab in class, but come to class ready to ask questions about the chapter.
 
-### Install R and RStudio
-
-Try to follow along with  [Installing R and RStudio](https://cronkitedata.github.io/djtextbook/r-install.html)
-
-#### Using your own computer
-
- **DO NOT SPEND MORE THAN ONE HOUR TRYING TO GET THIS TO WORK.** Instead, note where you had trouble and we'll resolve it in class. Or at least I hope we will. 
-
-* Get as far as you can with the installation
-* Try starting up RStudio (not R). 
-* Note any error messages or other troubles you have so we can fix them in class. 
-
-#### Using something else
-
-* Make sure you know where you will use the software and have tried starting it. Please let me know if the lab is not set up as you might expect. 
-* If you plan to use Posit  Cloud, sign up for the service and make sure you know how to access it in class. Please note that it is not a great alternative --- it doesn't work very well with our Quarto documents, and it is known to eat your work.  Submitting your homework will be more difficult. And you'll probably have to start paying before too long.
-
-### Set up your course folders / hard drive 
-
-DO NOT expect to use Google drive to store your work -- it won't work. You will not be able to directly access the data in the Google drive on your computer, and there are strict limits on the size of the data file you can transfer using it. Believe me. We've tried. If you use Dropbox, you can set up your course folder within Dropbox instead of within your Documents folder. 
-
-**No matter how far you got in the installation, be sure to set up your course folder as shown in the video**
-
-#### On your own computer
-
-{{< video https://www.youtube.com/embed/KbAcoHbEanI   width="60%" height=400 >}}
-
-#### If you're using something else
-
-* Create a folder on your portable hard drive or thumb drive called `maij-working` 
-
-## In-class links
-
-* Textbook: "[Getting started with R and R Studio](https://cronkitedata.github.io/djtextbook/r-start.html)"
-* [More details](../inclass/01-github-logistics.qmd) and Github options
-
-## Resources for organizing your computer
-
-I know that a lot of people don't use folders or subfolders on their computers, using search instead to find files and projects. Others use Google Drive almost exclusively. That's not going to work when you start programming -- the specific locations of files on your computer are important. Consider [reviewing how to organize your computer](../inclass/01-github-logistics.qmd) if you're unsure about this. 
-
- 

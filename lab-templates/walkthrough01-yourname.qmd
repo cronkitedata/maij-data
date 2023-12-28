@@ -1,0 +1,173 @@
+---
+title: "Import and explore walkthrough"
+author: "YOUR NAME HERE"
+format: 
+  html: 
+    theme: cosmo
+    embed-resources:  true
+    toc: true
+    code-tools: true
+editor: visual
+---
+
+I've told you to generally use the "Source" view of your document, but you should feel free to leave it on "Visual" for the first few labs. It might be easier for you to see what's happening.
+
+## Working with record layouts
+
+In your own words, describe the dataset that we'll be working with. Make sure to add quotes around anything you take directly from the textbook.
+
+Using a bulleted list, name three things that are important to notice about this documentation:
+
+## Check your project
+
+Did you:
+
+1.  Save this document into your projects folder? If not, move it now.
+
+2.  Open the project, not the document? It's easy to forget this, but nothing works properly if you don't get in the habit.
+
+Once you're sure you're working in the proper project , you can move on.
+
+## Setup
+
+Every program needs a "setup chunk". Copy and paste the setup chunk from the textbook here, and press the "Play" button to run it.
+
+## Importing
+
+#### Q: What kind of file is the Hot 100 data?
+
+#### Q: Where is it stored?
+
+### Import the data here
+
+Create a new code chunk here, and copy the import chunk from the textbook into it. Be sure not to erase the three back-ticks at the end of the code chunk.
+
+#### Your descriptions
+
+1.  After running your code chunk, describe in your own words what the output means:
+
+2.  What do you need to do if you have an Excel file instead?
+
+3.  Describe three ways of examining your data once it's imported:
+
+    1.  
+
+    2.  
+
+    3.  
+
+### Use code to examine your data
+
+In the code chunks below, type the commands you need to look at the top of the data set, the bottom of the data set, and the details of the data vertically.
+
+#### Top
+
+```{r}
+
+
+
+
+```
+
+#### Bottom
+
+```{r}
+
+
+
+
+```
+
+#### Details
+
+```{r}
+
+
+
+
+
+```
+
+## The pipe
+
+One way to build your program one piece at a time is to add lines one by one. The next several code chunks do just that: Try one thing, and glimpse() it; add another thing and glimpse that; add a third thing, etc. Once you're happy with what you've done, save it to a new data frame and remove the "glimpse()" .
+
+In practice, of course, you'd do this all in one code chunk, editing it as you're happy with the results so far. This example just shows you the process:
+
+```{r}
+
+top100 |>
+  clean_names() |>
+  glimpse()
+
+
+```
+
+```{r}
+
+top100 |>
+  clean_names() |>
+  mutate (chart_date = mdy(chart_week) ) |>
+  glimpse()
+
+
+```
+
+```{r}
+
+top100 |>
+  clean_names() |>
+  mutate (chart_date = mdy(chart_week) ) |>
+  select ( chart_date, title, performer, this_week, last_week,
+           wks_on_chart, peak_pos) |>
+  glimpse()
+
+
+```
+
+Now you're ready to save it to a new data frame:
+
+```{r}
+
+
+top100_clean <-
+  top100 |>
+  clean_names () |>  
+  mutate ( chart_date = mdy(chart_week)) |>
+  select ( chart_date, title, performer, this_week, last_week,
+           wks_on_chart, peak_pos)
+
+
+```
+
+Why didn't anything get printed out after running it?
+
+Insert a code chunk here that lets you look at the details of the new data frame:
+
+If your data frame isn't as expected, go back and look at the code and think about why that might have happened. In particular, don't save and examine your data in the same code chunk. If, for example, you used `glimpse()` on the last code chunk, only that little look will be saved, not the whole data frame.
+
+## Save for the next chapter
+
+Run this code chunk:
+
+```{r}
+
+saveRDS(top100_clean, file="hit100.RDS")
+
+```
+
+What happened? And where will you find this new file on your computer?
+
+## Takeaways
+
+Note three things from this lesson that you don't want to forget or questions that you want to discuss
+
+They can be part of the formal walkthrough, something in the chapter itself, or something that struck you as you were trying to do the work.
+
+Copy anything you don't want to forget into a log that you update every week as you learn new things.
+
+1.  
+
+2.  
+
+3.
