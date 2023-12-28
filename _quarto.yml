@@ -65,9 +65,9 @@ website:
         contents: 
           - text: "1.1: Intros"
             file: weeks/week01-1.qmd
-          - text: "1.2: Jump start"
+          - text: "1.2: Startup potpourri"
             file: weeks/week01-2.qmd
-          - text: " 2: Accuracy and replication"
+          - text: " 2: Scripted journalism"
             file: weeks/week02.qmd
           - text: "3.1: First steps in data analysis"
             file: weeks/week03-1.qmd
@@ -77,9 +77,10 @@ website:
             file: weeks/week04-1.qmd
           - text: "4.2: Creating new from old with mutate"
             file: weeks/week04-2.qmd
-          # - text: "5.1: Summarize with group by"
-          #   file: weeks/week05-1.qmd
-          # - text: "5.2: Matchmaking with joins"
+          - text: "5.1: Summarize with group by"
+            file: weeks/week05-1.qmd
+          - text: "5.2: Matchmaking with joins"
+            file: weeks/week05-2.qmd
           # - text: "6: The power of regular expressions"
           #   file: weeks/week06.qmd
           # - text: "7: TK"

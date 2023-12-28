@@ -8,10 +8,10 @@ format:
   html: 
     toc-location: right
     published-title: "Last updated"
-  pdf: 
-    output-file: "syllabus.pdf"
-    default-image-extension: png
-    toc: true
+#  pdf: 
+#    output-file: "syllabus.pdf"
+#    default-image-extension: png
+#    toc: true
 --- 
 
 ::::: {.card-columns}
@@ -75,7 +75,7 @@ By the end of this semester, you will be able to:
 * Integrate data journalism techniques with traditional reporting methods.
 * Write effectively with and about data, whether for text or for the ear.
 
-
+You'll have a new super power for your journalism. 
 
 ### Prerequisites
 
@@ -89,15 +89,15 @@ You are not expected to have acquired or used data for your stories in the past,
 
 ## Required materials and texts
 
-All of the hardware and software required for class is available in our classroom, in the lab in Cronkite 320, and in the ASU lab in UCENT across from Cronkite.
+All of the hardware and software required for class is available in our classroom and in the lab in Cronkite 320. R and RStudio is available in any ASU computing lab, including the one across from Cronkite in UCENT.
 
-If you choose to use your own laptop or desktop computer, it must be running Mac OS 11 (Big Sur) or newer^[Macs made in the past decade will generally work], or Windows 10 or newer. Please contact me if you’re not sure if your operating system needs updating. Macs that are more than 10 years old won't work. Neither will Chrome books or iPads.  
+If you choose to use your own laptop or desktop computer, it must be running Mac OS 11 (Big Sur) or newer, or Windows 10 or newer. Please contact me if you’re not sure if your operating system needs updating. Macs that are more than 10 years old won't work. Neither will Chrome books or iPads.  
 
 I suggest working on a large screen with a regular mouse whenever you can, even if it means doing some of  your work in a lab.
 
 ### Books and software
 
-You do not need to buy any books or software.
+You do not need to buy any books or software. All of the materials used will be provided at no cost to you.
 
 The following free software will be used extensively in this class.
 
@@ -107,8 +107,6 @@ The following free software will be used extensively in this class.
 At the end of the semester, we'll be exploring some of the advanced features of Microsoft Excel and how they differ from Google sheets, but you should feel free to use lab computers for this.  
 
 There will be other free software that we'll use for specific projects. I'll provide links to those as we go along.
-
-All of the readings and materials will be provided to you at no cost.
 
 #### Recommended 
 
@@ -122,11 +120,9 @@ All of the readings and materials will be provided to you at no cost.
 
 These generally use SQL (Structured Query Language) rather than R for more advanced data work, but the concepts are really good: 
 
-- [Data for journalists: A practical guide](https://www.amazon.com/Data-Journalists-Brant-Houston/dp/0815370407) ($$$), Brant Houston: The GOAT of data journalism texts, goes through a lot of the basics in a way that focuses on story rather than presentation. 
-- [Data plus journalism](https://dataplusjournalism.com/) ($$$), Mike Reilley and Samantha Sunne. Both of these authors take a kitchen-sink approach to data and journalism, and the book is sort of the same, but it has good exercises and a laundry list of resources in each chapter. Its organization is a bit muddled. 
+- [Data for journalists: A practical guide](https://www.amazon.com/Data-Journalists-Brant-Houston/dp/0815370407) (\$$$), Brant Houston: The GOAT of data journalism texts, goes through a lot of the basics in a way that focuses on story rather than presentation. 
+- [Data plus journalism](https://dataplusjournalism.com/) (\$$$), Mike Reilley and Samantha Sunne. This book take a kitchen-sink approach to data and journalism but it has good exercises and a laundry list of resources in each chapter. Its organization is a bit muddled. 
 - [The data journalism handbook 2](https://datajournalism.com/read/handbook/two)" (Free), European Journalism Centre and Google News Initiative. This free book is a thoughtful collection of essays about the international movement. 
-
-I'll provide other resources for learning R for journalism when we get to that part of the course. 
 
 ## Grading
 
@@ -138,11 +134,11 @@ The class uses a point system that initially adds up to 1,000 points for the sem
 <li>Class preparation and labs: 300 </li>
 <li>"What would you do?" posts and discussions : 100 </li>
 </ul>
-<li>**Graded homework**: 150 </li>
-<li>**Projects** : 450
+<li>**Graded homework**: 200 </li>
+<li>**Projects** : 400
 <ul class="mb-0">
-<li> Data replication project: 200  </li> 
-<li>Final story memo : 250  </li>
+<li> Data replication project: 175  </li> 
+<li>Final story memo : 225  </li>
 </ul>
 </ul>
 
@@ -161,51 +157,50 @@ Nearly half of your grade is dependent on this slow and steady work.
 ![](assets/img/mwtweet-edited.png){fig-alt="Matt Waite: Not due today, not doing it today"}
 :::
 
-
 There will be at least one low-stakes assignment nearly every week. Sometimes, I'll ask you to reflect on what you did and provide feedback. Other times, you will show that you went through a tutorial on your own. We'll do a lot of labs in class.
 
-*Prelabs* are exercises intended to force you to slow down and go through a tutorial on your own, providing feedback on areas that are muddy or difficult. I'll use them as diagnostics to decide how to focus our class time. *Labs* are exercises for you to practice and apply what you've learned.
+*Walkthroughs* are exercises intended to force you to slow down and go through a tutorial, sometimes on your own and sometimes in class. I'll ask you to provide feedback on areas that are muddy or difficult, which I'll use to help focus our work. These are usually worth 10 points each. *Labs* are exercises for you to practice and apply what you've learned. These are initially worth 25 points each, which might be adjusted later in the semeseter.
 
-These will be submitted in Canvas assignments, but I haven't yet produced all of them. This means the total points in Canvas won't be correct until partway through the semester.
+These will be submitted in Canvas assignments, but I haven't yet produced all of them; total points in Canvas won't be correct until partway through the semester.
 
 #### What would you do? 
 
 You've had some background in journalism ethics, but there are specific issues that come up surrounding acquiring, analyzing and presenting data. You will be presented with four scenarios that are based on real-world situations. After reading the material, you will be asked to reflect on some specific questions on a discussion board, which will form the basis of our in-class discussion. Each of these is worth 25 points.
 
-### Replication project {.mb-0}
-
+### Graded homework {.mb-0}
 [200 points]{.points}
 
+There will be four smaller graded assignments that are more important than daily work but don't rise to the level of a project.  Each is worth 50 points. 
 
-There are three separate assignments for this project, which challenges you to reproduce some sentences published in real stories using the same data used by the reporters. I’ll provide the stories and the data. Your first job is to identify paragraphs in the story that depended on the dataset that you’ve been given. The second gives you a chance to turn in a draft of your work so that I can help you. The last one is the final version.
+### Replication project {.mb-0}
+
+[175 points]{.points}
+
+There are three separate assignments for this project, which challenges you to reproduce some sentences published in real stories using the same data used by the reporters. I’ll provide the stories and the data. 
 
 ### Story memo {.mb-0}
 
-[250 points]{.points}
+[225 points]{.points}
 
-You’ll develop a story pitch using a combination of story backgrounding and data analysis. I’ll give you a choice of at least three datasets that I know will work for this assignment. You may propose your own, but it must be easy to obtain, relatively clean, and complicated or large enough that there is something for you to analyze beyond a basic statistic. Generally, the dataset will be of individual records (accidents, inspections, deaths or events), not statistical compilations. You’ll understand this better as we move along.
+You’ll develop a story pitch using a combination of story backgrounding and data analysis. I’ll give you a choice of at two datasets that I know will work for this assignment. You may propose your own, but it must be easy to obtain, relatively clean, and complicated or large enough that there is something for you to analyze beyond a basic statistic. Generally, the dataset will be of individual records (accidents, inspections, deaths or events), not statistical compilations. You’ll understand this better as we move along.
 
-The specific list of datasets may be coordinated with your investigative reporting class, News21 and/or the Howard Center, so they're subject to change. 
+The specific list of datasets could be coordinated with your investigative reporting class, News21 and/or the Howard Center, so they're subject to change. 
 
 Although this is one-quarter of your grade, it’s split among four assignments over more than a month. You’ll build the memo a little at a time, so by the end, it won’t seem like a big lift. I promise.
 
-### Graded homework {.mb-0}
-[150 points]{.points}
-
-There will be three smaller graded assignments that are more important than daily work but don't rise to the level of a project.  They are shown in Canvas each with 50 points. 
 
 ### Grading policies 
+
+Following Cronkite policies, letter grades will not be rounded up. I reserve the right to add extra points to a grade if the assignment shows extraordinary effort, thought, engagement or ambition. This will be rare --- it never happened in some of the past semesters. 
 
 #### 50 points or more
 
 ::: grid
 
 ::: {.g-col-4 .p-3}
-
-
-Any assignment worth 50 points or more will be graded with letters, ranging from E to A+. It follows ASU's policy on grades. They will not be rounded up.  
-
+Any assignment worth 50 points or more will be graded with letters, ranging from E to A+. It follows ASU's policy on grades. 
 ::: 
+
 ::: {.g-col-8 .ltblue-box .m-3 .p-3 }
 ASU's policy is: 
 
@@ -213,6 +208,7 @@ ASU's policy is:
 * “B” means “successful”. That means it’s on time, accurate, written or presented in a professional way, and answers the requirements of the assignment. 
 * “C” is considered “Acceptable” work, in that it has met some, but not all, of the requirements.
 ::: 
+
 ::: 
 
 #### Under 50 points
@@ -223,15 +219,13 @@ Smaller assignments and labs will be graded as follows:
 
 Percentage | Definition
 ---- | -----
-[115%]{.highlight} | I will award extra points when the work shows extraordinary effort, thought and engagement. You can do everything right, receive an A+ in the course, and never see this.  Instead, it's a way for me to acknowledge unusually ambitious work that goes well beyond the original assignment. 
-[100%]{.highlight}  |  You have completed all of the work assigned at an acceptable level of quality, and submitted it according to the instructions by the deadline. This might include running code, writing code, providing questions or feedback, or summarizing your results as a journalist.  The work shows no fundamental factual errors and reflects an attempt to apply the material at hand. Sometimes, you'll end up explaining in your homework what you tried to accomplish but couldn't quite succeed --- that's ok! I hope all of your assignments can acheive this level but understand that it's not always possible. 
+[100%]{.highlight}  |  You completed all of the work assigned at an acceptable level of quality, and submitted it according to the instructions by the deadline. This might include running code, writing code, providing questions or feedback, or summarizing your results as a journalist.  The work shows no fundamental factual errors and reflects an attempt to apply the material at hand. Sometimes, you'll end up explaining in your homework what you tried to accomplish but couldn't quite succeed --- that's ok! I hope all of your assignments can acheive this level but understand that it's not always possible. 
 [50%]{.highlight} |  You turned in a late or partial assignment or one that shows cursory review of the material. I hope these will be rare, but I expect most people will have one or two of these throughout the semester.  
 [0%]{.highlight} |   You didn't turn anything in, or what was turned had no meaningful work done. 
 
 : {tbl-colwidths="[10,90]"}
 
 :::
-
 
 ## Course requirements
 
@@ -242,25 +236,22 @@ Percentage | Definition
 
 This is an immersion, in-person class and is not offered via Zoom. 
 
-The minimal requirement is to arrive on time, prepared, and ready to work.  Be sure to refresh your memory before class begins if you can't recall what you wrote or read in preparation.
+The minimal requirement is to arrive on time, prepared, and ready to work.  
 
-**Please refrain from eating, napping, using social media, shopping, or working on something else.** I expect you to treat your colleagues with respect and be polite to any guests. The classroom is a strict no-eating zone.
-
- Devices must be closed and turned off for guests and used only for class work the rest of the time.  Research shows that you are [much worse at multi-tasking](https://health.clevelandclinic.org/science-clear-multitasking-doesnt-work/) than you think you are, and the class won't stop because you got sidetracked. 
+**Please refrain from eating, napping, using social media, shopping, catching up on messages, or working on something else.** I expect you to treat your colleagues with respect and be polite to any guests. Devices must be closed and turned off for guests and used only for class work the rest of the time.  Research shows that you are [much worse at multi-tasking](https://health.clevelandclinic.org/science-clear-multitasking-doesnt-work/) than you think you are, and the class won't stop because you got sidetracked. I get it that this class is at lunch time, but the labs are strict no-eating zones. Please step outside the class when you want to eat or when you're tempted to multitask.
 
 ::: {.callout-important .ms-3 .me-2}
-## Devices in class
-I am easily distracted when someone is disengaged or doing something else during class. I can't stop staring at someone who nods off, is looking at their phone, or is eating lunch.  
 
-I know this is a character flaw. I will try to overcome it, but if  I start losing my place or stumbling over simple questions, I may ask you to leave the classroom or close your computer until you are ready to engage with the material we're working on. 
+## Help me! 
+I am easily distracted. I can't stop staring at someone who nods off, is looking at their phone, or is eating lunch.  
+
+I know this is a character flaw. I will try to overcome it, but if  I start losing my place or stumbling over simple questions, I may ask you to leave the classroom or close your computer until you are ready to engage with the material we're working on. If that happens, I'm not calling you out or chiding you. I really am just trying to maintain my own concentration.
+
 :::
 
-
-
-I will not monitor messages in  Slack or email during or just before class time. The only reliable way to get me a message between 11am and 1:20p Mondays and Wednesdays is to do so in person in the classroom. If you need to get between those hours, please ask a classmate to get my attention.
+I will not monitor messages in  Slack or email during class. The only reliable way to get me a message between 11:30a and 1:20p Mondays and Wednesdays is to do so in person in the classroom. If you need to reach me between those hours, please ask a classmate to get my attention.
 
 ### Attendance and deadlines
-
 
 There are no excused absences in this course, except for true medical or other emergencies or religious observances. 
 
@@ -268,12 +259,12 @@ You might decide it’s more important to go to a job interview, attend a family
 
 As in all journalism work, you are expected to meet deadlines. Late assignments will be heavily penalized and those with small point counts may not be accepted at all. 
 
-That said, **give yourself a break**. There are **two no-questions-asked 48-hour extensions** on daily work during the semester.  This includes only the labs/prelabs and graded homework, not any part of the project or "What would you do?" assignments.  You don't a reason; just let me know before class or deadline.  
+That said, **give yourself a break**. There are **two no-questions-asked 48-hour extensions** on daily work during the semester.  This includes only the labs/walkthroughs and graded homework, not any part of the projects or "What would you do?" assignments.  You don't need a reason; just let me know before class or deadline.  
 
 ::: {.callout-note .ms-3}
-## May I be excused?
+## Is it ok if I miss class today?
 
-The short answer is "yes". I don't take attendance and there is no class participation grade.  I get it --- sometimes you don't feel 100% or you have something more important to do or the bus broke down. 
+The short answer is "yes" --- you alone decide how to spend your time. I don't take attendance and there is no class participation grade.  I get it. Sometimes you don't feel 100% or you have something more important to do or you missed the bus. 
 
 But when you make that choice, you have to catch up on your own. I can't offer a Zoom option, and you'll receive a zero for any missed deadline.  
 :::
@@ -283,11 +274,11 @@ Please advise me the first week of class of any ASU-endorsed absences such as a 
 
 Here's what to do in the event of an emergency or illness: 
 
-* If there is an emergency, such as a car accident or a death in your close circle or family, please let me know as soon as possible and we’ll work out what to do next. (If you've already worked with the dean of students, I can coordinate with them and you don't have to talk to me individually.)
+* If there is an emergency, such as a car accident or a death in your close circle or family, please let me know as soon as practical, and we’ll work out what to do next. Under these circumstances, the last thing you need to worry about is making a deadline. I can coordinate with the Dean of Students to reduce the number of calls you have to make.
 
 * If you are sick, you should contact ASU Health Services or your doctor. They can provide  documentation if you are too ill or contagious to leave home.
 
-Accommodations in these circumstances can include extending deadlines and helping you find assistance such as ASU mental health resources and tutoring.  I may be able to let you observe (without participating) via Zoom, but you shouldn't count on it. 
+Accommodations in these circumstances can include extending deadlines, excusing a routine assignment and helping you find assistance such as ASU mental health resources and tutoring.  I may be able to let you observe (without participating) via Zoom, but you shouldn't count on it. 
 
 
 ### Accuracy
@@ -323,10 +314,16 @@ Having trouble?
 Learning data skills requires a lot of trial and error -- a LOT of error. It's frustrating and maddening at times and you won't be alone. But there are some strategies that you can use to help get you past roadblocks.
 
 * Slow down! Unlike the rest of journalism, going faster doesn't help. Separate the problem into pieces and solve it one step at a time. 
-* Don't get upset over errors. They don't reflect some kind of flaw in your work -- they're supposed to be helpful. Try to read the error and piece together what's wrong. A story goes through many drafts before it's finished, and the same thing will happen with your programs. 
-* If you've been working on something for more than 20 minutes **without making any progress**, don't waste more time on it. If you're making just a little progress, keep going. But take a break and come back to it if you're stuck. Get help if you're really stuck.
+
+* Don't get upset over errors. They don't reflect some kind of flaw in your work -- they're supposed to be helpful. Try to read the error and decipher what's wrong. 
+
+* Expect to go down unproductive roads at times. That's also OK and even helpful. A story goes through many drafts before it's finished, and the same thing will happen with your analysis and programming. 
+
+* If you've been working on something for more than 20 minutes **without making any progress**, don't waste more time on it. If you're making just a little progress, keep going. But take a break and come back to it if you're stuck. Get help if you're really stuck. Your morale is a valuable commodity and we don't want to squander it.
+
 * Remember the goal: We're not trying to become social scientists, computer programmers or data analysts. We're journalists. Simplify your questions, focusing on newsworthiness rather than academic research.
-* Practice. Look for opportunities to hone your skills by applying them outside of class on a personal project or for a story or another course. If you can't think of any practice, try a [#tidytuesday](https://github.com/rfordatascience/tidytuesday){style="background-color: inherit; text-decoration: underline; color: var(--body-color);"} challenge.^[In principle, I object to these "play with a dataset" exercises. As you'll see, understanding the data takes time and research, and in these cases the experts just assume they know. But they're useful for honing your skills.]
+
+* Practice. Look for opportunities to hone your skills by applying them outside of class on a personal project or for a story or another course. If you can't think of any practice, try a [#tidytuesday](https://github.com/rfordatascience/tidytuesday){style="background-color: inherit; text-decoration: underline; color: var(--body-color);"} challenge.
 ::::
 
 :::
@@ -362,9 +359,10 @@ The school has zero tolerance for academic dishonesty; instructors enforce acade
 
 You must complete the Academic Integrity pledge within the first week of class, included in Canvas as a quiz.
 
-::: {style="page-break-after: always;"}
-::: {.content-visible when-format="html"}
+::: {style="page-break-after: always;"} 
+::: 
 
+::: {.content-visible when-format="html"}
 
 <figure class="figure"  >
 <img src= "assets/img/brodeur.png" height="90%" class="figure-img img-fluid" alt="?$!# &%"></img>
@@ -383,11 +381,15 @@ You must complete the Academic Integrity pledge within the first week of class, 
 
 Everyone in this class has gone through the boot camp required of all masters students. You covered spreadsheet basics and were expected to have basic numeracy skills such as computing percentages and averages. No other coding or data analysis background is expected.
 
+Here is [a tip sheet](https://cronkitedata.s3.amazonaws.com/docs/DataJournalism_Infographic.pdf) made by Jordan Gerard from the 2023 MAIJ  cohort to help set your expectations. 
+
 **Q: This looks like a lot of work. How long do I have to spend on it every week?**
 
 I try to follow the ASU standard for a 3-credit course --- approximately 9 hours per week, including class and lab time. That suggests that, on average, you should expect to spend about 5 or 6 hours per week outside of class on preparation, homework and projects. 
 
-If you're spending considerably more time on assigned work and preparation, please let me know -- that's not the intention.   
+If you're spending considerably more time on assigned work and preparation, please let me know -- that's not the intention. If you're spending considerably less time, evaluate whether you're really engaging with the work rather than speeding through it.  
+
+That said, the work in this class is a little front-loaded as we race to get you some skills you can apply later on. You'll find that you may spend more time before Spring Break, and less after it.
 
 **Q: How should I communicate with you? A: Slack**
 
@@ -397,7 +399,7 @@ Slack or in person is best. All assignments must be turned in via Canvas assignm
 
 Pay attention to the feedback on  your routine homework and labs. I'll give you a sense of where you're excelling and where you might improve. I'm always happy to meet and discuss strategies that will help you get to the next level in your journalism or your data analysis skills. 
 
-I've found that Canvas isn't very accurate in estimating the final grade as we work through the semester, so I've turned that feature off. It will just mislead you. 
+I've found that Canvas isn't very accurate in estimating the final grade as we work through the semester, so I've turned that feature off. It will just mislead you. I'll turn it back on towards the end of the semester when it's more accurate.
 
 **Q: How do I ask good questions?**
 
@@ -409,12 +411,12 @@ In technical work, asking a good question is an art. Try to:
 
 **Q: I already know how to code and analyze data. Why do I have to take this class?**
 
-Even if you know how to code, I presume you are at Cronkite because you want to apply all of your skills to a journalism career. You probably knew how to use a phone or take a picture before you came to j-school, but you may not have used them the way you do now. That said, talk with me if you’re concerned that you won’t be challenged enough or want to go further. We’ll find ways to make the time productive and take you to the next level in data reporting.
+Even if you know how to code, I presume you are at Cronkite because you want to apply all of your skills to a journalism career. You probably knew how to use a phone or a camera before you came to j-school, but you may not have used them the way you do now. Talk with me if you’re concerned that you won’t be challenged enough or want to go further. We’ll find ways to make the time productive and take you to the next level in data reporting.
 
 **Q: Can I use AI like [ChatGPT](https://openai.com/blog/chatgpt/) to help me with my coding?**
 
 Sure --- for help, not for answers. In fact, one of the things it's really good at is answering the question, "Why doesn't this code work?"  You will have to determine if its answer is right. But for this purpose it's pretty similar to searching Google and Substack  or asking colleague for help. 
 
-You are responsible for learning the methods taught in the class, not some other way to accomplish the same thing. (You don't have to memorize anything, but we're working in very limited version of the world of programming and R, and I won't go outside it to help you or accept your work.)
+You are responsible for learning the methods taught in the class, not some other way to accomplish the same thing. You don't have to memorize anything, but you should be able to recognize whether the code these tools suggest use methods you've seen before. We're working toward mastering a little corner of the R and programming world, not sampling the whole universe.  
 
-The free version of ChatGPT is a little too old for some of the things you'll be learning. Consider trying Perplexity.ai or Github Copilot instead.
+The free version of ChatGPT, which used training data that ended in 2021, is a little too old for some of the things you'll be learning. Consider trying Perplexity.ai or Github Copilot instead.

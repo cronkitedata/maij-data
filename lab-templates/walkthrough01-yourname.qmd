@@ -1,5 +1,5 @@
 ---
-title: "Your first program"
+title: "Import and explore walkthrough"
 author: "YOUR NAME HERE"
 format: 
   html: 

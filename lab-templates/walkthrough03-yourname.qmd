@@ -1,5 +1,5 @@
 ---
-title: "Filter, arrange prelab"
+title: "Filter, arrange walkthrough"
 author: "YOUR NAME HERE"
 format: 
   html: 
@@ -10,7 +10,7 @@ format:
     df-print: paged
 ---
 
-This prelab goes along with [Verbs in depth Part 1](https://cronkitedata.github.io/djtextbook/r-verb-filter.html) and [Verbs in Depth part 2: Mutate](https://cronkitedata.github.io/djtextbook/r-verb-mutate.html) . You should follow along with the explanations and details in the textbook as you walk through this prelab.
+This walkthrough goes along with [Verbs in depth Part 1](https://cronkitedata.github.io/djtextbook/r-verb-filter.html) . You should follow along with the explanations and details in the textbook.
 
 ## Load data
 
@@ -61,7 +61,7 @@ glimpse(ppp_small)
 
 ## Arrange
 
-What will the following code do?
+What does the following code do?
 
 ```{r}
 
@@ -170,4 +170,3 @@ Write out three things you want to remember about `select`, `arrange` and `filte
 2.  
 
 3.  
-

@@ -1,5 +1,5 @@
 ---
-title: "Jump start"
+title: "Startup potpourri"
 date:  2024-01-10
 draft: false
 description: Consuming news as a reporter. Plus an install party, and a gentle introduction to programming! 
@@ -33,14 +33,13 @@ Don't get frustrated and **don't try to Google your way out of it** --- it's not
 
 [Friday]{.sked-dates} (in Canvas):
 
- * Complete the R and RStudio installation assignment in Canvas. You might be able to do this if you have no trouble with the instructions below. This deadline gives us time to resolve any issues you have, but please submit it as soon as you can so I know where there are problems.
+ * Complete the R and RStudio installation assignment in Canvas. You might be able to do this in 10 minutes, but sometimes there are glitches. This deadline gives us time to resolve any issues before they thwart your work. 
 
  * Cronkite Academic Integrity pledge
 
 [Wednesday, Jan. 17]{.sked-dates} : 
 
-  * What would you do? Reporting live election results. Note the 9:30am deadline. 
-  * In-class lab
+  * What would you do? Reporting live election results. Note the 10:00am deadline. 
 
 ## Preparation
 
@@ -50,8 +49,7 @@ Today's lab is geared at learning how to read and view journalism as a writer an
 
 #### Textbook: 
 
-* [Introduction to Quick Start](https://cronkitedata.github.io/djtextbook/start.html) 
-
+* [Introduction to Reporting with data](https://cronkitedata.github.io/djtextbook/start.html) 
 * [Learn a New Way to Read](https://cronkitedata.github.io/djtextbook/start-story.html) 
 
 #### Story
@@ -60,7 +58,9 @@ Today's lab is geared at learning how to read and view journalism as a writer an
 
 ### Try to install R and RStudio 
 
-* Complete the [installation tutorial in the textbook](https://cronkitedata.github.io/djtextbook/r-install.html) , including the videos linked at the top. You don't have to answer the questions after the videos.
+You'll have to finish this by Friday, but try to get it done before class. That way I can help you if you run into trouble.
+
+Complete the [installation tutorial in the textbook](https://cronkitedata.github.io/djtextbook/r-install.html) , including the videos linked at the top. You don't have to answer the questions after the videos. 
 
 #### If you plan to use your own laptop or desktop:
 
@@ -68,31 +68,15 @@ Today's lab is geared at learning how to read and view journalism as a writer an
 * Try starting up RStudio (not R). 
 * Note any error messages or other troubles you have so we can fix them in class. Don't try to Google the resolution on this -- the answers might create more problems than they fix. I'll help you at the end of class. 
 
-
 #### If you are going to use something else: 
 
 * Labs in school: Make sure you know where you will use the software and have tried starting it. Please let me know if the lab is not set up as you might expect. 
 
 * Posit  Cloud : Sign up for the service and make sure you know how to access it in class. It's not the great alternative that it seems. In particular, students have had it eat their work in the past and submitting your homework will be more difficult. You'll probably have to start paying before too long. But it is OK for the first few days as we get you set up for the future.
 
-### Set up your course folders / hard drive 
+#### Set up your course folders / hard drive 
 
-**No matter how far you got in the installation, be sure to set up your course folder as shown in the video**
-
-DO NOT expect to use Google drive to store your work -- it won't work. We've tried.
-
-#### On your own computer
-
-This video is about 5 minutes, and is shown using a Mac. If you're on Windows, the idea is the same -- create a folder within your Documents folder. The RStudio parts are the same regardless of your operating system.
-
-{{< video https://youtu.be/KbAcoHbEanI?si=oOm9gPitlgQnXotqß   width="80%" height=400 >}}
-
-::: {.callout-warning}
-Be sure to open RStudio, not R: 
-
-![](../assets/img/r-start-r-or-rstudio.png)
-
-:::
+Be sure to follow along with the setup instructions at the end of the chapter, no matter how far you got in the installataion.  DO NOT expect to use Google drive to store your work -- it won't work. We've tried. 
 
 Your `maij-working` folder should be somewhere on your computer or portable drive that you can find it every day. My suggestion is within the "Documents" folder, but you may need to adjust that if you  use Dropbox or are using a thumb drive. 
 

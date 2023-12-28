@@ -1,5 +1,5 @@
 ---
-title: "Replication and your first R program"
+title: "Scripted journalism with Quarto"
 date:   2024-01-17
 description:  Using Quarto to combine your programming and your documenation in one place.
 --- 

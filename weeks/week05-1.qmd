@@ -1,10 +1,9 @@
 ---
 title: "Verbs part II: Summarize and Group" 
-date:  2024-02-12
+date:  2024-02-05
 description: Aggergating data by grouping and summarizing
 draft: false
 --- 
-
 
 
 ## Agenda
@@ -16,13 +15,16 @@ draft: false
 
 ## Upcoming deadlines
 
-[Feb. 18]{.sked-dates} Replication project draft
+[Sunday Feb 4]{.sked-dates} Replication project sentences
+[Sunday Feb. 11]{.sked-dates} The life of a dataset 
+
+
 
 ## Preparation
 
-There isn't a lot of prep to do this week, so please spend some time trying to internalize this chapter. It's a little hard to digest. Please do this preparation BEFORE you do your story idea homework. 
+Please try to spend some time trying to internalize this chapter. It's a little hard to digest.  
 
-* [Grouping and aggregation ](https://cronkitedata.github.io/djtextbook/r-verb-groupby.html)
+* [Verbs in Depth: Aggregating with groups](https://cronkitedata.github.io/djtextbook/r-verb-groupby.html)
 
 
 
