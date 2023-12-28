@@ -35,7 +35,7 @@ From now on, I won't list the labs and prelabs on these upcoming deadlines.
 
 3. Read Chapter 14, [Select, arrange and filter](https://cronkitedata.github.io/djtextbook/r-verb-filter.html)
 
-4. Complete the prelab on select, arrange and filter (In Canvas)
+4. Complete the [walkthrough on select, arrange and filter], and turn it in to Canvas
 
 As always, come prepared to discuss questions, observations, and areas of confusion. 
 

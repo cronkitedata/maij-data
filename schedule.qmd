@@ -7,7 +7,7 @@ description: "A broad outline of what we'll be doing"
 
 This is a preliminary schedule that will probably change as we move along. You may want to spend more or less time on a topic, or we might have some guest speakers. I'll try to keep this updated as we go along.
 
-The due dates listed here are only for scheduled assigments. Expect to have a lab and / or a prelab due nearly every day.
+The due dates listed here are only for scheduled assigments. Expect to have a lab and / or a walkthrough due nearly every day.
 
 +--------+--------------+---------------------------------------------------------------------------------------+---------------------------------------------------------+
 |  Week  |  Dates       |  Topics                                                                               | Deadlines                                               |

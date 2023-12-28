@@ -8,7 +8,7 @@ description: Data rarely comes the way you need it. Use the `mutate` verb to cre
 
 * Review What Would You Do? 
 * Discussion of replication project story selections.
-* Questions on prelab
+* Questions on walkthrough
 * Complete the filter, arrange, and mutate lab
 
 ## Upcoming deadlines
@@ -18,7 +18,7 @@ description: Data rarely comes the way you need it. Use the `mutate` verb to cre
 ## Preparation
 
 * Read Chapter 15, [Mutate](https://cronkitedata.github.io/djtextbook/r-verb-mutate.html)
-* Complete the prelab on Mutate
-* Review the list of three story examples for the replication project and decide which one you want to choose. 
+* Complete the walkthrough on Mutate
+* Review the list of two story examples for the replication project and decide which one you want to choose. 
 
 

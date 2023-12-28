@@ -3,7 +3,7 @@ project:
   preview: 
     port: 4200
   output-dir: docs
-  # this says render all qmd, md, rmd files but nothing in labs, prelabs or working
+  # this says render all qmd, md, rmd files but nothing in labs or working
   render: 
     - "*.qmd"
     - "*.md"

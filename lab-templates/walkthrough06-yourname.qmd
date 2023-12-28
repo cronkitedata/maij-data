@@ -13,7 +13,7 @@ execute:
    error: true
 ---
 
-This prelab simply goes through the little bit of code that is in [chapter 20](https://cronkitedata.github.io/djtextbook/r-verb-join.html) .  
+This  simply goes through the little bit of code that is in [chapter 20](https://cronkitedata.github.io/djtextbook/r-verb-join.html) .  
 
 ```{r}
 #| label: setup

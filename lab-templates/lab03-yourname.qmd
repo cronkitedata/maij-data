@@ -94,7 +94,7 @@ Use the 2017 version from the NAICS site -- 2022 wasn't invented when the loans 
 
 ## What do you want to remember?
 
-List three things that you want to remember from this lab. (They may not be any different than the prelab. That's ok.)
+List three things that you want to remember from this lab. (They may not be any different than the walkthrough. That's ok.)
 
 ## Render if you can
 

@@ -15,7 +15,7 @@ description:  Using Quarto to combine your programming and your documenation in 
 [Today]{.sked-dates} : 
   
   * What would you do? (Live election results) (9:30 am)
-  * [In-class lab](https://raw.githubusercontent.com/cronkitedata/maij-data/main/prelabs/prelab01-yourname.qmd)
+  * [In-class lab](https://raw.githubusercontent.com/cronkitedata/maij-data/main/lab-templates/walkthrough02-yourname.qmd)
 
 ## Preparation and learning materials
 

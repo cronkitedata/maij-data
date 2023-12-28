@@ -10,7 +10,7 @@ format:
     df-print: paged
 ---
 
-This prelab goes along with  [Verbs in Depth part 2: Mutate](https://cronkitedata.github.io/djtextbook/r-verb-mutate.html) . You should follow along with the explanations and details in the textbook as you walk through this prelab.
+This walkthrough goes along with  [Verbs in Depth part 2: Mutate](https://cronkitedata.github.io/djtextbook/r-verb-mutate.html) . You should follow along with the explanations and details in the textbook as you walk through it.
 
 ## Load data
 
