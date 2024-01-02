@@ -42,12 +42,12 @@ The due dates listed here are only for scheduled assigments. Expect to have a la
 | 11     | Mar 25-27    | Scraping                                                                              | Su 3/24: First memo update (50) <br>                    |
 |        |              |                                                                                       | We 3/27: What would you do? (25)                        |
 +--------+--------------+---------------------------------------------------------------------------------------+---------------------------------------------------------+
-| 12     | Apr 1-3      | Review and story memo labs                                                            | Su 3/31: Second memo update (50)                        |
+| 12     | Apr 1-3      | Cleaning data with openRefine; convert PDF reports to data                            | Su 3/31: Second memo update (50)                        |
 +--------+--------------+---------------------------------------------------------------------------------------+---------------------------------------------------------+
-| 13     | Apr 8-10     | Story memo discussion; Build your own database warmup; Converting PDF reports to data | Su 4/7: Final story memo (100) <br>                     |
+| 13     | Apr 8-10     | Story memo lab      ; Build your own database                                         | Su 4/7: Build your own database (50)
 |        |              |                                                                                       | We 4/10: What would you do? (25)                        |
 +--------+--------------+---------------------------------------------------------------------------------------+---------------------------------------------------------+
-| 14     | Apr 15-17    | Advanced spreadsheets; Cleaning data with OpenRefine                                  | Su 4/14 Build your own (50)                             |
+| 14     | Apr 15-17    | Advanced spreadsheets;                                                                | Su 4/14: Final story memo (100) <br>                    |
 +--------+--------------+---------------------------------------------------------------------------------------+---------------------------------------------------------+
 | 15     | Apr 22-24    | Creating a Github site for job-hunting; paying it forward                             |                                                         |
 +--------+--------------+---------------------------------------------------------------------------------------+---------------------------------------------------------+
