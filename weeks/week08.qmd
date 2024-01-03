@@ -12,7 +12,7 @@ description:  You don't need a lot of stats to be successful in data journalism,
 
 * Review replication project
 
-### Wednesday 3/22
+### Wednesday 2/28
 
 * Statistical overview for data journalism
 
