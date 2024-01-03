@@ -85,8 +85,8 @@ website:
           #   file: weeks/week06.qmd
           # - text: "7: TK"
           #   file: weeks/week07.qmd
-          # - text: "8-1: Cognitive bias in data journalism"
-          #   file: weeks/week08-1.qmd
+          - text: "8: Cognitive bias in data journalism"
+            file: weeks/week08.qmd
           # - text: "8-2: The life of data"
           #   file: weeks/week08-2.qmd
           # - text: "9-1: Visualization as a reporting tool"

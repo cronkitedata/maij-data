@@ -1,40 +1,31 @@
 ---
-title: Ethics in data journalism
-date:  2024-03-19
+title: Statistical concepts in data journalism
+date:  2024-02-26
 draft: true
-description:  After going through the replication project, we'll look at some specific issues related to statistics and other problems in data reporting.
+description:  You don't need a lot of stats to be successful in data journalism, but you do need a scientific mindset. 
 ---
 
 
 ## Agenda
-.
 
-### Monday 3/20
+### Monday 2/26
 
-* We spent some time regrouping and planning, and also a demo of some table-making packages. [That chapter is in the textbook](https://cronkitedata.github.io/djtextbook/vis-tables.html).
-
+* Review replication project
 
 ### Wednesday 3/22
 
-* Review the replication project 
 * Statistical overview for data journalism
-* Discuss "What would you do?" on scraping (which conveniently is the main thing in ethics!)
-
 
 ## Upcoming deadlines
 
-[Wednesday 3/22]{.sked-dates}: What would you do? Scraping edition
-
-[Sunday 3/26]{.sked-dates} : Memo proposal
-
-[Monday 4/3]{.sked-dates} : What would you do? (Census race and ethnicity)  
-
-[Sunday 4/9]{.sked-dates}: First memo update
+[Sunday 2/26]{.sked-dates}: Final replication project
 
 
 ## Preparation
 
 ### For Wednesday
+
+- "[Newsroom math](https://cronkitedata.github.io/djtextbook/start-math.html)"
 
 - “[How to prevent confirmation bias affecting your journalism](https://onlinejournalismblog.com/2020/04/07/how-to-prevent-confirmation-bias-affecting-your-journalism/)” Paul Bradshaw, Online Journalism Blog. This is a particularly big problem in data journalism, since we often seek out stories in databases based on tips or broad ideas, and can often find them. 
 
@@ -51,9 +42,3 @@ description:  After going through the replication project, we'll look at some sp
    * [Causal mistakes in data](https://youtu.be/9nKs7mJukSk)
    * [Simpson’s paradox in data journalism](https://youtu.be/f5gMwGfZL3g)
    * [Prosecutor’s Fallacy in data journalism](https://youtu.be/0y3sco0lKzc) OR [this piece on prosecutor’s fallacy](https://towardsdatascience.com/the-prosecutors-fallacy-cb0da4e9c039) by Ray Johns, 2019.
-
-
-
-## Textbook chapters
-
-There's nothing for preparation, but there is a [chapter on better looking tables](https://cronkitedata.github.io/djtextbook/vis-tables.html). I'm not very good at the snippets I showed in class, so I don't have a tutorial on that.
