@@ -32,7 +32,7 @@ This prep might leave you feeling bewildered. Don't let it get to you. You will 
 I usually list the readings in a suggested order. They often build on one another.
 :::
 
-1.  Follow along in the textbook chapter, "[Getting started with R and RStudio](https://cronkitedata.github.io/djtextbook/r-start.html)". This means, "Open RStudio yourself and compare your screens and your commands to the ones in the book." Don't just skim this. Take notes and be prepared to go over any points of confusion in class. 
+1.  Follow along in the textbook chapter, "[Getting started with R and RStudio](https://cronkitedata.github.io/djtextbook/quickstart-startup.html)". This means, "Open RStudio yourself and compare your screens and your commands to the ones in the book." Don't just skim this. Take notes and be prepared to go over any points of confusion in class. 
 
   Be sure to: 
 
@@ -40,7 +40,7 @@ I usually list the readings in a suggested order. They often build on one anothe
 
   * Watch the [Andrew Heiss](https://youtu.be/cnQ-v1UUWyE?si=zBRWU1R53yml1jJ0) video shown in the textbook. Ignore how math-centric it is, and just concentrate on his explanation of the screens.
 
-2. **Optional** Try the [`swirl` tutorial](https://cronkitedata.github.io/djtextbook/r-start.html#optional-hands-on-tutorial) mentioned in the textbook.
+2. **Optional** Try the [`swirl` tutorial](https://cronkitedata.github.io/djtextbook/quickstart-startup.html#optional-hands-on-tutorial) mentioned in the textbook.
 
 ## Follow-up materials
 
