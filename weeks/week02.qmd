@@ -8,14 +8,14 @@ description:  Using Quarto to combine your programming and your documenation in 
 
 * Review of What Would You Do?
 * Questions about the R and RStudio tour and tutorials
-* Replication and documenting your work in Quarto (lab)
+* Replication and documenting your work in Quarto 
 
 ## Upcoming deadlines
 
 [Today]{.sked-dates} : 
   
   * What would you do? (Live election results) (9:30 am)
-  * [In-class lab](https://raw.githubusercontent.com/cronkitedata/maij-data/main/lab-templates/walkthrough02-yourname.qmd)
+  * [In-class lab](https://raw.githubusercontent.com/cronkitedata/maij-data/2024-spring/lab-templates/lab01-yourname.qmd)
 
 ## Preparation and learning materials
 
@@ -44,6 +44,6 @@ I usually list the readings in a suggested order. They often build on one anothe
 
 ## Follow-up materials
 
-* [Creating Quarto documents](https://cronkitedata.github.io/djtextbook/r-quarto.html)
+* [Creating Quarto documents](https://cronkitedata.github.io/djtextbook/quickstart-quarto.html)
 
 * [22-minute video](https://youtu.be/FlX75wfL9ew) that goes through what we will go through in class
