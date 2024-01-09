@@ -60,7 +60,7 @@ Today's lab is geared at learning how to read and view journalism as a writer an
 
 You'll have to finish this by Friday, but try to get it done before class. That way I can help you if you run into trouble.
 
-Complete the [installation tutorial in the textbook](https://cronkitedata.github.io/djtextbook/r-install.html) , including the videos linked at the top. You don't have to answer the questions after the videos. 
+Complete the [installation tutorial in the textbook](https://cronkitedata.github.io/djtextbook/quickstart-install.html) , including the videos linked at the top. You don't have to answer the questions after the videos. 
 
 #### If you plan to use your own laptop or desktop:
 
@@ -84,4 +84,4 @@ Your `maij-working` folder should be somewhere on your computer or portable driv
 
 When we do something in class that you didn't have to do beforehand, I'll often list some links here to remind you of what we did, or to clarify areas that might have been confusing.
 
-* [Appendix B](https://cronkitedata.github.io/djtextbook/appendix-program.html) of the textbook: "A gentle introduction to programming"
+* [A gentle introduction to programming](https://cronkitedata.github.io/djtextbook/quickstart-program.html) of the textbook: "A gentle introduction to programming"
