@@ -19,7 +19,7 @@ Jelani Cobb, dean of the Columbia Graduate School of Journalism
 You have a lot of little things to do to get ready for today's class. Make sure not to spend more than 1 hour getting R and RStudio installed. 
 
 * Reading the data-driven story discussion
-* Walthrough of [A gentle introduction to programming](https://cronkitedata.github.com/djtextbook/appendix-program.html). (You don't have to read this in advance)
+* Walthrough of [A gentle introduction to programming](https://cronkitedata.github.io/djtextbook/quickstart-program.html). (You don't have to read this in advance)
 * Resolving installation issues
 
 **Please bring your laptop to school if you plan to use it for your homework and projects.**
