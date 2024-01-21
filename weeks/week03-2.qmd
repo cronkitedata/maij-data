@@ -8,7 +8,7 @@ description:  You can do an awful lot in R just by mastering seven verbs. We'll 
 ## Agenda
 
 * Finish anything that we couldn't get to on Monday
-* Do the lab on verbs in class
+* Do the [verb walkthrough](https://raw.githubusercontent.com/cronkitedata/maij-data/2024-spring/lab-templates/walkthrough02-yourname.qmd) in class
 
 ## Upcoming deadlines 
 
@@ -18,5 +18,5 @@ Pre-labs are due by 10am the day of class unless otherwise noted. Labs are due a
 
 ## Preparation: 
 
-* [A quick tour of verbs](https://cronkitedata.github.io/djtextbook/r-verbs.html). We'll do the prelab in class, but come to class ready to ask questions about the chapter.
+* [A quick tour of verbs](https://cronkitedata.github.io/djtextbook/quickstart-verbs.html). We'll do the walkthrough in class, but come to class ready to ask questions about the chapter.
 

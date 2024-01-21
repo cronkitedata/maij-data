@@ -1,5 +1,5 @@
 ---
-title: "Top 100 walkthrough"
+title: "Top 100 verb walkthrough"
 author: "YOUR NAME HERE"
 format: 
   html: 

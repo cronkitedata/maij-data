@@ -8,12 +8,9 @@ project:
     - "*.qmd"
     - "*.md"
     - "*.Rmd"
-    - "!labs/"
     - "!lab-templates/"
     - "!working/"
-    - "!inclass/"
-    - "!projects.qmd"
-
+ 
 website:
   favicon: assets/img/favicon.ico
   title: "Data reporting for investigative journalism"

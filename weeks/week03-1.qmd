@@ -37,7 +37,7 @@ Your prepration may take a little longer this weekend -- don't leave it until th
 
 1. [Defining data](https://cronkitedata.github.io/djtextbook/start-data-def.html)  We'll come back to this later in the semester after you have some practice looking at data, but it's useful to get familiar with the ideas now. 
 
-2. [Getting and Saving Data](https://cronkitedata.github.io/djtextbook/r-data-import.html) and [walkthrough](https://raw.githubusercontent.com/cronkitedata/maij-data/2024-spring/lab-templates/walkthrough01-yourname.qmd). Be sure to focus on the part about data and file types -- they're important. 
+2. [Getting and Saving Data](https://cronkitedata.github.io/djtextbook/quickstart-data-import.html) and [walkthrough](https://raw.githubusercontent.com/cronkitedata/maij-data/2024-spring/lab-templates/walkthrough01-yourname.qmd). Be sure to focus on the part about data and file types -- they're important. 
 
 3. “[Take an Interviewing Approach to Find Stories in Data](http://mediashift.org/2014/07/take-an-interviewing-approach-to-find-stories-in-data/) ”, by Derek Willis, Mediashift, July 2014.
 
