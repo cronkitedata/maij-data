@@ -12,7 +12,7 @@ description: Filtering and sorting in R to find needles and stories
 ## Upcoming deadlines
 
 ::: callout-note
-From now on, I won't list the labs and prelabs on these upcoming deadlines. 
+From now on, I won't list the labs and walkthroughs on these upcoming deadlines. 
 ::: 
 
 [Wednesday]{.sked-dates}: What would you do? Pick a data source
@@ -23,8 +23,8 @@ From now on, I won't list the labs and prelabs on these upcoming deadlines.
 
 1. Read:
     * [Introduction](https://cronkitedata.github.io/djtextbook/rdepth.html) to Verbs in Depth; 
-    * Chapter 12, [Tidy Data](https://cronkitedata.github.io/djtextbook/start-tidy.html); and 
-    * Chapter 13, [Sorting and Filtering](https://cronkitedata.github.io/djtextbook/start-filter-sort-story.html) to find stories
+    * Chapter 12, [Tidy Data](https://cronkitedata.github.io/djtextbook/r-tidy.html); and 
+    * Chapter 13, [Sorting and Filtering](https://cronkitedata.github.io/djtextbook/r-filter-sort-story.html) to find stories
 
 2. Review the [documentation of our example PPP](https://cronkitedata.github.io/djtextbook/appendix-ppp.html) data and review the following stories. You don't have to study them, but be sure to look at them in enough detail to start thinking about the different approaches the reporters took to the same dataset. They also have, as part of the stories, background on the program that might be useful to you. 
 
