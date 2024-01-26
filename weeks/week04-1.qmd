@@ -2,40 +2,39 @@
 title: Filter and sort for stories
 date:  2024-01-29
 description: Filtering and sorting in R to find needles and stories
---- 
+---
 
-## Agenda 
+## Agenda
 
-* Review of example data
-* Filtering and sorting lab 
+-   Review of example data
+-   Filtering and sorting lab
 
 ## Upcoming deadlines
 
 ::: callout-note
-From now on, I won't list the labs and walkthroughs on these upcoming deadlines. 
-::: 
+From now on, I won't list the labs and walkthroughs on these upcoming deadlines.
+:::
 
-[Wednesday]{.sked-dates}: What would you do? Pick a data source
+[~~Wednesday~~]{.sked-dates}~~: What would you do? Pick a data source~~
 
 [Sunday, Feb. 4]{.sked-dates}: Sentences for replication project
 
 ## Preparation
 
-1. Read:
-    * [Introduction](https://cronkitedata.github.io/djtextbook/rdepth.html) to Verbs in Depth; 
-    * Chapter 12, [Tidy Data](https://cronkitedata.github.io/djtextbook/r-tidy.html); and 
-    * Chapter 13, [Sorting and Filtering](https://cronkitedata.github.io/djtextbook/r-filter-sort-story.html) to find stories
+1.  Read:
 
-2. Review the [documentation of our example PPP](https://cronkitedata.github.io/djtextbook/appendix-ppp.html) data and review the following stories. You don't have to study them, but be sure to look at them in enough detail to start thinking about the different approaches the reporters took to the same dataset. They also have, as part of the stories, background on the program that might be useful to you. 
+    -   [Introduction](https://cronkitedata.github.io/djtextbook/rdepth.html) to Verbs in Depth, including the "Spreadsheet thinking vs. Database thinking" link.
+    -   Chapter 12, [Tidy Data](https://cronkitedata.github.io/djtextbook/r-tidy.html); and
+    -   Chapter 13, [Sorting and Filtering](https://cronkitedata.github.io/djtextbook/r-filter-sort-story.html) to find stories
 
-    * ["Hundreds of PPP Loans Went to Fake Farms in Absurd Places"](https://www.propublica.org/article/ppp-farms), Derek Willis and Lydia DePillis, ProPublica, May 18, 2021
-    * "[Six Stories From a Downtown District Show Pandemic's Uneven Toll](https://www.wsj.com/articles/some-asheville-businesses-thrived-with-government-backed-ppp-loans-others-struggled-11609426801)",  Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec. 31, 2020. (Read this on campus if you haven't signed up for the free WSJ subscription through the library.)
-    * ["Banking on Inequity"](https://revealnews.org/podcast/banking-on-inequity/) , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021. 
+2.  Review the [documentation of our example PPP](https://cronkitedata.github.io/djtextbook/appendix-ppp.html) data and review the following stories. You don't have to study them, but be sure to look at them in enough detail to start thinking about the different approaches the reporters took to the same dataset. They also have, as part of the stories, background on the program that might be useful to you.
 
+    -   ["Hundreds of PPP Loans Went to Fake Farms in Absurd Places"](https://www.propublica.org/article/ppp-farms), Derek Willis and Lydia DePillis, ProPublica, May 18, 2021
+    -   "[Six Stories From a Downtown District Show Pandemic's Uneven Toll](https://www.wsj.com/articles/some-asheville-businesses-thrived-with-government-backed-ppp-loans-others-struggled-11609426801)", Anthony DeBarros and Amara Omeokwe, Wall Street Journal, Dec. 31, 2020. (Read this on campus if you haven't signed up for the free WSJ subscription through the library.)
+    -   ["Banking on Inequity"](https://revealnews.org/podcast/banking-on-inequity/) , RevealNews, from reporting by Laura C. Morel, Mohamed Al Elew and Emily Harris, May 1, 2021.
 
-3. Read Chapter 14, [Select, arrange and filter](https://cronkitedata.github.io/djtextbook/r-verb-filter.html)
+3.  Read Chapter 14, [Select, arrange and filter](https://cronkitedata.github.io/djtextbook/r-verb-filter.html)
 
-4. Complete the [walkthrough on select, arrange and filter], and turn it in to Canvas
+4.  Complete the [walkthrough on select, arrange and filter](https://raw.githubusercontent.com/cronkitedata/maij-data/2024-spring/lab-templates/walkthrough03-yourname.qmd), and turn it in to Canvas. If you're using Safari, remember to fix the file extension in RStudio (remove the .txt) before trying to use it. You could also copy and paste it into a new document in RStudio. Message me if this is troubling you – I don't want you to get hung up on it.
 
-As always, come prepared to discuss questions, observations, and areas of confusion. 
-
+As always, come prepared to discuss questions, observations, and areas of confusion.
