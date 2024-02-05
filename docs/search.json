@@ -1,10 +1,58 @@
 [
   {
+    "objectID": "weeks/week08.html",
+    "href": "weeks/week08.html",
+    "title": "Statistical concepts in data journalism",
+    "section": "",
+    "text": "NO CLASS ON WEDNESDAY FEB 28 – No one will be there!\n\n\n\nStatistical overview for data journalism",
+    "crumbs": [
+      " ",
+      "Weekly details",
+      "8: Cognitive bias in data journalism"
+    ]
+  },
+  {
+    "objectID": "weeks/week08.html#agenda",
+    "href": "weeks/week08.html#agenda",
+    "title": "Statistical concepts in data journalism",
+    "section": "",
+    "text": "NO CLASS ON WEDNESDAY FEB 28 – No one will be there!\n\n\n\nStatistical overview for data journalism",
+    "crumbs": [
+      " ",
+      "Weekly details",
+      "8: Cognitive bias in data journalism"
+    ]
+  },
+  {
+    "objectID": "weeks/week08.html#upcoming-deadlines",
+    "href": "weeks/week08.html#upcoming-deadlines",
+    "title": "Statistical concepts in data journalism",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\nSunday 2/26: Final replication project Friday 3/1: Three dataset ideas. BE SURE TO TURN THIS IN EARLY IF YOU’RE GOING ON THE BORDERLANDS TRIP. It’s up to you to manage your time around it.",
+    "crumbs": [
+      " ",
+      "Weekly details",
+      "8: Cognitive bias in data journalism"
+    ]
+  },
+  {
+    "objectID": "weeks/week08.html#preparation",
+    "href": "weeks/week08.html#preparation",
+    "title": "Statistical concepts in data journalism",
+    "section": "Preparation",
+    "text": "Preparation\n\n“Newsroom math”\n“How to prevent confirmation bias affecting your journalism” Paul Bradshaw, Online Journalism Blog. This is a particularly big problem in data journalism, since we often seek out stories in databases based on tips or broad ideas, and can often find them.\nOptional, also by Bradshaw: “A journalist’s guide to cognitive bias (and how to avoid it)” for other kinds of biases that we might bring to our reporting. These include common problems in newsrooms, such as a “sunk-cost” bias or a negativity bias.\nJust the video BBC Worklife, How ‘survivorship bias’ can cause you to make mistakes\n“Fighter pilots and firing coaches”, Brian Burke, 2009, in Advanced Football Analytics, with an explanation of regression to the mean. (This link is to a printout of the original piece, since the website version is a little bit of a mess.) It isn’t very well written, but it eventually gets around to an anecdote about fighter pilots and the concept we care about: “regression to the mean”.\nThe videos # 1-4 from the Knight Center for the Americas on “Equity and Ethics in Data Journalism’s” module 3 (links below). I’m not thrilled with the pace or specific content with these videos, but they’re the best single spot I’ve found for these common problems. Feel free to speed this up considerably. I found that 1.75 was the right speed for me! (She talks about writing data journalism stories, but she’s never been a journalist of any kind. Sigh.)\n\nCommon mistakes in data analysis\nCausal mistakes in data\nSimpson’s paradox in data journalism\nProsecutor’s Fallacy in data journalism OR this piece on prosecutor’s fallacy by Ray Johns, 2019.",
+    "crumbs": [
+      " ",
+      "Weekly details",
+      "8: Cognitive bias in data journalism"
+    ]
+  },
+  {
     "objectID": "weeks/week05-1.html",
     "href": "weeks/week05-1.html",
     "title": "Verbs part II: Summarize and Group",
     "section": "",
-    "text": "Sentences chosen from replication project proposals\nQuestions about group by and summarize (I expect many)\nGroup by / summarize lab",
+    "text": "Our summarize and group verbs will take the whole week.",
     "crumbs": [
       " ",
       "Weekly details",
@@ -15,8 +63,8 @@
     "objectID": "weeks/week05-1.html#agenda",
     "href": "weeks/week05-1.html#agenda",
     "title": "Verbs part II: Summarize and Group",
-    "section": "",
-    "text": "Sentences chosen from replication project proposals\nQuestions about group by and summarize (I expect many)\nGroup by / summarize lab",
+    "section": "Agenda",
+    "text": "Agenda\n\nSentences chosen from replication project proposals\nQuestions about group by and summarize (I expect many)\nGroup by / summarize lab",
     "crumbs": [
       " ",
       "Weekly details",
@@ -244,7 +292,7 @@
     "href": "weeks.html",
     "title": "Weekly details",
     "section": "",
-    "text": "This page will be updated about a month in advance of the class date.\n\n\n\n\n\n\n\n\n\nIntroductions\n\n\n\n\n\nAgenda and preparation for the first day\n\n\n\n\n\nJan 8, 2024\n\n\n\n\n\n\n\nStartup potpourri\n\n\n\n\n\nConsuming news as a reporter. Plus an install party, and a gentle introduction to programming!\n\n\n\n\n\nJan 10, 2024\n\n\n\n\n\n\n\nScripted journalism with Quarto\n\n\n\n\n\nUsing Quarto to combine your programming and your documenation in one place.\n\n\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\nFirst steps with data\n\n\n\n\n\nFirst steps in working with data in R\n\n\n\n\n\nJan 22, 2024\n\n\n\n\n\n\n\nA quick tour of the verbs\n\n\n\n\n\nYou can do an awful lot in R just by mastering seven verbs. We’ll go through six of them in a quick tour.\n\n\n\n\n\nJan 24, 2024\n\n\n\n\n\n\n\nFilter and sort for stories\n\n\n\n\n\nFiltering and sorting in R to find needles and stories\n\n\n\n\n\nJan 29, 2024\n\n\n\n\n\n\n\nFrom old to new with mutate\n\n\n\n\n\nData rarely comes the way you need it. Use the mutate verb to create new columns.\n\n\n\n\n\nJan 31, 2024\n\n\n\n\n\n\n\nVerbs part II: Summarize and Group\n\n\n\n\n\nAggergating data by grouping and summarizing\n\n\n\n\n\nFeb 5, 2024\n\n\n\n\n\n\nNo matching items",
+    "text": "This page will be updated about a month in advance of the class date.\n\n\n\n\n\n\n\n\n\nIntroductions\n\n\n\n\n\nAgenda and preparation for the first day\n\n\n\n\n\nJan 8, 2024\n\n\n\n\n\n\n\nStartup potpourri\n\n\n\n\n\nConsuming news as a reporter. Plus an install party, and a gentle introduction to programming!\n\n\n\n\n\nJan 10, 2024\n\n\n\n\n\n\n\nScripted journalism with Quarto\n\n\n\n\n\nUsing Quarto to combine your programming and your documenation in one place.\n\n\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\nFirst steps with data\n\n\n\n\n\nFirst steps in working with data in R\n\n\n\n\n\nJan 22, 2024\n\n\n\n\n\n\n\nA quick tour of the verbs\n\n\n\n\n\nYou can do an awful lot in R just by mastering seven verbs. We’ll go through six of them in a quick tour.\n\n\n\n\n\nJan 24, 2024\n\n\n\n\n\n\n\nFilter and sort for stories\n\n\n\n\n\nFiltering and sorting in R to find needles and stories\n\n\n\n\n\nJan 29, 2024\n\n\n\n\n\n\n\nFrom old to new with mutate\n\n\n\n\n\nData rarely comes the way you need it. Use the mutate verb to create new columns.\n\n\n\n\n\nJan 31, 2024\n\n\n\n\n\n\n\nVerbs part II: Summarize and Group\n\n\n\n\n\nAggergating data by grouping and summarizing\n\n\n\n\n\nFeb 5, 2024\n\n\n\n\n\n\n\nMatchmaking with joins\n\n\n\n\n\nAfter this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.\n\n\n\n\n\nFeb 12, 2024\n\n\n\n\n\n\n\nStatistical concepts in data journalism\n\n\n\n\n\nYou don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.\n\n\n\n\n\nFeb 26, 2024\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       " ",
       "Weekly details"
@@ -379,7 +427,7 @@
     "href": "schedule.html",
     "title": "Preliminary schedule at a glance",
     "section": "",
-    "text": "This is a preliminary schedule that will probably change as we move along. You may want to spend more or less time on a topic, or we might have some guest speakers. I’ll try to keep this updated as we go along.\nThe due dates listed here are only for scheduled assigments. Expect to have a lab and / or a walkthrough due nearly every day.\n\n\n\n\n\n\n\n\n\nWeek\nDates\nTopics\nDeadlines\n\n\n\n\n01\nJan 8-10\nThe journalistic method; Intro to programming\nSu 1/7: Pre-class survey; Slack setup  Fri 1/12: Cronkite integrity pledge, R installation\n\n\n02\nJan 17\nScripted journalism with Quarto\nW 1/17: What would you do? (25)\n\n\n03\nJan 22 -24\nFrom documentation to data: First steps\nA tour of tidyverse vebs\n\n\n\n04\nJan 29 -31\nVerbs Pt 1: Filter, arrange, mutate\n\n\n\n05\nFeb 5-7\nVerbs Pt 2: Group by, summarize, join\nSu 2/4: Replication project sentences (50)\n\n\n06\nFeb 12-14\nRegular expressions & advanced filter and mutate;\nReview and Q&A\nSu 2/11: Life of a dataset (50)\n\n\n07\nFeb 19-21\nTablemaking and presenting your results;\nLab for replication project\nSu 2/18: Replication project update (50)\n\n\n08\nFeb 26-28\nNumbers in the newsroom; Ethics and cognitive bias in data journalism\nSu 2/25: Replication project final (75)  Fri 3/1: Find 3 datasets (50)\n\n\n\n\nSPRING BREAK\n\n\n\n09\nMar 11-13\nData viz part 1 : Viz as a reporting tool ; lab for viz and start-to-finish\nWe 3/13: Memo proposal (25)\n\n\n10\nMar 18-20\nData viz part 2: Mapping to find stories\nSu 3/17: Start to finish exercise (50)\nWe 3/20: What would you do?\n\n\n11\nMar 25-27\nScraping\nSu 3/24: First memo update (50)  We 3/27: What would you do? (25)\n\n\n12\nApr 1-3\nCleaning data with openRefine; convert PDF reports to data;\nSu 3/31: Second memo update (50)\n\n\n\n13\nApr 8-10\nStory memo lab ; Build your own database\nSu 4/7: Build your own database (50) We 4/10: What would you do? (25)\n\n\n14\nApr 15-17\nAdvanced spreadsheets;\nSu 4/14: Final story memo (100) \n\n\n15\nApr 22-24\nCreating a Github site for job-hunting; paying it forward",
+    "text": "This is a preliminary schedule that will probably change as we move along. You may want to spend more or less time on a topic, or we might have some guest speakers. I’ll try to keep this updated as we go along.\nThe due dates listed here are only for scheduled assigments. Expect to have a lab and / or a walkthrough due nearly every day.\n\n\n\n\n\n\n\n\n\nWeek\nDates\nTopics\nDeadlines\n\n\n\n\n01\nJan 8-10\nThe journalistic method; Intro to programming\nSu 1/7: Pre-class survey; Slack setup  Fri 1/12: Cronkite integrity pledge, R installation\n\n\n02\nJan 17\nScripted journalism with Quarto\nW 1/17: What would you do? (25)\n\n\n03\nJan 22 -24\nFrom documentation to data: First steps\nA tour of tidyverse vebs\n\n\n\n04\nJan 29 -31\nVerbs Pt 1: Filter, arrange, mutate\n\n\n\n05\nFeb 5-7\nVerbs Pt 2: Group by, summarize | Su 2/4: Replication project sentences (50) |\n\n\n\n06\nFeb 12-14\nJoining to add columns from other datasets Intro to regular expressions\nSu 2/11: Life of a dataset (50)\n\n\n07\nFeb 19-21\nTablemaking and presenting your results;\nLab for replication project\nSu 2/18: Replication project update (50)\n\n\n08\nFeb 26\nNumbers in the newsroom; Ethics and cognitive bias in data journalism | Su 2/25: Replication project final (75)  Fri 3/1: Find 3 datasets (50)\n\n\n\n\n\nSPRING BREAK\n\n\n\n09\nMar 11-13\nData viz part 1 : Viz as a reporting tool ; lab for viz and start-to-finish\nWe 3/13: Memo proposal (25)\n\n\n10\nMar 18-20\nData viz part 2: Mapping to find stories\nSu 3/17: Start to finish exercise (50)\nWe 3/20: What would you do?\n\n\n11\nMar 25-27\nScraping\nSu 3/24: First memo update (50)  We 3/27: What would you do? (25)\n\n\n12\nApr 1-3\nCleaning data with openRefine; convert PDF reports to data;\nSu 3/31: Second memo update (50)\n\n\n\n13\nApr 8-10\nStory memo lab ; Build your own database\nSu 4/7: Build your own database (50) We 4/10: What would you do? (25)\n\n\n14\nApr 15-17\nAdvanced spreadsheets;\nSu 4/14: Final story memo (100) \n\n\n15\nApr 22-24\nCreating a Github site for job-hunting; paying it forward",
     "crumbs": [
       " ",
       "Course schedule"
@@ -390,7 +438,7 @@
     "href": "schedule.html#schedule-and-assignment-logistics",
     "title": "Preliminary schedule at a glance",
     "section": "",
-    "text": "This is a preliminary schedule that will probably change as we move along. You may want to spend more or less time on a topic, or we might have some guest speakers. I’ll try to keep this updated as we go along.\nThe due dates listed here are only for scheduled assigments. Expect to have a lab and / or a walkthrough due nearly every day.\n\n\n\n\n\n\n\n\n\nWeek\nDates\nTopics\nDeadlines\n\n\n\n\n01\nJan 8-10\nThe journalistic method; Intro to programming\nSu 1/7: Pre-class survey; Slack setup  Fri 1/12: Cronkite integrity pledge, R installation\n\n\n02\nJan 17\nScripted journalism with Quarto\nW 1/17: What would you do? (25)\n\n\n03\nJan 22 -24\nFrom documentation to data: First steps\nA tour of tidyverse vebs\n\n\n\n04\nJan 29 -31\nVerbs Pt 1: Filter, arrange, mutate\n\n\n\n05\nFeb 5-7\nVerbs Pt 2: Group by, summarize, join\nSu 2/4: Replication project sentences (50)\n\n\n06\nFeb 12-14\nRegular expressions & advanced filter and mutate;\nReview and Q&A\nSu 2/11: Life of a dataset (50)\n\n\n07\nFeb 19-21\nTablemaking and presenting your results;\nLab for replication project\nSu 2/18: Replication project update (50)\n\n\n08\nFeb 26-28\nNumbers in the newsroom; Ethics and cognitive bias in data journalism\nSu 2/25: Replication project final (75)  Fri 3/1: Find 3 datasets (50)\n\n\n\n\nSPRING BREAK\n\n\n\n09\nMar 11-13\nData viz part 1 : Viz as a reporting tool ; lab for viz and start-to-finish\nWe 3/13: Memo proposal (25)\n\n\n10\nMar 18-20\nData viz part 2: Mapping to find stories\nSu 3/17: Start to finish exercise (50)\nWe 3/20: What would you do?\n\n\n11\nMar 25-27\nScraping\nSu 3/24: First memo update (50)  We 3/27: What would you do? (25)\n\n\n12\nApr 1-3\nCleaning data with openRefine; convert PDF reports to data;\nSu 3/31: Second memo update (50)\n\n\n\n13\nApr 8-10\nStory memo lab ; Build your own database\nSu 4/7: Build your own database (50) We 4/10: What would you do? (25)\n\n\n14\nApr 15-17\nAdvanced spreadsheets;\nSu 4/14: Final story memo (100) \n\n\n15\nApr 22-24\nCreating a Github site for job-hunting; paying it forward",
+    "text": "This is a preliminary schedule that will probably change as we move along. You may want to spend more or less time on a topic, or we might have some guest speakers. I’ll try to keep this updated as we go along.\nThe due dates listed here are only for scheduled assigments. Expect to have a lab and / or a walkthrough due nearly every day.\n\n\n\n\n\n\n\n\n\nWeek\nDates\nTopics\nDeadlines\n\n\n\n\n01\nJan 8-10\nThe journalistic method; Intro to programming\nSu 1/7: Pre-class survey; Slack setup  Fri 1/12: Cronkite integrity pledge, R installation\n\n\n02\nJan 17\nScripted journalism with Quarto\nW 1/17: What would you do? (25)\n\n\n03\nJan 22 -24\nFrom documentation to data: First steps\nA tour of tidyverse vebs\n\n\n\n04\nJan 29 -31\nVerbs Pt 1: Filter, arrange, mutate\n\n\n\n05\nFeb 5-7\nVerbs Pt 2: Group by, summarize | Su 2/4: Replication project sentences (50) |\n\n\n\n06\nFeb 12-14\nJoining to add columns from other datasets Intro to regular expressions\nSu 2/11: Life of a dataset (50)\n\n\n07\nFeb 19-21\nTablemaking and presenting your results;\nLab for replication project\nSu 2/18: Replication project update (50)\n\n\n08\nFeb 26\nNumbers in the newsroom; Ethics and cognitive bias in data journalism | Su 2/25: Replication project final (75)  Fri 3/1: Find 3 datasets (50)\n\n\n\n\n\nSPRING BREAK\n\n\n\n09\nMar 11-13\nData viz part 1 : Viz as a reporting tool ; lab for viz and start-to-finish\nWe 3/13: Memo proposal (25)\n\n\n10\nMar 18-20\nData viz part 2: Mapping to find stories\nSu 3/17: Start to finish exercise (50)\nWe 3/20: What would you do?\n\n\n11\nMar 25-27\nScraping\nSu 3/24: First memo update (50)  We 3/27: What would you do? (25)\n\n\n12\nApr 1-3\nCleaning data with openRefine; convert PDF reports to data;\nSu 3/31: Second memo update (50)\n\n\n\n13\nApr 8-10\nStory memo lab ; Build your own database\nSu 4/7: Build your own database (50) We 4/10: What would you do? (25)\n\n\n14\nApr 15-17\nAdvanced spreadsheets;\nSu 4/14: Final story memo (100) \n\n\n15\nApr 22-24\nCreating a Github site for job-hunting; paying it forward",
     "crumbs": [
       " ",
       "Course schedule"
@@ -609,6 +657,42 @@
       " ",
       "Weekly details",
       "4.2: Creating new from old with mutate"
+    ]
+  },
+  {
+    "objectID": "weeks/week06-1.html",
+    "href": "weeks/week06-1.html",
+    "title": "Matchmaking with joins",
+    "section": "",
+    "text": "Review joining walkthrough\nLab for joining\n\n\n\n\n\nSunday Feb. 18: Replication project draft\nSunday Feb. 25: Final replication project\nFriday, March 1: Three dataset ideas. If you’ll be gone, it’s up to you to work this in with the rest of your schedule, and turn it in early\n\n\n\n\n\nVerbs in Depth: Matchmaking with joins\n\nNow that you’ve done some walkthroughs on your own, they won’t be provided to you for future lessons. Instead, follow along on your own with the assigned chapters, and ask for help from #dj-sos and write down your takeaways to share in class.",
+    "crumbs": [
+      " ",
+      "Weekly details",
+      "6.1: Matchmaking with joins"
+    ]
+  },
+  {
+    "objectID": "weeks/week06-1.html#monday-feb-12",
+    "href": "weeks/week06-1.html#monday-feb-12",
+    "title": "Matchmaking with joins",
+    "section": "",
+    "text": "Review joining walkthrough\nLab for joining\n\n\n\n\n\nSunday Feb. 18: Replication project draft\nSunday Feb. 25: Final replication project\nFriday, March 1: Three dataset ideas. If you’ll be gone, it’s up to you to work this in with the rest of your schedule, and turn it in early\n\n\n\n\n\nVerbs in Depth: Matchmaking with joins\n\nNow that you’ve done some walkthroughs on your own, they won’t be provided to you for future lessons. Instead, follow along on your own with the assigned chapters, and ask for help from #dj-sos and write down your takeaways to share in class.",
+    "crumbs": [
+      " ",
+      "Weekly details",
+      "6.1: Matchmaking with joins"
+    ]
+  },
+  {
+    "objectID": "weeks/week06-1.html#wednesday-feb-14",
+    "href": "weeks/week06-1.html#wednesday-feb-14",
+    "title": "Matchmaking with joins",
+    "section": "Wednesday Feb 14",
+    "text": "Wednesday Feb 14\n\nAgenda\n\nOpen lab session for 1/2 hour to review the details of each dataset for your replication draft.\nWalkthrough of using more advanced filters and mutate statements. These are ways to make your programs more efficient.\n\n\n\nPreparation\n\nBe sure to have started your replication project. This means fully reviewing the data documentation, loading an looking at the data in R, and trying to answer the easiest question on the list (which may not be the first one). I can’t help you if you haven’t tried yet.",
+    "crumbs": [
+      " ",
+      "Weekly details",
+      "6.1: Matchmaking with joins"
     ]
   }
 ]

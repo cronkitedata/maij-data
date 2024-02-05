@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-02-19">
+<meta name="dcterms.date" content="2024-02-12">
 <meta name="description" content="After this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.">
 
 <title>Data reporting for investigative journalism - Matchmaking with joins</title>
@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week08.html" rel="next">
+<link href="../weeks/week07.qmd" rel="next">
 <link href="../weeks/week05-1.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week05-2.html">5.2: Matchmaking with joins</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week06-1.html">6.1: Matchmaking with joins</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -238,8 +238,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week05-2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">5.2: Matchmaking with joins</span></a>
+  <a href="../weeks/week06-1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">6.1: Matchmaking with joins</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week07.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7: Tablemaking</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -286,16 +292,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
+  <li><a href="#monday-feb-12" id="toc-monday-feb-12" class="nav-link active" data-scroll-target="#monday-feb-12">Monday Feb 12</a>
+  <ul class="collapse">
+  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
   <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
+  </ul></li>
+  <li><a href="#wednesday-feb-14" id="toc-wednesday-feb-14" class="nav-link" data-scroll-target="#wednesday-feb-14">Wednesday Feb 14</a>
+  <ul class="collapse">
+  <li><a href="#agenda-1" id="toc-agenda-1" class="nav-link" data-scroll-target="#agenda-1">Agenda</a></li>
+  <li><a href="#preparation-1" id="toc-preparation-1" class="nav-link" data-scroll-target="#preparation-1">Preparation</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week05-2.html">5.2: Matchmaking with joins</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week06-1.html">6.1: Matchmaking with joins</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Matchmaking with joins</h1>
 </div>
@@ -313,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 19, 2024</p>
+      <p class="date">February 12, 2024</p>
     </div>
   </div>
   
@@ -325,28 +339,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="agenda" class="level2">
-<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
+<section id="monday-feb-12" class="level2">
+<h2 class="anchored" data-anchor-id="monday-feb-12">Monday Feb 12</h2>
+<section id="agenda" class="level3">
+<h3 class="anchored" data-anchor-id="agenda">Agenda</h3>
 <ul>
 <li>Review joining walkthrough</li>
 <li>Lab for joining</li>
 </ul>
 </section>
-<section id="upcoming-deadlines" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
+<section id="upcoming-deadlines" class="level3">
+<h3 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h3>
 <ul>
 <li><span class="sked-dates">Sunday Feb.&nbsp;18</span>: Replication project draft</li>
 <li><span class="sked-dates">Sunday Feb.&nbsp;25</span>: Final replication project</li>
+<li><span class="sked-dates">Friday, March 1</span>: Three dataset ideas. If you’ll be gone, it’s up to you to work this in with the rest of your schedule, and turn it in early</li>
 </ul>
 </section>
-<section id="preparation" class="level2">
-<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<section id="preparation" class="level3">
+<h3 class="anchored" data-anchor-id="preparation">Preparation</h3>
 <ul>
 <li><a href="https://cronkitedata.github.io/djtextbook/r-verb-join.html">Verbs in Depth: Matchmaking with joins</a></li>
 </ul>
 <p>Now that you’ve done some walkthroughs on your own, they won’t be provided to you for future lessons. Instead, follow along on your own with the assigned chapters, and ask for help from #dj-sos and write down your takeaways to share in class.</p>
+</section>
+</section>
+<section id="wednesday-feb-14" class="level2">
+<h2 class="anchored" data-anchor-id="wednesday-feb-14">Wednesday Feb 14</h2>
+<section id="agenda-1" class="level3">
+<h3 class="anchored" data-anchor-id="agenda-1">Agenda</h3>
+<ul>
+<li>Open lab session for 1/2 hour to review the details of each dataset for your replication draft.</li>
+<li>Walkthrough of using more advanced filters and mutate statements. These are ways to make your programs more efficient.</li>
+</ul>
+</section>
+<section id="preparation-1" class="level3">
+<h3 class="anchored" data-anchor-id="preparation-1">Preparation</h3>
+<ul>
+<li>Be sure to have started your replication project. This means fully reviewing the data documentation, loading an looking at the data in R, and trying to answer the easiest question on the list (which may not be the first one). I can’t help you if you haven’t tried yet.</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -739,8 +773,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../weeks/week08.html" class="pagination-link" aria-label="8: Cognitive bias in data journalism">
-        <span class="nav-page-text">8: Cognitive bias in data journalism</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../weeks/week07.qmd" class="pagination-link" aria-label="7: Tablemaking">
+        <span class="nav-page-text">7: Tablemaking</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

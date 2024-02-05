@@ -6,6 +6,8 @@ draft: false
 --- 
 
 
+Our summarize and group verbs will take the whole week. 
+
 ## Agenda
 
 * Sentences chosen from replication project proposals
