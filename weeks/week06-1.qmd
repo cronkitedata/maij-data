@@ -5,36 +5,33 @@ description: After this last verb of the tidyverse, you'll know much of what's u
 draft: false 
 --- 
 
-
-## Monday Feb 12
-
-### Agenda
-
-* Review joining walkthrough
-* Lab for joining
-
 ### Upcoming deadlines
 
-
+* [Sunday, Feb. 11]{.sked-dates}: Homework on "The life of a dataset" 
+* [Tuesday, Feb. 13]{.sked-dates}: Your cheat sheet
 * [Sunday Feb. 18]{.sked-dates}:  Replication project draft
 * [Sunday Feb. 25]{.sked-dates}: Final replication project
 * [Friday, March 1]{.sked-dates}: Three dataset ideas. If you'll be gone, it's up to you to work this in with the rest of your schedule, and turn it in early
 
 
+## Monday Feb 12
+
+### Agenda
+
+* Review joining quiz
+* Maybe: Lab for joining
+
 ### Preparation
 
-* [Verbs in Depth: Matchmaking with joins](https://cronkitedata.github.io/djtextbook/r-verb-join.html)
-
-Now that you've done some walkthroughs on your own, they won't be provided to you for future lessons. Instead, follow along on your own with the assigned chapters, and ask for help from #dj-sos and write down your takeaways to share in class. 
+* [Verbs in Depth: Matchmaking with joins](https://cronkitedata.github.io/djtextbook/r-verb-join.html), with the quiz in Canvas.
 
 ## Wednesday Feb 14
-
 
 ### Agenda
 
 * Open lab session for 1/2 hour to review the details of each dataset for your replication draft. 
-* Walkthrough of using more advanced filters and mutate statements. These are ways to make your programs more efficient.
-
+* Review session based on your cheat sheets and questions. AND / OR
+* Lab to help with the replication draft. 
 
 ### Preparation
 

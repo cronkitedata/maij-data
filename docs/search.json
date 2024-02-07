@@ -664,7 +664,7 @@
     "href": "weeks/week06-1.html",
     "title": "Matchmaking with joins",
     "section": "",
-    "text": "Review joining walkthrough\nLab for joining\n\n\n\n\n\nSunday Feb. 18: Replication project draft\nSunday Feb. 25: Final replication project\nFriday, March 1: Three dataset ideas. If you’ll be gone, it’s up to you to work this in with the rest of your schedule, and turn it in early\n\n\n\n\n\nVerbs in Depth: Matchmaking with joins\n\nNow that you’ve done some walkthroughs on your own, they won’t be provided to you for future lessons. Instead, follow along on your own with the assigned chapters, and ask for help from #dj-sos and write down your takeaways to share in class.",
+    "text": "Sunday, Feb. 11: Homework on “The life of a dataset”\nTuesday, Feb. 13: Your cheat sheet\nSunday Feb. 18: Replication project draft\nSunday Feb. 25: Final replication project\nFriday, March 1: Three dataset ideas. If you’ll be gone, it’s up to you to work this in with the rest of your schedule, and turn it in early",
     "crumbs": [
       " ",
       "Weekly details",
@@ -675,8 +675,8 @@
     "objectID": "weeks/week06-1.html#monday-feb-12",
     "href": "weeks/week06-1.html#monday-feb-12",
     "title": "Matchmaking with joins",
-    "section": "",
-    "text": "Review joining walkthrough\nLab for joining\n\n\n\n\n\nSunday Feb. 18: Replication project draft\nSunday Feb. 25: Final replication project\nFriday, March 1: Three dataset ideas. If you’ll be gone, it’s up to you to work this in with the rest of your schedule, and turn it in early\n\n\n\n\n\nVerbs in Depth: Matchmaking with joins\n\nNow that you’ve done some walkthroughs on your own, they won’t be provided to you for future lessons. Instead, follow along on your own with the assigned chapters, and ask for help from #dj-sos and write down your takeaways to share in class.",
+    "section": "Monday Feb 12",
+    "text": "Monday Feb 12\n\nAgenda\n\nReview joining quiz\nMaybe: Lab for joining\n\n\n\nPreparation\n\nVerbs in Depth: Matchmaking with joins, with the quiz in Canvas.",
     "crumbs": [
       " ",
       "Weekly details",
@@ -688,7 +688,7 @@
     "href": "weeks/week06-1.html#wednesday-feb-14",
     "title": "Matchmaking with joins",
     "section": "Wednesday Feb 14",
-    "text": "Wednesday Feb 14\n\nAgenda\n\nOpen lab session for 1/2 hour to review the details of each dataset for your replication draft.\nWalkthrough of using more advanced filters and mutate statements. These are ways to make your programs more efficient.\n\n\n\nPreparation\n\nBe sure to have started your replication project. This means fully reviewing the data documentation, loading an looking at the data in R, and trying to answer the easiest question on the list (which may not be the first one). I can’t help you if you haven’t tried yet.",
+    "text": "Wednesday Feb 14\n\nAgenda\n\nOpen lab session for 1/2 hour to review the details of each dataset for your replication draft.\nReview session based on your cheat sheets and questions. AND / OR\nLab to help with the replication draft.\n\n\n\nPreparation\n\nBe sure to have started your replication project. This means fully reviewing the data documentation, loading an looking at the data in R, and trying to answer the easiest question on the list (which may not be the first one). I can’t help you if you haven’t tried yet.",
     "crumbs": [
       " ",
       "Weekly details",
