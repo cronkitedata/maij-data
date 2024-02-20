@@ -8,9 +8,9 @@ description:  You don't need a lot of stats to be successful in data journalism,
 
 ## Upcoming deadlines
 
-[Sunday 2/26]{.sked-dates}: Final replication project
-[Wednesday 2/28]{.sked-dates} : Discussion post on statistical concepts
-[Friday 3/1]{.sked-dates}: Three dataset ideas. BE SURE TO TURN THIS IN EARLY IF YOU'RE GOING ON THE BORDERLANDS TRIP. It's up to you to manage your time around it.
+* [Sunday 2/26]{.sked-dates}: Final replication project
+* [Wednesday 2/28]{.sked-dates} : Discussion post on statistical concepts
+* [Friday 3/1]{.sked-dates}: Three dataset ideas. BE SURE TO TURN THIS IN EARLY IF YOU'RE GOING ON THE BORDERLANDS TRIP. It's up to you to manage your time around it.
 
 
 
@@ -24,7 +24,10 @@ description:  You don't need a lot of stats to be successful in data journalism,
 
 ## Wednesday 2/28
 
-Statistical concepts in journalism
+Statistical concepts in journalism and using math and statistics in news.  
+* Getting over your fear of numbers and statistics
+* Writing with data
+* Statistical concepts that will affect your journalism
 
 
 ### Preparation
@@ -43,28 +46,17 @@ Statistical concepts in journalism
 
 - Just the video [BBC Worklife, How ‘survivorship bias’ can cause you to make mistakes](https://www.bbc.com/worklife/article/20200827-how-survivorship-bias-can-cause-you-to-make-mistakes)  
 
-- Two videos from the Knight Center for the Americas on “Equity and Ethics in Data Journalism’s” module 3 (links below). I’m not thrilled with the pace or specific content with these videos, but they’re the best single spot I’ve found for these common problems. **Feel free to speed this up considerably.** I found that 1.75 was the right speed for me! (She talks about writing data journalism stories, but she’s never been a journalist of any kind. Sigh.) 
+- “[Regression to the mean](https://www.squawkpoint.com/2013/01/regression-to-the-mean/), by James Lawther, SquawkPoint. Look at this (describing the past) in the context of the Chapter 6 above, where it discusses the Gambler's Fallacy (predicting the future). They're pretty much the same.
 
+- Procrastination.com's ["The greatest problem of today's world: Dunning-Kruger effect"](https://youtu.be/VyipktSZUlQ), by Adela Schicker. The video is geared toward political arguments, but please try to think of it in terms of your reporting. How might this affect how you go about reporting on a complex problem? 
+
+- Two videos from the Knight Center for the Americas on “Equity and Ethics in Data Journalism’s” module 3 (links below). I’m not thrilled with the pace or specific content with these videos, but they’re the best single spot I’ve found for these common problems. (She talks about writing data journalism stories, but she’s never been a journalist of any kind. Sigh.) 
 
    * [Common mistakes in data analysis](https://youtu.be/4ndrF2cSqVo)
    * [Prosecutor’s Fallacy in data journalism](https://youtu.be/0y3sco0lKzc) OR [this piece on prosecutor’s fallacy](https://towardsdatascience.com/the-prosecutors-fallacy-cb0da4e9c039) by Ray Johns, 2019.  The video is very confusing because the bars aren't proportional -- you get a very weird picture of the data trying to decipher the graphics.  It's similar to the "flipped probabilities" and cancer clusters described in the IRE beat book Chapter 6. 
    
-- “[Fighter pilots and firing coaches](https://faculty.mccombs.utexas.edu/carlos.carvalho/teaching/regression_to_the_mean.pdf)”, Brian Burke, 2009, in Advanced Football Analytics, with an explanation of regression to the mean. (This link is to a printout of the original piece, since the website version is a little bit of a mess.) It isn’t very well written, but it eventually gets around to an anecdote about fighter pilots and the concept we care about: “regression to the mean”.
-
-- Procrastination.com's [video on the Dunning-Kruger effect](https://youtu.be/VyipktSZUlQ). The video is geared toward political arguments, but please try to think of it in terms of your reporting. How might this affect how you go about reporting on a complex problem? 
-
-
-### Folow-up reading and viewing
-
--  In Canvas, you'll find a PDF copy of the book "Numbers in the Newsroom". Take it, and keep it with you for the future. (I can give it to you because I wrote it, but IRE sells it so I can't put a link on the open internet.)
-
-- "[Newsroom math](https://cronkitedata.github.io/djtextbook/start-math.html)" This is  a shorter, basic version of the numbers book. 
-
 - **Optional**, also by Bradshaw: “[A journalist’s guide to cognitive bias (and how to avoid it)](https://onlinejournalismblog.com/2020/03/24/a-journalists-guide-to-cognitive-bias-and-how-to-avoid-it/)” for other kinds of biases that we might bring to our reporting. These include common problems in newsrooms, such as a “sunk-cost” bias or a negativity bias.
 
 
-### Wednesday
-
-Class is canceled because of the Borderlands trip. 
 
 
