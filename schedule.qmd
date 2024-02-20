@@ -29,7 +29,7 @@ The due dates listed here are only for scheduled assigments. Expect to have a la
 | 07       | Feb 19-21  | Tablemaking and presenting your results;\                                   | Su 2/18: Replication project update (50)                                                       |
 |          |            | Lab for replication project                                                 |                                                                                                |
 +----------+------------+-----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
-| 08       | Feb 26     | Numbers in the newsroom; Ethics and cognitive bias in data journalism        | Su 2/25: Replication project final (75) <br> Fri 3/1: Find 3 datasets (50)                    |
+| 08       | Feb 26     | Numbers in the newsroom; Ethics and cognitive bias in data journalism       |  Su 2/25: Replication project final (75) <br> Fri 3/1: Find 3 datasets (50)                    |
 +----------+------------+-----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 |          |            | SPRING BREAK                                                                |                                                                                                |
 +----------+------------+-----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+

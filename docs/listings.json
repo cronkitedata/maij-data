@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/updates.html",
+    "items": [
+      "/posts/welcome.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/welcome.html"
+    ]
+  },
+  {
     "listing": "/weeks.html",
     "items": [
       "/weeks/week01-1.html",
@@ -11,19 +23,8 @@
       "/weeks/week04-2.html",
       "/weeks/week05-1.html",
       "/weeks/week06-1.html",
+      "/weeks/week07.html",
       "/weeks/week08.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/posts/welcome.html"
-    ]
-  },
-  {
-    "listing": "/updates.html",
-    "items": [
-      "/posts/welcome.html"
     ]
   }
 ]

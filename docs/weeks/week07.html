@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-01-31">
-<meta name="description" content="Data rarely comes the way you need it. Use the mutate verb to create new columns.">
+<meta name="dcterms.date" content="2024-02-18">
+<meta name="description" content="After this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.">
 
-<title>Data reporting for investigative journalism - From old to new with mutate</title>
+<title>Data reporting for investigative journalism - Review and thablemaking</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week05-1.html" rel="next">
-<link href="../weeks/week04-1.html" rel="prev">
+<link href="../weeks/week08.html" rel="next">
+<link href="../weeks/week06-1.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week04-2.html">4.2: Creating new from old with mutate</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week07.html">7: Tablemaking</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -226,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week04-2.html" class="sidebar-item-text sidebar-link active">
+  <a href="../weeks/week04-2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">4.2: Creating new from old with mutate</span></a>
   </div>
 </li>
@@ -244,7 +244,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link">
+  <a href="../weeks/week07.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">7: Tablemaking</span></a>
   </div>
 </li>
@@ -292,23 +292,29 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
-  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
+  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link active" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
+  <li><a href="#monday-feb-19" id="toc-monday-feb-19" class="nav-link" data-scroll-target="#monday-feb-19">Monday Feb 19</a>
+  <ul class="collapse">
+  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
+  </ul></li>
+  <li><a href="#wednesday-feb-21" id="toc-wednesday-feb-21" class="nav-link" data-scroll-target="#wednesday-feb-21">Wednesday Feb 21</a>
+  <ul class="collapse">
+  <li><a href="#agenda-1" id="toc-agenda-1" class="nav-link" data-scroll-target="#agenda-1">Agenda</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week04-2.html">4.2: Creating new from old with mutate</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week07.html">7: Tablemaking</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">From old to new with mutate</h1>
+<h1 class="title">Review and thablemaking</h1>
 </div>
 
 <div>
   <div class="description">
-    Data rarely comes the way you need it. Use the <code>mutate</code> verb to create new columns.
+    After this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.
   </div>
 </div>
 
@@ -319,7 +325,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 31, 2024</p>
+      <p class="date">February 18, 2024</p>
     </div>
   </div>
   
@@ -331,27 +337,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="agenda" class="level2">
-<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
+<section id="upcoming-deadlines" class="level3">
+<h3 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h3>
 <ul>
-<li>Discussion of replication project story selections.</li>
-<li>Questions on walkthrough</li>
-<li>Complete the filter, arrange, and mutate lab</li>
+<li><span class="sked-dates">Sunday Feb.&nbsp;18</span>: Replication project draft</li>
+<li><span class="sked-dates">Sunday Feb.&nbsp;25</span>: Final replication project</li>
+<li><span class="sked-dates">Friday, March 1</span>: Three dataset ideas. If you’ll be gone, it’s up to you to work this in with the rest of your schedule, and turn it in early</li>
 </ul>
 </section>
-<section id="upcoming-deadlines" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<p><span class="sked-dates">Sunday, Feb.&nbsp;4</span>: Sentences for replication project</p>
-</section>
-<section id="preparation" class="level2">
-<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<section id="monday-feb-19" class="level2">
+<h2 class="anchored" data-anchor-id="monday-feb-19">Monday Feb 19</h2>
+<section id="agenda" class="level3">
+<h3 class="anchored" data-anchor-id="agenda">Agenda</h3>
 <ul>
-<li>Read Chapter 15, <a href="https://cronkitedata.github.io/djtextbook/r-verb-mutate.html">Mutate</a></li>
-<li>Complete the walkthrough on Mutate</li>
-<li>If you want to work ahead, start reading the two stories that are choices for your replication project so you know which you want to choose.</li>
+<li>Review: Replication draft and more strategies.</li>
+</ul>
+</section>
+</section>
+<section id="wednesday-feb-21" class="level2">
+<h2 class="anchored" data-anchor-id="wednesday-feb-21">Wednesday Feb 21</h2>
+<section id="agenda-1" class="level3">
+<h3 class="anchored" data-anchor-id="agenda-1">Agenda</h3>
+<ul>
+<li>Tablemaking in R. We’ll have a walkthrough in class, and you don’t have to prepare anything.</li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -739,13 +751,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="../weeks/week04-1.html" class="pagination-link  aria-label=" 4.1:="" filter="" and="" sort="" to="" find="" stories"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">4.1: Filter and sort to find stories</span>
+      <a href="../weeks/week06-1.html" class="pagination-link  aria-label=" 6.1:="" matchmaking="" with="" joins"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">6.1: Matchmaking with joins</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../weeks/week05-1.html" class="pagination-link" aria-label="5.1: Summarize with group by">
-        <span class="nav-page-text">5.1: Summarize with group by</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../weeks/week08.html" class="pagination-link" aria-label="8: Cognitive bias in data journalism">
+        <span class="nav-page-text">8: Cognitive bias in data journalism</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

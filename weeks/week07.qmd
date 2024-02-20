@@ -1,0 +1,28 @@
+---
+title: "Review and thablemaking"
+date:  2024-02-18
+description: After this last verb of the tidyverse, you'll know much of what's used in any reporting analysis. 
+draft: false 
+--- 
+
+### Upcoming deadlines
+
+* [Sunday Feb. 18]{.sked-dates}:  Replication project draft
+* [Sunday Feb. 25]{.sked-dates}: Final replication project
+* [Friday, March 1]{.sked-dates}: Three dataset ideas. If you'll be gone, it's up to you to work this in with the rest of your schedule, and turn it in early
+
+
+## Monday Feb 19
+
+### Agenda
+
+* Review: Replication draft and more strategies. 
+
+
+## Wednesday Feb 21
+
+### Agenda
+
+* Tablemaking in R. We'll have a walkthrough in class, and you don't have to prepare anything. 
+
+
