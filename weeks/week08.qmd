@@ -30,7 +30,7 @@ Statistical concepts in journalism and using math and statistics in news.
 * Statistical concepts that will affect your journalism
 
 
-### Preparation
+### Preparation for Wednesday
 
 - "[Newsroom math](https://cronkitedata.github.io/djtextbook/start-math.html)"
 
