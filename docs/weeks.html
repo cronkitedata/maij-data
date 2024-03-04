@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.537">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -49,13 +49,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -64,7 +58,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -104,42 +97,16 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
 
+
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
+      <div class="navbar-brand-container">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./assets/img/djlogo.png" alt="" class="navbar-logo">
     </a>
@@ -154,47 +121,47 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house-door-fill" role="img">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page"><i class="bi bi-house-door-fill" role="img">
 </i> 
-<span class="menu-text"> </span></a>
+ <span class="menu-text"> </span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./syllabus.html"> 
-<span class="menu-text">Syllabus</span></a>
+    <a class="nav-link" href="./syllabus.html" rel="" target="">
+ <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
-<span class="menu-text">Schedule</span></a>
+    <a class="nav-link" href="./schedule.html" rel="" target="">
+ <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./weeks.html"> 
-<span class="menu-text">Weeks</span></a>
+    <a class="nav-link" href="./weeks.html" rel="" target="">
+ <span class="menu-text">Weeks</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/cronkitedata/maij-data/"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/cronkitedata/maij-data/" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
-<span class="menu-text"></span></a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
+          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./weeks.html">Weekly details</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./weeks.html">Weekly details</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -204,7 +171,7 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -342,7 +309,7 @@ window.Quarto = {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
@@ -357,7 +324,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta">
 
     
   
@@ -365,9 +332,7 @@ window.Quarto = {
   </div>
   
 
-
 </header>
-
 
 <!--NOTE TO SELF: I need to figure out how to manage this so that it contains the next couple of weeks and then the history, and doesn't include the ones too far into the future. I know how to do this in Hugo, but not in quarto. -->
 <p>This page will be updated about a month in advance of the class date.</p>
@@ -377,222 +342,288 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1704697200000" data-listing-file-modified-sort="1704823801299" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="529">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1704690000000" data-listing-file-modified-sort="1709306935106" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="body">
+<a href="./weeks/week01-1.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week01-1.html" class="no-external">Introductions</a>
+Introductions
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week01-1.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week01-1.html" class="no-external">Agenda and preparation for the first day</a>
+<p>Agenda and preparation for the first day</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week01-1.html" class="no-external">
+<a href="./weeks/week01-1.html">
 <div class="listing-date">
 Jan 8, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1704870000000" data-listing-file-modified-sort="1704823801299" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="810">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1704862800000" data-listing-file-modified-sort="1709306935107" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <div class="body">
+<a href="./weeks/week01-2.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week01-2.html" class="no-external">Startup potpourri</a>
+Startup potpourri
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week01-2.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week01-2.html" class="no-external">Consuming news as a reporter. Plus an install party, and a gentle introduction to programming!</a>
+<p>Consuming news as a reporter. Plus an install party, and a gentle introduction to programming!</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week01-2.html" class="no-external">
+<a href="./weeks/week01-2.html">
 <div class="listing-date">
 Jan 10, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1705474800000" data-listing-file-modified-sort="1704827888277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="319">
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1705467600000" data-listing-file-modified-sort="1709306935107" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
+<a href="./weeks/week02.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week02.html" class="no-external">Scripted journalism with Quarto</a>
+Scripted journalism with Quarto
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week02.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week02.html" class="no-external">Using Quarto to combine your programming and your documenation in one place.</a>
+<p>Using Quarto to combine your programming and your documenation in one place.</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week02.html" class="no-external">
+<a href="./weeks/week02.html">
 <div class="listing-date">
 Jan 17, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1705906800000" data-listing-file-modified-sort="1704827386982" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1168">
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1705899600000" data-listing-file-modified-sort="1709306935108" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <div class="body">
+<a href="./weeks/week03-1.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week03-1.html" class="no-external">First steps with data</a>
+First steps with data
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week03-1.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week03-1.html" class="no-external">First steps in working with data in R</a>
+<p>First steps in working with data in R</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week03-1.html" class="no-external">
+<a href="./weeks/week03-1.html">
 <div class="listing-date">
 Jan 22, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1706079600000" data-listing-file-modified-sort="1704841285000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1706072400000" data-listing-file-modified-sort="1709306935109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
+<a href="./weeks/week03-2.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week03-2.html" class="no-external">A quick tour of the verbs</a>
+A quick tour of the verbs
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week03-2.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week03-2.html" class="no-external">You can do an awful lot in R just by mastering seven verbs. We’ll go through six of them in a quick tour.</a>
+<p>You can do an awful lot in R just by mastering seven verbs. We’ll go through six of them in a quick tour.</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week03-2.html" class="no-external">
+<a href="./weeks/week03-2.html">
 <div class="listing-date">
 Jan 24, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1706511600000" data-listing-file-modified-sort="1706551562971" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="333">
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1706504400000" data-listing-file-modified-sort="1709306935109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
+<a href="./weeks/week04-1.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week04-1.html" class="no-external">Filter and sort for stories</a>
+Filter and sort for stories
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week04-1.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week04-1.html" class="no-external">Filtering and sorting in R to find needles and stories</a>
+<p>Filtering and sorting in R to find needles and stories</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week04-1.html" class="no-external">
+<a href="./weeks/week04-1.html">
 <div class="listing-date">
 Jan 29, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1706684400000" data-listing-file-modified-sort="1706551562971" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1706677200000" data-listing-file-modified-sort="1709306935109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
+<a href="./weeks/week04-2.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week04-2.html" class="no-external">From old to new with mutate</a>
+From old to new with mutate
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week04-2.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week04-2.html" class="no-external">Data rarely comes the way you need it. Use the <code>mutate</code> verb to create new columns.</a>
+<p>Data rarely comes the way you need it. Use the <code>mutate</code> verb to create new columns.</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week04-2.html" class="no-external">
+<a href="./weeks/week04-2.html">
 <div class="listing-date">
 Jan 31, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1707116400000" data-listing-file-modified-sort="1707171518059" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1707109200000" data-listing-file-modified-sort="1709306935110" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
+<a href="./weeks/week05-1.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week05-1.html" class="no-external">Verbs part II: Summarize and Group</a>
+Verbs part II: Summarize and Group
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week05-1.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week05-1.html" class="no-external">Aggergating data by grouping and summarizing</a>
+<p>Aggergating data by grouping and summarizing</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week05-1.html" class="no-external">
+<a href="./weeks/week05-1.html">
 <div class="listing-date">
 Feb 5, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1707721200000" data-listing-file-modified-sort="1707329492685" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1707714000000" data-listing-file-modified-sort="1709306935110" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
+<a href="./weeks/week06-1.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week06-1.html" class="no-external">Matchmaking with joins</a>
+Matchmaking with joins
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week06-1.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week06-1.html" class="no-external">After this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.</a>
+<p>After this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week06-1.html" class="no-external">
+<a href="./weeks/week06-1.html">
 <div class="listing-date">
 Feb 12, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1708239600000" data-listing-file-modified-sort="1708444669245" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1708232400000" data-listing-file-modified-sort="1709306935110" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
+<a href="./weeks/week07.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week07.html" class="no-external">Review and thablemaking</a>
+Review and thablemaking
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week07.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week07.html" class="no-external">After this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.</a>
+<p>After this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week07.html" class="no-external">
+<a href="./weeks/week07.html">
 <div class="listing-date">
 Feb 18, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1708930800000" data-listing-file-modified-sort="1708455225516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="500">
+<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1708923600000" data-listing-file-modified-sort="1709307019710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="body">
+<a href="./weeks/week08.html">
 <h3 class="no-anchor listing-title">
-<a href="./weeks/week08.html" class="no-external">Statistical concepts in data journalism</a>
+Statistical concepts in data journalism
 </h3>
 <div class="listing-subtitle">
-<a href="./weeks/week08.html" class="no-external"></a>
+
 </div>
 <div class="listing-description">
-<a href="./weeks/week08.html" class="no-external">You don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.</a>
+<p>You don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.</p>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./weeks/week08.html" class="no-external">
+<a href="./weeks/week08.html">
 <div class="listing-date">
 Feb 26, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1709269200000" data-listing-file-modified-sort="1709311883713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="body">
+<a href="./weeks/week10.html">
+<h3 class="no-anchor listing-title">
+Statistical concepts in data journalism
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>You don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./weeks/week10.html">
+<div class="listing-date">
+Mar 1, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1710046800000" data-listing-file-modified-sort="1709314642461" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="body">
+<a href="./weeks/week09.html">
+<h3 class="no-anchor listing-title">
+Building your own database
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Creating your own dataset now that you know how to work with it.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./weeks/week09.html">
+<div class="listing-date">
+Mar 10, 2024
 </div>
 </a>
 </div>
@@ -681,9 +712,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -693,17 +725,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -716,120 +739,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      return note.innerHTML;
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -873,7 +782,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -899,32 +807,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -988,13 +870,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./weeks/week01-1.html" class="pagination-link" aria-label="1.1: Intros">
+      <a href="./weeks/week01-1.html" class="pagination-link">
         <span class="nav-page-text">1.1: Intros</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-
 
 
 

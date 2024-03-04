@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-01-10">
-<meta name="description" content="Consuming news as a reporter. Plus an install party, and a gentle introduction to programming!">
+<meta name="dcterms.date" content="2024-03-26">
+<meta name="description" content="Finding the right place to center your story is one of the most important first steps in an investigation. Learning how to map data can help.">
 
-<title>Data reporting for investigative journalism - Startup potpourri</title>
+<title>Data reporting for investigative journalism - GIS, maps and other visualization</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week02.html" rel="next">
-<link href="../weeks/week01-1.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -129,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week01-2.html">1.2: Startup potpourri</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">GIS, maps and other visualization</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -177,11 +175,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../weeks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Weekly details</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-1.html" class="sidebar-item-text sidebar-link">
@@ -190,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week01-2.html" class="sidebar-item-text sidebar-link active">
+  <a href="../weeks/week01-2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1.2: Startup potpourri</span></a>
   </div>
 </li>
@@ -286,14 +284,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a>
+  <ul class="collapse">
+  <li><a href="#monday-327" id="toc-monday-327" class="nav-link" data-scroll-target="#monday-327">Monday 3/27</a></li>
+  <li><a href="#wedesday-329" id="toc-wedesday-329" class="nav-link" data-scroll-target="#wedesday-329">Wedesday 3/29</a></li>
+  <li><a href="#monday-april-3" id="toc-monday-april-3" class="nav-link" data-scroll-target="#monday-april-3">Monday, April 3</a></li>
+  <li><a href="#monday-april-10" id="toc-monday-april-10" class="nav-link" data-scroll-target="#monday-april-10">Monday, April 10</a></li>
+  </ul></li>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
   <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a>
   <ul class="collapse">
-  <li><a href="#learn-a-new-way-to-read" id="toc-learn-a-new-way-to-read" class="nav-link" data-scroll-target="#learn-a-new-way-to-read">Learn a new way to read</a></li>
-  <li><a href="#try-to-install-r-and-rstudio" id="toc-try-to-install-r-and-rstudio" class="nav-link" data-scroll-target="#try-to-install-r-and-rstudio">Try to install R and RStudio</a></li>
+  <li><a href="#prep-work-to-get-you-ready-for-class" id="toc-prep-work-to-get-you-ready-for-class" class="nav-link" data-scroll-target="#prep-work-to-get-you-ready-for-class">Prep work to get you ready for class</a></li>
+  <li><a href="#advance-reading" id="toc-advance-reading" class="nav-link" data-scroll-target="#advance-reading">Advance reading</a></li>
   </ul></li>
-  <li><a href="#follow-up-materials" id="toc-follow-up-materials" class="nav-link" data-scroll-target="#follow-up-materials">Follow up materials</a></li>
   </ul>
 </nav>
     </div>
@@ -302,12 +305,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Startup potpourri</h1>
+<h1 class="title">GIS, maps and other visualization</h1>
 </div>
 
 <div>
   <div class="description">
-    Consuming news as a reporter. Plus an install party, and a gentle introduction to programming!
+    Finding the right place to center your story is one of the most important first steps in an investigation. Learning how to map data can help.
   </div>
 </div>
 
@@ -318,7 +321,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 10, 2024</p>
+      <p class="date">March 26, 2024</p>
     </div>
   </div>
   
@@ -328,91 +331,55 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="card mb-3" style="width: 50%;">
-<div id="fig-jelani" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="../assets/img/start-story-cobb.png" class="img-fluid figure-img" alt="Jelani Cobb on reading like a writer"></p>
-<figcaption class="figure-caption">Figure&nbsp;1: Jelani Cobb, dean of the Columbia Graduate School of Journalism</figcaption>
-</figure>
-</div>
-</div>
 <section id="agenda" class="level2">
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<p>You have a lot of little things to do to get ready for today’s class. Make sure not to spend more than 1 hour getting R and RStudio installed.</p>
+<p>We discussed this in class, so there’s a little flexibility here. I’ll let you know when I’ve updated the reading. This will really take us through almost two weeks.</p>
+<section id="monday-327" class="level3">
+<h3 class="anchored" data-anchor-id="monday-327">Monday 3/27</h3>
 <ul>
-<li>Reading the data-driven story discussion</li>
-<li>Walthrough of <a href="https://cronkitedata.github.io/djtextbook/quickstart-program.html">A gentle introduction to programming</a>. (You don’t have to read this in advance)</li>
-<li>Resolving installation issues</li>
+<li>Introduction to GIS and mapping</li>
 </ul>
-<p><strong>Please bring your laptop to school if you plan to use it for your homework and projects.</strong></p>
-<p>Configuring computers for use in data reporting is one of the most frustrating things that we do. Everyone’s computer seems to be set up slightly differently, depending on exactly which version of which operating system you have and when you’ve last installed various helpers.</p>
-<p>Don’t get frustrated and <strong>don’t try to Google your way out of it</strong> — it’s not worth your mental energy and you might make things worse. Just stop and bring your laptop to class, where we can troubleshoot together.</p>
+</section>
+<section id="wedesday-329" class="level3">
+<h3 class="anchored" data-anchor-id="wedesday-329">Wedesday 3/29</h3>
+<p>Making your own map; finding and using government and other source data.</p>
+</section>
+<section id="monday-april-3" class="level3">
+<h3 class="anchored" data-anchor-id="monday-april-3">Monday, April 3</h3>
+<ul>
+<li>Principles of visualization as a reporting tool , and some practice to get you started</li>
+</ul>
+</section>
+<section id="monday-april-10" class="level3">
+<h3 class="anchored" data-anchor-id="monday-april-10">Monday, April 10</h3>
+<p>Brandon Quester from AZCIR will join the class at the beginning to talk data and jobs. There is an assignment in Canvas for a <a href="https://cronkitedata.s3.amazonaws.com/rdata/mapping-exercise.html">mapping lab</a></p>
+</section>
 </section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<p><span class="sked-dates">Friday</span> (in Canvas):</p>
-<ul>
-<li><p>Complete the R and RStudio installation assignment in Canvas. You might be able to do this in 10 minutes, but sometimes there are glitches. This deadline gives us time to resolve any issues before they thwart your work.</p></li>
-<li><p>Cronkite Academic Integrity pledge</p></li>
-</ul>
-<p><span class="sked-dates">Wednesday, Jan.&nbsp;17</span> :</p>
-<ul>
-<li>What would you do? Reporting live election results. Note the 10:00am deadline.</li>
-</ul>
+<p><span class="sked-dates">Sunday 3/26</span> : Memo proposal</p>
+<p><span class="sked-dates">Monday 4/3</span> : What would you do? (Census race and ethnicity)</p>
+<p><span class="sked-dates">Sunday 4/9</span>: First memo update</p>
 </section>
 <section id="preparation" class="level2">
 <h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
-<section id="learn-a-new-way-to-read" class="level3">
-<h3 class="anchored" data-anchor-id="learn-a-new-way-to-read">Learn a new way to read</h3>
-<p>Today’s lab is geared at learning how to read and view journalism as a writer and producer, by closely examining HOW a story was conceived and executed rather than whether you liked it or thought it was “good”. This reading gets you ready for the lab:</p>
-<section id="textbook" class="level4">
-<h4 class="anchored" data-anchor-id="textbook">Textbook:</h4>
+<section id="prep-work-to-get-you-ready-for-class" class="level3">
+<h3 class="anchored" data-anchor-id="prep-work-to-get-you-ready-for-class">Prep work to get you ready for class</h3>
 <ul>
-<li><a href="https://cronkitedata.github.io/djtextbook/start.html">Introduction to Reporting with data</a></li>
-<li><a href="https://cronkitedata.github.io/djtextbook/start-story.html">Learn a New Way to Read</a></li>
+<li><p>We’ll be looking at maps that have Census data in them, which means you need to <a href="https://api.census.gov/data/key_signup.html">sign up for a free API key</a>. You can use any email address that you have access to, and enter “None” in organization if you’re concerned about privacy. This looks bogus, but it’s actually [linked off of the Census Developer documentation]</p></li>
+<li><p>Install five packages: <code>tidycensus</code>, <code>tigris</code>, <code>sf</code> , <code>tmap</code> and <code>leaflet</code>. We may not use them all, but they’ll be ready if we need them.</p></li>
 </ul>
 </section>
-<section id="story" class="level4">
-<h4 class="anchored" data-anchor-id="story">Story</h4>
+<section id="advance-reading" class="level3">
+<h3 class="anchored" data-anchor-id="advance-reading">Advance reading</h3>
+<p>Please review the textbook chapters before class. You don’t have to study them nor do you have to go through the coding, but I’d like you to be conversant with the vocabulary and concepts.</p>
+<p>Monday, April - <a href="https://cronkitedata.github.io/djtextbook/vis.html">Introduction to visualization</a> for tips and resources, - <a href="https://cronkitedata.github.io/djtextbook/vis-reporting.html">Visualization as a reporting tool</a></p>
 <ul>
-<li><a href="https://cronkitedata.s3.amazonaws.com/docs/rural_development.pdf">Rural Aid goes to Urban Areas</a> This is a pdf of a very old story from the Washington Post. I use it not because it’s great, but because it is <em>reasonably</em> short and remains one of the most straightforward examples of investigative data reporting that I know of. This is a classic example of using <strong>administrative</strong> records to find anecdotes and examples for stories, then aggregating them into broader statistical findings. Pay attention to the elements that make this story work – the data sources, examples used, use of experts to define classifications, and the public records mentioned. Make sure to read the methodology notes on the second page.</li>
-</ul>
-</section>
-</section>
-<section id="try-to-install-r-and-rstudio" class="level3">
-<h3 class="anchored" data-anchor-id="try-to-install-r-and-rstudio">Try to install R and RStudio</h3>
-<p>You’ll have to finish this by Friday, but try to get it done before class. That way I can help you if you run into trouble.</p>
-<p>Complete the <a href="https://cronkitedata.github.io/djtextbook/quickstart-install.html">installation tutorial in the textbook</a> , including the videos linked at the top. You don’t have to answer the questions after the videos.</p>
-<section id="if-you-plan-to-use-your-own-laptop-or-desktop" class="level4">
-<h4 class="anchored" data-anchor-id="if-you-plan-to-use-your-own-laptop-or-desktop">If you plan to use your own laptop or desktop:</h4>
-<ul>
-<li>Get as far as you can with the installation</li>
-<li>Try starting up RStudio (not R).</li>
-<li>Note any error messages or other troubles you have so we can fix them in class. Don’t try to Google the resolution on this – the answers might create more problems than they fix. I’ll help you at the end of class.</li>
-</ul>
-</section>
-<section id="if-you-are-going-to-use-something-else" class="level4">
-<h4 class="anchored" data-anchor-id="if-you-are-going-to-use-something-else">If you are going to use something else:</h4>
-<ul>
-<li><p>Labs in school: Make sure you know where you will use the software and have tried starting it. Please let me know if the lab is not set up as you might expect.</p></li>
-<li><p>Posit Cloud : Sign up for the service and make sure you know how to access it in class. It’s not the great alternative that it seems. In particular, students have had it eat their work in the past and submitting your homework will be more difficult. You’ll probably have to start paying before too long. But it is OK for the first few days as we get you set up for the future.</p></li>
-</ul>
-</section>
-<section id="set-up-your-course-folders-hard-drive" class="level4">
-<h4 class="anchored" data-anchor-id="set-up-your-course-folders-hard-drive">Set up your course folders / hard drive</h4>
-<p>Be sure to follow along with the setup instructions at the end of the chapter, no matter how far you got in the installataion. DO NOT expect to use Google drive to store your work – it won’t work. We’ve tried.</p>
-<p>Your <code>maij-working</code> folder should be somewhere on your computer or portable drive that you can find it every day. My suggestion is within the “Documents” folder, but you may need to adjust that if you use Dropbox or are using a thumb drive.</p>
-</section>
-</section>
-</section>
-<section id="follow-up-materials" class="level2">
-<h2 class="anchored" data-anchor-id="follow-up-materials">Follow up materials</h2>
-<p>When we do something in class that you didn’t have to do beforehand, I’ll often list some links here to remind you of what we did, or to clarify areas that might have been confusing.</p>
-<ul>
-<li><a href="https://cronkitedata.github.io/djtextbook/quickstart-program.html">A gentle introduction to programming</a> of the textbook: “A gentle introduction to programming”</li>
+<li><a href="https://cronkitedata.github.io/djtextbook/vis-demo.html">Visualization demo</a></li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -649,18 +616,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-body">
-  <div class="nav-page nav-page-previous">
-      <a href="../weeks/week01-1.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">1.1: Intros</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../weeks/week02.html" class="pagination-link">
-        <span class="nav-page-text">2: Scripted journalism</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 

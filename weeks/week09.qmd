@@ -1,0 +1,32 @@
+---
+title: Building your own database
+date:  2024-03-10
+draft: false
+description:  Creating your own dataset now that you know how to work with it.
+---
+
+## Upcoming deadlines
+
+-   [Friday 3/15]{.sked-dates}: Data memo proposal. (25)  NOTE THE FRIDAY DEADLINE
+-   [Sunday 3/17]{.sked-dates}: Build your own database assignment (50)
+-   [Wednesday 3/20]{.sked-dates}:  What would you do? (25)
+
+## Monday 3/11
+
+### Agenda
+
+-   Regroup and review revised syllabus and schedule
+-   Regular expressions -- using pattern matching. We'll do a walkthrough in class.  This will be helpful when you have to figure out how to enter things into a database, since you can use pattern matching to find what you entered.
+
+## Wednesday 3/13
+
+-  Building your own database.  
+ 
+### Preparation for Wednesday
+
+* Review the structure of the [Gun Violence Archive's mass shooting database](https://www.gunviolencearchive.org/reports/mass-shooting), being sure to click on a few of the "View Incident" links. (There are two links on each line. One has the original "source" they used, such as a news report. The other has details of the "incident" that they typed into their database.) Think about how this would work in a database. 
+
+* For boot camp, you read the story,  "[A drumbeat of multiple shootings, but no one is listening](https://www.nytimes.com/2016/05/23/us/americas-overlooked-gun-violence.html)", by Sharon LaFraniere, Daniela Porat and Agustin Armendariz. I want you to read it again and think about what a database would look like if you wanted to use it to look up information for the story. Read it carefully this time, thinking about what you want to count ( categories) vs. what you want to search/filter (more free or less common). 
+
+This is a precursor to our class work and your homework in developing a structure of a database that might lead into that story.  
+

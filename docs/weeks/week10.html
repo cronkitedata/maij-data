@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.537">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-03-26">
-<meta name="description" content="Finding the right place to center your story is one of the most important first steps in an investigation. Learning how to map data can help.">
+<meta name="dcterms.date" content="2024-03-01">
+<meta name="description" content="You don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.">
 
-<title>Data reporting for investigative journalism - GIS, maps and other visualization</title>
+<title>Data reporting for investigative journalism - Statistical concepts in data journalism</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -48,13 +48,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -63,7 +57,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -76,11 +69,12 @@ ul.task-list li input[type="checkbox"] {
 
 <body class="nav-sidebar docked nav-fixed">
 
+
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
+      <div class="navbar-brand-container">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../assets/img/djlogo.png" alt="" class="navbar-logo">
     </a>
@@ -95,47 +89,47 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../index.html" aria-current="page"> <i class="bi bi-house-door-fill" role="img">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page"><i class="bi bi-house-door-fill" role="img">
 </i> 
-<span class="menu-text"> </span></a>
+ <span class="menu-text"> </span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../syllabus.html"> 
-<span class="menu-text">Syllabus</span></a>
+    <a class="nav-link" href="../syllabus.html" rel="" target="">
+ <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../schedule.html"> 
-<span class="menu-text">Schedule</span></a>
+    <a class="nav-link" href="../schedule.html" rel="" target="">
+ <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../weeks.html"> 
-<span class="menu-text">Weeks</span></a>
+    <a class="nav-link" href="../weeks.html" rel="" target="">
+ <span class="menu-text">Weeks</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/cronkitedata/maij-data/"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/cronkitedata/maij-data/" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
-<span class="menu-text"></span></a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
+          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">GIS, maps and other visualization</li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Statistical concepts in data journalism</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -145,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -283,25 +277,21 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a>
+  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link active" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
+  <li><a href="#monday-226" id="toc-monday-226" class="nav-link" data-scroll-target="#monday-226">Monday 2/26</a>
   <ul class="collapse">
-  <li><a href="#monday-327" id="toc-monday-327" class="nav-link" data-scroll-target="#monday-327">Monday 3/27</a></li>
-  <li><a href="#wedesday-329" id="toc-wedesday-329" class="nav-link" data-scroll-target="#wedesday-329">Wedesday 3/29</a></li>
-  <li><a href="#monday-april-3" id="toc-monday-april-3" class="nav-link" data-scroll-target="#monday-april-3">Monday, April 3</a></li>
-  <li><a href="#monday-april-10" id="toc-monday-april-10" class="nav-link" data-scroll-target="#monday-april-10">Monday, April 10</a></li>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
   </ul></li>
-  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a>
+  <li><a href="#wednesday-228" id="toc-wednesday-228" class="nav-link" data-scroll-target="#wednesday-228">Wednesday 2/28</a>
   <ul class="collapse">
-  <li><a href="#prep-work-to-get-you-ready-for-class" id="toc-prep-work-to-get-you-ready-for-class" class="nav-link" data-scroll-target="#prep-work-to-get-you-ready-for-class">Prep work to get you ready for class</a></li>
-  <li><a href="#advance-reading" id="toc-advance-reading" class="nav-link" data-scroll-target="#advance-reading">Advance reading</a></li>
+  <li><a href="#preparation-for-wednesday" id="toc-preparation-for-wednesday" class="nav-link" data-scroll-target="#preparation-for-wednesday">Preparation for Wednesday</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -311,23 +301,23 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">GIS, maps and other visualization</h1>
+<h1 class="title">Statistical concepts in data journalism</h1>
 </div>
 
 <div>
   <div class="description">
-    Finding the right place to center your story is one of the most important first steps in an investigation. Learning how to map data can help.
+    You don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.
   </div>
 </div>
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta">
 
     
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 26, 2024</p>
+      <p class="date">March 1, 2024</p>
     </div>
   </div>
   
@@ -335,55 +325,52 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-
 </header>
 
-
-<section id="agenda" class="level2">
-<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<p>We discussed this in class, so there’s a little flexibility here. I’ll let you know when I’ve updated the reading. This will really take us through almost two weeks.</p>
-<section id="monday-327" class="level3">
-<h3 class="anchored" data-anchor-id="monday-327">Monday 3/27</h3>
-<ul>
-<li>Introduction to GIS and mapping</li>
-</ul>
-</section>
-<section id="wedesday-329" class="level3">
-<h3 class="anchored" data-anchor-id="wedesday-329">Wedesday 3/29</h3>
-<p>Making your own map; finding and using government and other source data.</p>
-</section>
-<section id="monday-april-3" class="level3">
-<h3 class="anchored" data-anchor-id="monday-april-3">Monday, April 3</h3>
-<ul>
-<li>Principles of visualization as a reporting tool , and some practice to get you started</li>
-</ul>
-</section>
-<section id="monday-april-10" class="level3">
-<h3 class="anchored" data-anchor-id="monday-april-10">Monday, April 10</h3>
-<p>Brandon Quester from AZCIR will join the class at the beginning to talk data and jobs. There is an assignment in Canvas for a <a href="https://cronkitedata.s3.amazonaws.com/rdata/mapping-exercise.html">mapping lab</a></p>
-</section>
-</section>
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<p><span class="sked-dates">Sunday 3/26</span> : Memo proposal</p>
-<p><span class="sked-dates">Monday 4/3</span> : What would you do? (Census race and ethnicity)</p>
-<p><span class="sked-dates">Sunday 4/9</span>: First memo update</p>
-</section>
-<section id="preparation" class="level2">
-<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
-<section id="prep-work-to-get-you-ready-for-class" class="level3">
-<h3 class="anchored" data-anchor-id="prep-work-to-get-you-ready-for-class">Prep work to get you ready for class</h3>
 <ul>
-<li><p>We’ll be looking at maps that have Census data in them, which means you need to <a href="https://api.census.gov/data/key_signup.html">sign up for a free API key</a>. You can use any email address that you have access to, and enter “None” in organization if you’re concerned about privacy. This looks bogus, but it’s actually [linked off of the Census Developer documentation]</p></li>
-<li><p>Install five packages: <code>tidycensus</code>, <code>tigris</code>, <code>sf</code> , <code>tmap</code> and <code>leaflet</code>. We may not use them all, but they’ll be ready if we need them.</p></li>
+<li><span class="sked-dates">Sunday 2/26</span>: Final replication project</li>
+<li><span class="sked-dates">Wednesday 2/28</span> : Discussion post on statistical concepts</li>
+<li><span class="sked-dates">Friday 3/1</span>: Three dataset ideas. BE SURE TO TURN THIS IN EARLY IF YOU’RE GOING ON THE BORDERLANDS TRIP. It’s up to you to manage your time around it.</li>
 </ul>
 </section>
-<section id="advance-reading" class="level3">
-<h3 class="anchored" data-anchor-id="advance-reading">Advance reading</h3>
-<p>Please review the textbook chapters before class. You don’t have to study them nor do you have to go through the coding, but I’d like you to be conversant with the vocabulary and concepts.</p>
-<p>Monday, April - <a href="https://cronkitedata.github.io/djtextbook/vis.html">Introduction to visualization</a> for tips and resources, - <a href="https://cronkitedata.github.io/djtextbook/vis-reporting.html">Visualization as a reporting tool</a></p>
+<section id="monday-226" class="level2">
+<h2 class="anchored" data-anchor-id="monday-226">Monday 2/26</h2>
+<section id="agenda" class="level3">
+<h3 class="anchored" data-anchor-id="agenda">Agenda</h3>
 <ul>
-<li><a href="https://cronkitedata.github.io/djtextbook/vis-demo.html">Visualization demo</a></li>
+<li>Review of replication project</li>
+<li>~~Regular expressions – using pattern matching. We’ll do a walkthrough in class. ~~</li>
+<li>Lab to look for three datasets</li>
+</ul>
+</section>
+</section>
+<section id="wednesday-228" class="level2">
+<h2 class="anchored" data-anchor-id="wednesday-228">Wednesday 2/28</h2>
+<p>Statistical concepts in journalism and using math and statistics in news.<br>
+* Getting over your fear of numbers and statistics * Writing with data * Statistical concepts that will affect your journalism</p>
+<section id="preparation-for-wednesday" class="level3">
+<h3 class="anchored" data-anchor-id="preparation-for-wednesday">Preparation for Wednesday</h3>
+<ul>
+<li><p>“<a href="https://cronkitedata.github.io/djtextbook/start-math.html">Newsroom math</a>”</p></li>
+<li><p>In Canvas, you’ll find a PDF copy of the book “Numbers in the Newsroom”. I can’t post it here. Please review the following sections:</p>
+<ul>
+<li>Introduction</li>
+<li>Chapter 1: What’s a number?</li>
+<li>Chapter 2: You don’t have to read this carefully, but you need to know where to find it: “Fractions and Percents” (p11); Measuring Change (p 26-28) and Understanding Averages (44-47).</li>
+<li>Chapter 6: The 10 Most wanted errors made by reporters.</li>
+</ul></li>
+<li><p>“<a href="https://onlinejournalismblog.com/2020/04/07/how-to-prevent-confirmation-bias-affecting-your-journalism/">How to prevent confirmation bias affecting your journalism</a>” Paul Bradshaw, Online Journalism Blog. This is a particularly big problem in data journalism, since we seek out stories in databases based on tips or broad ideas, and can often find them.</p></li>
+<li><p>Just the video <a href="https://www.bbc.com/worklife/article/20200827-how-survivorship-bias-can-cause-you-to-make-mistakes">BBC Worklife, How ‘survivorship bias’ can cause you to make mistakes</a></p></li>
+<li><p>“<a href="https://www.squawkpoint.com/2013/01/regression-to-the-mean/">Regression to the mean</a>, by James Lawther, SquawkPoint. Look at this (describing the past) in the context of the Chapter 6 above, where it discusses the Gambler’s Fallacy (predicting the future). They’re pretty much the same.</p></li>
+<li><p>Procrastination.com’s <a href="https://youtu.be/VyipktSZUlQ">“The greatest problem of today’s world: Dunning-Kruger effect”</a>, by Adela Schicker. The video is geared toward political arguments, but please try to think of it in terms of your reporting. How might this affect how you go about reporting on a complex problem?</p></li>
+<li><p>Two videos from the Knight Center for the Americas on “Equity and Ethics in Data Journalism’s” module 3 (links below). I’m not thrilled with the pace or specific content with these videos, but they’re the best single spot I’ve found for these common problems. (She talks about writing data journalism stories, but she’s never been a journalist of any kind. Sigh.)</p>
+<ul>
+<li><a href="https://youtu.be/4ndrF2cSqVo">Common mistakes in data analysis</a></li>
+<li><a href="https://youtu.be/0y3sco0lKzc">Prosecutor’s Fallacy in data journalism</a> OR <a href="https://towardsdatascience.com/the-prosecutors-fallacy-cb0da4e9c039">this piece on prosecutor’s fallacy</a> by Ray Johns, 2019. The video is very confusing because the bars aren’t proportional – you get a very weird picture of the data trying to decipher the graphics. It’s similar to the “flipped probabilities” and cancer clusters described in the IRE beat book Chapter 6.</li>
+</ul></li>
+<li><p><strong>Optional</strong>, also by Bradshaw: “<a href="https://onlinejournalismblog.com/2020/03/24/a-journalists-guide-to-cognitive-bias-and-how-to-avoid-it/">A journalist’s guide to cognitive bias (and how to avoid it)</a>” for other kinds of biases that we might bring to our reporting. These include common problems in newsrooms, such as a “sunk-cost” bias or a negativity bias.</p></li>
 </ul>
 
 
@@ -470,9 +457,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -482,17 +470,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -505,120 +484,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      return note.innerHTML;
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -662,7 +527,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -688,32 +552,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -774,7 +612,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-
 
 
 

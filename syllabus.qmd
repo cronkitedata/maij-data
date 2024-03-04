@@ -46,6 +46,8 @@ I'm available to work with you almost any time Mondays through Thursdays except 
 
 *Cronkite policies, including the Diversity Principles, disability and religious accommodations, policies on sexual violence and harassment, and the Cronkite Academic Integrity Policy, are included on left-hand menu in the Canvas site for this and all Cronkite classes.  These policies apply to all students in all classes.*
 
+**Updated March 1 to remove one of the 50-point assignments**
+
 ## Description
 
 This is a class in data journalism focused the systematic use of public records, documents and other material in public affairs reporting. Previous generations might have called it “computer-assisted reporting” or “precision journalism”. Whatever the name, the idea is the same: original reporting and analysis in the service of stories, particularly in the accountability and explanatory genres.
@@ -130,11 +132,12 @@ The class uses a point system that initially adds up to 1,000 points for the sem
 
 <ul class="mb-4" style="list-style: none; padding-left: 0;">
 <li>**Daily work**: 400</li>
+*The final point count may be a little higher than this.* 
 <ul class="mb-0">
 <li>Class preparation and labs: 300 </li>
 <li>"What would you do?" posts and discussions : 100 </li>
 </ul>
-<li>**Graded homework**: 200 </li>
+<li>**Graded homework**: ~~200~~ 150 </li>
 <li>**Projects** : 400
 <ul class="mb-0">
 <li> Data replication project: 175  </li> 
@@ -147,7 +150,12 @@ All work will be submitted and feedback reviewed through Canvas based on the due
 ### Daily work {.mb-0}
 [400 points]{.points}
 
-#### Labs, pre-labs and class preparation
+::: callout-important
+## March 1 update
+The points aren't quite adding up to the 1,000 planned at the beginning of class, making each assignment worth a little more toward your final grade than I'd intended. To make up for this, there is an optional assignment due at the time of our final exam period. You may skip it and keep the grade as it comes out with fewer points, or you may complete it so that the previous assignments keep their relative importance.
+:::
+
+#### Labs,  walkthroughs and class preparation
 
 Doing well in this class means working slowly, methodically and consistently throughout the semester. 
 
@@ -168,9 +176,9 @@ These will be submitted in Canvas assignments, but I haven't yet produced all of
 You've had some background in journalism ethics, but there are specific issues that come up surrounding acquiring, analyzing and presenting data. You will be presented with four scenarios that are based on real-world situations. After reading the material, you will be asked to reflect on some specific questions on a discussion board, which will form the basis of our in-class discussion. Each of these is worth 25 points.
 
 ### Graded homework {.mb-0}
-[200 points]{.points}
+[150 points]{.points}
 
-There will be four smaller graded assignments that are more important than daily work but don't rise to the level of a project.  Each is worth 50 points. 
+There will be ~~four~~ three smaller graded assignments that are more important than daily work but don't rise to the level of a project.  Each is worth 50 points.  An optional assignment worth 50 points will be due instead of a final exam. 
 
 ### Replication project {.mb-0}
 
@@ -259,7 +267,7 @@ You might decide it’s more important to go to a job interview, attend a family
 
 As in all journalism work, you are expected to meet deadlines. Late assignments will be heavily penalized and those with small point counts may not be accepted at all. 
 
-That said, **give yourself a break**. There are **two no-questions-asked 48-hour extensions** on daily work during the semester.  This includes only the labs/walkthroughs and graded homework, not any part of the projects or "What would you do?" assignments.  You don't need a reason; just let me know before class or deadline.  
+That said, **give yourself a break**. There are **two no-questions-asked 48-hour extensions** on daily work during the semester.  This includes only the labs/walkthroughs and graded homework, not any part of the projects or "What would you do?" assignments.  You don't need a reason; just **let me know before the lab or deadline**.  
 
 ::: {.callout-note .ms-3}
 ## Is it ok if I miss class today?

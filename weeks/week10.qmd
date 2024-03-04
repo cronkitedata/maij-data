@@ -1,6 +1,6 @@
 ---
 title: Statistical concepts in data journalism
-date:  2024-02-26
+date:  2024-03-
 draft: false
 description:  You don't need a lot of stats to be successful in data journalism, but you do need a scientific mindset. 
 ---
