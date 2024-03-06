@@ -3,15 +3,6 @@ title: "Empirical Reporting"
 subtitle: "(Otherwise known as MCO 510, Data Journalism, Spring 2024)"
 date:   last-modified
 draft: false
-engine: knitr
-format: 
-  html: 
-    toc-location: right
-    published-title: "Last updated"
-#  pdf: 
-#    output-file: "syllabus.pdf"
-#    default-image-extension: png
-#    toc: true
 --- 
 
 ::::: {.card-columns}
