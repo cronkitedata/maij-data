@@ -1,7 +1,7 @@
 ---
 title: GIS, maps and other visualization
-date:  2024-03-26
-draft: true
+date:  2024-03-24
+draft: false
 description: Finding the right place to center your story is one of the most important first steps in an investigation. Learning how to map data can help.  
 --- 
 
@@ -51,9 +51,7 @@ Brandon Quester from AZCIR will join the class at the beginning to talk data and
 
 Please review the textbook chapters before class. You don't have to study them nor do you have to go through the coding, but I'd like you to be conversant with the vocabulary and concepts. 
 
+* 
 
-Monday, April 
-- [Introduction to visualization](https://cronkitedata.github.io/djtextbook/vis.html) for tips and resources, 
-- [Visualization as a reporting tool](https://cronkitedata.github.io/djtextbook/vis-reporting.html)
+ 
 
-- [Visualization demo](https://cronkitedata.github.io/djtextbook/vis-demo.html)

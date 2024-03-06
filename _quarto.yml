@@ -82,10 +82,12 @@ website:
             file: weeks/week07.qmd
           - text: "8: Cognitive bias in data journalism"
             file: weeks/week08.qmd
-          # - text: "9-1: Visualization as a reporting tool"
-          #   file: weeks/week09.qmd
-          # - text: "9-2: Intro to GIS and mapping"
-          #   file: weeks/week11.qmd
+          - text: "9: Build your own database"
+            file: weeks/week09.qmd
+          - text: "10: Intro to data vis"
+            file: weeks/week10.qmd
+          - text: "11: Intro to GIS and mapping"
+            file: weeks/week11.qmd
       - text: "----"
       - text: Course textbook
         href: https://cronkitedata.github.io/djtextbook

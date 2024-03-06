@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2024-03-10">
-<meta name="description" content="Creating your own dataset now that you know how to work with it.">
+<meta name="description" content="Now that you understand the concept of tidy data, of filtering vs.&nbsp;counting, and of “dirty” data, you’ll have an easier time imagining how to create your own database from documents and disparate sources.">
 
 <title>Data reporting for investigative journalism - Building your own database</title>
 <style>
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../weeks/week10.html" rel="next">
+<link href="../weeks/week08.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -127,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Building your own database</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week09.html">9: Build your own database</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -175,11 +177,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../weeks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Weekly details</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-1.html" class="sidebar-item-text sidebar-link">
@@ -246,6 +248,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">8: Cognitive bias in data journalism</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week09.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">9: Build your own database</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10: Intro to data vis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11: Intro to GIS and mapping</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -288,6 +308,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#monday-311" id="toc-monday-311" class="nav-link" data-scroll-target="#monday-311">Monday 3/11</a>
   <ul class="collapse">
   <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
   </ul></li>
   <li><a href="#wednesday-313" id="toc-wednesday-313" class="nav-link" data-scroll-target="#wednesday-313">Wednesday 3/13</a>
   <ul class="collapse">
@@ -306,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Creating your own dataset now that you know how to work with it.
+    Now that you understand the concept of tidy data, of filtering vs.&nbsp;counting, and of “dirty” data, you’ll have an easier time imagining how to create your own database from documents and disparate sources.
   </div>
 </div>
 
@@ -341,22 +362,30 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="agenda">Agenda</h3>
 <ul>
 <li>Regroup and review revised syllabus and schedule</li>
+<li>Introduction to the story memo project.</li>
 <li>Regular expressions – using pattern matching. We’ll do a walkthrough in class. This will be helpful when you have to figure out how to enter things into a database, since you can use pattern matching to find what you entered.</li>
+</ul>
+</section>
+<section id="preparation" class="level3">
+<h3 class="anchored" data-anchor-id="preparation">Preparation</h3>
+<ul>
+<li>Review the Canvas module on the Story Memo project, which is listed at the top of the modules. Be sure to review the page that introduces you to the details and the assignment due on Friday.</li>
 </ul>
 </section>
 </section>
 <section id="wednesday-313" class="level2">
 <h2 class="anchored" data-anchor-id="wednesday-313">Wednesday 3/13</h2>
 <ul>
-<li>Building your own database.</li>
+<li>Building your own database. Guest speaker: Daniela Porat, Law360, co-author of the multiple shootings story.</li>
 </ul>
 <section id="preparation-for-wednesday" class="level3">
 <h3 class="anchored" data-anchor-id="preparation-for-wednesday">Preparation for Wednesday</h3>
 <ul>
+<li><p><a href="https://cronkitedata.github.io/djtextbook/start-build-own.html">Build your own database</a> chapter from the textbook. Pay particular attention to the things that were and were not done in each of the examples.</p></li>
 <li><p>Review the structure of the <a href="https://www.gunviolencearchive.org/reports/mass-shooting">Gun Violence Archive’s mass shooting database</a>, being sure to click on a few of the “View Incident” links. (There are two links on each line. One has the original “source” they used, such as a news report. The other has details of the “incident” that they typed into their database.) Think about how this would work in a database.</p></li>
-<li><p>For boot camp, you read the story, “<a href="https://www.nytimes.com/2016/05/23/us/americas-overlooked-gun-violence.html">A drumbeat of multiple shootings, but no one is listening</a>”, by Sharon LaFraniere, Daniela Porat and Agustin Armendariz. I want you to read it again and think about what a database would look like if you wanted to use it to look up information for the story. Read it carefully this time, thinking about what you want to count ( categories) vs.&nbsp;what you want to search/filter (more free or less common).</p></li>
+<li><p>You’ve already read the story, “<a href="https://www.nytimes.com/2016/05/23/us/americas-overlooked-gun-violence.html">A drumbeat of multiple shootings, but no one is listening</a>”, by Sharon LaFraniere, Daniela Porat and Agustin Armendariz. I want you to <strong>read it again carefully</strong> and think about what a database would look like if you wanted to use it to look up information for the story. Think about what you want to count ( categories) vs.&nbsp;what you want to search/filter (more free or less common).</p></li>
+<li><p>Make sure you can sign in to Airtable using the <a href="https://airtable.com/sso/login?">SSO link</a> and your ASU credentials.</p></li>
 </ul>
-<p>This is a precursor to our class work and your homework in developing a structure of a database that might lead into that story.</p>
 
 
 </section>
@@ -596,6 +625,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="../weeks/week08.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">8: Cognitive bias in data journalism</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../weeks/week10.html" class="pagination-link">
+        <span class="nav-page-text">10: Intro to data vis</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

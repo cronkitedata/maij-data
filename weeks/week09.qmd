@@ -2,7 +2,7 @@
 title: Building your own database
 date:  2024-03-10
 draft: false
-description:  Creating your own dataset now that you know how to work with it.
+description:  Now that you understand the concept of tidy data, of filtering vs. counting, and of "dirty" data, you'll have an easier time imagining how to create your own database from documents and disparate sources.  
 ---
 
 ## Upcoming deadlines
@@ -16,17 +16,26 @@ description:  Creating your own dataset now that you know how to work with it.
 ### Agenda
 
 -   Regroup and review revised syllabus and schedule
+-   Introduction to the story memo project. 
 -   Regular expressions -- using pattern matching. We'll do a walkthrough in class.  This will be helpful when you have to figure out how to enter things into a database, since you can use pattern matching to find what you entered.
+
+### Preparation
+
+- Review the Canvas module on the Story Memo project, which is listed at the top of the modules. Be sure to review the page that introduces you to the details and the assignment due on Friday. 
 
 ## Wednesday 3/13
 
--  Building your own database.  
+-  Building your own database.  Guest speaker: Daniela Porat, Law360, co-author of the multiple shootings story. 
  
 ### Preparation for Wednesday
 
+* [Build your own database](https://cronkitedata.github.io/djtextbook/start-build-own.html) chapter from the textbook. Pay particular attention to the things that were and were not done in each of the examples. 
+
 * Review the structure of the [Gun Violence Archive's mass shooting database](https://www.gunviolencearchive.org/reports/mass-shooting), being sure to click on a few of the "View Incident" links. (There are two links on each line. One has the original "source" they used, such as a news report. The other has details of the "incident" that they typed into their database.) Think about how this would work in a database. 
 
-* For boot camp, you read the story,  "[A drumbeat of multiple shootings, but no one is listening](https://www.nytimes.com/2016/05/23/us/americas-overlooked-gun-violence.html)", by Sharon LaFraniere, Daniela Porat and Agustin Armendariz. I want you to read it again and think about what a database would look like if you wanted to use it to look up information for the story. Read it carefully this time, thinking about what you want to count ( categories) vs. what you want to search/filter (more free or less common). 
+* You've already read the story,  "[A drumbeat of multiple shootings, but no one is listening](https://www.nytimes.com/2016/05/23/us/americas-overlooked-gun-violence.html)", by Sharon LaFraniere, Daniela Porat and Agustin Armendariz. I want you to **read it again carefully** and think about what a database would look like if you wanted to use it to look up information for the story. Think about what you want to count ( categories) vs. what you want to search/filter (more free or less common).   
 
-This is a precursor to our class work and your homework in developing a structure of a database that might lead into that story.  
+* Make sure you can sign in to Airtable using the [SSO link](https://airtable.com/sso/login?) and your ASU credentials.
+
+
 

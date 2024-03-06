@@ -2,30 +2,30 @@
   {
     "objectID": "weeks/week10.html",
     "href": "weeks/week10.html",
-    "title": "Statistical concepts in data journalism",
+    "title": "Data viz Part I",
     "section": "",
-    "text": "Sunday 2/26: Final replication project\nWednesday 2/28 : Discussion post on statistical concepts\nFriday 3/1: Three dataset ideas. BE SURE TO TURN THIS IN EARLY IF YOU’RE GOING ON THE BORDERLANDS TRIP. It’s up to you to manage your time around it."
+    "text": "Wed March 20 What would you do? (25) Sun March 24 First memo update (50) Wed March 27 What would you do?"
   },
   {
     "objectID": "weeks/week10.html#upcoming-deadlines",
     "href": "weeks/week10.html#upcoming-deadlines",
-    "title": "Statistical concepts in data journalism",
+    "title": "Data viz Part I",
     "section": "",
-    "text": "Sunday 2/26: Final replication project\nWednesday 2/28 : Discussion post on statistical concepts\nFriday 3/1: Three dataset ideas. BE SURE TO TURN THIS IN EARLY IF YOU’RE GOING ON THE BORDERLANDS TRIP. It’s up to you to manage your time around it."
+    "text": "Wed March 20 What would you do? (25) Sun March 24 First memo update (50) Wed March 27 What would you do?"
   },
   {
-    "objectID": "weeks/week10.html#monday-226",
-    "href": "weeks/week10.html#monday-226",
-    "title": "Statistical concepts in data journalism",
-    "section": "Monday 2/26",
-    "text": "Monday 2/26\n\nAgenda\n\nReview of replication project\n~~Regular expressions – using pattern matching. We’ll do a walkthrough in class. ~~\nLab to look for three datasets"
+    "objectID": "weeks/week10.html#monday-318",
+    "href": "weeks/week10.html#monday-318",
+    "title": "Data viz Part I",
+    "section": "Monday 3/18",
+    "text": "Monday 3/18\n\nAgenda\n\nMemo proposal review\nVisualization as a reporting tool\nWalkthrough of GGPlot for R visualizations - https://cronkitedata.github.io/djtextbook/vis-demo.html\n\n\n\nPreparation for Monday\n\nIntroduction to visualization for tips and resources,\nVisualization as a reporting tool"
   },
   {
-    "objectID": "weeks/week10.html#wednesday-228",
-    "href": "weeks/week10.html#wednesday-228",
-    "title": "Statistical concepts in data journalism",
-    "section": "Wednesday 2/28",
-    "text": "Wednesday 2/28\nStatistical concepts in journalism and using math and statistics in news.\n* Getting over your fear of numbers and statistics * Writing with data * Statistical concepts that will affect your journalism\n\nPreparation for Wednesday\n\n“Newsroom math”\nIn Canvas, you’ll find a PDF copy of the book “Numbers in the Newsroom”. I can’t post it here. Please review the following sections:\n\nIntroduction\nChapter 1: What’s a number?\nChapter 2: You don’t have to read this carefully, but you need to know where to find it: “Fractions and Percents” (p11); Measuring Change (p 26-28) and Understanding Averages (44-47).\nChapter 6: The 10 Most wanted errors made by reporters.\n\n“How to prevent confirmation bias affecting your journalism” Paul Bradshaw, Online Journalism Blog. This is a particularly big problem in data journalism, since we seek out stories in databases based on tips or broad ideas, and can often find them.\nJust the video BBC Worklife, How ‘survivorship bias’ can cause you to make mistakes\n“Regression to the mean, by James Lawther, SquawkPoint. Look at this (describing the past) in the context of the Chapter 6 above, where it discusses the Gambler’s Fallacy (predicting the future). They’re pretty much the same.\nProcrastination.com’s “The greatest problem of today’s world: Dunning-Kruger effect”, by Adela Schicker. The video is geared toward political arguments, but please try to think of it in terms of your reporting. How might this affect how you go about reporting on a complex problem?\nTwo videos from the Knight Center for the Americas on “Equity and Ethics in Data Journalism’s” module 3 (links below). I’m not thrilled with the pace or specific content with these videos, but they’re the best single spot I’ve found for these common problems. (She talks about writing data journalism stories, but she’s never been a journalist of any kind. Sigh.)\n\nCommon mistakes in data analysis\nProsecutor’s Fallacy in data journalism OR this piece on prosecutor’s fallacy by Ray Johns, 2019. The video is very confusing because the bars aren’t proportional – you get a very weird picture of the data trying to decipher the graphics. It’s similar to the “flipped probabilities” and cancer clusters described in the IRE beat book Chapter 6.\n\nOptional, also by Bradshaw: “A journalist’s guide to cognitive bias (and how to avoid it)” for other kinds of biases that we might bring to our reporting. These include common problems in newsrooms, such as a “sunk-cost” bias or a negativity bias."
+    "objectID": "weeks/week10.html#wednesday-320",
+    "href": "weeks/week10.html#wednesday-320",
+    "title": "Data viz Part I",
+    "section": "Wednesday 3/20",
+    "text": "Wednesday 3/20\n\nWhat would you do discussion\nVisualization with ggplot part 2"
   },
   {
     "objectID": "weeks/week08.html",
@@ -305,7 +305,7 @@
     "href": "weeks.html",
     "title": "Weekly details",
     "section": "",
-    "text": "This page will be updated about a month in advance of the class date.\n\n\n\n\n\n\n\n\n\n\nIntroductions\n\n\n\n\n\nAgenda and preparation for the first day\n\n\n\n\n\n\nJan 8, 2024\n\n\n\n\n\n\n\n\nStartup potpourri\n\n\n\n\n\nConsuming news as a reporter. Plus an install party, and a gentle introduction to programming!\n\n\n\n\n\n\nJan 10, 2024\n\n\n\n\n\n\n\n\nScripted journalism with Quarto\n\n\n\n\n\nUsing Quarto to combine your programming and your documenation in one place.\n\n\n\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\nFirst steps with data\n\n\n\n\n\nFirst steps in working with data in R\n\n\n\n\n\n\nJan 22, 2024\n\n\n\n\n\n\n\n\nA quick tour of the verbs\n\n\n\n\n\nYou can do an awful lot in R just by mastering seven verbs. We’ll go through six of them in a quick tour.\n\n\n\n\n\n\nJan 24, 2024\n\n\n\n\n\n\n\n\nFilter and sort for stories\n\n\n\n\n\nFiltering and sorting in R to find needles and stories\n\n\n\n\n\n\nJan 29, 2024\n\n\n\n\n\n\n\n\nFrom old to new with mutate\n\n\n\n\n\nData rarely comes the way you need it. Use the mutate verb to create new columns.\n\n\n\n\n\n\nJan 31, 2024\n\n\n\n\n\n\n\n\nVerbs part II: Summarize and Group\n\n\n\n\n\nAggergating data by grouping and summarizing\n\n\n\n\n\n\nFeb 5, 2024\n\n\n\n\n\n\n\n\nMatchmaking with joins\n\n\n\n\n\nAfter this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.\n\n\n\n\n\n\nFeb 12, 2024\n\n\n\n\n\n\n\n\nReview and thablemaking\n\n\n\n\n\nAfter this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.\n\n\n\n\n\n\nFeb 18, 2024\n\n\n\n\n\n\n\n\nStatistical concepts in data journalism\n\n\n\n\n\nYou don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.\n\n\n\n\n\n\nFeb 26, 2024\n\n\n\n\n\n\n\n\nStatistical concepts in data journalism\n\n\n\n\n\nYou don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.\n\n\n\n\n\n\nMar 1, 2024\n\n\n\n\n\n\n\n\nBuilding your own database\n\n\n\n\n\nCreating your own dataset now that you know how to work with it.\n\n\n\n\n\n\nMar 10, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "This page will be updated about a month in advance of the class date.\n\n\n\n\n\n\n\n\n\n\nIntroductions\n\n\n\n\n\nAgenda and preparation for the first day\n\n\n\n\n\n\nJan 8, 2024\n\n\n\n\n\n\n\n\nStartup potpourri\n\n\n\n\n\nConsuming news as a reporter. Plus an install party, and a gentle introduction to programming!\n\n\n\n\n\n\nJan 10, 2024\n\n\n\n\n\n\n\n\nScripted journalism with Quarto\n\n\n\n\n\nUsing Quarto to combine your programming and your documenation in one place.\n\n\n\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\nFirst steps with data\n\n\n\n\n\nFirst steps in working with data in R\n\n\n\n\n\n\nJan 22, 2024\n\n\n\n\n\n\n\n\nA quick tour of the verbs\n\n\n\n\n\nYou can do an awful lot in R just by mastering seven verbs. We’ll go through six of them in a quick tour.\n\n\n\n\n\n\nJan 24, 2024\n\n\n\n\n\n\n\n\nFilter and sort for stories\n\n\n\n\n\nFiltering and sorting in R to find needles and stories\n\n\n\n\n\n\nJan 29, 2024\n\n\n\n\n\n\n\n\nFrom old to new with mutate\n\n\n\n\n\nData rarely comes the way you need it. Use the mutate verb to create new columns.\n\n\n\n\n\n\nJan 31, 2024\n\n\n\n\n\n\n\n\nVerbs part II: Summarize and Group\n\n\n\n\n\nAggergating data by grouping and summarizing\n\n\n\n\n\n\nFeb 5, 2024\n\n\n\n\n\n\n\n\nMatchmaking with joins\n\n\n\n\n\nAfter this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.\n\n\n\n\n\n\nFeb 12, 2024\n\n\n\n\n\n\n\n\nReview and tablemaking\n\n\n\n\n\nAfter this last verb of the tidyverse, you’ll know much of what’s used in any reporting analysis.\n\n\n\n\n\n\nFeb 18, 2024\n\n\n\n\n\n\n\n\nStatistical concepts in data journalism\n\n\n\n\n\nYou don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.\n\n\n\n\n\n\nFeb 26, 2024\n\n\n\n\n\n\n\n\nBuilding your own database\n\n\n\n\n\nNow that you understand the concept of tidy data, of filtering vs. counting, and of “dirty” data, you’ll have an easier time imagining how to create your own database from documents and disparate sources.\n\n\n\n\n\n\nMar 10, 2024\n\n\n\n\n\n\n\n\nData viz Part I\n\n\n\n\n\nData reporting often involves making draft visualizations to help you explore trends and individual examples. Part 1 goes through the basics of visualization for reporting in R.\n\n\n\n\n\n\nMar 17, 2024\n\n\n\n\n\n\n\n\nGIS, maps and other visualization\n\n\n\n\n\nFinding the right place to center your story is one of the most important first steps in an investigation. Learning how to map data can help.\n\n\n\n\n\n\nMar 24, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "weeks/week01-2.html",
@@ -450,21 +450,21 @@
   {
     "objectID": "weeks/week07.html",
     "href": "weeks/week07.html",
-    "title": "Review and thablemaking",
+    "title": "Review and tablemaking",
     "section": "",
     "text": "Sunday Feb. 18: Replication project draft\nSunday Feb. 25: Final replication project\nFriday, March 1: Three dataset ideas. If you’ll be gone, it’s up to you to work this in with the rest of your schedule, and turn it in early"
   },
   {
     "objectID": "weeks/week07.html#monday-feb-19",
     "href": "weeks/week07.html#monday-feb-19",
-    "title": "Review and thablemaking",
+    "title": "Review and tablemaking",
     "section": "Monday Feb 19",
     "text": "Monday Feb 19\n\nAgenda\n\nReview: Replication draft and more strategies."
   },
   {
     "objectID": "weeks/week07.html#wednesday-feb-21",
     "href": "weeks/week07.html#wednesday-feb-21",
-    "title": "Review and thablemaking",
+    "title": "Review and tablemaking",
     "section": "Wednesday Feb 21",
     "text": "Wednesday Feb 21\n\nAgenda\n\nTablemaking in R. We’ll have a walkthrough in class, and you don’t have to prepare anything."
   },
@@ -487,13 +487,41 @@
     "href": "weeks/week09.html#monday-311",
     "title": "Building your own database",
     "section": "Monday 3/11",
-    "text": "Monday 3/11\n\nAgenda\n\nRegroup and review revised syllabus and schedule\nRegular expressions – using pattern matching. We’ll do a walkthrough in class. This will be helpful when you have to figure out how to enter things into a database, since you can use pattern matching to find what you entered."
+    "text": "Monday 3/11\n\nAgenda\n\nRegroup and review revised syllabus and schedule\nIntroduction to the story memo project.\nRegular expressions – using pattern matching. We’ll do a walkthrough in class. This will be helpful when you have to figure out how to enter things into a database, since you can use pattern matching to find what you entered.\n\n\n\nPreparation\n\nReview the Canvas module on the Story Memo project, which is listed at the top of the modules. Be sure to review the page that introduces you to the details and the assignment due on Friday."
   },
   {
     "objectID": "weeks/week09.html#wednesday-313",
     "href": "weeks/week09.html#wednesday-313",
     "title": "Building your own database",
     "section": "Wednesday 3/13",
-    "text": "Wednesday 3/13\n\nBuilding your own database.\n\n\nPreparation for Wednesday\n\nReview the structure of the Gun Violence Archive’s mass shooting database, being sure to click on a few of the “View Incident” links. (There are two links on each line. One has the original “source” they used, such as a news report. The other has details of the “incident” that they typed into their database.) Think about how this would work in a database.\nFor boot camp, you read the story, “A drumbeat of multiple shootings, but no one is listening”, by Sharon LaFraniere, Daniela Porat and Agustin Armendariz. I want you to read it again and think about what a database would look like if you wanted to use it to look up information for the story. Read it carefully this time, thinking about what you want to count ( categories) vs. what you want to search/filter (more free or less common).\n\nThis is a precursor to our class work and your homework in developing a structure of a database that might lead into that story."
+    "text": "Wednesday 3/13\n\nBuilding your own database. Guest speaker: Daniela Porat, Law360, co-author of the multiple shootings story.\n\n\nPreparation for Wednesday\n\nBuild your own database chapter from the textbook. Pay particular attention to the things that were and were not done in each of the examples.\nReview the structure of the Gun Violence Archive’s mass shooting database, being sure to click on a few of the “View Incident” links. (There are two links on each line. One has the original “source” they used, such as a news report. The other has details of the “incident” that they typed into their database.) Think about how this would work in a database.\nYou’ve already read the story, “A drumbeat of multiple shootings, but no one is listening”, by Sharon LaFraniere, Daniela Porat and Agustin Armendariz. I want you to read it again carefully and think about what a database would look like if you wanted to use it to look up information for the story. Think about what you want to count ( categories) vs. what you want to search/filter (more free or less common).\nMake sure you can sign in to Airtable using the SSO link and your ASU credentials."
+  },
+  {
+    "objectID": "weeks/week11.html",
+    "href": "weeks/week11.html",
+    "title": "GIS, maps and other visualization",
+    "section": "",
+    "text": "We discussed this in class, so there’s a little flexibility here. I’ll let you know when I’ve updated the reading. This will really take us through almost two weeks.\n\n\n\nIntroduction to GIS and mapping\n\n\n\n\nMaking your own map; finding and using government and other source data.\n\n\n\n\nPrinciples of visualization as a reporting tool , and some practice to get you started\n\n\n\n\nBrandon Quester from AZCIR will join the class at the beginning to talk data and jobs. There is an assignment in Canvas for a mapping lab"
+  },
+  {
+    "objectID": "weeks/week11.html#agenda",
+    "href": "weeks/week11.html#agenda",
+    "title": "GIS, maps and other visualization",
+    "section": "",
+    "text": "We discussed this in class, so there’s a little flexibility here. I’ll let you know when I’ve updated the reading. This will really take us through almost two weeks.\n\n\n\nIntroduction to GIS and mapping\n\n\n\n\nMaking your own map; finding and using government and other source data.\n\n\n\n\nPrinciples of visualization as a reporting tool , and some practice to get you started\n\n\n\n\nBrandon Quester from AZCIR will join the class at the beginning to talk data and jobs. There is an assignment in Canvas for a mapping lab"
+  },
+  {
+    "objectID": "weeks/week11.html#upcoming-deadlines",
+    "href": "weeks/week11.html#upcoming-deadlines",
+    "title": "GIS, maps and other visualization",
+    "section": "Upcoming deadlines",
+    "text": "Upcoming deadlines\nSunday 3/26 : Memo proposal\nMonday 4/3 : What would you do? (Census race and ethnicity)\nSunday 4/9: First memo update"
+  },
+  {
+    "objectID": "weeks/week11.html#preparation",
+    "href": "weeks/week11.html#preparation",
+    "title": "GIS, maps and other visualization",
+    "section": "Preparation",
+    "text": "Preparation\n\nPrep work to get you ready for class\n\nWe’ll be looking at maps that have Census data in them, which means you need to sign up for a free API key. You can use any email address that you have access to, and enter “None” in organization if you’re concerned about privacy. This looks bogus, but it’s actually [linked off of the Census Developer documentation]\nInstall five packages: tidycensus, tigris, sf , tmap and leaflet. We may not use them all, but they’ll be ready if we need them.\n\n\n\nAdvance reading\nPlease review the textbook chapters before class. You don’t have to study them nor do you have to go through the coding, but I’d like you to be conversant with the vocabulary and concepts."
   }
 ]

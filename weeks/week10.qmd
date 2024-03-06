@@ -1,62 +1,37 @@
 ---
-title: Statistical concepts in data journalism
-date:  2024-03-
+title: Data viz Part I
+date:  2024-03-17
 draft: false
-description:  You don't need a lot of stats to be successful in data journalism, but you do need a scientific mindset. 
+description:  Data reporting often involves making draft visualizations to help you explore trends and individual examples. Part 1 goes through the basics of visualization for reporting in R. 
 ---
 
 
 ## Upcoming deadlines
 
-* [Sunday 2/26]{.sked-dates}: Final replication project
-* [Wednesday 2/28]{.sked-dates} : Discussion post on statistical concepts
-* [Friday 3/1]{.sked-dates}: Three dataset ideas. BE SURE TO TURN THIS IN EARLY IF YOU'RE GOING ON THE BORDERLANDS TRIP. It's up to you to manage your time around it.
+[Wed March 20]{.sked-dates} What would you do? (25)
+[Sun March 24]{.sked-dates} First memo update (50)
+[Wed March 27]{.sked-dates} What would you do? 
 
 
-
-## Monday 2/26
+## Monday 3/18
 
 ### Agenda
 
-* Review of replication project
-* ~~Regular expressions -- using pattern matching. We'll do a walkthrough in class. ~~
-* Lab to look for three datasets 
+* Memo proposal review
+* Visualization as a reporting tool
+* Walkthrough of GGPlot for R visualizations - https://cronkitedata.github.io/djtextbook/vis-demo.html
+
+### Preparation for Monday
+
+- [Introduction to visualization](https://cronkitedata.github.io/djtextbook/vis.html) for tips and resources, 
+- [Visualization as a reporting tool](https://cronkitedata.github.io/djtextbook/vis-reporting.html)
 
 
-## Wednesday 2/28
+## Wednesday 3/20
 
-Statistical concepts in journalism and using math and statistics in news.  
-* Getting over your fear of numbers and statistics
-* Writing with data
-* Statistical concepts that will affect your journalism
+* What would you do discussion
+* Visualization with ggplot part 2
 
-
-### Preparation for Wednesday
-
-- "[Newsroom math](https://cronkitedata.github.io/djtextbook/start-math.html)"
-
-- In Canvas, you'll find a PDF copy of the book "Numbers in the Newsroom". I can't post it here. Please review the following sections: 
-
-   * Introduction
-   * Chapter 1: What's a number?
-   * Chapter 2: You don't have to read this carefully, but you need to know where to find it: "Fractions and Percents" (p11);  Measuring Change (p 26-28) and Understanding Averages (44-47). 
-   * Chapter 6: The 10 Most wanted errors made by reporters. 
-
-
-- “[How to prevent confirmation bias affecting your journalism](https://onlinejournalismblog.com/2020/04/07/how-to-prevent-confirmation-bias-affecting-your-journalism/)” Paul Bradshaw, Online Journalism Blog. This is a particularly big problem in data journalism, since we seek out stories in databases based on tips or broad ideas, and can often find them. 
-
-- Just the video [BBC Worklife, How ‘survivorship bias’ can cause you to make mistakes](https://www.bbc.com/worklife/article/20200827-how-survivorship-bias-can-cause-you-to-make-mistakes)  
-
-- “[Regression to the mean](https://www.squawkpoint.com/2013/01/regression-to-the-mean/), by James Lawther, SquawkPoint. Look at this (describing the past) in the context of the Chapter 6 above, where it discusses the Gambler's Fallacy (predicting the future). They're pretty much the same.
-
-- Procrastination.com's ["The greatest problem of today's world: Dunning-Kruger effect"](https://youtu.be/VyipktSZUlQ), by Adela Schicker. The video is geared toward political arguments, but please try to think of it in terms of your reporting. How might this affect how you go about reporting on a complex problem? 
-
-- Two videos from the Knight Center for the Americas on “Equity and Ethics in Data Journalism’s” module 3 (links below). I’m not thrilled with the pace or specific content with these videos, but they’re the best single spot I’ve found for these common problems. (She talks about writing data journalism stories, but she’s never been a journalist of any kind. Sigh.) 
-
-   * [Common mistakes in data analysis](https://youtu.be/4ndrF2cSqVo)
-   * [Prosecutor’s Fallacy in data journalism](https://youtu.be/0y3sco0lKzc) OR [this piece on prosecutor’s fallacy](https://towardsdatascience.com/the-prosecutors-fallacy-cb0da4e9c039) by Ray Johns, 2019.  The video is very confusing because the bars aren't proportional -- you get a very weird picture of the data trying to decipher the graphics.  It's similar to the "flipped probabilities" and cancer clusters described in the IRE beat book Chapter 6. 
-   
-- **Optional**, also by Bradshaw: “[A journalist’s guide to cognitive bias (and how to avoid it)](https://onlinejournalismblog.com/2020/03/24/a-journalists-guide-to-cognitive-bias-and-how-to-avoid-it/)” for other kinds of biases that we might bring to our reporting. These include common problems in newsrooms, such as a “sunk-cost” bias or a negativity bias.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Review and thablemaking"
+title: "Review and tablemaking"
 date:  2024-02-18
 description: After this last verb of the tidyverse, you'll know much of what's used in any reporting analysis. 
 draft: false 

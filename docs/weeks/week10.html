@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-03-01">
-<meta name="description" content="You don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.">
+<meta name="dcterms.date" content="2024-03-17">
+<meta name="description" content="Data reporting often involves making draft visualizations to help you explore trends and individual examples. Part 1 goes through the basics of visualization for reporting in R.">
 
-<title>Data reporting for investigative journalism - Statistical concepts in data journalism</title>
+<title>Data reporting for investigative journalism - Data viz Part I</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../weeks/week11.html" rel="next">
+<link href="../weeks/week09.html" rel="prev">
 <link href="../assets/img/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -127,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Statistical concepts in data journalism</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks.html">Weekly details</a></li><li class="breadcrumb-item"><a href="../weeks/week10.html">10: Intro to data vis</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -175,11 +177,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../weeks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Weekly details</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week01-1.html" class="sidebar-item-text sidebar-link">
@@ -246,6 +248,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">8: Cognitive bias in data journalism</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9: Build your own database</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week10.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">10: Intro to data vis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11: Intro to GIS and mapping</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -285,14 +305,12 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link active" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
-  <li><a href="#monday-226" id="toc-monday-226" class="nav-link" data-scroll-target="#monday-226">Monday 2/26</a>
+  <li><a href="#monday-318" id="toc-monday-318" class="nav-link" data-scroll-target="#monday-318">Monday 3/18</a>
   <ul class="collapse">
   <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
+  <li><a href="#preparation-for-monday" id="toc-preparation-for-monday" class="nav-link" data-scroll-target="#preparation-for-monday">Preparation for Monday</a></li>
   </ul></li>
-  <li><a href="#wednesday-228" id="toc-wednesday-228" class="nav-link" data-scroll-target="#wednesday-228">Wednesday 2/28</a>
-  <ul class="collapse">
-  <li><a href="#preparation-for-wednesday" id="toc-preparation-for-wednesday" class="nav-link" data-scroll-target="#preparation-for-wednesday">Preparation for Wednesday</a></li>
-  </ul></li>
+  <li><a href="#wednesday-320" id="toc-wednesday-320" class="nav-link" data-scroll-target="#wednesday-320">Wednesday 3/20</a></li>
   </ul>
 </nav>
     </div>
@@ -301,12 +319,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Statistical concepts in data journalism</h1>
+<h1 class="title">Data viz Part I</h1>
 </div>
 
 <div>
   <div class="description">
-    You don’t need a lot of stats to be successful in data journalism, but you do need a scientific mindset.
+    Data reporting often involves making draft visualizations to help you explore trends and individual examples. Part 1 goes through the basics of visualization for reporting in R.
   </div>
 </div>
 
@@ -317,7 +335,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Class date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 1, 2024</p>
+      <p class="date">March 17, 2024</p>
     </div>
   </div>
   
@@ -329,52 +347,34 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="upcoming-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
-<ul>
-<li><span class="sked-dates">Sunday 2/26</span>: Final replication project</li>
-<li><span class="sked-dates">Wednesday 2/28</span> : Discussion post on statistical concepts</li>
-<li><span class="sked-dates">Friday 3/1</span>: Three dataset ideas. BE SURE TO TURN THIS IN EARLY IF YOU’RE GOING ON THE BORDERLANDS TRIP. It’s up to you to manage your time around it.</li>
-</ul>
+<p><span class="sked-dates">Wed March 20</span> What would you do? (25) <span class="sked-dates">Sun March 24</span> First memo update (50) <span class="sked-dates">Wed March 27</span> What would you do?</p>
 </section>
-<section id="monday-226" class="level2">
-<h2 class="anchored" data-anchor-id="monday-226">Monday 2/26</h2>
+<section id="monday-318" class="level2">
+<h2 class="anchored" data-anchor-id="monday-318">Monday 3/18</h2>
 <section id="agenda" class="level3">
 <h3 class="anchored" data-anchor-id="agenda">Agenda</h3>
 <ul>
-<li>Review of replication project</li>
-<li>~~Regular expressions – using pattern matching. We’ll do a walkthrough in class. ~~</li>
-<li>Lab to look for three datasets</li>
+<li>Memo proposal review</li>
+<li>Visualization as a reporting tool</li>
+<li>Walkthrough of GGPlot for R visualizations - https://cronkitedata.github.io/djtextbook/vis-demo.html</li>
+</ul>
+</section>
+<section id="preparation-for-monday" class="level3">
+<h3 class="anchored" data-anchor-id="preparation-for-monday">Preparation for Monday</h3>
+<ul>
+<li><a href="https://cronkitedata.github.io/djtextbook/vis.html">Introduction to visualization</a> for tips and resources,</li>
+<li><a href="https://cronkitedata.github.io/djtextbook/vis-reporting.html">Visualization as a reporting tool</a></li>
 </ul>
 </section>
 </section>
-<section id="wednesday-228" class="level2">
-<h2 class="anchored" data-anchor-id="wednesday-228">Wednesday 2/28</h2>
-<p>Statistical concepts in journalism and using math and statistics in news.<br>
-* Getting over your fear of numbers and statistics * Writing with data * Statistical concepts that will affect your journalism</p>
-<section id="preparation-for-wednesday" class="level3">
-<h3 class="anchored" data-anchor-id="preparation-for-wednesday">Preparation for Wednesday</h3>
+<section id="wednesday-320" class="level2">
+<h2 class="anchored" data-anchor-id="wednesday-320">Wednesday 3/20</h2>
 <ul>
-<li><p>“<a href="https://cronkitedata.github.io/djtextbook/start-math.html">Newsroom math</a>”</p></li>
-<li><p>In Canvas, you’ll find a PDF copy of the book “Numbers in the Newsroom”. I can’t post it here. Please review the following sections:</p>
-<ul>
-<li>Introduction</li>
-<li>Chapter 1: What’s a number?</li>
-<li>Chapter 2: You don’t have to read this carefully, but you need to know where to find it: “Fractions and Percents” (p11); Measuring Change (p 26-28) and Understanding Averages (44-47).</li>
-<li>Chapter 6: The 10 Most wanted errors made by reporters.</li>
-</ul></li>
-<li><p>“<a href="https://onlinejournalismblog.com/2020/04/07/how-to-prevent-confirmation-bias-affecting-your-journalism/">How to prevent confirmation bias affecting your journalism</a>” Paul Bradshaw, Online Journalism Blog. This is a particularly big problem in data journalism, since we seek out stories in databases based on tips or broad ideas, and can often find them.</p></li>
-<li><p>Just the video <a href="https://www.bbc.com/worklife/article/20200827-how-survivorship-bias-can-cause-you-to-make-mistakes">BBC Worklife, How ‘survivorship bias’ can cause you to make mistakes</a></p></li>
-<li><p>“<a href="https://www.squawkpoint.com/2013/01/regression-to-the-mean/">Regression to the mean</a>, by James Lawther, SquawkPoint. Look at this (describing the past) in the context of the Chapter 6 above, where it discusses the Gambler’s Fallacy (predicting the future). They’re pretty much the same.</p></li>
-<li><p>Procrastination.com’s <a href="https://youtu.be/VyipktSZUlQ">“The greatest problem of today’s world: Dunning-Kruger effect”</a>, by Adela Schicker. The video is geared toward political arguments, but please try to think of it in terms of your reporting. How might this affect how you go about reporting on a complex problem?</p></li>
-<li><p>Two videos from the Knight Center for the Americas on “Equity and Ethics in Data Journalism’s” module 3 (links below). I’m not thrilled with the pace or specific content with these videos, but they’re the best single spot I’ve found for these common problems. (She talks about writing data journalism stories, but she’s never been a journalist of any kind. Sigh.)</p>
-<ul>
-<li><a href="https://youtu.be/4ndrF2cSqVo">Common mistakes in data analysis</a></li>
-<li><a href="https://youtu.be/0y3sco0lKzc">Prosecutor’s Fallacy in data journalism</a> OR <a href="https://towardsdatascience.com/the-prosecutors-fallacy-cb0da4e9c039">this piece on prosecutor’s fallacy</a> by Ray Johns, 2019. The video is very confusing because the bars aren’t proportional – you get a very weird picture of the data trying to decipher the graphics. It’s similar to the “flipped probabilities” and cancer clusters described in the IRE beat book Chapter 6.</li>
-</ul></li>
-<li><p><strong>Optional</strong>, also by Bradshaw: “<a href="https://onlinejournalismblog.com/2020/03/24/a-journalists-guide-to-cognitive-bias-and-how-to-avoid-it/">A journalist’s guide to cognitive bias (and how to avoid it)</a>” for other kinds of biases that we might bring to our reporting. These include common problems in newsrooms, such as a “sunk-cost” bias or a negativity bias.</p></li>
+<li>What would you do discussion</li>
+<li>Visualization with ggplot part 2</li>
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -611,6 +611,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="../weeks/week09.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">9: Build your own database</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../weeks/week11.html" class="pagination-link">
+        <span class="nav-page-text">11: Intro to GIS and mapping</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
