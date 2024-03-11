@@ -5,38 +5,9 @@ draft: false
 description: Finding the right place to center your story is one of the most important first steps in an investigation. Learning how to map data can help.  
 --- 
 
+Details TK
 
 ## Agenda
-
-
-We discussed this in class, so there's a little flexibility here. I'll let you know when I've updated the reading.  This will really take us through almost two weeks. 
-
-### Monday 3/27
-
-* Introduction to GIS and mapping
-
-### Wedesday 3/29
-
-Making your own map; finding and using government and other source data.  
-
-### Monday, April 3
-
-* Principles of visualization as a reporting tool , and some practice to get you started
-
-### Monday, April 10
-
-Brandon Quester from AZCIR will join the class at the beginning to talk data and jobs. There is an assignment in Canvas for a [mapping lab](https://cronkitedata.s3.amazonaws.com/rdata/mapping-exercise.html)
-
-
-## Upcoming deadlines
-
-[Sunday 3/26]{.sked-dates} : Memo proposal
-
-[Monday 4/3]{.sked-dates} : What would you do? (Census race and ethnicity)
-
-[Sunday 4/9]{.sked-dates}: First memo update
-
-
 
 
 ## Preparation
@@ -47,11 +18,7 @@ Brandon Quester from AZCIR will join the class at the beginning to talk data and
 
 * Install five packages: `tidycensus`, `tigris`, `sf` , `tmap` and `leaflet`. We may not use them all, but they'll be ready if we need them. 
 
-### Advance reading
-
-Please review the textbook chapters before class. You don't have to study them nor do you have to go through the coding, but I'd like you to be conversant with the vocabulary and concepts. 
-
-* 
+ 
 
  
 

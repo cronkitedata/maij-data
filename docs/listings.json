@@ -1,17 +1,5 @@
 [
   {
-    "listing": "/updates.html",
-    "items": [
-      "/posts/welcome.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/posts/welcome.html"
-    ]
-  },
-  {
     "listing": "/weeks.html",
     "items": [
       "/weeks/week01-1.html",
@@ -27,6 +15,18 @@
       "/weeks/week08.html",
       "/weeks/week10.html",
       "/weeks/week11.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/welcome.html"
+    ]
+  },
+  {
+    "listing": "/updates.html",
+    "items": [
+      "/posts/welcome.html"
     ]
   }
 ]
