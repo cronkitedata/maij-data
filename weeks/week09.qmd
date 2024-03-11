@@ -1,7 +1,7 @@
 ---
 title: Building your own database
 date:  2024-03-10
-draft: falsegi
+draft: false
 description:  Now that you understand the concept of tidy data, of filtering vs. counting, and of "dirty" data, you'll have an easier time imagining how to create your own database from documents and disparate sources.  
 ---
 
