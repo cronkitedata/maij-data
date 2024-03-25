@@ -309,10 +309,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
-  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a>
+  <li><a href="#upcoming-deadlines" id="toc-upcoming-deadlines" class="nav-link active" data-scroll-target="#upcoming-deadlines">Upcoming deadlines</a></li>
+  <li><a href="#monday-march-25" id="toc-monday-march-25" class="nav-link" data-scroll-target="#monday-march-25">Monday March 25</a></li>
+  <li><a href="#wednesday-march-27" id="toc-wednesday-march-27" class="nav-link" data-scroll-target="#wednesday-march-27">Wednesday March 27</a>
   <ul class="collapse">
-  <li><a href="#prep-work-to-get-you-ready-for-class" id="toc-prep-work-to-get-you-ready-for-class" class="nav-link" data-scroll-target="#prep-work-to-get-you-ready-for-class">Prep work to get you ready for class</a></li>
+  <li><a href="#preparation-for-wednesday" id="toc-preparation-for-wednesday" class="nav-link" data-scroll-target="#preparation-for-wednesday">Preparation for Wednesday</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -350,24 +351,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Details TK</p>
-<section id="agenda" class="level2">
-<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-</section>
-<section id="preparation" class="level2">
-<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
-<section id="prep-work-to-get-you-ready-for-class" class="level3">
-<h3 class="anchored" data-anchor-id="prep-work-to-get-you-ready-for-class">Prep work to get you ready for class</h3>
+<section id="upcoming-deadlines" class="level2">
+<h2 class="anchored" data-anchor-id="upcoming-deadlines">Upcoming deadlines</h2>
 <ul>
-<li><p>We’ll be looking at maps that have Census data in them, which means you need to <a href="https://api.census.gov/data/key_signup.html">sign up for a free API key</a>. You can use any email address that you have access to, and enter “None” in organization if you’re concerned about privacy. This looks bogus, but it’s actually [linked off of the Census Developer documentation]</p></li>
-<li><p>Install five packages: <code>tidycensus</code>, <code>tigris</code>, <code>sf</code> , <code>tmap</code> and <code>leaflet</code>. We may not use them all, but they’ll be ready if we need them.</p></li>
+<li><span class="sked-dates">Wednesday 3/27</span>: What would you do? (Scraping)</li>
+<li><span class="sked-dates">Sunday 3/31</span>: Memo Update #2 (see the Canvas assignment for some examples.)</li>
+</ul>
+</section>
+<section id="monday-march-25" class="level2">
+<h2 class="anchored" data-anchor-id="monday-march-25">Monday March 25</h2>
+<ul>
+<li><p>Introduction to mapping concepts; putting points on a map: <a href="https://docs.google.com/presentation/d/1XzyBEgP49_nFHiU7XlaI3Brt16Bied-_WzGXu5RIsZM/edit#slide=id.p">Slides</a> and <a href="https://docs.google.com/presentation/d/1XzyBEgP49_nFHiU7XlaI3Brt16Bied-_WzGXu5RIsZM/edit#slide=id.p">walkthrough</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></li>
+<li><p>Questions about the ACLED project</p></li>
+<li><ul>
+<li>Install or re-install six packages: <code>tidycensus</code>, <code>tigris</code>, <code>sf</code> , <code>tmap</code>, <code>mapview</code> and <code>leaflet</code>. We may not use them all, but they’ll be ready if we need them. You can use this command in the Console to do them all at once: <code>install.packages(c("tidycensus", "tigris", "sf", "tmap", "leaflet", "mapview"))</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="wednesday-march-27" class="level2">
+<h2 class="anchored" data-anchor-id="wednesday-march-27">Wednesday March 27</h2>
+<ul>
+<li>Spatial joining: combining data sets based on location rather than a column value</li>
+<li>If there is time: Cartograms in R</li>
+</ul>
+<section id="preparation-for-wednesday" class="level3">
+<h3 class="anchored" data-anchor-id="preparation-for-wednesday">Preparation for Wednesday</h3>
+<ul>
+<li>We’ll be looking at maps that have Census data in them, which means you need to <a href="https://api.census.gov/data/key_signup.html">sign up for a free API key</a>. You can use any email address that you have access to, and enter “None” in organization if you’re concerned about privacy. This looks bogus, but it’s actually linked off of the Census Developer documentation</li>
 </ul>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The walkthrough is an updated version of the ACLED tips we saw last week. I’ll keep updating this as we go along.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

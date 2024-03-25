@@ -4,7 +4,7 @@
     "href": "weeks/week11.html",
     "title": "GIS, maps and other visualization",
     "section": "",
-    "text": "Details TK",
+    "text": "Wednesday 3/27: What would you do? (Scraping)\nSunday 3/31: Memo Update #2 (see the Canvas assignment for some examples.)",
     "crumbs": [
       " ",
       "Weekly details",
@@ -12,11 +12,11 @@
     ]
   },
   {
-    "objectID": "weeks/week11.html#agenda",
-    "href": "weeks/week11.html#agenda",
+    "objectID": "weeks/week11.html#upcoming-deadlines",
+    "href": "weeks/week11.html#upcoming-deadlines",
     "title": "GIS, maps and other visualization",
-    "section": "Agenda",
-    "text": "Agenda",
+    "section": "",
+    "text": "Wednesday 3/27: What would you do? (Scraping)\nSunday 3/31: Memo Update #2 (see the Canvas assignment for some examples.)",
     "crumbs": [
       " ",
       "Weekly details",
@@ -24,11 +24,35 @@
     ]
   },
   {
-    "objectID": "weeks/week11.html#preparation",
-    "href": "weeks/week11.html#preparation",
+    "objectID": "weeks/week11.html#monday-march-25",
+    "href": "weeks/week11.html#monday-march-25",
     "title": "GIS, maps and other visualization",
-    "section": "Preparation",
-    "text": "Preparation\n\nPrep work to get you ready for class\n\nWe’ll be looking at maps that have Census data in them, which means you need to sign up for a free API key. You can use any email address that you have access to, and enter “None” in organization if you’re concerned about privacy. This looks bogus, but it’s actually [linked off of the Census Developer documentation]\nInstall five packages: tidycensus, tigris, sf , tmap and leaflet. We may not use them all, but they’ll be ready if we need them.",
+    "section": "Monday March 25",
+    "text": "Monday March 25\n\nIntroduction to mapping concepts; putting points on a map: Slides and walkthrough1\nQuestions about the ACLED project\n\nInstall or re-install six packages: tidycensus, tigris, sf , tmap, mapview and leaflet. We may not use them all, but they’ll be ready if we need them. You can use this command in the Console to do them all at once: install.packages(c(\"tidycensus\", \"tigris\", \"sf\", \"tmap\", \"leaflet\", \"mapview\"))",
+    "crumbs": [
+      " ",
+      "Weekly details",
+      "11: Intro to GIS and mapping"
+    ]
+  },
+  {
+    "objectID": "weeks/week11.html#wednesday-march-27",
+    "href": "weeks/week11.html#wednesday-march-27",
+    "title": "GIS, maps and other visualization",
+    "section": "Wednesday March 27",
+    "text": "Wednesday March 27\n\nSpatial joining: combining data sets based on location rather than a column value\nIf there is time: Cartograms in R\n\n\nPreparation for Wednesday\n\nWe’ll be looking at maps that have Census data in them, which means you need to sign up for a free API key. You can use any email address that you have access to, and enter “None” in organization if you’re concerned about privacy. This looks bogus, but it’s actually linked off of the Census Developer documentation",
+    "crumbs": [
+      " ",
+      "Weekly details",
+      "11: Intro to GIS and mapping"
+    ]
+  },
+  {
+    "objectID": "weeks/week11.html#footnotes",
+    "href": "weeks/week11.html#footnotes",
+    "title": "GIS, maps and other visualization",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe walkthrough is an updated version of the ACLED tips we saw last week. I’ll keep updating this as we go along.↩︎",
     "crumbs": [
       " ",
       "Weekly details",
@@ -820,7 +844,7 @@
     "href": "weeks/week10.html",
     "title": "Data viz Part I",
     "section": "",
-    "text": "Wed March 20 What would you do? (25) Sun March 24 First memo update (50) Wed March 27 What would you do?",
+    "text": "Wed March 20 What would you do? (25)\nSun March 24 First memo update (50)\nWed March 27 What would you do?",
     "crumbs": [
       " ",
       "Weekly details",
@@ -832,7 +856,7 @@
     "href": "weeks/week10.html#upcoming-deadlines",
     "title": "Data viz Part I",
     "section": "",
-    "text": "Wed March 20 What would you do? (25) Sun March 24 First memo update (50) Wed March 27 What would you do?",
+    "text": "Wed March 20 What would you do? (25)\nSun March 24 First memo update (50)\nWed March 27 What would you do?",
     "crumbs": [
       " ",
       "Weekly details",

@@ -8,9 +8,9 @@ description:  Data reporting often involves making draft visualizations to help 
 
 ## Upcoming deadlines
 
-[Wed March 20]{.sked-dates} What would you do? (25)
-[Sun March 24]{.sked-dates} First memo update (50)
-[Wed March 27]{.sked-dates} What would you do? 
+- [Wed March 20]{.sked-dates} What would you do? (25)
+- [Sun March 24]{.sked-dates} First memo update (50)
+- [Wed March 27]{.sked-dates} What would you do? 
 
 
 ## Monday 3/18

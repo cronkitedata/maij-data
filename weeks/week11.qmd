@@ -5,18 +5,28 @@ draft: false
 description: Finding the right place to center your story is one of the most important first steps in an investigation. Learning how to map data can help.  
 --- 
 
-Details TK
+## Upcoming deadlines
 
-## Agenda
+* [Wednesday 3/27]{.sked-dates}: What would you do? (Scraping)
+* [Sunday 3/31]{.sked-dates}: Memo Update #2 (see the Canvas assignment for some examples.)
 
 
-## Preparation
+## Monday March 25
 
-### Prep work to get  you ready for class
+* Introduction to mapping concepts; putting points on a map: [Slides](https://docs.google.com/presentation/d/1XzyBEgP49_nFHiU7XlaI3Brt16Bied-_WzGXu5RIsZM/edit#slide=id.p) and [walkthrough](https://docs.google.com/presentation/d/1XzyBEgP49_nFHiU7XlaI3Brt16Bied-_WzGXu5RIsZM/edit#slide=id.p)^[The walkthrough is an updated version of the ACLED tips we saw last week. I'll keep updating this as we go along.]
+* Questions about the ACLED project
 
-* We'll be looking at maps that have Census data in them, which means you need to [sign up for a free API key](https://api.census.gov/data/key_signup.html). You can use any email address that you have access to, and enter "None" in organization if you're concerned about privacy. This looks bogus, but it's actually [linked off of the Census Developer documentation]
+* * Install or re-install six packages: `tidycensus`, `tigris`, `sf` , `tmap`, `mapview` and `leaflet`. We may not use them all, but they'll be ready if we need them.  You can use this command in the Console to do them all at once: `install.packages(c("tidycensus", "tigris", "sf", "tmap", "leaflet", "mapview"))`
 
-* Install five packages: `tidycensus`, `tigris`, `sf` , `tmap` and `leaflet`. We may not use them all, but they'll be ready if we need them. 
+## Wednesday March 27
+
+* Spatial joining: combining data sets based on location rather than a column value
+* If there is time: Cartograms in R
+
+### Preparation for Wednesday
+
+* We'll be looking at maps that have Census data in them, which means you need to [sign up for a free API key](https://api.census.gov/data/key_signup.html). You can use any email address that you have access to, and enter "None" in organization if you're concerned about privacy. This looks bogus, but it's actually linked off of the Census Developer documentation
+
 
  
 
